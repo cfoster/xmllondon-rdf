@@ -1,0 +1,65 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://data.semanticweb.org/conference/xmllondon/2014> a swc:ConferenceEvent ;
+  rdfs:label "XML London 2014" ;
+#  swc:completeGraph <http://data.semanticweb.org/conference/xmllondon/2014/complete> ;
+#  swc:hasLogo <http://xmllondon.com/images/xml-london-logo-small.png> ;
+  swc:hasRelatedDocument <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2014/chair> ; # ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/general> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/liaison> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/metadata> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/organization> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/planner> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/poster> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/program> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/publicity> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/rule-challenge> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/sponsorship> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/steering> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/chair/web> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/talk/k01/presenter> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/talk/k02/presenter> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/automated-reasoning/chair> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/event/chair> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/fuzzy/chair> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/logic-programing/chair> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/mas/chair> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/policy/chair> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/rule-agent-norm/chair> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/transformation/chair> ,
+#              <http://data.semanticweb.org/conference/ruleml-eu/2011/track/vocabularies/chair> ;
+
+#  swc:isSuperEventOf <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day1/0915> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day1/1100> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day1/1325> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day1/1600> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day2/0900> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day2/1030> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day2/1140> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day2/1330> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day2/1540> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day3/1000> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day3/1200> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day3/1500> , <http://data.semanticweb.org/conference/ruleml-eu/2011/session/day3/1620> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/automated-reasoning> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/event> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/fuzzy> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/logic-programing> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/mas> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/policy> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/rule-agent-norm> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/transformation> , <http://data.semanticweb.org/conference/ruleml-eu/2011/track/vocabularies> ;
+  ical:url <http://xmllondon.com/2014> ;
+  foaf:based_near <http://dbpedia.org/resource/London> .
+
+<http://data.semanticweb.org/conference/xmllondon/2014/chair> a swc:Chair ;
+  swc:heldBy <http://data.semanticweb.org/person/charles-foster>;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  rdfs:label "Conference Chair" .
+
+<http://data.semanticweb.org/conference/xmllondon/2014/proceedings> a swc:Proceedings ;
+  dc:identifier "ISBN:978-0-9926471-1-7" ;
+  swc:editorList <http://data.semanticweb.org/conference/xmllondon/2014/proceedings/editor-list> ;
+  swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2014/paper/kay> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/kohl> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/narmontas> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/bina> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/weingaertner> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/huang> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/pemberton> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/fennell> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/ahmed> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/broersma> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/williams> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/goncalves> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/rzedzicki> ,
+              <http://data.semanticweb.org/conference/xmllondon/2014/paper/vlist> .

@@ -1,0 +1,24 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+<http://data.semanticweb.org/conference/xmllondon/2014/paper/kay> a swc:Paper , swrc:InProceedings ;
+  swc:isPartOf <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> ;
+  dc:creator <http://data.semanticweb.org/person/michael-kay> , <http://data.semanticweb.org/person/debbie-lockett> ;
+  dc:subject "Benchmarking XSLT" , "Saxon" , "XSLT" ;
+  dc:identifier "doi:10.14337/XMLLondon14.Kay01" ;
+  dc:title "Benchmarking XSLT Performance" ;
+  bibo:authorList <http://data.semanticweb.org/conference/xmllondon/2014/paper/kay/authorlist> ;
+  bibo:doi "10.14337/XMLLondon14.Kay01" ;
+  bibo:pageStart "10" ;
+  bibo:pageEnd "23" ;
+  swrc:abstract "This paper presents a new benchmarking framework for XSLT. The project, called XT-Speedo, is open source and we hope that it will attract a community of developers. The tangible deliverable consists of a set of test material, a set of test drivers for various XSLT processors, and tools for analyzing the test results. Underpinning these deliverables is a methodology and set of measurement objectives that influence the design and selection of material for the test suite, which are also described in this paper." ;
+  swrc:month "June" ;
+  swrc:year "2014" ;
+  rdfs:label "Benchmarking XSLT Performance" ;
+  foaf:maker <http://data.semanticweb.org/person/michael-kay> , <http://data.semanticweb.org/person/debbie-lockett> .
+
