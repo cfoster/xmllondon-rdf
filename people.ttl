@@ -13,3 +13,70 @@
   foaf:myersBriggs "ENTP" ;
   foaf:homepage "http://www.cfoster.net" .
 
+
+# TODO
+#
+# Speakers and Authors (some Authors are not Speakers)
+#
+# Tatu Saloranta
+# Nick Van Den Bleeken
+# Eric Van Der Vlist
+# O'Neil Delpratt
+# Tomos Hillman
+# Richard Pineger
+# Nigel Whitaker
+# Robin La Fontaine
+# Autumn Cuellar
+# Paul Topping
+# Stephane Sire
+# Christine Vanoirbeek
+# Philip Fennell
+# Rob Walpole
+# Catherine Dolbear
+# Shaun McDonald
+# James Fuller
+# Abel Braaksma
+# Adrian Warman
+# Sebastian Rahtz
+# Lou Burnard 
+# Michael Kay
+# Debbie Lockett
+# Matt Kohl
+# Sandro Cirulli
+# Phil Gooch
+# Dino Fancellu
+# George Bina
+# William Narmontas
+# Elias Weingartner
+# Christoph Ludwig
+# Celina Huang
+# Steven Pemberton
+# Kal Ahmed
+# Robbert Broersma
+# Yolijn van der Kolk
+# Jorge Williams
+# Eduardo Goncalves
+# Vanessa Braganholo
+# Lech Rzedzicki
+
+
+# Organisers
+#
+# Stephen Foster
+# Kate Foster
+# 
+# Programme Committee
+#
+# Adam Retter
+# Christian Grun
+# John Snelson
+# Lars Windauer
+# Mohamed Zergaoui
+# Norman Walsh
+#
+
+# RDF Authors and Maintainers
+#
+# William Holmes
+#
+
