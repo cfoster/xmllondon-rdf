@@ -13,12 +13,27 @@
   foaf:myersBriggs "ENTP" ;
   foaf:homepage "http://www.cfoster.net" .
 
+<http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
+  rdfs:label "Tatu Saloranta" ;
+  foaf:family_name "Saloranta" ;
+  foaf:firstName "Tatu" ;
+  foaf:name "Tatu Saloranta" ;
+  foaf:homepage "http://www.cowtowncoder.com" .
+
+
+<http://data.semanticweb.org/person/nick-van-den-bleeken> a foaf:Person ;
+  rdfs:label "Nick Van den Bleeken" ;
+  foaf:family_name "Van den Bleeken" ;
+  foaf:firstName "Nick" ;
+  foaf:name "Nick Van den Bleeken" ;
+  foaf:homepage "http://nick.bleeken.eu" .
+
 
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
 #
-# Tatu Saloranta
+# Tatu Saloranta [DONE]
 # Nick Van Den Bleeken
 # Eric Van Der Vlist
 # O'Neil Delpratt
