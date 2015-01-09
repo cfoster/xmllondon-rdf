@@ -71,6 +71,16 @@
   citeulike:homepage "http://www.citeulike.org/author/Pineger:Richard" .
 
 
+<http://data.semanticweb.org/person/nigel-whitaker> a foaf:Person ;
+  rdfs:label "Nigel Whitaker" ;
+  foaf:family_name "Whitaker" ;
+  foaf:firstName "Nigel Whitaker" ;
+  foaf:name "Nigel Whitaker" ;
+  foaf:homepage "http://blogs.deltaxml.com/author/nigelwhitaker/" ;
+  linkd:homepage "http://linkd.in/1yKWFZ2" ;
+  citeulike:homepage "http://www.citeulike.org/author/Whitaker:Nigel" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -81,7 +91,7 @@
 # O'Neil Delpratt [started]
 # Tomos Hillman [started]
 # Richard Pineger [started]
-# Nigel Whitaker
+# Nigel Whitaker [started]
 # Robin La Fontaine
 # Autumn Cuellar
 # Paul Topping
