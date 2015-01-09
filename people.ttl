@@ -14,6 +14,7 @@
   foaf:name "Charles Foster" ;
   foaf:myersBriggs "ENTP" ;
   foaf:homepage "http://www.cfoster.net" ;
+  foaf:homepage "http://www.xqj.net" ;
   citeulike:homepage "http://www.citeulike.org/author/Foster:Charles" .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
