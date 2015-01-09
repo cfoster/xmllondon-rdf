@@ -29,6 +29,14 @@
   foaf:homepage "http://nick.bleeken.eu" .
 
 
+<http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
+  rdfs:label "Eric Van Der Vlist" ;
+  foaf:family_name "Van Der Vlist" ;
+  foaf:firstName "Eric" ;
+  foaf:name "Eric Van Der Vlist" ;
+  foaf:homepage "http://www.dyomedea.com" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -73,8 +81,7 @@
 # Eduardo Goncalves
 # Vanessa Braganholo
 # Lech Rzedzicki
-
-
+# 
 # Organisers
 #
 # Stephen Foster
