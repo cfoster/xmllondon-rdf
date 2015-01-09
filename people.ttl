@@ -3,6 +3,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix citeulike: <http://www.citeulike.org> .
+@prefix linkd: <http://linkd.in/> .
 
 <http://data.semanticweb.org/person/charles-foster> a foaf:Person ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair>, <http://data.semanticweb.org/conference/xmllondon/2014/chair>, <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
@@ -11,14 +13,16 @@
   foaf:firstName "Charles" ;
   foaf:name "Charles Foster" ;
   foaf:myersBriggs "ENTP" ;
-  foaf:homepage "http://www.cfoster.net" .
+  foaf:homepage "http://www.cfoster.net" ;
+  citeulike:homepage "http://www.citeulike.org/author/Foster:Charles" .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
   rdfs:label "Tatu Saloranta" ;
   foaf:family_name "Saloranta" ;
   foaf:firstName "Tatu" ;
   foaf:name "Tatu Saloranta" ;
-  foaf:homepage "http://www.cowtowncoder.com" .
+  foaf:homepage "http://www.cowtowncoder.com" ;
+  citeulike:homepage "http://www.citeulike.org/author/Saloranta:Tatu" .
 
 
 <http://data.semanticweb.org/person/nick-van-den-bleeken> a foaf:Person ;
@@ -26,7 +30,8 @@
   foaf:family_name "Van den Bleeken" ;
   foaf:firstName "Nick" ;
   foaf:name "Nick Van den Bleeken" ;
-  foaf:homepage "http://nick.bleeken.eu" .
+  foaf:homepage "http://nick.bleeken.eu" ;
+  citeulike:homepage "http://www.citeulike.org/author/Van den Bleeken:Nick" .
 
 
 <http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
@@ -34,7 +39,8 @@
   foaf:family_name "Van Der Vlist" ;
   foaf:firstName "Eric" ;
   foaf:name "Eric Van Der Vlist" ;
-  foaf:homepage "http://www.dyomedea.com" .
+  foaf:homepage "http://www.dyomedea.com" ;
+  citeulike:homepage "http://www.citeulike.org/author/Van Der Vlist:Eric" .
 
 
 <http://data.semanticweb.org/person/oneil-delpratt> a foaf:Person ;
@@ -42,7 +48,8 @@
   foaf:family_name "Delpratt" ;
   foaf:firstName "O'Neil" ;
   foaf:name "O'Neil Delpratt" ;
-  foaf:homepage "http://linkd.in/17qdblZ" .
+  linkd:homepage "http://linkd.in/17qdblZ" ;
+  citeulike:homepage "http://www.citeulike.org/author/Delpratt:O'Neil" .
 
 
 <http://data.semanticweb.org/person/tomos-hillman> a foaf:Person ;
@@ -50,7 +57,18 @@
   foaf:family_name "Hillman" ;
   foaf:firstName "Tomos" ;
   foaf:name "Tomos Hillman" ;
-  foaf:homepage "http://linkd.in/1IyFpGw" .
+  linkd:homepage "http://linkd.in/1IyFpGw" ;
+  citeulike:homepage "http://www.citeulike.org/author/Hillman:Tomos" .
+
+
+<http://data.semanticweb.org/person/richard-pineger> a foaf:Person ;
+  rdfs:label "Richard Pineger" ;
+  foaf:family_name "Pineger" ;
+  foaf:firstName "Richard" ;
+  foaf:name "Richard Pineger" ;
+  foaf:homepage "http://dita.xml.org/user/richard-pineger-0" ;
+  foaf:homepage "http://lanyrd.com/profile/rpin42/" ;
+  citeulike:homepage "http://www.citeulike.org/author/Pineger:Richard" .
 
 
 # TODO
@@ -62,7 +80,7 @@
 # Eric Van Der Vlist [started]
 # O'Neil Delpratt [started]
 # Tomos Hillman [started]
-# Richard Pineger
+# Richard Pineger [started]
 # Nigel Whitaker
 # Robin La Fontaine
 # Autumn Cuellar
