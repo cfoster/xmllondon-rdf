@@ -37,6 +37,14 @@
   foaf:homepage "http://www.dyomedea.com" .
 
 
+<http://data.semanticweb.org/person/oneil-delpratt> a foaf:Person ;
+  rdfs:label "O'Neil Delpratt" ;
+  foaf:family_name "Delpratt" ;
+  foaf:firstName "O'Neil" ;
+  foaf:name "O'Neil Delpratt" ;
+  foaf:homepage "http://linkd.in/17qdblZ" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -44,7 +52,7 @@
 # Tatu Saloranta [DONE]
 # Nick Van Den Bleeken  [started]
 # Eric Van Der Vlist [started]
-# O'Neil Delpratt
+# O'Neil Delpratt [started]
 # Tomos Hillman
 # Richard Pineger
 # Nigel Whitaker
