@@ -45,6 +45,14 @@
   foaf:homepage "http://linkd.in/17qdblZ" .
 
 
+<http://data.semanticweb.org/person/tomos-hillman> a foaf:Person ;
+  rdfs:label "Tomos Hillman" ;
+  foaf:family_name "Hillman" ;
+  foaf:firstName "Tomos" ;
+  foaf:name "Tomos Hillman" ;
+  foaf:homepage "http://linkd.in/1IyFpGw" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -53,7 +61,7 @@
 # Nick Van Den Bleeken  [started]
 # Eric Van Der Vlist [started]
 # O'Neil Delpratt [started]
-# Tomos Hillman
+# Tomos Hillman [started]
 # Richard Pineger
 # Nigel Whitaker
 # Robin La Fontaine
