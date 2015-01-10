@@ -43,6 +43,7 @@
   foaf:firstName "Eric" ;
   foaf:name "Eric Van Der Vlist" ;
   foaf:homepage "http://www.dyomedea.com" ;
+  foaf:homepage "http://www.xmlfr.org" ;
   foaf:member <http://www.xmlguild.org> ;
   citeulike:author "http://www.citeulike.org/author/Van Der Vlist:Eric" .
 
