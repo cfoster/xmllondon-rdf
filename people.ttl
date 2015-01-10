@@ -154,6 +154,15 @@
   citeulike:author "http://www.citeulike.org/author/Walpole:Rob" .
 
 
+<http://data.semanticweb.org/person/catherine-dolbear> a foaf:Person ;
+  rdfs:label "Catherine Dolbear" ;
+  foaf:family_name "Dolbear" ;
+  foaf:firstName "Catherine" ;
+  foaf:name "Catherine Dolbear" ;
+  foaf:workplaceHomepage "http://www.oup.com" ;
+  citeulike:author "http://www.citeulike.org/author/Dolbear:Catherine" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -172,7 +181,7 @@
 # Christine Vanoirbeek [started]
 # Philip Fennell [started]
 # Rob Walpole [started]
-# Catherine Dolbear
+# Catherine Dolbear [started]
 # Shaun McDonald
 # James Fuller
 # Abel Braaksma
