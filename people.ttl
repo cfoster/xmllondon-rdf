@@ -16,7 +16,7 @@
   foaf:homepage "http://www.cfoster.net" ;
   foaf:homepage "http://www.xqj.net" ;
   foaf:member <http://www.xmlguild.org> ;
-  citeulike:homepage "http://www.citeulike.org/author/Foster:Charles" .
+  citeulike:author "http://www.citeulike.org/author/Foster:Charles" .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
   rdfs:label "Tatu Saloranta" ;
@@ -24,7 +24,7 @@
   foaf:firstName "Tatu" ;
   foaf:name "Tatu Saloranta" ;
   foaf:homepage "http://www.cowtowncoder.com" ;
-  citeulike:homepage "http://www.citeulike.org/author/Saloranta:Tatu" .
+  citeulike:author "http://www.citeulike.org/author/Saloranta:Tatu" .
 
 
 <http://data.semanticweb.org/person/nick-van-den-bleeken> a foaf:Person ;
@@ -33,7 +33,7 @@
   foaf:firstName "Nick" ;
   foaf:name "Nick Van den Bleeken" ;
   foaf:homepage "http://nick.bleeken.eu" ;
-  citeulike:homepage "http://www.citeulike.org/author/Van den Bleeken:Nick" .
+  citeulike:author "http://www.citeulike.org/author/Van den Bleeken:Nick" .
 
 
 <http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
@@ -43,7 +43,7 @@
   foaf:name "Eric Van Der Vlist" ;
   foaf:homepage "http://www.dyomedea.com" ;
   foaf:member <http://www.xmlguild.org> ;
-  citeulike:homepage "http://www.citeulike.org/author/Van Der Vlist:Eric" .
+  citeulike:author "http://www.citeulike.org/author/Van Der Vlist:Eric" .
 
 
 <http://data.semanticweb.org/person/oneil-delpratt> a foaf:Person ;
@@ -52,7 +52,7 @@
   foaf:firstName "O'Neil" ;
   foaf:name "O'Neil Delpratt" ;
   linkd:homepage "http://linkd.in/17qdblZ" ;
-  citeulike:homepage "http://www.citeulike.org/author/Delpratt:O'Neil" .
+  citeulike:author "http://www.citeulike.org/author/Delpratt:O'Neil" .
 
 
 <http://data.semanticweb.org/person/tomos-hillman> a foaf:Person ;
@@ -61,7 +61,7 @@
   foaf:firstName "Tomos" ;
   foaf:name "Tomos Hillman" ;
   linkd:homepage "http://linkd.in/1IyFpGw" ;
-  citeulike:homepage "http://www.citeulike.org/author/Hillman:Tomos" .
+  citeulike:author "http://www.citeulike.org/author/Hillman:Tomos" .
 
 
 <http://data.semanticweb.org/person/richard-pineger> a foaf:Person ;
@@ -71,17 +71,29 @@
   foaf:name "Richard Pineger" ;
   foaf:homepage "http://dita.xml.org/user/richard-pineger-0" ;
   foaf:homepage "http://lanyrd.com/profile/rpin42/" ;
-  citeulike:homepage "http://www.citeulike.org/author/Pineger:Richard" .
+  citeulike:author "http://www.citeulike.org/author/Pineger:Richard" .
 
 
 <http://data.semanticweb.org/person/nigel-whitaker> a foaf:Person ;
   rdfs:label "Nigel Whitaker" ;
   foaf:family_name "Whitaker" ;
-  foaf:firstName "Nigel Whitaker" ;
+  foaf:firstName "Nigel" ;
   foaf:name "Nigel Whitaker" ;
-  foaf:homepage "http://blogs.deltaxml.com/author/nigelwhitaker/" ;
+  foaf:weblog "http://blogs.deltaxml.com/author/nigelwhitaker/" ;
+  foaf:workplaceHomepage"http://www.deltaxml.com/" ;
   linkd:homepage "http://linkd.in/1yKWFZ2" ;
-  citeulike:homepage "http://www.citeulike.org/author/Whitaker:Nigel" .
+  citeulike:author "http://www.citeulike.org/author/Whitaker:Nigel" .
+
+
+<http://data.semanticweb.org/person/robin-la-fontaine> a foaf:Person ;
+  rdfs:label "Robin La Fontaine" ;
+  foaf:family_name "Fontaine" ;
+  foaf:firstName "Robin" ;
+  foaf:name "Robin La Fontaine" ;
+  foaf:homepage "http://lanyrd.com/profile/robin-la-fontaine/" ;
+  foaf:workplaceHomepage"http://www.deltaxml.com/" ;
+  linkd:homepage "http://linkd.in/14Ev7Yr" ;
+  citeulike:author "http://www.citeulike.org/author/La Fontaine:Robin" .
 
 
 # TODO
@@ -95,7 +107,7 @@
 # Tomos Hillman [started]
 # Richard Pineger [started]
 # Nigel Whitaker [started]
-# Robin La Fontaine
+# Robin La Fontaine [started]
 # Autumn Cuellar
 # Paul Topping
 # Stephane Sire
