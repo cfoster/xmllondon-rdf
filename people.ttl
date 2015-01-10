@@ -146,6 +146,14 @@
   citeulike:author "http://www.citeulike.org/author/Fennell:Philip" .
 
 
+<http://data.semanticweb.org/person/rob-walpole> a foaf:Person ;
+  rdfs:label "Rob Walpole" ;
+  foaf:family_name "Walpole" ;
+  foaf:firstName "Rob" ;
+  foaf:name "Rob Walpole" ;
+  citeulike:author "http://www.citeulike.org/author/Walpole:Rob" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -163,7 +171,7 @@
 # Stephane Sire [started]
 # Christine Vanoirbeek [started]
 # Philip Fennell [started]
-# Rob Walpole
+# Rob Walpole [started]
 # Catherine Dolbear
 # Shaun McDonald
 # James Fuller
