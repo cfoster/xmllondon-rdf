@@ -126,6 +126,15 @@
   citeulike:author "http://www.citeulike.org/author/Sire:Stephane" .
 
 
+<http://data.semanticweb.org/person/christine-vanoirbeek> a foaf:Person ;
+  rdfs:label "Christine Vanoirbeek" ;
+  foaf:family_name "Vanoirbeek" ;
+  foaf:firstName "Christine" ;
+  foaf:name "Christine Vanoirbeek" ;
+  foaf:workplaceHomepage "http://www.oppidoc.fr/en/accueil" ;
+  citeulike:author "http://www.citeulike.org/author/Vanoirbeek:Christine" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -141,7 +150,7 @@
 # Autumn Cuellar [started]
 # Paul Topping [started]
 # Stephane Sire [started]
-# Christine Vanoirbeek
+# Christine Vanoirbeek [started]
 # Philip Fennell
 # Rob Walpole
 # Catherine Dolbear
