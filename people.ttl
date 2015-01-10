@@ -16,6 +16,7 @@
   foaf:homepage "http://www.cfoster.net" ;
   foaf:homepage "http://www.xqj.net" ;
   foaf:member <http://www.xmlguild.org> ;
+  foaf:member <http://www.marklogician.com> ;
   citeulike:author "http://www.citeulike.org/author/Foster:Charles" .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
