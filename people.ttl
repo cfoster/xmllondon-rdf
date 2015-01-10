@@ -6,6 +6,7 @@
 @prefix citeulike: <http://www.citeulike.org/> .
 @prefix linkd: <http://linkd.in/> .
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
+@prefix dbpedia <http://dbpedia.org/> .
 
 <http://data.semanticweb.org/person/charles-foster> a foaf:Person ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair>, <http://data.semanticweb.org/conference/xmllondon/2014/chair>, <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
