@@ -204,6 +204,16 @@
   citeulike:author "http://www.citeulike.org/author/Warman:Adrian" .
 
 
+<http://data.semanticweb.org/person/sebastian-rahtz> a foaf:Person ;
+  rdfs:label "Sebastian Rahtz" ;
+  foaf:family_name "Rahtz" ;
+  foaf:firstName "Sebastian" ;
+  foaf:name "Sebastian Rahtz" ;
+  foaf:workplaceHomepage "http://www.ox.ac.uk" ;
+  linkd:homepage "http://linkd.in/1KvS4O9" ;
+  citeulike:author "http://www.citeulike.org/author/Rahtz:Sebastian" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -227,7 +237,7 @@
 # James Fuller [started]
 # Abel Braaksma [started]
 # Adrian Warman [started]
-# Sebastian Rahtz
+# Sebastian Rahtz [started]
 # Lou Burnard 
 # Michael Kay
 # Debbie Lockett
