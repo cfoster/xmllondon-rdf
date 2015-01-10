@@ -117,6 +117,15 @@
   citeulike:author "http://www.citeulike.org/author/Topping:Paul" .
 
 
+<http://data.semanticweb.org/person/stephane-sire> a foaf:Person ;
+  rdfs:label "Stéphane Sire" ;
+  foaf:family_name "Sire" ;
+  foaf:firstName "Stéphane" ;
+  foaf:name "Stéphane Sire" ;
+  foaf:workplaceHomepage "http://www.oppidoc.fr/en/accueil" ;
+  citeulike:author "http://www.citeulike.org/author/Sire:Stephane" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
