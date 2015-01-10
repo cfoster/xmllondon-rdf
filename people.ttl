@@ -108,6 +108,17 @@
   citeulike:author "http://www.citeulike.org/author/Cuellar:Autumn" .
 
 
+<http://data.semanticweb.org/person/paul-topping> a foaf:Person ;
+  rdfs:label "Paul Topping" ;
+  foaf:family_name "Topping" ;
+  foaf:firstName "Paul" ;
+  foaf:name "Paul Topping" ;
+  foaf:homepage "" ;
+  foaf:workplaceHomepage "https://www.dessci.com/en/" ;
+  linkd:homepage "http://linkd.in/1AXvKsF" ;
+  citeulike:author "http://www.citeulike.org/author/Topping:Paul" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -121,7 +132,7 @@
 # Nigel Whitaker [started]
 # Robin La Fontaine [started]
 # Autumn Cuellar [started]
-# Paul Topping
+# Paul Topping [started]
 # Stephane Sire
 # Christine Vanoirbeek
 # Philip Fennell
