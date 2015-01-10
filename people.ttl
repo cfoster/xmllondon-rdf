@@ -195,6 +195,15 @@
   citeulike:author "http://www.citeulike.org/author/Braaksma:Abel" .
 
 
+<http://data.semanticweb.org/person/adrian-warman> a foaf:Person ;
+  rdfs:label "Adrian Warman" ;
+  foaf:family_name "Warman" ;
+  foaf:firstName "Adrian" ;
+  foaf:name "Adrian Warman" ;
+  linkd:homepage "http://linkd.in/1x8s5Ss" ;
+  citeulike:author "http://www.citeulike.org/author/Warman:Adrian" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -217,7 +226,7 @@
 # Shaun McDonald [started]
 # James Fuller [started]
 # Abel Braaksma [started]
-# Adrian Warman
+# Adrian Warman [started]
 # Sebastian Rahtz
 # Lou Burnard 
 # Michael Kay
