@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
-@prefix citeulike: <http://www.citeulike.org> .
+@prefix citeulike: <http://www.citeulike.org/> .
 @prefix linkd: <http://linkd.in/> .
 
 <http://data.semanticweb.org/person/charles-foster> a foaf:Person ;
@@ -43,6 +43,7 @@
   foaf:firstName "Eric" ;
   foaf:name "Eric Van Der Vlist" ;
   foaf:homepage "http://www.dyomedea.com" ;
+  foaf:homepage "http://www.xmlfr.org" ;
   foaf:member <http://www.xmlguild.org> ;
   citeulike:author "http://www.citeulike.org/author/Van Der Vlist:Eric" .
 
@@ -172,6 +173,64 @@
   citeulike:author "http://www.citeulike.org/author/McDonald:Shaun" .
 
 
+<http://data.semanticweb.org/person/james-fuller> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "James Fuller" ;
+  foaf:family_name "Fuller" ;
+  foaf:firstName "James" ;
+  foaf:name "James Fuller" ;
+  foaf:workplaceHomepage "http://www.marklogic.com" ;
+  linkd:homepage "http://linkd.in/1shVxdj" ;
+  citeulike:author "http://www.citeulike.org/author/Fuller:James" .
+
+
+<http://data.semanticweb.org/person/abel-braaksma> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "Abel Braaksma" ;
+  foaf:family_name "Braaksma" ;
+  foaf:firstName "Abel" ;
+  foaf:name "Abel Braaksma" ;
+  foaf:workplaceHomepage "http://abrasoft.net/AbraSoftDnn" ;
+  linkd:homepage "http://linkd.in/1AB0Epm" ;
+  citeulike:author "http://www.citeulike.org/author/Braaksma:Abel" .
+
+
+<http://data.semanticweb.org/person/adrian-warman> a foaf:Person ;
+  rdfs:label "Adrian Warman" ;
+  foaf:family_name "Warman" ;
+  foaf:firstName "Adrian" ;
+  foaf:name "Adrian Warman" ;
+  linkd:homepage "http://linkd.in/1x8s5Ss" ;
+  citeulike:author "http://www.citeulike.org/author/Warman:Adrian" .
+
+
+<http://data.semanticweb.org/person/sebastian-rahtz> a foaf:Person ;
+  rdfs:label "Sebastian Rahtz" ;
+  foaf:family_name "Rahtz" ;
+  foaf:firstName "Sebastian" ;
+  foaf:name "Sebastian Rahtz" ;
+  foaf:workplaceHomepage "http://www.ox.ac.uk" ;
+  foaf:workplaceHomepage "http://it.oucs.ox.ac.uk" ;
+  foaf:workplaceHomepage "http://www.tei-c.org/index.xml" ;
+  foaf:homepage "http://users.ox.ac.uk/~Rahtz" ;
+  linkd:homepage "http://linkd.in/1KvS4O9" ;
+  citeulike:author "http://www.citeulike.org/author/Rahtz:Sebastian" .
+
+
+<http://data.semanticweb.org/person/lou-burnard> a foaf:Person ;
+  rdfs:label "Lou Burnard" ;
+  foaf:family_name "Burnard" ;
+  foaf:firstName "Lou" ;
+  foaf:name "Lou Burnard" ;
+  foaf:workplaceHomepage "http://www.ox.ac.uk" ;
+  foaf:workplaceHomepage "http://it.oucs.ox.ac.uk" ;
+  foaf:workplaceHomepage "http://www.tei-c.org/index.xml" ;
+  foaf:homepage "http://users.ox.ac.uk/~lou" ;
+  linkd:homepage "http://linkd.in/1tVzjin" ;
+  foaf:weblog "https://louburnard.wordpress.com" ;
+  citeulike:author "http://www.citeulike.org/author/Burnard:Lou" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -192,11 +251,11 @@
 # Rob Walpole [started]
 # Catherine Dolbear [started]
 # Shaun McDonald [started]
-# James Fuller
-# Abel Braaksma
-# Adrian Warman
-# Sebastian Rahtz
-# Lou Burnard 
+# James Fuller [started]
+# Abel Braaksma [started]
+# Adrian Warman [started]
+# Sebastian Rahtz [started]
+# Lou Burnard [started]
 # Michael Kay
 # Debbie Lockett
 # Matt Kohl
