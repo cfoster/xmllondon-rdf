@@ -172,6 +172,17 @@
   citeulike:author "http://www.citeulike.org/author/McDonald:Shaun" .
 
 
+<http://data.semanticweb.org/person/james-fuller> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "James Fuller" ;
+  foaf:family_name "Fuller" ;
+  foaf:firstName "James" ;
+  foaf:name "James Fuller" ;
+  foaf:workplaceHomepage "http://www.marklogic.com" ;
+  linkd:homepage "http://linkd.in/1shVxdj" ;
+  citeulike:author "http://www.citeulike.org/author/Fuller:James" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -192,7 +203,7 @@
 # Rob Walpole [started]
 # Catherine Dolbear [started]
 # Shaun McDonald [started]
-# James Fuller
+# James Fuller [started]
 # Abel Braaksma
 # Adrian Warman
 # Sebastian Rahtz
