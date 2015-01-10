@@ -102,7 +102,6 @@
   foaf:family_name "Cuellar" ;
   foaf:firstName "Autumn" ;
   foaf:name "Autumn Cuellar" ;
-  foaf:homepage "" ;
   foaf:workplaceHomepage "https://www.dessci.com/en/" ;
   linkd:homepage "http://linkd.in/1tVmEvY" ;
   citeulike:author "http://www.citeulike.org/author/Cuellar:Autumn" .
@@ -113,7 +112,6 @@
   foaf:family_name "Topping" ;
   foaf:firstName "Paul" ;
   foaf:name "Paul Topping" ;
-  foaf:homepage "" ;
   foaf:workplaceHomepage "https://www.dessci.com/en/" ;
   linkd:homepage "http://linkd.in/1AXvKsF" ;
   citeulike:author "http://www.citeulike.org/author/Topping:Paul" .
