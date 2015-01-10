@@ -243,6 +243,7 @@
   linkd:homepage "http://linkd.in/1AGGpsL" ;
   wiki:homepage "http://en.wikipedia.org/wiki/Michael_Howard_Kay" ;
   foaf:member <http://www.xmlguild.org> ;
+  dbpedia:about <http://dbpedia.org/page/Michael_Howard_Kay>
   citeulike:author "http://www.citeulike.org/author/Kay:Michael" .
 
 
