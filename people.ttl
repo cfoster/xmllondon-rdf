@@ -88,7 +88,7 @@
 
 <http://data.semanticweb.org/person/robin-la-fontaine> a foaf:Person ;
   rdfs:label "Robin La Fontaine" ;
-  foaf:family_name "Fontaine" ;
+  foaf:family_name "La Fontaine" ;
   foaf:firstName "Robin" ;
   foaf:name "Robin La Fontaine" ;
   foaf:homepage "http://lanyrd.com/profile/robin-la-fontaine/" ;
