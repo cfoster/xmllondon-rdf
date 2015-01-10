@@ -247,6 +247,14 @@
   citeulike:author "http://www.citeulike.org/author/Kay:Michael" .
 
 
+<http://data.semanticweb.org/person/debbie-lockett> a foaf:Person ;
+  rdfs:label "Debbie Lockett" ;
+  foaf:family_name "Lockett" ;
+  foaf:firstName "Debbie" ;
+  foaf:name "Debbie Lockett" ;
+  foaf:workplaceHomepage "http://www.saxonica.com" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -273,7 +281,7 @@
 # Sebastian Rahtz [started]
 # Lou Burnard [started]
 # Michael Kay [started]
-# Debbie Lockett
+# Debbie Lockett [started]
 # Matt Kohl
 # Sandro Cirulli
 # Phil Gooch
