@@ -163,6 +163,15 @@
   citeulike:author "http://www.citeulike.org/author/Dolbear:Catherine" .
 
 
+<http://data.semanticweb.org/person/shaun-mcDonald> a foaf:Person ;
+  rdfs:label "Shaun McDonald" ;
+  foaf:family_name "McDonald" ;
+  foaf:firstName "Shaun" ;
+  foaf:name "Shaun McDonald" ;
+  foaf:workplaceHomepage "http://www.oup.com" ;
+  citeulike:author "http://www.citeulike.org/author/McDonald:Shaun" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -182,7 +191,7 @@
 # Philip Fennell [started]
 # Rob Walpole [started]
 # Catherine Dolbear [started]
-# Shaun McDonald
+# Shaun McDonald [started]
 # James Fuller
 # Abel Braaksma
 # Adrian Warman
