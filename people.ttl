@@ -81,7 +81,7 @@
   foaf:firstName "Nigel" ;
   foaf:name "Nigel Whitaker" ;
   foaf:weblog "http://blogs.deltaxml.com/author/nigelwhitaker/" ;
-  foaf:workplaceHomepage"http://www.deltaxml.com/" ;
+  foaf:workplaceHomepage "http://www.deltaxml.com/" ;
   linkd:homepage "http://linkd.in/1yKWFZ2" ;
   citeulike:author "http://www.citeulike.org/author/Whitaker:Nigel" .
 
@@ -92,9 +92,20 @@
   foaf:firstName "Robin" ;
   foaf:name "Robin La Fontaine" ;
   foaf:homepage "http://lanyrd.com/profile/robin-la-fontaine/" ;
-  foaf:workplaceHomepage"http://www.deltaxml.com/" ;
+  foaf:workplaceHomepage "http://www.deltaxml.com/" ;
   linkd:homepage "http://linkd.in/14Ev7Yr" ;
   citeulike:author "http://www.citeulike.org/author/La Fontaine:Robin" .
+
+
+<http://data.semanticweb.org/person/autumn-cuellar> a foaf:Person ;
+  rdfs:label "Autumn Cuellar" ;
+  foaf:family_name "Cuellar" ;
+  foaf:firstName "Autumn" ;
+  foaf:name "Autumn Cuellar" ;
+  foaf:homepage "" ;
+  foaf:workplaceHomepage "https://www.dessci.com/en/" ;
+  linkd:homepage "http://linkd.in/1tVmEvY" ;
+  citeulike:author "http://www.citeulike.org/author/Cuellar:Autumn" .
 
 
 # TODO
@@ -109,7 +120,7 @@
 # Richard Pineger [started]
 # Nigel Whitaker [started]
 # Robin La Fontaine [started]
-# Autumn Cuellar
+# Autumn Cuellar [started]
 # Paul Topping
 # Stephane Sire
 # Christine Vanoirbeek
