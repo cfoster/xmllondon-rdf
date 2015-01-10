@@ -5,6 +5,8 @@
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix citeulike: <http://www.citeulike.org/> .
 @prefix linkd: <http://linkd.in/> .
+@prefix wiki: <http://www.wikipedia.org/wiki/> .
+@prefix dbpedia <http://dbpedia.org/> .
 
 <http://data.semanticweb.org/person/charles-foster> a foaf:Person ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair>, <http://data.semanticweb.org/conference/xmllondon/2014/chair>, <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
@@ -54,6 +56,7 @@
   foaf:firstName "O'Neil" ;
   foaf:name "O'Neil Delpratt" ;
   linkd:homepage "http://linkd.in/17qdblZ" ;
+  foaf:workplaceHomepage "http://www.saxonica.com" ;
   citeulike:author "http://www.citeulike.org/author/Delpratt:O'Neil" .
 
 
@@ -227,8 +230,21 @@
   foaf:workplaceHomepage "http://www.tei-c.org/index.xml" ;
   foaf:homepage "http://users.ox.ac.uk/~lou" ;
   linkd:homepage "http://linkd.in/1tVzjin" ;
-  foaf:weblog "https://louburnard.wordpress.com" ;
+  foaf:weblog "http://louburnard.wordpress.com" ;
   citeulike:author "http://www.citeulike.org/author/Burnard:Lou" .
+
+
+<http://data.semanticweb.org/person/michael-kay> a foaf:Person ;
+  rdfs:label "Michael Kay" ;
+  foaf:family_name "Kay" ;
+  foaf:firstName "Michael Howard" ;
+  foaf:name "Michael Howard Kay" ;
+  foaf:workplaceHomepage "http://www.saxonica.com" ;
+  linkd:homepage "http://linkd.in/1AGGpsL" ;
+  wiki:homepage "http://en.wikipedia.org/wiki/Michael_Howard_Kay" ;
+  foaf:member <http://www.xmlguild.org> ;
+  dbpedia:about <http://dbpedia.org/page/Michael_Howard_Kay>
+  citeulike:author "http://www.citeulike.org/author/Kay:Michael" .
 
 
 # TODO
@@ -256,7 +272,7 @@
 # Adrian Warman [started]
 # Sebastian Rahtz [started]
 # Lou Burnard [started]
-# Michael Kay
+# Michael Kay [started]
 # Debbie Lockett
 # Matt Kohl
 # Sandro Cirulli
