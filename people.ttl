@@ -135,6 +135,17 @@
   citeulike:author "http://www.citeulike.org/author/Vanoirbeek:Christine" .
 
 
+<http://data.semanticweb.org/person/philip-fennell> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "Philip Fennell" ;
+  foaf:family_name "Fennell" ;
+  foaf:firstName "Philip" ;
+  foaf:name "Philip Fennell" ;
+  foaf:workplaceHomepage "http://www.marklogic.com" ;
+  linkd:homepage "http://linkd.in/1y0CGWB" ;
+  citeulike:author "http://www.citeulike.org/author/Fennell:Philip" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -151,7 +162,7 @@
 # Paul Topping [started]
 # Stephane Sire [started]
 # Christine Vanoirbeek [started]
-# Philip Fennell
+# Philip Fennell [started]
 # Rob Walpole
 # Catherine Dolbear
 # Shaun McDonald
