@@ -117,6 +117,52 @@
   citeulike:author "http://www.citeulike.org/author/Topping:Paul" .
 
 
+<http://data.semanticweb.org/person/stephane-sire> a foaf:Person ;
+  rdfs:label "Stéphane Sire" ;
+  foaf:family_name "Sire" ;
+  foaf:firstName "Stéphane" ;
+  foaf:name "Stéphane Sire" ;
+  foaf:workplaceHomepage "http://www.oppidoc.fr/en/accueil" ;
+  citeulike:author "http://www.citeulike.org/author/Sire:Stephane" .
+
+
+<http://data.semanticweb.org/person/christine-vanoirbeek> a foaf:Person ;
+  rdfs:label "Christine Vanoirbeek" ;
+  foaf:family_name "Vanoirbeek" ;
+  foaf:firstName "Christine" ;
+  foaf:name "Christine Vanoirbeek" ;
+  foaf:workplaceHomepage "http://www.oppidoc.fr/en/accueil" ;
+  citeulike:author "http://www.citeulike.org/author/Vanoirbeek:Christine" .
+
+
+<http://data.semanticweb.org/person/philip-fennell> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "Philip Fennell" ;
+  foaf:family_name "Fennell" ;
+  foaf:firstName "Philip" ;
+  foaf:name "Philip Fennell" ;
+  foaf:workplaceHomepage "http://www.marklogic.com" ;
+  linkd:homepage "http://linkd.in/1y0CGWB" ;
+  citeulike:author "http://www.citeulike.org/author/Fennell:Philip" .
+
+
+<http://data.semanticweb.org/person/rob-walpole> a foaf:Person ;
+  rdfs:label "Rob Walpole" ;
+  foaf:family_name "Walpole" ;
+  foaf:firstName "Rob" ;
+  foaf:name "Rob Walpole" ;
+  citeulike:author "http://www.citeulike.org/author/Walpole:Rob" .
+
+
+<http://data.semanticweb.org/person/catherine-dolbear> a foaf:Person ;
+  rdfs:label "Catherine Dolbear" ;
+  foaf:family_name "Dolbear" ;
+  foaf:firstName "Catherine" ;
+  foaf:name "Catherine Dolbear" ;
+  foaf:workplaceHomepage "http://www.oup.com" ;
+  citeulike:author "http://www.citeulike.org/author/Dolbear:Catherine" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -131,11 +177,11 @@
 # Robin La Fontaine [started]
 # Autumn Cuellar [started]
 # Paul Topping [started]
-# Stephane Sire
-# Christine Vanoirbeek
-# Philip Fennell
-# Rob Walpole
-# Catherine Dolbear
+# Stephane Sire [started]
+# Christine Vanoirbeek [started]
+# Philip Fennell [started]
+# Rob Walpole [started]
+# Catherine Dolbear [started]
 # Shaun McDonald
 # James Fuller
 # Abel Braaksma
