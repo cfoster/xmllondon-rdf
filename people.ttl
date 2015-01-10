@@ -15,7 +15,7 @@
   foaf:myersBriggs "ENTP" ;
   foaf:homepage "http://www.cfoster.net" ;
   foaf:homepage "http://www.xqj.net" ;
-  foaf:member "http://xmlguild.org/" ;
+  foaf:member <http://www.xmlguild.org> ;
   citeulike:homepage "http://www.citeulike.org/author/Foster:Charles" .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
@@ -42,6 +42,7 @@
   foaf:firstName "Eric" ;
   foaf:name "Eric Van Der Vlist" ;
   foaf:homepage "http://www.dyomedea.com" ;
+  foaf:member <http://www.xmlguild.org> ;
   citeulike:homepage "http://www.citeulike.org/author/Van Der Vlist:Eric" .
 
 
