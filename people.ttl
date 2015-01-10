@@ -3,7 +3,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
-@prefix citeulike: <http://www.citeulike.org> .
+@prefix citeulike: <http://www.citeulike.org/> .
 @prefix linkd: <http://linkd.in/> .
 
 <http://data.semanticweb.org/person/charles-foster> a foaf:Person ;
@@ -183,6 +183,17 @@
   citeulike:author "http://www.citeulike.org/author/Fuller:James" .
 
 
+<http://data.semanticweb.org/person/abel-braaksma> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "Abel Braaksma" ;
+  foaf:family_name "Braaksma" ;
+  foaf:firstName "Abel" ;
+  foaf:name "Abel Braaksma" ;
+  foaf:workplaceHomepage "http://abrasoft.net/AbraSoftDnn" ;
+  linkd:homepage "http://linkd.in/1AB0Epm" ;
+  citeulike:author "http://www.citeulike.org/author/Braaksma:Abel" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -204,7 +215,7 @@
 # Catherine Dolbear [started]
 # Shaun McDonald [started]
 # James Fuller [started]
-# Abel Braaksma
+# Abel Braaksma [started]
 # Adrian Warman
 # Sebastian Rahtz
 # Lou Burnard 
