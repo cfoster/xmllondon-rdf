@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  not sure if:
+
+    .//publisher_item/item_number is correct ??
+-->
+
+<doi_batch
+  xmlns="http://www.crossref.org/schema/4.3.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.crossref.org/schema/4.3.0
+                      http://www.crossref.org/schema/deposit/crossref4.3.0.xsd"
+  version="4.3.0">
+
+  <head>
+
+    <doi_batch_id>xml-london-2013-01</doi_batch_id>
+    <timestamp>201309141420</timestamp> <!-- 2013-09-14T14:20:00 -->
+
+    <depositor>
+      <name>XML London</name>
+      <email_address>charles@xmllondon.com</email_address>
+    </depositor>
+    <registrant>XML London</registrant>
+  </head>
+
+  <body>
+
+    <conference>
+
+      <contributors>
+        <person_name sequence="first" contributor_role="chair">
+          <given_name>Charles</given_name>
+          <surname>Foster</surname>
+        </person_name>
+      </contributors>
+
+      <event_metadata>
+        <conference_name>XML London 2013 Conference</conference_name>
+        <conference_acronym>XMLLondon13</conference_acronym>
+        <conference_sponsor>OverStory, http://overstory.co.uk</conference_sponsor>
+        <conference_sponsor>Oxygen, http://www.oxygenxml.com</conference_sponsor>
+        <conference_sponsor>Mercator IT Solutions, http://www.mercatorit.com</conference_sponsor>
+        <conference_number>1</conference_number>
+        <conference_location>London, United Kingdom</conference_location>
+        <conference_date start_day="15" start_month="6" start_year="2013"
+                         end_day="16" end_month="6"
+                         end_year="2013">June 15-16, 2013</conference_date>
+      </event_metadata>
+
+      <proceedings_metadata language="en">
+        <proceedings_title>XML London 2013 Conference Proceedings</proceedings_title>
+        <proceedings_subject>Innovations in XML, related technologies and the Semantic Web</proceedings_subject>
+        <publisher>
+          <publisher_name>XML London</publisher_name>
+          <publisher_place>London</publisher_place>
+        </publisher>
+        <publication_date media_type="online">  <!-- 14th September 2013 -->
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <isbn>978-0-9926471-0-0</isbn>
+      </proceedings_metadata>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Nick</given_name>
+            <surname>Van den Bleeken</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Building Rich Web Applications using XForms 2.0</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>9</first_page>
+          <last_page>14</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">1</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Bleeken01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Bleeken01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Eric</given_name>
+            <surname>Van der Vlist</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>When MVC becomes a burden for XForms</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>15</first_page>
+          <last_page>34</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">2</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Vlist01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Vlist01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>O'Neil</given_name>
+            <surname>Delpratt</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>XML on the Web: is it still relevant?</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>35</first_page>
+          <last_page>48</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">3</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Delpratt01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Delpratt01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Tomos</given_name>
+            <surname>Hillman</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Richard</given_name>
+            <surname>Pineger</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Practice what we Preach</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>49</first_page>
+          <last_page>56</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">4</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Hillman01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Hillman01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Nigel</given_name>
+            <surname>Whitaker</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Robin</given_name>
+            <surname>La Fontaine</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Optimizing XML for Comparison and Change</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>57</first_page>
+          <last_page>62</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">5</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Whitaker01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Whitaker01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Autumn</given_name>
+            <surname>Cuellar</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Paul</given_name>
+            <surname>Topping</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="editor">
+            <given_name>Bob</given_name>
+            <surname>Mathews</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>What you need to know about the Maths Stack</title>
+          <subtitle>MathML, MathJax, HTML5, and EPUB 3</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>63</first_page>
+          <last_page>68</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">6</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Cuellar01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Cuellar01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Stéphane</given_name>
+            <surname>Sire</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Christine</given_name>
+            <surname>Vanoirbeek</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Small Data in the large with Oppidum</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>69</first_page>
+          <last_page>79</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">7</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Sire01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Sire01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Philip</given_name>
+            <surname>Fennell</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Extremes of XML</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>80</first_page>
+          <last_page>86</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">8</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Fennell01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Fennell01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Rob</given_name>
+            <surname>Walpole</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>The National Archives Digital Records Infrastructure Catalogue</title>
+          <subtitle>First Steps to Creating a Semantic Digital Archive</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>87</first_page>
+          <last_page>105</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">9</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Walpole01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Walpole01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Catherine</given_name>
+            <surname>Dolbear</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Shaun</given_name>
+            <surname>McDonald</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>From trees to graphs: creating Linked Data from XML</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>106</first_page>
+          <last_page>112</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">10</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Dolbear01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Dolbear01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>James</given_name>
+            <surname>Fuller</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>xproc.xq - Architecture of an XProc processor</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>113</first_page>
+          <last_page>134</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">11</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Fuller01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Fuller01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Abel</given_name>
+            <surname>Braaksma</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Lazy processing of XML in XSLT for big data</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>135</first_page>
+          <last_page>144</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">12</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Braaksma01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Braaksma01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Adrian</given_name>
+            <surname>Warman</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Using Distributed Version Control Systems</title>
+          <subtitle>Enabling enterprise scale, XML based information development</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>145</first_page>
+          <last_page>151</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">13</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Warman01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Warman01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Lou</given_name>
+            <surname>Burnard</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Sebastian</given_name>
+            <surname>Rahtz</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>A complete schema definition language for the Text Encoding Initiative</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>9</month>
+          <day>14</day>
+          <year>2013</year>
+        </publication_date>
+        <pages>
+          <first_page>152</first_page>
+          <last_page>161</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">14</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon13.Rahtz01</doi>
+          <resource>http://xmllondon.com/XMLLondon13.Rahtz01</resource>
+        </doi_data>
+      </conference_paper>
+
+    </conference>
+  </body>
+
+</doi_batch>
