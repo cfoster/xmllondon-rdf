@@ -40,6 +40,7 @@
 
 
 <http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Eric Van Der Vlist" ;
   foaf:family_name "Van Der Vlist" ;
   foaf:firstName "Eric" ;
