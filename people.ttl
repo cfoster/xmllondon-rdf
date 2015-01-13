@@ -301,6 +301,18 @@
   citeulike:author "http://www.citeulike.org/author/Gooch:Phil" .
 
 
+<http://data.semanticweb.org/person/dino-fancellu> a foaf:Person ;
+  rdfs:label "Dino Fancellu" ;
+  foaf:family_name "Fancellu" ;
+  foaf:firstName "Dino" ;
+  foaf:name "Dino Fancellu" ;
+  foaf:homepage "http://www.dinofancellu.com" ;
+  linkd:homepage "http://linkd.in/1z6u1Ss" ;
+  foaf:member <http://www.marklogician.com> ;
+  foaf:member <http://www.scala.contractors> ;
+  citeulike:author "http://www.citeulike.org/author/Fancellu:Dino" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -331,7 +343,7 @@
 # Matt Kohl [started]
 # Sandro Cirulli [started]
 # Phil Gooch [started]
-# Dino Fancellu
+# Dino Fancellu [started]
 # George Bina
 # William Narmontas
 # Elias Weingartner
