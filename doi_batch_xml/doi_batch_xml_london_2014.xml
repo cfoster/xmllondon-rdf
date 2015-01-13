@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doi_batch
+  xmlns="http://www.crossref.org/schema/4.3.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.crossref.org/schema/4.3.0
+                      http://www.crossref.org/schema/deposit/crossref4.3.0.xsd"
+  version="4.3.0">
+
+  <head>
+
+    <doi_batch_id>xml-london-2014-01</doi_batch_id>
+    <timestamp>201406071000</timestamp> <!-- 2014-06-07T10:00:00 -->
+
+    <depositor>
+      <name>XML London</name>
+      <email_address/>
+    </depositor>
+    <registrant>XML London</registrant>
+  </head>
+
+  <body>
+
+    <conference>
+
+      <contributors>
+        <person_name sequence="first" contributor_role="chair">
+          <given_name>Charles</given_name>
+          <surname>Foster</surname>
+        </person_name>
+      </contributors>
+
+      <event_metadata>
+        <conference_name>XML London 2014 Conference</conference_name>
+        <conference_acronym>XMLLondon14</conference_acronym>
+        <conference_sponsor>MarkLogic, http://www.marklogic.com</conference_sponsor>
+        <conference_sponsor>Xeditor, http://www.xeditor.com</conference_sponsor>
+        <conference_sponsor>3Ksoftware, http://www.3ksoftware.com</conference_sponsor>
+        <conference_sponsor>oXygen, http://www.oxygenxml.com</conference_sponsor>
+        <conference_sponsor>Antenna House, http://www.antennahouse.com</conference_sponsor>
+        <conference_sponsor>Saxonica, http://www.saxonica.com</conference_sponsor>
+        <conference_number>2</conference_number>
+        <conference_location>London, United Kingdom</conference_location>
+        <conference_date start_day="7" start_month="6" start_year="2014"
+                         end_day="8" end_month="6"
+                         end_year="2014">June 7-8, 2014</conference_date>
+      </event_metadata>
+
+      <proceedings_metadata language="en">
+        <proceedings_title>XML London 2014 Conference Proceedings</proceedings_title>
+        <proceedings_subject>Innovations in XML, related technologies and the Semantic Web</proceedings_subject>
+        <publisher>
+          <publisher_name>XML London</publisher_name>
+          <publisher_place>London</publisher_place>
+        </publisher>
+        <publication_date media_type="online">  <!-- 6th June 2014 -->
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <isbn>978-0-9926471-1-7</isbn>
+      </proceedings_metadata>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Michael</given_name>
+            <surname>Kay</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Debbie</given_name>
+            <surname>Lockett</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Benchmarking XSLT Performance</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>10</first_page>
+          <last_page>23</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">1</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Kay01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Kay01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Abel</given_name>
+            <surname>Braaksma</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Streaming Design Patterns or: How I Learned to Stop Worrying and Love the Stream</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>24</first_page>
+          <last_page>52</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">2</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Braaksma01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Braaksma01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Matt</given_name>
+            <surname>Kohl</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Sandro</given_name>
+            <surname>Cirulli</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Phil</given_name>
+            <surname>Gooch</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>From monolithic XML for print/web to lean XML for data: realising linked data for dictionaries</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>53</first_page>
+          <last_page>62</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">3</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Kohl01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Kohl01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Dino</given_name>
+            <surname>Fancellu</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>William</given_name>
+            <surname>Narmontas</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>XML Processing in Scala</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>63</first_page>
+          <last_page>75</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">4</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Narmontas01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Narmontas01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>George</given_name>
+            <surname>Bina</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>XML Authoring On Mobile Devices</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>76</first_page>
+          <last_page>82</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">5</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Bina01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Bina01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Elias</given_name>
+            <surname>Weingärtner</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Christoph</given_name>
+            <surname>Ludwig</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Engineering a XML-based Content Hub for Enterprise Publishing</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>83</first_page>
+          <last_page>87</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">6</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Weingaertner01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Weingaertner01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Celina</given_name>
+            <surname>Huang</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>A Visual Comparison Approach to Automated Regression Testing</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>88</first_page>
+          <last_page>95</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">7</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Huang01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Huang01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Steven</given_name>
+            <surname>Pemberton</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Live XML Data</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>96</first_page>
+          <last_page>102</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">8</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Pemberton01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Pemberton01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Philip</given_name>
+            <surname>Fennell</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Schematron - More useful than you’d thought</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>103</first_page>
+          <last_page>112</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">9</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Fennell01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Fennell01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Kal</given_name>
+            <surname>Ahmed</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Linked Data in a .NET World</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>113</first_page>
+          <last_page>127</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">10</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Ahmed01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Ahmed01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Robbert</given_name>
+            <surname>Broersma</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Yolijn</given_name>
+            <surname>van der Kolk</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Frameless for XML - The Reactive Revolution</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>128</first_page>
+          <last_page>132</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">11</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Broersma01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Broersma01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Jorge</given_name>
+            <surname>Williams</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Product Usage Schemas</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>133</first_page>
+          <last_page>147</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">12</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Williams01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Williams01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Eduardo</given_name>
+            <surname>Gonçalves</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Vanessa</given_name>
+            <surname>Braganholo</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>An XML-based Approach for Data Preprocessing of Multi-Label Classification Problems</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>148</first_page>
+          <last_page>151</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">13</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Goncalves01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Goncalves01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Lech</given_name>
+            <surname>Rzedzicki</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Using Abstract Content Model and Wikis to link Semantic Web, XML, HTML, JSON and CSV</title>
+          <subtitle>Using Semantic Media Wiki as a mechanism for storing format neutral content model</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>152</first_page>
+          <last_page>156</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">14</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Rzedzicki01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Rzedzicki01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Eric</given_name>
+            <surname>van der Vlist</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>JSON and XML: a new perspective</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>7</day>
+          <year>2014</year>
+        </publication_date>
+        <pages>
+          <first_page>157</first_page>
+          <last_page>161</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">15</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon14.Vlist01</doi>
+          <resource>http://xmllondon.com/XMLLondon14.Vlist01</resource>
+        </doi_data>
+      </conference_paper>
+
+    </conference>
+  </body>
+
+</doi_batch>
