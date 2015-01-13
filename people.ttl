@@ -433,6 +433,15 @@
   citeulike:author "http://www.citeulike.org/author/Gonçalves:Eduardo" .
 
 
+<http://data.semanticweb.org/person/vanessa-braganholo> a foaf:Person ;
+  rdfs:label "Vanessa Braganholo" ;
+  foaf:family_name "Braganholo" ;
+  foaf:firstName "Vanessa" ;
+  foaf:name "Vanessa Braganholo" ;
+  foaf:workplaceHomepage "http://www.ic.uff.br" ;
+  citeulike:author "http://www.citeulike.org/author/Braganholo:Vanessa" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
