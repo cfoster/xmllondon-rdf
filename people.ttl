@@ -290,6 +290,17 @@
   citeulike:author "http://www.citeulike.org/author/Cirulli:Sandro" .
 
 
+<http://data.semanticweb.org/person/phil-gooch> a foaf:Person ;
+  rdfs:label "Phil Gooch" ;
+  foaf:family_name "Gooch" ;
+  foaf:firstName "Phil" ;
+  foaf:name "Phil Gooch" ;
+  foaf:workplaceHomepage "http://www.oup.com" ;
+  foaf:homepage "http://student.city.ac.uk/~abdy181" ;
+  linkd:homepage "http://linkd.in/1xXi5AK" ;
+  citeulike:author "http://www.citeulike.org/author/Gooch:Phil" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -319,7 +330,7 @@
 # Debbie Lockett [started]
 # Matt Kohl [started]
 # Sandro Cirulli [started]
-# Phil Gooch
+# Phil Gooch [started]
 # Dino Fancellu
 # George Bina
 # William Narmontas
