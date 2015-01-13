@@ -424,6 +424,15 @@
   citeulike:author "http://www.citeulike.org/author/Williams:Jorge" .
 
 
+<http://data.semanticweb.org/person/eduardo-goncalves> a foaf:Person ;
+  rdfs:label "Eduardo Corrêa Gonçalves" ;
+  foaf:family_name "Gonçalves" ;
+  foaf:firstName "Eduardo Corrêa" ;
+  foaf:name "Eduardo Corrêa Gonçalves" ;
+  foaf:workplaceHomepage "http://www.ic.uff.br" ;
+  citeulike:author "http://www.citeulike.org/author/Gonçalves:Eduardo" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -465,7 +474,7 @@
 # Robbert Broersma [started]
 # Yolijn van der Kolk [started]
 # Jorge Williams [started]
-# Eduardo Goncalves
+# Eduardo Corrêa Gonçalves [started]
 # Vanessa Braganholo
 # Lech Rzedzicki
 # 
