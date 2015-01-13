@@ -335,6 +335,18 @@
   citeulike:author "http://www.citeulike.org/author/Narmontas:William" .
 
 
+<http://data.semanticweb.org/person/elias-weingartner> a foaf:Person ;
+  rdfs:label "Elias Weingärtner" ;
+  foaf:family_name "Weingärtner" ;
+  foaf:firstName "Elias" ;
+  foaf:name "Elias Weingärtner" ;
+  foaf:homepage "http://ds.informatik.rwth-aachen.de/members/weingaertner" ;
+  foaf:homepage "http://www.weingaertner.org" ;
+  foaf:weblog "http://www.weingaertner.org" ;
+  linkd:homepage "http://linkd.in/14vYCeq" ;
+  citeulike:author "http://www.citeulike.org/author/Weingärtner:Elias" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -368,7 +380,7 @@
 # Dino Fancellu [started]
 # George Bina [started]
 # William Narmontas [started]
-# Elias Weingartner
+# Elias Weingärtner [started]
 # Christoph Ludwig
 # Celina Huang
 # Steven Pemberton
