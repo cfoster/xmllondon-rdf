@@ -7,6 +7,7 @@
 @prefix linkd: <http://linkd.in/> .
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
 @prefix dbpedia <http://dbpedia.org/> .
+@prefix owl <http://www.w3.org/2002/07/owl#> .
 
 <http://data.semanticweb.org/person/charles-foster> a foaf:Person ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair>, <http://data.semanticweb.org/conference/xmllondon/2014/chair>, <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
@@ -334,6 +335,8 @@
   foaf:member <http://www.scala.contractors> ;
   citeulike:author "http://www.citeulike.org/author/Narmontas:William" .
 
+<http://data.semanticweb.org/person/elias-weingaertner> a foaf:Person ;
+  owl:sameAs <http://data.semanticweb.org/person/elias-weingartner> .
 
 <http://data.semanticweb.org/person/elias-weingartner> a foaf:Person ;
   rdfs:label "Elias Weingärtner" ;
