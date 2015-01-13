@@ -324,6 +324,17 @@
   citeulike:author "http://www.citeulike.org/author/Bina:George" .
 
 
+<http://data.semanticweb.org/person/william-narmontas> a foaf:Person ;
+  rdfs:label "William Narmontas" ;
+  foaf:family_name "Narmontas" ;
+  foaf:firstName "William" ;
+  foaf:name "William Narmontas" ;
+  foaf:homepage "http://www.scalawilliam.com" ;
+  linkd:homepage "http://linkd.in/1wb6Vmv" ;
+  foaf:member <http://www.scala.contractors> ;
+  citeulike:author "http://www.citeulike.org/author/Narmontas:William" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -356,7 +367,7 @@
 # Phil Gooch [started]
 # Dino Fancellu [started]
 # George Bina [started]
-# William Narmontas
+# William Narmontas [started]
 # Elias Weingartner
 # Christoph Ludwig
 # Celina Huang
