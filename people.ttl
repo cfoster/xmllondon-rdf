@@ -37,7 +37,7 @@
   foaf:firstName "Nick" ;
   foaf:name "Nick Van den Bleeken" ;
   foaf:homepage "http://nick.bleeken.eu" ;
-  citeulike:author "http://www.citeulike.org/author/Van den Bleeken:Nick" .
+  citeulike:author "http://www.citeulike.org/author/Van%20den%20Bleeken:Nick" .
 
 
 <http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
@@ -49,7 +49,7 @@
   foaf:homepage "http://www.dyomedea.com" ;
   foaf:homepage "http://www.xmlfr.org" ;
   foaf:member <http://www.xmlguild.org> ;
-  citeulike:author "http://www.citeulike.org/author/Van Der Vlist:Eric" .
+  citeulike:author "http://www.citeulike.org/author/Van%20Der%20Vlist:Eric" .
 
 
 <http://data.semanticweb.org/person/oneil-delpratt> a foaf:Person ;
@@ -269,18 +269,6 @@
   citeulike:author "http://www.citeulike.org/author/Kohl:Matt" .
 
 
-<http://data.semanticweb.org/person/matt-kohl> a foaf:Person ;
-  rdfs:label "Matt Kohl" ;
-  foaf:family_name "Kohl" ;
-  foaf:firstName "Matt" ;
-  foaf:name "Matt Kohl" ;
-  foaf:workplaceHomepage "http://www.oup.com" ;
-  foaf:workplaceHomepage "http://www.therightrhymes.com" ;
-  linkd:homepage "http://linkd.in/1DArgdO" ;
-  foaf:weblog "http://blog.oxforddictionaries.com/author/matt-kohl" ;
-  citeulike:author "http://www.citeulike.org/author/Kohl:Matt" .
-
-
 <http://data.semanticweb.org/person/sandro-cirulli> a foaf:Person ;
   rdfs:label "Sandro Cirulli" ;
   foaf:family_name "Cirulli" ;
@@ -411,7 +399,7 @@
   foaf:workplaceHomepage "http://www.frameless.io" ;
   foaf:homepage "http://www.yolijn.com" ;
   linkd:homepage "http://linkd.in/1IHpuG1" ;
-  citeulike:author "http://www.citeulike.org/author/van der Kolk:Yolijn" .
+  citeulike:author "http://www.citeulike.org/author/van%20der%20Kolk:Yolijn" .
 
 
 <http://data.semanticweb.org/person/jorge-williams> a foaf:Person ;
