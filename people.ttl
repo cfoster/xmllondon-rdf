@@ -390,6 +390,19 @@
   citeulike:author "http://www.citeulike.org/author/Ahmed:Kal" .
 
 
+<http://data.semanticweb.org/person/robbert-broersma> a foaf:Person ;
+  rdfs:label "Robbert Broersma" ;
+  foaf:family_name "Broersma" ;
+  foaf:firstName "Robbert" ;
+  foaf:name "Robbert Broersma" ;
+  foaf:workplaceHomepage "http://www.frameless.io" ;
+  foaf:homepage "http://robbertbroersma.nl" ;
+  foaf:weblog "http://twitter.com/robbertbroersma" ;
+  foaf:weblog "http://twitter.com/XopusRobbert" ;
+  linkd:homepage "http://linkd.in/1AMqAOJ" ;
+  citeulike:author "http://www.citeulike.org/author/Broersma:Robbert" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -428,7 +441,7 @@
 # Celina Huang [started]
 # Steven Pemberton [started]
 # Kal Ahmed [started]
-# Robbert Broersma
+# Robbert Broersma [started]
 # Yolijn van der Kolk
 # Jorge Williams
 # Eduardo Goncalves
