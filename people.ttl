@@ -442,6 +442,16 @@
   citeulike:author "http://www.citeulike.org/author/Braganholo:Vanessa" .
 
 
+<http://data.semanticweb.org/person/lech-rzedzicki> a foaf:Person ;
+  rdfs:label "Lech Rzedzicki" ;
+  foaf:family_name "Rzedzicki" ;
+  foaf:firstName "Lech" ;
+  foaf:name "Lech Rzedzicki" ;
+  foaf:workplaceHomepage "http://www.kode1100.com" ;
+  linkd:homepage "http://linkd.in/1sv59BE" ;
+  citeulike:author "http://www.citeulike.org/author/Rzedzicki:Lech" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -485,7 +495,7 @@
 # Jorge Williams [started]
 # Eduardo Corrêa Gonçalves [started]
 # Vanessa Braganholo [started]
-# Lech Rzedzicki
+# Lech Rzedzicki [started]
 # 
 # Organisers
 #
