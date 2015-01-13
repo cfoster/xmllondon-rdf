@@ -313,6 +313,17 @@
   citeulike:author "http://www.citeulike.org/author/Fancellu:Dino" .
 
 
+<http://data.semanticweb.org/person/george-bina> a foaf:Person ;
+  rdfs:label "George Bina" ;
+  foaf:family_name "Bina" ;
+  foaf:firstName "George" ;
+  foaf:name "George Bina" ;
+  foaf:workplaceHomepage "http://www.oxygenxml.com" ;
+  foaf:workplaceHomepage "http://www.sync.ro" ;
+  linkd:homepage "http://linkd.in/1DDFsmh" ;
+  citeulike:author "http://www.citeulike.org/author/Bina:George" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -344,7 +355,7 @@
 # Sandro Cirulli [started]
 # Phil Gooch [started]
 # Dino Fancellu [started]
-# George Bina
+# George Bina [started]
 # William Narmontas
 # Elias Weingartner
 # Christoph Ludwig
