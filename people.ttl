@@ -403,6 +403,17 @@
   citeulike:author "http://www.citeulike.org/author/Broersma:Robbert" .
 
 
+<http://data.semanticweb.org/person/yolijn-van-der-kolk> a foaf:Person ;
+  rdfs:label "Yolijn van der Kolk" ;
+  foaf:family_name "van der Kolk" ;
+  foaf:firstName "Yolijn" ;
+  foaf:name "Yolijn van der Kolk" ;
+  foaf:workplaceHomepage "http://www.frameless.io" ;
+  foaf:homepage "http://www.yolijn.com" ;
+  linkd:homepage "http://linkd.in/1IHpuG1" ;
+  citeulike:author "http://www.citeulike.org/author/van der Kolk:Yolijn" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -442,7 +453,7 @@
 # Steven Pemberton [started]
 # Kal Ahmed [started]
 # Robbert Broersma [started]
-# Yolijn van der Kolk
+# Yolijn van der Kolk [started]
 # Jorge Williams
 # Eduardo Goncalves
 # Vanessa Braganholo
