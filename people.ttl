@@ -347,6 +347,15 @@
   citeulike:author "http://www.citeulike.org/author/Weingärtner:Elias" .
 
 
+<http://data.semanticweb.org/person/christoph-ludwig> a foaf:Person ;
+  rdfs:label "Christoph Ludwig" ;
+  foaf:family_name "Ludwig" ;
+  foaf:firstName "Christoph" ;
+  foaf:name "Christoph Ludwig" ;
+  linkd:homepage "http://linkd.in/1AWT9LZ" ;
+  citeulike:author "http://www.citeulike.org/author/Ludwig:Christoph" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -381,7 +390,7 @@
 # George Bina [started]
 # William Narmontas [started]
 # Elias Weingärtner [started]
-# Christoph Ludwig
+# Christoph Ludwig [started]
 # Celina Huang
 # Steven Pemberton
 # Kal Ahmed
