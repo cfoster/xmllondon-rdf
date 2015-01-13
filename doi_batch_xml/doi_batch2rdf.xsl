@@ -2,6 +2,7 @@
                 xmlns:f="http://xmllondon.com/xsl/functions"
                 xmlns:fn="http://www.w3.org/2005/xpath-functions"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -39,10 +40,9 @@
     <xsl:variable name="surname-normalized" as="xs:string"
       select="f:normalized-surname(contributors/person_name[1])" />
 
-    <swc:hasPart>
-      <xsl:value-of
-        select="f:dog-food-uri(fn:concat('/paper/', $surname-normalized))" />
-    </swc:hasPart>
+    <swc:hasPart rdf:resource="{
+      f:dog-food-uri(fn:concat('/paper/', $surname-normalized))}" />
+
   </xsl:template>
 
   <xsl:template match="conference_paper">
@@ -55,15 +55,13 @@
           select="f:dog-food-uri(fn:concat('/paper/', $surname-normalized))" />
       </xsl:attribute>
 
-      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
-      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
 
       <xsl:apply-templates select="pages/element()" />
       <xsl:apply-templates select="titles/title" />
 
-      <swc:isPartOf>
-        <xsl:value-of select="f:dog-food-uri('/proceedings')" />
-      </swc:isPartOf>
+      <swc:isPartOf rdf:resource="{f:dog-food-uri('/proceedings')}"/>
 
       <swrc:month>June</swrc:month> <!-- XML London always held in June -->
 
@@ -76,19 +74,6 @@
 
       <xsl:apply-templates select="contributors/person_name" />
 
-<!--
-        <contributors>
-          <person_name sequence="first" contributor_role="author">
-            <given_name>Eduardo</given_name>
-            <surname>Gonçalves</surname>
-          </person_name>
-          <person_name sequence="first" contributor_role="author">
-            <given_name>Vanessa</given_name>
-            <surname>Braganholo</surname>
-          </person_name>
-        </contributors>
--->
-
     </Description>
   </xsl:template>
 
@@ -100,12 +85,8 @@
         f:normalized-complete-name(.))" />
     </xsl:variable>
 
-    <dc:creator>
-      <xsl:value-of select="$uri" />
-    </dc:creator>
-    <foaf:maker>
-      <xsl:value-of select="$uri" />
-    </foaf:maker>
+    <dc:creator rdf:resource="{$uri}" />
+    <foaf:maker rdf:resource="{$uri}" />
 
   </xsl:template>
 
