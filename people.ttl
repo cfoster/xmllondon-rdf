@@ -414,6 +414,16 @@
   citeulike:author "http://www.citeulike.org/author/van der Kolk:Yolijn" .
 
 
+<http://data.semanticweb.org/person/jorge-williams> a foaf:Person ;
+  rdfs:label "Jorge Williams" ;
+  foaf:family_name "Williams" ;
+  foaf:firstName "Jorge" ;
+  foaf:name "Jorge Williams" ;
+  foaf:workplaceHomepage "http://www.rackspace.com" ;
+  linkd:homepage "http://linkd.in/1DURmp2" ;
+  citeulike:author "http://www.citeulike.org/author/Williams:Jorge" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -454,7 +464,7 @@
 # Kal Ahmed [started]
 # Robbert Broersma [started]
 # Yolijn van der Kolk [started]
-# Jorge Williams
+# Jorge Williams [started]
 # Eduardo Goncalves
 # Vanessa Braganholo
 # Lech Rzedzicki
