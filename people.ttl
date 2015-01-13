@@ -374,11 +374,82 @@
   foaf:family_name "Pemberton" ;
   foaf:firstName "Steven" ;
   foaf:name "Steven Pemberton" ;
-  linkd:homepage "" ;
-  foaf:workplaceHomepage "" ;
   foaf:homepage "http://homepages.cwi.nl/~steven" ;
   linkd:homepage "http://linkd.in/1wVi8sQ" ;
   citeulike:author "http://www.citeulike.org/author/Pemberton:Steven" .
+
+
+<http://data.semanticweb.org/person/kal-ahmed> a foaf:Person ;
+  rdfs:label "Kal Ahmed" ;
+  foaf:family_name "Ahmed" ;
+  foaf:firstName "Kal" ;
+  foaf:name "Kal Ahmed" ;
+  foaf:workplaceHomepage "http://www.networkedplanet.com" ;
+  linkd:homepage "http://linkd.in/1xl42jh" ;
+  foaf:member <http://www.xmlguild.org> ;
+  citeulike:author "http://www.citeulike.org/author/Ahmed:Kal" .
+
+
+<http://data.semanticweb.org/person/robbert-broersma> a foaf:Person ;
+  rdfs:label "Robbert Broersma" ;
+  foaf:family_name "Broersma" ;
+  foaf:firstName "Robbert" ;
+  foaf:name "Robbert Broersma" ;
+  foaf:workplaceHomepage "http://www.frameless.io" ;
+  foaf:homepage "http://robbertbroersma.nl" ;
+  foaf:weblog "http://twitter.com/robbertbroersma" ;
+  foaf:weblog "http://twitter.com/XopusRobbert" ;
+  linkd:homepage "http://linkd.in/1AMqAOJ" ;
+  citeulike:author "http://www.citeulike.org/author/Broersma:Robbert" .
+
+
+<http://data.semanticweb.org/person/yolijn-van-der-kolk> a foaf:Person ;
+  rdfs:label "Yolijn van der Kolk" ;
+  foaf:family_name "van der Kolk" ;
+  foaf:firstName "Yolijn" ;
+  foaf:name "Yolijn van der Kolk" ;
+  foaf:workplaceHomepage "http://www.frameless.io" ;
+  foaf:homepage "http://www.yolijn.com" ;
+  linkd:homepage "http://linkd.in/1IHpuG1" ;
+  citeulike:author "http://www.citeulike.org/author/van der Kolk:Yolijn" .
+
+
+<http://data.semanticweb.org/person/jorge-williams> a foaf:Person ;
+  rdfs:label "Jorge Williams" ;
+  foaf:family_name "Williams" ;
+  foaf:firstName "Jorge" ;
+  foaf:name "Jorge Williams" ;
+  foaf:workplaceHomepage "http://www.rackspace.com" ;
+  linkd:homepage "http://linkd.in/1DURmp2" ;
+  citeulike:author "http://www.citeulike.org/author/Williams:Jorge" .
+
+
+<http://data.semanticweb.org/person/eduardo-goncalves> a foaf:Person ;
+  rdfs:label "Eduardo Corrêa Gonçalves" ;
+  foaf:family_name "Gonçalves" ;
+  foaf:firstName "Eduardo Corrêa" ;
+  foaf:name "Eduardo Corrêa Gonçalves" ;
+  foaf:workplaceHomepage "http://www.ic.uff.br" ;
+  citeulike:author "http://www.citeulike.org/author/Gonçalves:Eduardo" .
+
+
+<http://data.semanticweb.org/person/vanessa-braganholo> a foaf:Person ;
+  rdfs:label "Vanessa Braganholo" ;
+  foaf:family_name "Braganholo" ;
+  foaf:firstName "Vanessa" ;
+  foaf:name "Vanessa Braganholo" ;
+  foaf:workplaceHomepage "http://www.ic.uff.br" ;
+  citeulike:author "http://www.citeulike.org/author/Braganholo:Vanessa" .
+
+
+<http://data.semanticweb.org/person/lech-rzedzicki> a foaf:Person ;
+  rdfs:label "Lech Rzedzicki" ;
+  foaf:family_name "Rzedzicki" ;
+  foaf:firstName "Lech" ;
+  foaf:name "Lech Rzedzicki" ;
+  foaf:workplaceHomepage "http://www.kode1100.com" ;
+  linkd:homepage "http://linkd.in/1sv59BE" ;
+  citeulike:author "http://www.citeulike.org/author/Rzedzicki:Lech" .
 
 
 # TODO
@@ -418,13 +489,13 @@
 # Christoph Ludwig [started]
 # Celina Huang [started]
 # Steven Pemberton [started]
-# Kal Ahmed
-# Robbert Broersma
-# Yolijn van der Kolk
-# Jorge Williams
-# Eduardo Goncalves
-# Vanessa Braganholo
-# Lech Rzedzicki
+# Kal Ahmed [started]
+# Robbert Broersma [started]
+# Yolijn van der Kolk [started]
+# Jorge Williams [started]
+# Eduardo Corrêa Gonçalves [started]
+# Vanessa Braganholo [started]
+# Lech Rzedzicki [started]
 # 
 # Organisers
 #
