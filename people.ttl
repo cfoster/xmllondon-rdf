@@ -356,6 +356,16 @@
   citeulike:author "http://www.citeulike.org/author/Ludwig:Christoph" .
 
 
+<http://data.semanticweb.org/person/celina-huang> a foaf:Person ;
+  rdfs:label "Celina Huang" ;
+  foaf:family_name "Huang" ;
+  foaf:firstName "Celina" ;
+  foaf:name "Celina Huang" ;
+  linkd:homepage "http://linkd.in/1DUHwne" ;
+  foaf:workplaceHomepage "http://www.antennahouse.com" ;
+  citeulike:author "http://www.citeulike.org/author/Huang:Celina" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -391,7 +401,7 @@
 # William Narmontas [started]
 # Elias Weingärtner [started]
 # Christoph Ludwig [started]
-# Celina Huang
+# Celina Huang [started]
 # Steven Pemberton
 # Kal Ahmed
 # Robbert Broersma
