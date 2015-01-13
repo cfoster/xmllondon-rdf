@@ -268,6 +268,28 @@
   citeulike:author "http://www.citeulike.org/author/Kohl:Matt" .
 
 
+<http://data.semanticweb.org/person/matt-kohl> a foaf:Person ;
+  rdfs:label "Matt Kohl" ;
+  foaf:family_name "Kohl" ;
+  foaf:firstName "Matt" ;
+  foaf:name "Matt Kohl" ;
+  foaf:workplaceHomepage "http://www.oup.com" ;
+  foaf:workplaceHomepage "http://www.therightrhymes.com" ;
+  linkd:homepage "http://linkd.in/1DArgdO" ;
+  foaf:weblog "http://blog.oxforddictionaries.com/author/matt-kohl" ;
+  citeulike:author "http://www.citeulike.org/author/Kohl:Matt" .
+
+
+<http://data.semanticweb.org/person/sandro-cirulli> a foaf:Person ;
+  rdfs:label "Sandro Cirulli" ;
+  foaf:family_name "Cirulli" ;
+  foaf:firstName "Sandro" ;
+  foaf:name "Sandro Cirulli" ;
+  foaf:workplaceHomepage "http://www.oup.com" ;
+  foaf:workplaceHomepage "http://www.sandrocirulli.net" ;
+  citeulike:author "http://www.citeulike.org/author/Cirulli:Sandro" .
+
+
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
@@ -296,7 +318,7 @@
 # Michael Kay [started]
 # Debbie Lockett [started]
 # Matt Kohl [started]
-# Sandro Cirulli
+# Sandro Cirulli [started]
 # Phil Gooch
 # Dino Fancellu
 # George Bina
