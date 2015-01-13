@@ -169,8 +169,11 @@
     <xsl:param name="value" as="xs:string" />
 
     <xsl:choose> <!-- hand-crafted exceptions -->
-      <xsl:when test="$value eq 'Weingärtner'">weingaertner</xsl:when>
-      <xsl:when test="$value eq 'Elias Weingärtner'">elias-weingaertner</xsl:when>
+      <xsl:when test="fn:lower-case($value) eq 'weingärtner'">weingaertner</xsl:when>
+      <xsl:when test="fn:lower-case($value) eq 'elias weingärtner'">elias-weingaertner</xsl:when>
+      <xsl:when test="fn:lower-case($value) eq 'van den bleeken'">bleeken</xsl:when>
+      <xsl:when test="fn:lower-case($value) eq 'van der vlist'">vlist</xsl:when>
+
       <xsl:otherwise>
         <xsl:value-of select="
           fn:replace(

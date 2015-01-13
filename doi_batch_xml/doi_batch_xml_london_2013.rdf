@@ -1,0 +1,252 @@
+<RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+     xmlns:swrc="http://swrc.ontoware.org/ontology#"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:f="http://xmllondon.com/xsl/functions"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/proceedings">
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/bleeken</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/vlist</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/delpratt</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/hillman</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/whitaker</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/cuellar</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/sire</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/fennell</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/walpole</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/dolbear</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/fuller</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/braaksma</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/warman</swc:hasPart>
+      <swc:hasPart>http://data.semanticweb.org/conference/xmllondon/2013/paper/rahtz</swc:hasPart>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/bleeken">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>9</bibo:pageStart>
+      <bibo:pageEnd>14</bibo:pageEnd>
+      <dc:title>Building Rich Web Applications using XForms 2.0</dc:title>
+      <rdfs:label>Building Rich Web Applications using XForms 2.0</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Bleeken01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Bleeken01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/nick-van-den-bleeken</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/nick-van-den-bleeken</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/vlist">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>15</bibo:pageStart>
+      <bibo:pageEnd>34</bibo:pageEnd>
+      <dc:title>When MVC becomes a burden for XForms</dc:title>
+      <rdfs:label>When MVC becomes a burden for XForms</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Vlist01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Vlist01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/eric-van-der-vlist</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/eric-van-der-vlist</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/delpratt">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>35</bibo:pageStart>
+      <bibo:pageEnd>48</bibo:pageEnd>
+      <dc:title>XML on the Web: is it still relevant?</dc:title>
+      <rdfs:label>XML on the Web: is it still relevant?</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Delpratt01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Delpratt01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/o'neil-delpratt</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/o'neil-delpratt</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/hillman">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>49</bibo:pageStart>
+      <bibo:pageEnd>56</bibo:pageEnd>
+      <dc:title>Practice what we Preach</dc:title>
+      <rdfs:label>Practice what we Preach</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Hillman01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Hillman01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/tomos-hillman</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/tomos-hillman</foaf:maker>
+      <dc:creator>http://data.semanticweb.org/person/richard-pineger</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/richard-pineger</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/whitaker">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>57</bibo:pageStart>
+      <bibo:pageEnd>62</bibo:pageEnd>
+      <dc:title>Optimizing XML for Comparison and Change</dc:title>
+      <rdfs:label>Optimizing XML for Comparison and Change</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Whitaker01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Whitaker01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/nigel-whitaker</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/nigel-whitaker</foaf:maker>
+      <dc:creator>http://data.semanticweb.org/person/robin-la-fontaine</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/robin-la-fontaine</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/cuellar">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>63</bibo:pageStart>
+      <bibo:pageEnd>68</bibo:pageEnd>
+      <dc:title>What you need to know about the Maths Stack</dc:title>
+      <rdfs:label>What you need to know about the Maths Stack</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Cuellar01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Cuellar01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/autumn-cuellar</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/autumn-cuellar</foaf:maker>
+      <dc:creator>http://data.semanticweb.org/person/paul-topping</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/paul-topping</foaf:maker>
+      <dc:creator>http://data.semanticweb.org/person/bob-mathews</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/bob-mathews</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/sire">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>69</bibo:pageStart>
+      <bibo:pageEnd>79</bibo:pageEnd>
+      <dc:title>Small Data in the large with Oppidum</dc:title>
+      <rdfs:label>Small Data in the large with Oppidum</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Sire01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Sire01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/stephane-sire</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/stephane-sire</foaf:maker>
+      <dc:creator>http://data.semanticweb.org/person/christine-vanoirbeek</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/christine-vanoirbeek</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/fennell">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>80</bibo:pageStart>
+      <bibo:pageEnd>86</bibo:pageEnd>
+      <dc:title>Extremes of XML</dc:title>
+      <rdfs:label>Extremes of XML</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Fennell01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Fennell01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/philip-fennell</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/philip-fennell</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/walpole">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>87</bibo:pageStart>
+      <bibo:pageEnd>105</bibo:pageEnd>
+      <dc:title>The National Archives Digital Records Infrastructure Catalogue</dc:title>
+      <rdfs:label>The National Archives Digital Records Infrastructure Catalogue</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Walpole01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Walpole01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/rob-walpole</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/rob-walpole</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/dolbear">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>106</bibo:pageStart>
+      <bibo:pageEnd>112</bibo:pageEnd>
+      <dc:title>From trees to graphs: creating Linked Data from XML</dc:title>
+      <rdfs:label>From trees to graphs: creating Linked Data from XML</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Dolbear01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Dolbear01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/catherine-dolbear</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/catherine-dolbear</foaf:maker>
+      <dc:creator>http://data.semanticweb.org/person/shaun-mcdonald</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/shaun-mcdonald</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/fuller">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>113</bibo:pageStart>
+      <bibo:pageEnd>134</bibo:pageEnd>
+      <dc:title>xproc.xq - Architecture of an XProc processor</dc:title>
+      <rdfs:label>xproc.xq - Architecture of an XProc processor</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Fuller01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Fuller01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/james-fuller</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/james-fuller</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/braaksma">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>135</bibo:pageStart>
+      <bibo:pageEnd>144</bibo:pageEnd>
+      <dc:title>Lazy processing of XML in XSLT for big data</dc:title>
+      <rdfs:label>Lazy processing of XML in XSLT for big data</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Braaksma01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Braaksma01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/abel-braaksma</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/abel-braaksma</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/warman">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>145</bibo:pageStart>
+      <bibo:pageEnd>151</bibo:pageEnd>
+      <dc:title>Using Distributed Version Control Systems</dc:title>
+      <rdfs:label>Using Distributed Version Control Systems</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Warman01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Warman01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/adrian-warman</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/adrian-warman</foaf:maker>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/rahtz">
+      <rdf:type>http://data.semanticweb.org/ns/swc/ontology#Paper</rdf:type>
+      <rdf:type>http://swrc.ontoware.org/ontology#InProceedings</rdf:type>
+      <bibo:pageStart>152</bibo:pageStart>
+      <bibo:pageEnd>161</bibo:pageEnd>
+      <dc:title>A complete schema definition language for the Text Encoding Initiative</dc:title>
+      <rdfs:label>A complete schema definition language for the Text Encoding Initiative</rdfs:label>
+      <swc:isPartOf>http://data.semanticweb.org/conference/xmllondon/2013/proceedings</swc:isPartOf>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2013</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon13.Rahtz01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon13.Rahtz01</bibo:doi>
+      <dc:creator>http://data.semanticweb.org/person/sebastian-rahtz</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/sebastian-rahtz</foaf:maker>
+      <dc:creator>http://data.semanticweb.org/person/lou-burnard</dc:creator>
+      <foaf:maker>http://data.semanticweb.org/person/lou-burnard</foaf:maker>
+   </Description>
+</RDF>
