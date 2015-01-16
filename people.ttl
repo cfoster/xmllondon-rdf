@@ -20,6 +20,7 @@
   foaf:homepage <http://www.xqj.net> ;
   foaf:member <http://www.xmlguild.org> ;
   foaf:member <http://www.marklogician.com> ;
+  linkd:homepage <http://linkd.in/15cr5qs> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
