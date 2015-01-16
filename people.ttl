@@ -21,6 +21,7 @@
   foaf:member <http://www.xmlguild.org> ;
   foaf:member <http://www.marklogician.com> ;
   foaf:depiction <http://xmlguild.org/xmlguild/data/cfoster/CharlesFoster.jpg> ;
+  foaf:mbox <mailto:charles@marklogician.com> ;
   linkd:homepage <http://linkd.in/15cr5qs> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
