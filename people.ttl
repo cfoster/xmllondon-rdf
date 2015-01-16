@@ -82,7 +82,7 @@
   foaf:firstName "Richard" ;
   foaf:name "Richard Pineger" ;
   foaf:homepage <http://dita.xml.org/user/richard-pineger-0> ;
-  foaf:homepage <http://lanyrd.com/profile/rpin42/> ;
+  foaf:homepage <http://lanyrd.com/profile/rpin42> ;
   citeulike:author <http://www.citeulike.org/author/Pineger:Richard> .
 
 
