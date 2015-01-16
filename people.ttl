@@ -20,6 +20,7 @@
   foaf:homepage <http://www.xqj.net> ;
   foaf:member <http://www.xmlguild.org> ;
   foaf:member <http://www.marklogician.com> ;
+  foaf:depiction <http://xmlguild.org/xmlguild/data/cfoster/CharlesFoster.jpg> ;
   linkd:homepage <http://linkd.in/15cr5qs> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
@@ -457,6 +458,7 @@
 #
 # Speakers and Authors (some Authors are not Speakers)
 #
+# Charles Foster [DONE]
 # Tatu Saloranta [DONE]
 # Nick Van Den Bleeken  [started]
 # Eric Van Der Vlist [started]
