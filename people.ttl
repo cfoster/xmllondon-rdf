@@ -21,7 +21,6 @@
   foaf:member <http://www.xmlguild.org> ;
   foaf:member <http://www.marklogician.com> ;
   foaf:depiction <http://xmlguild.org/xmlguild/data/cfoster/CharlesFoster.jpg> ;
-  foaf:mbox <mailto:charles@marklogician.com> ;
   linkd:homepage <http://linkd.in/15cr5qs> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
@@ -42,7 +41,7 @@
   foaf:name "Nick Van den Bleeken" ;
   foaf:homepage <http://nick.bleeken.eu> ;
   foaf:weblog <http://blog.bleeken.eu> ;
-  foaf:mbox <mailto:nick.van.den.bleeken@inventivegroup.com> ;
+  
   foaf:workplaceHomepage <http://www.inventivegroup.com> ;
   linkd:homepage <http://linkd.in/1E7vHtX> ;
   citeulike:author <http://www.citeulike.org/author/Van%20den%20Bleeken:Nick> .
