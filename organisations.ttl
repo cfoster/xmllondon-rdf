@@ -15,7 +15,9 @@
   owl:sameAs <http://dbpedia.org/resource/MarkLogic> ;
   rdfs:label "MarkLogic" ;
   foaf:name	"MarkLogic Corporation" ;
-  foaf:homepage	<http://www.marklogic.com> .
+  foaf:homepage	<http://www.marklogic.com> ;
+  wiki:homepage	<http://en.wikipedia.org/wiki/MarkLogic> ;
+  dbpedia:about	<http://dbpedia.org/page/MarkLogic> .
 
 <http://data.semanticweb.org/organization/fasterxml> a foaf:Organisation ;
   rdfs:label "FasterXML" ;
