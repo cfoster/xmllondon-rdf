@@ -430,11 +430,24 @@
   foaf:family_name "Retter" ;
   foaf:firstName "Adam" ;
   foaf:name "Adam Retter" ;
-  foaf:/member<http://www.xmlguild.org> ;
+  foaf:member <http://www.xmlguild.org> ;
   linkd:homepage <http://linkd.in/1CvD7WP> ;
   foaf:homepage <http://www.adamretter.org.uk> ;
   citeulike:author <http://www.citeulike.org/author/Retter:Adam> .
 
+
+<http://data.semanticweb.org/person/mohamed-zergaoui> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "Mohamed Zergaoui" ;
+  foaf:family_name "Zergaoui" ;
+  foaf:firstName "Mohamed" ;
+  foaf:name "Mohamed Zergaoui" ;
+  foaf:member <http://www.xmlguild.org> ;
+  linkd:weblog <http://blog.innovimax.fr> ;
+  linkd:homepage <http://linkd.in/1y5aNel> ;
+  foaf:workplaceHomepage <http://www.innovimax.fr> ;
+  citeulike:author <http://www.citeulike.org/author/Zergaoui:Mohamed> .
+  
 
 # TODO
 #
