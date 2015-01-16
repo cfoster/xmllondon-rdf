@@ -424,6 +424,17 @@
   linkd:homepage <http://linkd.in/1sv59BE> ;
   citeulike:author <http://www.citeulike.org/author/Rzedzicki:Lech> .
 
+<http://data.semanticweb.org/person/adam-retter> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "Adam Retter" ;
+  foaf:family_name "Retter" ;
+  foaf:firstName "Adam" ;
+  foaf:name "Adam Retter" ;
+  foaf:/member<http://www.xmlguild.org> ;
+  linkd:homepage <http://linkd.in/1CvD7WP> ;
+  foaf:homepage <http://www.adamretter.org.uk> ;
+  citeulike:author <http://www.citeulike.org/author/Retter:Adam> .
+
 
 # TODO
 #
@@ -477,7 +488,7 @@
 # 
 # Programme Committee
 #
-# Adam Retter
+# Adam Retter [started]
 # Christian Grun
 # John Snelson
 # Lars Windauer
