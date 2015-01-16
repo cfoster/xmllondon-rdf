@@ -21,7 +21,6 @@
   foaf:member <http://www.xmlguild.org> ;
   foaf:member <http://www.marklogician.com> ;
   foaf:depiction <http://xmlguild.org/xmlguild/data/cfoster/CharlesFoster.jpg> ;
-  foaf:mbox <mailto:charles@marklogician.com> ;
   linkd:homepage <http://linkd.in/15cr5qs> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
@@ -31,6 +30,7 @@
   foaf:firstName "Tatu" ;
   foaf:name "Tatu Saloranta" ;
   foaf:homepage <http://www.cowtowncoder.com> ;
+  linkd:homepage <http://linkd.in/1yrLxPS> ;
   citeulike:author <http://www.citeulike.org/author/Saloranta:Tatu> .
 
 
@@ -40,7 +40,11 @@
   foaf:firstName "Nick" ;
   foaf:name "Nick Van den Bleeken" ;
   foaf:homepage <http://nick.bleeken.eu> ;
-  citeulike:author <http://www.citeulike.org/author/Van den Bleeken:Nick> .
+  foaf:weblog <http://blog.bleeken.eu> ;
+  
+  foaf:workplaceHomepage <http://www.inventivegroup.com> ;
+  linkd:homepage <http://linkd.in/1E7vHtX> ;
+  citeulike:author <http://www.citeulike.org/author/Van%20den%20Bleeken:Nick> .
 
 
 <http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
@@ -52,7 +56,7 @@
   foaf:homepage <http://www.dyomedea.com> ;
   foaf:homepage <http://www.xmlfr.org> ;
   foaf:member <http://www.xmlguild.org> ;
-  citeulike:author <http://www.citeulike.org/author/Van Der Vlist:Eric> .
+  citeulike:author <http://www.citeulike.org/author/Van%20Der%20Vlist:Eric> .
 
 <http://data.semanticweb.org/person/oneil-delpratt> a foaf:Person ;
   rdfs:label "O'Neil Delpratt" ;
@@ -78,7 +82,7 @@
   foaf:firstName "Richard" ;
   foaf:name "Richard Pineger" ;
   foaf:homepage <http://dita.xml.org/user/richard-pineger-0> ;
-  foaf:homepage <http://lanyrd.com/profile/rpin42/> ;
+  foaf:homepage <http://lanyrd.com/profile/rpin42> ;
   citeulike:author <http://www.citeulike.org/author/Pineger:Richard> .
 
 
