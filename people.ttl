@@ -41,6 +41,7 @@
   foaf:firstName "Nick" ;
   foaf:name "Nick Van den Bleeken" ;
   foaf:homepage <http://nick.bleeken.eu> ;
+  foaf:mbox <mailto:nick.van.den.bleeken@inventivegroup.com> ;
   citeulike:author <http://www.citeulike.org/author/Van den Bleeken:Nick> .
 
 
