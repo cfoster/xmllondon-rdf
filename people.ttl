@@ -20,6 +20,9 @@
   foaf:homepage <http://www.xqj.net> ;
   foaf:member <http://www.xmlguild.org> ;
   foaf:member <http://www.marklogician.com> ;
+  foaf:depiction <http://xmlguild.org/xmlguild/data/cfoster/CharlesFoster.jpg> ;
+  foaf:mbox <mailto:charles@marklogician.com> ;
+  linkd:homepage <http://linkd.in/15cr5qs> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
@@ -37,7 +40,7 @@
   foaf:firstName "Nick" ;
   foaf:name "Nick Van den Bleeken" ;
   foaf:homepage <http://nick.bleeken.eu> ;
-  citeulike:author <http://www.citeulike.org/author/Van%20den%20Bleeken:Nick> .
+  citeulike:author <http://www.citeulike.org/author/Van den Bleeken:Nick> .
 
 
 <http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
@@ -49,7 +52,7 @@
   foaf:homepage <http://www.dyomedea.com> ;
   foaf:homepage <http://www.xmlfr.org> ;
   foaf:member <http://www.xmlguild.org> ;
-  citeulike:author "http://www.citeulike.org/author/Van%20Der%20Vlist:Eric" .
+  citeulike:author <http://www.citeulike.org/author/Van Der Vlist:Eric> .
 
 <http://data.semanticweb.org/person/oneil-delpratt> a foaf:Person ;
   rdfs:label "O'Neil Delpratt" ;
@@ -98,7 +101,7 @@
   foaf:homepage <http://lanyrd.com/profile/robin-la-fontaine> ;
   foaf:workplaceHomepage <http://www.deltaxml.com> ;
   linkd:homepage "http://linkd.in/14Ev7Yr" ;
-  citeulike:author <http://www.citeulike.org/author/La%20Fontaine:Robin> .
+  citeulike:author <http://www.citeulike.org/author/La Fontaine:Robin> .
 
 
 <http://data.semanticweb.org/person/autumn-cuellar> a foaf:Person ;
@@ -164,6 +167,9 @@
   foaf:name "Catherine Dolbear" ;
   foaf:workplaceHomepage <http://www.oup.com> ;
   citeulike:author <http://www.citeulike.org/author/Dolbear:Catherine> .
+
+<http://data.semanticweb.org/person/shaun-mcdonald> a foaf:Person ;
+  owl:sameAs <http://data.semanticweb.org/person/shaun-mcDonald> . .
 
 <http://data.semanticweb.org/person/shaun-mcDonald> a foaf:Person ;
   rdfs:label "Shaun McDonald" ;
@@ -424,11 +430,36 @@
   linkd:homepage <http://linkd.in/1sv59BE> ;
   citeulike:author <http://www.citeulike.org/author/Rzedzicki:Lech> .
 
+<http://data.semanticweb.org/person/adam-retter> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "Adam Retter" ;
+  foaf:family_name "Retter" ;
+  foaf:firstName "Adam" ;
+  foaf:name "Adam Retter" ;
+  foaf:member <http://www.xmlguild.org> ;
+  linkd:homepage <http://linkd.in/1CvD7WP> ;
+  foaf:homepage <http://www.adamretter.org.uk> ;
+  citeulike:author <http://www.citeulike.org/author/Retter:Adam> .
+
+
+<http://data.semanticweb.org/person/mohamed-zergaoui> a foaf:Person ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  rdfs:label "Mohamed Zergaoui" ;
+  foaf:family_name "Zergaoui" ;
+  foaf:firstName "Mohamed" ;
+  foaf:name "Mohamed Zergaoui" ;
+  foaf:member <http://www.xmlguild.org> ;
+  linkd:weblog <http://blog.innovimax.fr> ;
+  linkd:homepage <http://linkd.in/1y5aNel> ;
+  foaf:workplaceHomepage <http://www.innovimax.fr> ;
+  citeulike:author <http://www.citeulike.org/author/Zergaoui:Mohamed> .
+  
 
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
 #
+# Charles Foster [DONE]
 # Tatu Saloranta [DONE]
 # Nick Van Den Bleeken  [started]
 # Eric Van Der Vlist [started]
@@ -477,11 +508,11 @@
 # 
 # Programme Committee
 #
-# Adam Retter
+# Adam Retter [started]
 # Christian Grun
 # John Snelson
 # Lars Windauer
-# Mohamed Zergaoui
+# Mohamed Zergaoui [started]
 # Norman Walsh
 #
 
