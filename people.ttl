@@ -43,6 +43,7 @@
   foaf:homepage <http://nick.bleeken.eu> ;
   foaf:weblog <http://blog.bleeken.eu> ;
   foaf:mbox <mailto:nick.van.den.bleeken@inventivegroup.com> ;
+  foaf:workplaceHomepage <http://www.inventivegroup.com> ;
   linkd:homepage <http://linkd.in/1E7vHtX> ;
   citeulike:author <http://www.citeulike.org/author/Van%20den%20Bleeken:Nick> .
 
