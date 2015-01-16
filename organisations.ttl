@@ -8,28 +8,32 @@
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
 @prefix dbpedia: <http://dbpedia.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wiki: <http://www.wikipedia.org/wiki/> .
+@prefix dbpedia: <http://dbpedia.org/> .
 
 <http://data.semanticweb.org/organization/marklogic> a foaf:Organisation ;
   owl:sameAs <http://dbpedia.org/resource/MarkLogic> ;
   rdfs:label "MarkLogic" ;
-  foaf:name	"MarkLogic Corporation" ;
-  foaf:homepage	<http://www.marklogic.com/> .
+  foaf:name "MarkLogic Corporation" ;
+  foaf:homepage	<http://www.marklogic.com> ;
+  wiki:homepage	<http://en.wikipedia.org/wiki/MarkLogic> ;
+  dbpedia:about	<http://dbpedia.org/page/MarkLogic> .
 
 <http://data.semanticweb.org/organization/fasterxml> a foaf:Organisation ;
   rdfs:label "FasterXML" ;
-  foaf:name	"FasterXML" ;
-  foaf:homepage	<http://fasterxml.com/> .
+  foaf:name "FasterXML" ;
+  foaf:homepage	<http://fasterxml.com> .
 
 <http://data.semanticweb.org/organization/saxonica> a foaf:Organisation ;
   rdfs:label "Saxonica" ;
   foaf:name	"Saxonica" ;
-  foaf:homepage	<http://saxonica.com/> .
+  foaf:homepage	<http://saxonica.com> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> a foaf:Organisation ;
   owl:sameAs <http://dbpedia.org/resource/Oxford_University_Press> ;
   rdfs:label "Oxford University Press" ;
   foaf:name	"Oxford University Press"
-  foaf:homepage	<http://www.oup.com/> .
+  foaf:homepage	<http://www.oup.com> .
 
 <http://data.semanticweb.org/organization/deltaxml> a foaf:Organisation ;
   rdfs:label "DeltaXML" ;
@@ -40,13 +44,13 @@
   owl:sameAs <http://dbpedia.org/resource/ibm> ;
   rdfs:label "IBM" ;
   foaf:name	"IBM" ;
-  foaf:homepage	<http://www.ibm.com/> .
+  foaf:homepage	<http://www.ibm.com> .
 
 <http://data.semanticweb.org/organization/university-of-oxford> a foaf:Organisation ;
   owl:sameAs <http://dbpedia.org/resource/University_of_Oxford> ;
   rdfs:label "University of Oxford" ;
   foaf:name	"University of Oxford" ;
-  foaf:homepage	<http://ox.ac.uk/> .
+  foaf:homepage	<http://ox.ac.uk> .
 
 <http://data.semanticweb.org/organization/syncro-soft> a foaf:Organisation ;
   rdfs:label "SyncRO Soft" ;
@@ -56,7 +60,7 @@
 <http://data.semanticweb.org/organization/antenna-house> a foaf:Organisation ;
   rdfs:label "Antenna House" ;
   foaf:name	"Antenna House" ;
-  foaf:homepage	<http://www.antennahouse.com/> .
+  foaf:homepage	<http://www.antennahouse.com> .
 
 <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> a foaf:Organisation ;
   rdfs:label "Centrum Wiskunde and Informatica" ;
@@ -66,18 +70,18 @@
 <http://data.semanticweb.org/organization/networked-planet> a foaf:Organisation ;
   rdfs:label "Networked Planet" ;
   foaf:name	"Networked Planet" ;
-  foaf:homepage	<http://www.networkedplanet.com/> .
+  foaf:homepage	<http://www.networkedplanet.com> .
 
 <http://data.semanticweb.org/organization/frameless> a foaf:Organisation ;
   rdfs:label "Frameless" ;
   foaf:name	"Frameless" ;
-  foaf:homepage	<http://www.frameless.io/> .
+  foaf:homepage	<http://www.frameless.io> .
 
 <http://data.semanticweb.org/organization/rackspace> a foaf:Organisation ;
   owl:sameAs <http://dbpedia.org/resource/Rackspace> ;
   rdfs:label "Rackspace" ;
   foaf:name	"Rackspace" ;
-  foaf:homepage	<http://www.rackspace.com/> .
+  foaf:homepage	<http://www.rackspace.com> .
 
 <http://data.semanticweb.org/organization/basex> a foaf:Organisation ;
   rdfs:label "BaseX" ;
@@ -87,27 +91,27 @@
 <http://data.semanticweb.org/organization/existdb> a foaf:Organisation ;
   rdfs:label "eXistdb" ;
   foaf:name	"eXistdb" ;
-  foaf:homepage	<http://exist-db.org/> .
+  foaf:homepage	<http://exist-db.org> .
 
 <http://data.semanticweb.org/organization/mercator-it-solutions> a foaf:Organisation ;
   rdfs:label "Mercator IT Solutions Ltd" ;
   foaf:name	"Mercator IT Solutions Ltd" ;
-  foaf:homepage	<http://www.mercatorit.com/> .
+  foaf:homepage	<http://www.mercatorit.com> .
 
 <http://data.semanticweb.org/organization/overstory-consulting> a foaf:Organisation ;
   rdfs:label "OverStory Consulting Ltd" ;
   foaf:name	"OverStory Consulting Ltd" ;
-  foaf:homepage	<http://www.overstory.co.uk/> .
+  foaf:homepage	<http://www.overstory.co.uk> .
 
 <http://data.semanticweb.org/organization/3ksoftware> a foaf:Organisation ;
   rdfs:label "3Ksoftware" ;
   foaf:name	"3Ksoftware" ;
-  foaf:homepage	<http://www.3ksoftware.com/> .
+  foaf:homepage	<http://www.3ksoftware.com> .
 
 <http://data.semanticweb.org/organization/appsoft-technologies> a foaf:Organisation ;
   rdfs:label "appsoft Technologies" ;
   foaf:name	"appsoft Technologies" ;
-  foaf:homepage	<http://www.appsoft.de/> .
+  foaf:homepage	<http://www.appsoft.de> .
 
 # [todo]: http://www.ic.uff.br
 # [todo]: kode1100
