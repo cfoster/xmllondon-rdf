@@ -166,6 +166,9 @@
   foaf:workplaceHomepage <http://www.oup.com> ;
   citeulike:author <http://www.citeulike.org/author/Dolbear:Catherine> .
 
+<http://data.semanticweb.org/person/shaun-mcdonald> a foaf:Person ;
+  owl:sameAs <http://data.semanticweb.org/person/shaun-mcDonald> . .
+
 <http://data.semanticweb.org/person/shaun-mcDonald> a foaf:Person ;
   rdfs:label "Shaun McDonald" ;
   foaf:family_name "McDonald" ;
