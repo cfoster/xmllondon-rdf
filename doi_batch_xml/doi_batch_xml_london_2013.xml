@@ -458,12 +458,12 @@
       <conference_paper language="en">
         <contributors>
           <person_name sequence="first" contributor_role="author">
-            <given_name>Lou</given_name>
-            <surname>Burnard</surname>
-          </person_name>
-          <person_name sequence="first" contributor_role="author">
             <given_name>Sebastian</given_name>
             <surname>Rahtz</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Lou</given_name>
+            <surname>Burnard</surname>
           </person_name>
         </contributors>
         <titles>

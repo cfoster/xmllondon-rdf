@@ -1,0 +1,269 @@
+<RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+     xmlns:swrc="http://swrc.ontoware.org/ontology#"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:f="http://xmllondon.com/xsl/functions"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/proceedings">
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/kay"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/kohl"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/narmontas"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/bina"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/weingaertner"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/huang"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/pemberton"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/fennell"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/ahmed"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/broersma"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/williams"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/goncalves"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/rzedzicki"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/vlist"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/kay">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>10</bibo:pageStart>
+      <bibo:pageEnd>23</bibo:pageEnd>
+      <dc:title>Benchmarking XSLT Performance</dc:title>
+      <rdfs:label>Benchmarking XSLT Performance</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Kay01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Kay01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/michael-kay"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/michael-kay"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/debbie-lockett"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/debbie-lockett"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>24</bibo:pageStart>
+      <bibo:pageEnd>52</bibo:pageEnd>
+      <dc:title>Streaming Design Patterns or: How I Learned to Stop Worrying and Love the Stream</dc:title>
+      <rdfs:label>Streaming Design Patterns or: How I Learned to Stop Worrying and Love the Stream</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Braaksma01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Braaksma01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/kohl">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>53</bibo:pageStart>
+      <bibo:pageEnd>62</bibo:pageEnd>
+      <dc:title>From monolithic XML for print/web to lean XML for data: realising linked data for dictionaries</dc:title>
+      <rdfs:label>From monolithic XML for print/web to lean XML for data: realising linked data for dictionaries</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Kohl01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Kohl01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/matt-kohl"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/matt-kohl"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/sandro-cirulli"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/sandro-cirulli"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/phil-gooch"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/phil-gooch"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/narmontas">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>63</bibo:pageStart>
+      <bibo:pageEnd>75</bibo:pageEnd>
+      <dc:title>XML Processing in Scala</dc:title>
+      <rdfs:label>XML Processing in Scala</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Narmontas01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Narmontas01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/william-narmontas"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/william-narmontas"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/dino-fancellu"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/dino-fancellu"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/bina">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>76</bibo:pageStart>
+      <bibo:pageEnd>82</bibo:pageEnd>
+      <dc:title>XML Authoring On Mobile Devices</dc:title>
+      <rdfs:label>XML Authoring On Mobile Devices</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Bina01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Bina01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/weingaertner">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>83</bibo:pageStart>
+      <bibo:pageEnd>87</bibo:pageEnd>
+      <dc:title>Engineering a XML-based Content Hub for Enterprise Publishing</dc:title>
+      <rdfs:label>Engineering a XML-based Content Hub for Enterprise Publishing</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Weingaertner01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Weingaertner01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/elias-weingartner"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/elias-weingartner"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/christoph-ludwig"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/christoph-ludwig"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/huang">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>88</bibo:pageStart>
+      <bibo:pageEnd>95</bibo:pageEnd>
+      <dc:title>A Visual Comparison Approach to Automated Regression Testing</dc:title>
+      <rdfs:label>A Visual Comparison Approach to Automated Regression Testing</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Huang01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Huang01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/celina-huang"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/celina-huang"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/pemberton">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>96</bibo:pageStart>
+      <bibo:pageEnd>102</bibo:pageEnd>
+      <dc:title>Live XML Data</dc:title>
+      <rdfs:label>Live XML Data</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Pemberton01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Pemberton01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/fennell">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>103</bibo:pageStart>
+      <bibo:pageEnd>112</bibo:pageEnd>
+      <dc:title>Schematron - More useful than you’d thought</dc:title>
+      <rdfs:label>Schematron - More useful than you’d thought</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Fennell01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Fennell01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/ahmed">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>113</bibo:pageStart>
+      <bibo:pageEnd>127</bibo:pageEnd>
+      <dc:title>Linked Data in a .NET World</dc:title>
+      <rdfs:label>Linked Data in a .NET World</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Ahmed01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Ahmed01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/kal-ahmed"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/kal-ahmed"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/broersma">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>128</bibo:pageStart>
+      <bibo:pageEnd>132</bibo:pageEnd>
+      <dc:title>Frameless for XML - The Reactive Revolution</dc:title>
+      <rdfs:label>Frameless for XML - The Reactive Revolution</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Broersma01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Broersma01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/robbert-broersma"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/robbert-broersma"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/yolijn-van-der-kolk"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/yolijn-van-der-kolk"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/williams">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>133</bibo:pageStart>
+      <bibo:pageEnd>147</bibo:pageEnd>
+      <dc:title>Product Usage Schemas</dc:title>
+      <rdfs:label>Product Usage Schemas</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Williams01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Williams01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/jorge-williams"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/jorge-williams"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/goncalves">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>148</bibo:pageStart>
+      <bibo:pageEnd>151</bibo:pageEnd>
+      <dc:title>An XML-based Approach for Data Preprocessing of Multi-Label Classification Problems</dc:title>
+      <rdfs:label>An XML-based Approach for Data Preprocessing of Multi-Label Classification Problems</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Goncalves01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Goncalves01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/eduardo-goncalves"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/eduardo-goncalves"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/vanessa-braganholo"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/vanessa-braganholo"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/rzedzicki">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>152</bibo:pageStart>
+      <bibo:pageEnd>156</bibo:pageEnd>
+      <dc:title>Using Abstract Content Model and Wikis to link Semantic Web, XML, HTML, JSON and CSV</dc:title>
+      <rdfs:label>Using Abstract Content Model and Wikis to link Semantic Web, XML, HTML, JSON and CSV</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Rzedzicki01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Rzedzicki01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/lech-rzedzicki"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/lech-rzedzicki"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/vlist">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>157</bibo:pageStart>
+      <bibo:pageEnd>161</bibo:pageEnd>
+      <dc:title>JSON and XML: a new perspective</dc:title>
+      <rdfs:label>JSON and XML: a new perspective</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2014</swrc:year>
+      <dc:identifier>doi:10.14337/XMLLondon14.Vlist01</dc:identifier>
+      <bibo:doi>10.14337/XMLLondon14.Vlist01</bibo:doi>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+      <foaf:maker rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+   </Description>
+</RDF>

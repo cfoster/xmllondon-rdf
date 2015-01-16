@@ -160,12 +160,12 @@
       <conference_paper language="en">
         <contributors>
           <person_name sequence="first" contributor_role="author">
-            <given_name>Dino</given_name>
-            <surname>Fancellu</surname>
-          </person_name>
-          <person_name sequence="first" contributor_role="author">
             <given_name>William</given_name>
             <surname>Narmontas</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Dino</given_name>
+            <surname>Fancellu</surname>
           </person_name>
         </contributors>
         <titles>
