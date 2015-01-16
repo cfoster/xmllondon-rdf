@@ -8,12 +8,14 @@
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
 @prefix dbpedia: <http://dbpedia.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wiki: <http://www.wikipedia.org/wiki/> .
+@prefix dbpedia: <http://dbpedia.org/> .
 
 <http://data.semanticweb.org/organization/marklogic> a foaf:Organisation ;
   owl:sameAs <http://dbpedia.org/resource/MarkLogic> ;
   rdfs:label "MarkLogic" ;
   foaf:name	"MarkLogic Corporation" ;
-  foaf:homepage	<http://www.marklogic.com/> .
+  foaf:homepage	<http://www.marklogic.com> .
 
 <http://data.semanticweb.org/organization/fasterxml> a foaf:Organisation ;
   rdfs:label "FasterXML" ;
