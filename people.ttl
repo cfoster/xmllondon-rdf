@@ -20,9 +20,6 @@
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair>,
                 <http://data.semanticweb.org/conference/xmllondon/2014/chair>,
                 <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Charles Foster" ;
   foaf:family_name "Foster" ;
   foaf:firstName "Charles" ;
@@ -66,9 +63,6 @@
 
 
 <http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Eric Van Der Vlist" ;
   foaf:family_name "Van Der Vlist" ;
   foaf:firstName "Eric" ;
@@ -183,9 +177,6 @@
   citeulike:author <http://www.citeulike.org/author/Vanoirbeek:Christine> .
 
 <http://data.semanticweb.org/person/philip-fennell> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Philip Fennell" ;
   foaf:family_name "Fennell" ;
   foaf:firstName "Philip" ;
@@ -236,9 +227,6 @@
   <http://data.semanticweb.org/person/shaun-mcdonald> .
 
 <http://data.semanticweb.org/person/james-fuller> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "James Fuller" ;
   foaf:family_name "Fuller" ;
   foaf:firstName "James" ;
@@ -257,9 +245,6 @@
   <http://data.semanticweb.org/person/james-fuller> . 
 
 <http://data.semanticweb.org/person/abel-braaksma> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Abel Braaksma" ;
   foaf:family_name "Braaksma" ;
   foaf:firstName "Abel" ;
@@ -545,9 +530,6 @@
   citeulike:author <http://www.citeulike.org/author/Rzedzicki:Lech> .
 
 <http://data.semanticweb.org/person/adam-retter> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Adam Retter" ;
   foaf:family_name "Retter" ;
   foaf:firstName "Adam" ;
@@ -561,9 +543,6 @@
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/adam-retter> .
 
 <http://data.semanticweb.org/person/mohamed-zergaoui> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
-                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Mohamed Zergaoui" ;
   foaf:family_name "Zergaoui" ;
   foaf:firstName "Mohamed" ;
