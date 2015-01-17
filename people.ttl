@@ -29,11 +29,11 @@
   foaf:myersBriggs "ENTP" ;
   foaf:homepage <http://www.cfoster.net/> ;
   foaf:homepage <http://www.xqj.net/> ;
-  foaf:member <http://www.xmlguild.org> ;
-  foaf:member <http://www.marklogician.com> ;
   foaf:depiction <http://xmlguild.org/xmlguild/data/cfoster/CharlesFoster.jpg> ;
   linkd:homepage <http://linkd.in/15cr5qs> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
+
+<http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/charles-foster> .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
   rdfs:label "Tatu Saloranta" ;
@@ -67,8 +67,9 @@
   foaf:name "Eric Van Der Vlist" ;
   foaf:homepage <http://www.dyomedea.com/> ;
   foaf:homepage <http://www.xmlfr.org/> ;
-  foaf:member <http://www.xmlguild.org> ;
   citeulike:author <http://www.citeulike.org/author/Van%20Der%20Vlist:Eric> .
+
+<http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/eric-van-der-vlist> .
 
 <http://data.semanticweb.org/person/oneil-delpratt> a foaf:Person ;
   rdfs:label "O'Neil Delpratt" ;
@@ -265,10 +266,10 @@
   foaf:workplaceHomepage <http://www.saxonica.com> ;
   linkd:homepage <http://linkd.in/1AGGpsL> ;
   wiki:homepage <http://en.wikipedia.org/wiki/Michael_Howard_Kay> ;
-  foaf:member <http://www.xmlguild.org> ;
   dbpedia:about <http://dbpedia.org/page/Michael_Howard_Kay> ;
   citeulike:author <http://www.citeulike.org/author/Kay:Michael> .
 
+<http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/michael-kay> .
 
 <http://data.semanticweb.org/person/debbie-lockett> a foaf:Person ;
   rdfs:label "Debbie Lockett" ;
@@ -315,8 +316,6 @@
   foaf:name "Dino Fancellu" ;
   foaf:homepage <http://www.dinofancellu.com/> ;
   linkd:homepage <http://linkd.in/1z6u1Ss> ;
-  foaf:member <http://www.marklogician.com> ;
-  foaf:member <http://www.scala.contractors> ;
   citeulike:author <http://www.citeulike.org/author/Fancellu:Dino> .
 
 <http://data.semanticweb.org/person/george-bina> a foaf:Person ;
@@ -336,7 +335,6 @@
   foaf:name "William Narmontas" ;
   foaf:homepage <http://www.scalawilliam.com/> ;
   linkd:homepage <http://linkd.in/1wb6Vmv> ;
-  foaf:member <http://www.scala.contractors> ;
   citeulike:author <http://www.citeulike.org/author/Narmontas:William> .
 
 <http://data.semanticweb.org/person/elias-weingartner> a foaf:Person ;
@@ -389,9 +387,9 @@
   foaf:name "Kal Ahmed" ;
   foaf:workplaceHomepage <http://www.networkedplanet.com/> ;
   linkd:homepage <http://linkd.in/1xl42jh> ;
-  foaf:member <http://www.xmlguild.org> ;
   citeulike:author <http://www.citeulike.org/author/Ahmed:Kal> .
 
+<http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/kal-ahmed> .
 
 <http://data.semanticweb.org/person/robbert-broersma> a foaf:Person ;
   rdfs:label "Robbert Broersma" ;
@@ -455,12 +453,13 @@
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
                 <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
                 <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
-  foaf:member <http://www.xmlguild.org> ;
   rdfs:label "Adam Retter" ;
   foaf:family_name "Retter" ;
   foaf:firstName "Adam" ;
   foaf:name "Adam Retter" ;
   linkd:homepage <http://www.adamretter.org.uk/> .
+
+<http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/adam-retter> .
 
 <http://data.semanticweb.org/person/mohamed-zergaoui> a foaf:Person ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
@@ -471,11 +470,12 @@
   foaf:firstName "Mohamed" ;
   foaf:name "Mohamed Zergaoui" ;
   linkd:homepage <http://blog.innovimax.fr/> .
-  foaf:member <http://www.xmlguild.org> ;
   linkd:weblog <http://blog.innovimax.fr/> ;
   linkd:homepage <http://linkd.in/1y5aNel> ;
   foaf:workplaceHomepage <http://www.innovimax.fr/> ;
   citeulike:author <http://www.citeulike.org/author/Zergaoui:Mohamed> .
+
+<http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/mohamed-zergaoui> .
 
 # TODO
 #
