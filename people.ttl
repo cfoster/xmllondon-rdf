@@ -593,6 +593,68 @@
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/mohamed-zergaoui> .
 
+<http://data.semanticweb.org/person/norman-walsh> a foaf:Person ;
+  rdfs:label "Norman Walsh" ;
+  foaf:family_name "Walsh" ;
+  foaf:firstName "Norman" ;
+  foaf:name "Norman Walsh" ;
+  foaf:nick "Norm" ;
+  foaf:workplaceHomepage <http://www.marklogic.com/> ;
+  linkd:homepage <http://nwalsh.com/> ;
+  org:memberOf <http://data.semanticweb.org/organization/marklogic> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .
+
+<http://data.semanticweb.org/organization/marklogic> foaf:member
+  <http://data.semanticweb.org/person/norman-walsh> .
+<http://dbpedia.org/resource/MarkLogic> foaf:member
+  <http://data.semanticweb.org/person/norman-walsh> .
+
+<http://data.semanticweb.org/person/christian-grun> a foaf:Person ;
+  owl:sameAs <http://data.semanticweb.org/person/christian-gruen> .
+
+<http://data.semanticweb.org/person/christian-gruen> a foaf:Person ;
+  rdfs:label "Christian Grün" ;
+  foaf:family_name "Grün" ;
+  foaf:firstName "Christian" ;
+  foaf:name "Christian Grün" ;
+  foaf:workplaceHomepage <http://basex.org/> ;
+  org:memberOf <http://data.semanticweb.org/organization/basex> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .
+
+<http://data.semanticweb.org/organization/basex> foaf:member
+  <http://data.semanticweb.org/person/christian-gruen> .
+<http://data.semanticweb.org/organization/basex> foaf:member
+  <http://data.semanticweb.org/person/christian-gruen> .
+
+<http://data.semanticweb.org/person/john-snelson> a foaf:Person ;
+  rdfs:label "John Snelson" ;
+  foaf:family_name "Snelson" ;
+  foaf:firstName "John" ;
+  foaf:name "John Snelson" ;
+  foaf:workplaceHomepage <http://www.marklogic.com/> ;
+  linkd:homepage <http://john.snelson.org.uk/> ;
+  org:memberOf <http://data.semanticweb.org/organization/marklogic> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .
+
+<http://data.semanticweb.org/organization/marklogic> foaf:member
+  <http://data.semanticweb.org/person/john-snelson> .
+<http://dbpedia.org/resource/MarkLogic> foaf:member
+  <http://data.semanticweb.org/person/john-snelson> .
+
+<http://data.semanticweb.org/person/adam-retter> a foaf:Person ;
+  rdfs:label "Lars Windauer" ;
+  foaf:family_name "Windauer" ;
+  foaf:firstName "Lars" ;
+  foaf:name "Windauer" ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .
+
 
 # Organisers
 #
@@ -601,10 +663,5 @@
 # 
 # Programme Committee
 #
-# Adam Retter [started]
-# Christian Grun
-# John Snelson
 # Lars Windauer
-# Mohamed Zergaoui [started]
-# Norman Walsh
 #
