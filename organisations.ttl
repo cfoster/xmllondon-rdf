@@ -10,7 +10,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
 @prefix dbpedia: <http://dbpedia.org/> .
-
 @prefix org:        <http://www.w3.org/ns/org#> .
 
 <http://data.semanticweb.org/organization/marklogic> a foaf:Organisation ; a org:Organization
