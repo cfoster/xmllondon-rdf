@@ -33,6 +33,9 @@
   foaf:depiction <http://xmlguild.org/xmlguild/data/cfoster/CharlesFoster.jpg> ;
   linkd:homepage <http://linkd.in/15cr5qs> ;
   org:memberOf <http://xmlguild.org> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/charles-foster> .
@@ -72,6 +75,9 @@
   foaf:homepage <http://www.dyomedea.com/> ;
   foaf:homepage <http://www.xmlfr.org/> ;
   org:memberOf <http://xmlguild.org> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   citeulike:author <http://www.citeulike.org/author/Van%20Der%20Vlist:Eric> .
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/eric-van-der-vlist> .
@@ -182,6 +188,9 @@
   foaf:workplaceHomepage <http://www.marklogic.com/> ;
   linkd:homepage <http://linkd.in/1y0CGWB> ;
   org:memberOf <http://data.semanticweb.org/organization/marklogic> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   citeulike:author <http://www.citeulike.org/author/Fennell:Philip> .
 
 <http://data.semanticweb.org/organization/marklogic> foaf:member <http://data.semanticweb.org/person/philip-fennell> . 
@@ -217,7 +226,6 @@
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member <http://data.semanticweb.org/person/shaun-mcdonald> .
 
-
 <http://data.semanticweb.org/person/james-fuller> a foaf:Person ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
                 <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
@@ -229,6 +237,9 @@
   foaf:workplaceHomepage <http://www.marklogic.com/> ;
   linkd:homepage <http://linkd.in/1shVxdj> ;
   org:memberOf <http://data.semanticweb.org/organization/marklogic> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   citeulike:author <http://www.citeulike.org/author/Fuller:James> .
 
 <http://dbpedia.org/resource/MarkLogic> foaf:member <http://data.semanticweb.org/person/james-fuller> . 
@@ -244,6 +255,9 @@
   foaf:name "Abel Braaksma" ;
   foaf:workplaceHomepage <http://abrasoft.net/AbraSoftDnn> ;
   linkd:homepage <http://linkd.in/1AB0Epm> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   citeulike:author <http://www.citeulike.org/author/Braaksma:Abel> .
 
 <http://data.semanticweb.org/person/adrian-warman> a foaf:Person ;
@@ -512,6 +526,9 @@
   foaf:firstName "Adam" ;
   foaf:name "Adam Retter" ;
   org:memberOf <http://xmlguild.org> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   linkd:homepage <http://www.adamretter.org.uk/> .
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/adam-retter> .
@@ -529,56 +546,14 @@
   linkd:homepage <http://linkd.in/1y5aNel> ;
   foaf:workplaceHomepage <http://www.innovimax.fr/> ;
   org:memberOf <http://xmlguild.org> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   citeulike:author <http://www.citeulike.org/author/Zergaoui:Mohamed> .
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/mohamed-zergaoui> .
 
-# TODO
-#
-# Speakers and Authors (some Authors are not Speakers)
-#
-# Charles Foster [DONE]
-# Tatu Saloranta [DONE]
-# Nick Van Den Bleeken  [started]
-# Eric Van Der Vlist [started]
-# O'Neil Delpratt [started]
-# Tomos Hillman [started]
-# Richard Pineger [started]
-# Nigel Whitaker [started]
-# Robin La Fontaine [started]
-# Autumn Cuellar [started]
-# Paul Topping [started]
-# Stephane Sire [started]
-# Christine Vanoirbeek [started]
-# Philip Fennell [started]
-# Rob Walpole [started]
-# Catherine Dolbear [started]
-# Shaun McDonald [started]
-# James Fuller [started]
-# Abel Braaksma [started]
-# Adrian Warman [started]
-# Sebastian Rahtz [started]
-# Lou Burnard [started]
-# Michael Kay [started]
-# Debbie Lockett [started]
-# Matt Kohl [started]
-# Sandro Cirulli [started]
-# Phil Gooch [started]
-# Dino Fancellu [started]
-# George Bina [started]
-# William Narmontas [started]
-# Elias Weingärtner [started]
-# Christoph Ludwig [started]
-# Celina Huang [started]
-# Steven Pemberton [started]
-# Kal Ahmed [started]
-# Robbert Broersma [started]
-# Yolijn van der Kolk [started]
-# Jorge Williams [started]
-# Eduardo Corrêa Gonçalves [started]
-# Vanessa Braganholo [started]
-# Lech Rzedzicki [started]
-# 
+
 # Organisers
 #
 # Stephen Foster
@@ -593,4 +568,3 @@
 # Mohamed Zergaoui [started]
 # Norman Walsh
 #
-
