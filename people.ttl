@@ -646,7 +646,7 @@
 <http://dbpedia.org/resource/MarkLogic> foaf:member
   <http://data.semanticweb.org/person/john-snelson> .
 
-<http://data.semanticweb.org/person/adam-retter> a foaf:Person ;
+<http://data.semanticweb.org/person/lars-windauer> a foaf:Person ;
   rdfs:label "Lars Windauer" ;
   foaf:family_name "Windauer" ;
   foaf:firstName "Lars" ;
@@ -655,13 +655,3 @@
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .
 
-
-# Organisers
-#
-# Stephen Foster
-# Kate Harris (was Kate Foster)
-# 
-# Programme Committee
-#
-# Lars Windauer
-#
