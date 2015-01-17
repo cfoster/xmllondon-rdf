@@ -45,6 +45,7 @@
   foaf:homepage <http://www.cowtowncoder.com/> ;
   linkd:homepage <http://linkd.in/1yrLxPS> ;
   org:memberOf <http://data.semanticweb.org/organization/fasterxml> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Saloranta:Tatu> .
 
 <http://data.semanticweb.org/organization/fasterxml> foaf:member
@@ -59,6 +60,7 @@
   foaf:weblog <http://blog.bleeken.eu/> ;
   foaf:workplaceHomepage <http://www.inventivegroup.com/> ;
   linkd:homepage <http://linkd.in/1E7vHtX> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Van%20den%20Bleeken:Nick> .
 
 
@@ -73,6 +75,8 @@
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Van%20Der%20Vlist:Eric> .
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/eric-van-der-vlist> .
@@ -85,6 +89,7 @@
   linkd:homepage <http://linkd.in/17qdblZ> ;
   org:memberOf <http://data.semanticweb.org/organization/saxonica> ;
   foaf:workplaceHomepage <http://www.saxonica.com/> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Delpratt:O'Neil> .
 
 <http://data.semanticweb.org/organization/saxonica> foaf:member
@@ -97,6 +102,7 @@
   foaf:name "Tomos Hillman" ;
   linkd:homepage <http://linkd.in/1IyFpGw> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Hillman:Tomos> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
@@ -110,6 +116,7 @@
   foaf:homepage <http://dita.xml.org/user/richard-pineger-0> ;
   foaf:homepage <http://lanyrd.com/profile/rpin42> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Pineger:Richard> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
@@ -124,6 +131,7 @@
   foaf:workplaceHomepage <http://www.deltaxml.com/> ;
   org:memberOf <http://data.semanticweb.org/organization/deltaxml> ;
   linkd:homepage <http://linkd.in/1yKWFZ2> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Whitaker:Nigel> .
 
 <http://data.semanticweb.org/organization/deltaxml> foaf:member <http://data.semanticweb.org/person/nigel-whitaker> .
@@ -149,6 +157,7 @@
   foaf:name "Autumn Cuellar" ;
   foaf:workplaceHomepage <https://www.dessci.com/en> ;
   linkd:homepage <http://linkd.in/1tVmEvY> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Cuellar:Autumn> .
 
 <http://data.semanticweb.org/person/paul-topping> a foaf:Person ;
@@ -166,6 +175,7 @@
   foaf:firstName "Stéphane" ;
   foaf:name "Stéphane Sire" ;
   foaf:workplaceHomepage <http://www.oppidoc.fr/en/accueil> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Sire:Stephane> .
 
 <http://data.semanticweb.org/person/christine-vanoirbeek> a foaf:Person ;
@@ -187,6 +197,8 @@
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Fennell:Philip> .
 
 <http://data.semanticweb.org/organization/marklogic> foaf:member
@@ -199,6 +211,7 @@
   foaf:family_name "Walpole" ;
   foaf:firstName "Rob" ;
   foaf:name "Rob Walpole" ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Walpole:Rob> .
 
 
@@ -209,6 +222,7 @@
   foaf:name "Catherine Dolbear" ;
   foaf:workplaceHomepage <http://www.oup.com/> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Dolbear:Catherine> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
@@ -237,6 +251,7 @@
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Fuller:James> .
 
 <http://dbpedia.org/resource/MarkLogic> foaf:member
@@ -254,6 +269,8 @@
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Braaksma:Abel> .
 
 <http://data.semanticweb.org/person/adrian-warman> a foaf:Person ;
@@ -263,6 +280,7 @@
   foaf:name "Adrian Warman" ;
   org:memberOf <http://data.semanticweb.org/organization/ibm> ;
   linkd:homepage <http://linkd.in/1x8s5Ss> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Warman:Adrian> .
 
 <http://data.semanticweb.org/organization/ibm> foaf:member
@@ -281,6 +299,7 @@
   org:memberOf <http://data.semanticweb.org/organization/university-of-oxford> ;
   foaf:homepage <http://users.ox.ac.uk/~Rahtz> ;
   linkd:homepage <http://linkd.in/1KvS4O9> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Rahtz:Sebastian> .
 
 <http://data.semanticweb.org/organization/university-of-oxford> foaf:member
@@ -310,6 +329,7 @@
   dbpedia:about <http://dbpedia.org/page/Michael_Howard_Kay> ;
   org:memberOf <http://xmlguild.org> ;
   org:memberOf <http://data.semanticweb.org/organization/saxonica> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Kay:Michael> .
 
 <http://xmlguild.org> foaf:member
@@ -323,6 +343,7 @@
   foaf:firstName "Debbie" ;
   foaf:name "Debbie Lockett" ;
   org:memberOf <http://data.semanticweb.org/organization/saxonica> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   foaf:workplaceHomepage <http://www.saxonica.com/> .
 
 <http://data.semanticweb.org/organization/saxonica> foaf:member
@@ -338,6 +359,7 @@
   linkd:homepage <http://linkd.in/1DArgdO> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
   foaf:weblog <http://blog.oxforddictionaries.com/author/matt-kohl> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Kohl:Matt> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
@@ -351,6 +373,7 @@
   foaf:workplaceHomepage <http://www.oup.com/> ;
   foaf:workplaceHomepage <http://www.sandrocirulli.net/> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Cirulli:Sandro> .
 
 <http://data.semanticweb.org/person/phil-gooch> a foaf:Person ;
@@ -381,6 +404,7 @@
   foaf:workplaceHomepage <http://www.sync.ro/> ;
   linkd:homepage <http://linkd.in/1DDFsmh> ;
   org:memberOf <http://data.semanticweb.org/organization/syncro-soft> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Bina:George> .
 
 <http://data.semanticweb.org/organization/syncro-soft> foaf:member
@@ -393,6 +417,7 @@
   foaf:name "William Narmontas" ;
   foaf:homepage <http://www.scalawilliam.com/> ;
   linkd:homepage <http://linkd.in/1wb6Vmv> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Narmontas:William> .
 
 <http://data.semanticweb.org/person/elias-weingartner> a foaf:Person ;
@@ -407,6 +432,7 @@
   foaf:homepage <http://www.weingaertner.org/> ;
   foaf:weblog <http://www.weingaertner.org/> ;
   linkd:homepage <http://linkd.in/14vYCeq> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Weingärtner:Elias> .
 
 <http://data.semanticweb.org/person/christoph-ludwig> a foaf:Person ;
@@ -425,6 +451,7 @@
   linkd:homepage <http://linkd.in/1DUHwne> ;
   org:memberOf <http://data.semanticweb.org/organization/antenna-house> ;
   foaf:workplaceHomepage <http://www.antennahouse.com/> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Huang:Celina> .
 
 <http://data.semanticweb.org/organization/antenna-house> foaf:member
@@ -438,6 +465,7 @@
   foaf:homepage <http://homepages.cwi.nl/~steven> ;
   linkd:homepage "http://linkd.in/1wVi8sQ" ;
   org:memberOf <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author "http://www.citeulike.org/author/Pemberton:Steven" .
 
 <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> foaf:member
@@ -452,6 +480,7 @@
   linkd:homepage <http://linkd.in/1xl42jh> ;
   org:memberOf <http://xmlguild.org> ;
   org:memberOf <http://data.semanticweb.org/organization/networked-planet> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Ahmed:Kal> .
 
 <http://xmlguild.org> foaf:member
@@ -470,6 +499,7 @@
   foaf:weblog <http://twitter.com/XopusRobbert> ;
   linkd:homepage <http://linkd.in/1AMqAOJ> ;
   org:memberOf <http://data.semanticweb.org/organization/frameless> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Broersma:Robbert> .
 
 <http://data.semanticweb.org/organization/frameless> foaf:member
@@ -497,6 +527,7 @@
   foaf:workplaceHomepage <http://www.rackspace.com/> ;
   linkd:homepage <http://linkd.in/1DURmp2> ;
   org:memberOf <http://data.semanticweb.org/organization/rackspace> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Williams:Jorge> .
 
 <http://data.semanticweb.org/organization/rackspace> foaf:member
@@ -510,6 +541,7 @@
   foaf:firstName "Eduardo Corrêa" ;
   foaf:name "Eduardo Corrêa Gonçalves" ;
   foaf:workplaceHomepage <http://www.ic.uff.br/> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Gonçalves:Eduardo> .
 
 <http://data.semanticweb.org/person/vanessa-braganholo> a foaf:Person ;
@@ -527,6 +559,7 @@
   foaf:name "Lech Rzedzicki" ;
   foaf:workplaceHomepage <http://www.kode1100.com/> ;
   linkd:homepage <http://linkd.in/1sv59BE> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Rzedzicki:Lech> .
 
 <http://data.semanticweb.org/person/adam-retter> a foaf:Person ;
