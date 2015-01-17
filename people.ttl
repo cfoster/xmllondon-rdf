@@ -14,11 +14,11 @@
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
 @prefix dbpedia: <http://dbpedia.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix org:        <http://www.w3.org/ns/org#> .
+@prefix org: <http://www.w3.org/ns/org#> .
 
 <http://data.semanticweb.org/person/charles-foster> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair>,
-                <http://data.semanticweb.org/conference/xmllondon/2014/chair>,
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair> ,
+                <http://data.semanticweb.org/conference/xmllondon/2014/chair> ,
                 <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
   rdfs:label "Charles Foster" ;
   foaf:family_name "Foster" ;
@@ -134,7 +134,8 @@
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   citeulike:author <http://www.citeulike.org/author/Whitaker:Nigel> .
 
-<http://data.semanticweb.org/organization/deltaxml> foaf:member <http://data.semanticweb.org/person/nigel-whitaker> .
+<http://data.semanticweb.org/organization/deltaxml> foaf:member
+  <http://data.semanticweb.org/person/nigel-whitaker> .
 
 <http://data.semanticweb.org/person/robin-la-fontaine> a foaf:Person ;
   rdfs:label "Robin La Fontaine" ;
@@ -145,7 +146,7 @@
   foaf:workplaceHomepage <http://www.deltaxml.com/> ;
   linkd:homepage "http://linkd.in/14Ev7Yr" ;
   org:memberOf <http://data.semanticweb.org/organization/deltaxml> ;
-  citeulike:author <http://www.citeulike.org/author/La Fontaine:Robin> .
+  citeulike:author <http://www.citeulike.org/author/La%20Fontaine:Robin> . # stop putting spaces in URIS
 
 <http://data.semanticweb.org/organization/deltaxml> foaf:member
   <http://data.semanticweb.org/person/robin-la-fontaine> .
@@ -580,7 +581,7 @@
   foaf:family_name "Zergaoui" ;
   foaf:firstName "Mohamed" ;
   foaf:name "Mohamed Zergaoui" ;
-  linkd:homepage <http://blog.innovimax.fr/> .
+  linkd:homepage <http://blog.innovimax.fr/> ;
   linkd:weblog <http://blog.innovimax.fr/> ;
   linkd:homepage <http://linkd.in/1y5aNel> ;
   foaf:workplaceHomepage <http://www.innovimax.fr/> ;
