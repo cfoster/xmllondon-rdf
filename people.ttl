@@ -1,3 +1,9 @@
+# Homepages, like http://site.com should be <http://site.com/>
+#
+# foaf:member goes (foaf:Organisation foaf:memnber foaf:Person)
+#                  (not the othe way around)
+#
+
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -10,16 +16,23 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 
 <http://data.semanticweb.org/person/charles-foster> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair>, <http://data.semanticweb.org/conference/xmllondon/2014/chair>, <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/chair>,
+                <http://data.semanticweb.org/conference/xmllondon/2014/chair>,
+                <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Charles Foster" ;
   foaf:family_name "Foster" ;
   foaf:firstName "Charles" ;
   foaf:name "Charles Foster" ;
   foaf:myersBriggs "ENTP" ;
-  foaf:homepage <http://www.cfoster.net> ;
-  foaf:homepage <http://www.xqj.net> ;
+  foaf:homepage <http://www.cfoster.net/> ;
+  foaf:homepage <http://www.xqj.net/> ;
   foaf:member <http://www.xmlguild.org> ;
   foaf:member <http://www.marklogician.com> ;
+  foaf:depiction <http://xmlguild.org/xmlguild/data/cfoster/CharlesFoster.jpg> ;
+  linkd:homepage <http://linkd.in/15cr5qs> ;
   citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
 <http://data.semanticweb.org/person/tatu-saloranta> a foaf:Person ;
@@ -27,7 +40,8 @@
   foaf:family_name "Saloranta" ;
   foaf:firstName "Tatu" ;
   foaf:name "Tatu Saloranta" ;
-  foaf:homepage <http://www.cowtowncoder.com> ;
+  foaf:homepage <http://www.cowtowncoder.com/> ;
+  linkd:homepage <http://linkd.in/1yrLxPS> ;
   citeulike:author <http://www.citeulike.org/author/Saloranta:Tatu> .
 
 
@@ -36,20 +50,25 @@
   foaf:family_name "Van den Bleeken" ;
   foaf:firstName "Nick" ;
   foaf:name "Nick Van den Bleeken" ;
-  foaf:homepage <http://nick.bleeken.eu> ;
+  foaf:homepage <http://nick.bleeken.eu/> ;
+  foaf:weblog <http://blog.bleeken.eu/> ;
+  foaf:workplaceHomepage <http://www.inventivegroup.com/> ;
+  linkd:homepage <http://linkd.in/1E7vHtX> ;
   citeulike:author <http://www.citeulike.org/author/Van%20den%20Bleeken:Nick> .
 
 
 <http://data.semanticweb.org/person/eric-van-der-vlist> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Eric Van Der Vlist" ;
   foaf:family_name "Van Der Vlist" ;
   foaf:firstName "Eric" ;
   foaf:name "Eric Van Der Vlist" ;
-  foaf:homepage <http://www.dyomedea.com> ;
-  foaf:homepage <http://www.xmlfr.org> ;
+  foaf:homepage <http://www.dyomedea.com/> ;
+  foaf:homepage <http://www.xmlfr.org/> ;
   foaf:member <http://www.xmlguild.org> ;
-  citeulike:author "http://www.citeulike.org/author/Van%20Der%20Vlist:Eric" .
+  citeulike:author <http://www.citeulike.org/author/Van%20Der%20Vlist:Eric> .
 
 <http://data.semanticweb.org/person/oneil-delpratt> a foaf:Person ;
   rdfs:label "O'Neil Delpratt" ;
@@ -57,7 +76,7 @@
   foaf:firstName "O'Neil" ;
   foaf:name "O'Neil Delpratt" ;
   linkd:homepage <http://linkd.in/17qdblZ> ;
-  foaf:workplaceHomepage <http://www.saxonica.com> ;
+  foaf:workplaceHomepage <http://www.saxonica.com/> ;
   citeulike:author <http://www.citeulike.org/author/Delpratt:O'Neil> .
 
 
@@ -75,7 +94,7 @@
   foaf:firstName "Richard" ;
   foaf:name "Richard Pineger" ;
   foaf:homepage <http://dita.xml.org/user/richard-pineger-0> ;
-  foaf:homepage <http://lanyrd.com/profile/rpin42/> ;
+  foaf:homepage <http://lanyrd.com/profile/rpin42> ;
   citeulike:author <http://www.citeulike.org/author/Pineger:Richard> .
 
 
@@ -85,7 +104,7 @@
   foaf:firstName "Nigel" ;
   foaf:name "Nigel Whitaker" ;
   foaf:weblog "http://blogs.deltaxml.com/author/nigelwhitaker/" ;
-  foaf:workplaceHomepage <http://www.deltaxml.com> ;
+  foaf:workplaceHomepage <http://www.deltaxml.com/> ;
   linkd:homepage <http://linkd.in/1yKWFZ2> ;
   citeulike:author <http://www.citeulike.org/author/Whitaker:Nigel> .
 
@@ -96,9 +115,9 @@
   foaf:firstName "Robin" ;
   foaf:name "Robin La Fontaine" ;
   foaf:homepage <http://lanyrd.com/profile/robin-la-fontaine> ;
-  foaf:workplaceHomepage <http://www.deltaxml.com> ;
+  foaf:workplaceHomepage <http://www.deltaxml.com/> ;
   linkd:homepage "http://linkd.in/14Ev7Yr" ;
-  citeulike:author <http://www.citeulike.org/author/La%20Fontaine:Robin> .
+  citeulike:author <http://www.citeulike.org/author/La Fontaine:Robin> .
 
 
 <http://data.semanticweb.org/person/autumn-cuellar> a foaf:Person ;
@@ -139,12 +158,14 @@
 
 
 <http://data.semanticweb.org/person/philip-fennell> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Philip Fennell" ;
   foaf:family_name "Fennell" ;
   foaf:firstName "Philip" ;
   foaf:name "Philip Fennell" ;
-  foaf:workplaceHomepage <http://www.marklogic.com> ;
+  foaf:workplaceHomepage <http://www.marklogic.com/> ;
   linkd:homepage <http://linkd.in/1y0CGWB> ;
   citeulike:author <http://www.citeulike.org/author/Fennell:Philip> .
 
@@ -162,30 +183,37 @@
   foaf:family_name "Dolbear" ;
   foaf:firstName "Catherine" ;
   foaf:name "Catherine Dolbear" ;
-  foaf:workplaceHomepage <http://www.oup.com> ;
+  foaf:workplaceHomepage <http://www.oup.com/> ;
   citeulike:author <http://www.citeulike.org/author/Dolbear:Catherine> .
+
+<http://data.semanticweb.org/person/shaun-mcdonald> a foaf:Person ;
+  owl:sameAs <http://data.semanticweb.org/person/shaun-mcDonald> . .
 
 <http://data.semanticweb.org/person/shaun-mcDonald> a foaf:Person ;
   rdfs:label "Shaun McDonald" ;
   foaf:family_name "McDonald" ;
   foaf:firstName "Shaun" ;
   foaf:name "Shaun McDonald" ;
-  foaf:workplaceHomepage <http://www.oup.com> ;
+  foaf:workplaceHomepage <http://www.oup.com/> ;
   citeulike:author <http://www.citeulike.org/author/McDonald:Shaun> .
 
 
 <http://data.semanticweb.org/person/james-fuller> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "James Fuller" ;
   foaf:family_name "Fuller" ;
   foaf:firstName "James" ;
   foaf:name "James Fuller" ;
-  foaf:workplaceHomepage <http://www.marklogic.com> ;
+  foaf:workplaceHomepage <http://www.marklogic.com/> ;
   linkd:homepage <http://linkd.in/1shVxdj> ;
   citeulike:author <http://www.citeulike.org/author/Fuller:James> .
 
 <http://data.semanticweb.org/person/abel-braaksma> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Abel Braaksma" ;
   foaf:family_name "Braaksma" ;
   foaf:firstName "Abel" ;
@@ -207,8 +235,8 @@
   foaf:family_name "Rahtz" ;
   foaf:firstName "Sebastian" ;
   foaf:name "Sebastian Rahtz" ;
-  foaf:workplaceHomepage <http://www.ox.ac.uk> ;
-  foaf:workplaceHomepage <http://it.oucs.ox.ac.uk> ;
+  foaf:workplaceHomepage <http://www.ox.ac.uk/> ;
+  foaf:workplaceHomepage <http://it.oucs.ox.ac.uk/> ;
   foaf:workplaceHomepage <http://www.tei-c.org/index.xml> ;
   foaf:homepage <http://users.ox.ac.uk/~Rahtz> ;
   linkd:homepage <http://linkd.in/1KvS4O9> ;
@@ -220,8 +248,8 @@
   foaf:family_name "Burnard" ;
   foaf:firstName "Lou" ;
   foaf:name "Lou Burnard" ;
-  foaf:workplaceHomepage <http://www.ox.ac.uk> ;
-  foaf:workplaceHomepage <http://it.oucs.ox.ac.uk> ;
+  foaf:workplaceHomepage <http://www.ox.ac.uk/> ;
+  foaf:workplaceHomepage <http://it.oucs.ox.ac./uk> ;
   foaf:workplaceHomepage <http://www.tei-c.org/index.xml> ;
   foaf:homepage <http://users.ox.ac.uk/~lou> ;
   linkd:homepage <http://linkd.in/1tVzjin> ;
@@ -247,15 +275,15 @@
   foaf:family_name "Lockett" ;
   foaf:firstName "Debbie" ;
   foaf:name "Debbie Lockett" ;
-  foaf:workplaceHomepage <http://www.saxonica.com> .
+  foaf:workplaceHomepage <http://www.saxonica.com/> .
 
 <http://data.semanticweb.org/person/matt-kohl> a foaf:Person ;
   rdfs:label "Matt Kohl" ;
   foaf:family_name "Kohl" ;
   foaf:firstName "Matt" ;
   foaf:name "Matt Kohl" ;
-  foaf:workplaceHomepage <http://www.oup.com> ;
-  foaf:workplaceHomepage <http://www.therightrhymes.com> ;
+  foaf:workplaceHomepage <http://www.oup.com/> ;
+  foaf:workplaceHomepage <http://www.therightrhymes.com/> ;
   linkd:homepage <http://linkd.in/1DArgdO> ;
   foaf:weblog <http://blog.oxforddictionaries.com/author/matt-kohl> ;
   citeulike:author <http://www.citeulike.org/author/Kohl:Matt> .
@@ -266,8 +294,8 @@
   foaf:family_name "Cirulli" ;
   foaf:firstName "Sandro" ;
   foaf:name "Sandro Cirulli" ;
-  foaf:workplaceHomepage <http://www.oup.com> ;
-  foaf:workplaceHomepage <http://www.sandrocirulli.net> ;
+  foaf:workplaceHomepage <http://www.oup.com/> ;
+  foaf:workplaceHomepage <http://www.sandrocirulli.net/> ;
   citeulike:author <http://www.citeulike.org/author/Cirulli:Sandro> .
 
 <http://data.semanticweb.org/person/phil-gooch> a foaf:Person ;
@@ -275,7 +303,7 @@
   foaf:family_name "Gooch" ;
   foaf:firstName "Phil" ;
   foaf:name "Phil Gooch" ;
-  foaf:workplaceHomepage <http://www.oup.com> ;
+  foaf:workplaceHomepage <http://www.oup.com/> ;
   foaf:homepage <http://student.city.ac.uk/~abdy181> ;
   linkd:homepage <http://linkd.in/1xXi5AK> ;
   citeulike:author <http://www.citeulike.org/author/Gooch:Phil> .
@@ -285,7 +313,7 @@
   foaf:family_name "Fancellu" ;
   foaf:firstName "Dino" ;
   foaf:name "Dino Fancellu" ;
-  foaf:homepage <http://www.dinofancellu.com> ;
+  foaf:homepage <http://www.dinofancellu.com/> ;
   linkd:homepage <http://linkd.in/1z6u1Ss> ;
   foaf:member <http://www.marklogician.com> ;
   foaf:member <http://www.scala.contractors> ;
@@ -296,8 +324,8 @@
   foaf:family_name "Bina" ;
   foaf:firstName "George" ;
   foaf:name "George Bina" ;
-  foaf:workplaceHomepage <http://www.oxygenxml.com> ;
-  foaf:workplaceHomepage <http://www.sync.ro> ;
+  foaf:workplaceHomepage <http://www.oxygenxml.com/> ;
+  foaf:workplaceHomepage <http://www.sync.ro/> ;
   linkd:homepage <http://linkd.in/1DDFsmh> ;
   citeulike:author <http://www.citeulike.org/author/Bina:George> .
 
@@ -306,7 +334,7 @@
   foaf:family_name "Narmontas" ;
   foaf:firstName "William" ;
   foaf:name "William Narmontas" ;
-  foaf:homepage <http://www.scalawilliam.com> ;
+  foaf:homepage <http://www.scalawilliam.com/> ;
   linkd:homepage <http://linkd.in/1wb6Vmv> ;
   foaf:member <http://www.scala.contractors> ;
   citeulike:author <http://www.citeulike.org/author/Narmontas:William> .
@@ -320,8 +348,8 @@
   foaf:firstName "Elias" ;
   foaf:name "Elias Weingärtner" ;
   foaf:homepage <http://ds.informatik.rwth-aachen.de/members/weingaertner> ;
-  foaf:homepage <http://www.weingaertner.org> ;
-  foaf:weblog <http://www.weingaertner.org> ;
+  foaf:homepage <http://www.weingaertner.org/> ;
+  foaf:weblog <http://www.weingaertner.org/> ;
   linkd:homepage <http://linkd.in/14vYCeq> ;
   citeulike:author <http://www.citeulike.org/author/Weingärtner:Elias> .
 
@@ -340,7 +368,7 @@
   foaf:firstName "Celina" ;
   foaf:name "Celina Huang" ;
   linkd:homepage <http://linkd.in/1DUHwne> ;
-  foaf:workplaceHomepage <http://www.antennahouse.com> ;
+  foaf:workplaceHomepage <http://www.antennahouse.com/> ;
   citeulike:author <http://www.citeulike.org/author/Huang:Celina> .
 
 
@@ -359,7 +387,7 @@
   foaf:family_name "Ahmed" ;
   foaf:firstName "Kal" ;
   foaf:name "Kal Ahmed" ;
-  foaf:workplaceHomepage <http://www.networkedplanet.com> ;
+  foaf:workplaceHomepage <http://www.networkedplanet.com/> ;
   linkd:homepage <http://linkd.in/1xl42jh> ;
   foaf:member <http://www.xmlguild.org> ;
   citeulike:author <http://www.citeulike.org/author/Ahmed:Kal> .
@@ -370,8 +398,8 @@
   foaf:family_name "Broersma" ;
   foaf:firstName "Robbert" ;
   foaf:name "Robbert Broersma" ;
-  foaf:workplaceHomepage <http://www.frameless.io> ;
-  foaf:homepage <http://robbertbroersma.nl> ;
+  foaf:workplaceHomepage <http://www.frameless.io/> ;
+  foaf:homepage <http://robbertbroersma.nl/> ;
   foaf:weblog <http://twitter.com/robbertbroersma> ;
   foaf:weblog <http://twitter.com/XopusRobbert> ;
   linkd:homepage <http://linkd.in/1AMqAOJ> ;
@@ -382,7 +410,7 @@
   foaf:family_name "van der Kolk" ;
   foaf:firstName "Yolijn" ;
   foaf:name "Yolijn van der Kolk" ;
-  foaf:workplaceHomepage <http://www.frameless.io> ;
+  foaf:workplaceHomepage <http://www.frameless.io/> ;
   foaf:homepage <http://www.yolijn.com> ;
   linkd:homepage <http://linkd.in/1IHpuG1> ;
   citeulike:author <http://www.citeulike.org/author/van%20der%20Kolk:Yolijn> .
@@ -393,9 +421,9 @@
   foaf:family_name "Williams" ;
   foaf:firstName "Jorge" ;
   foaf:name "Jorge Williams" ;
-  foaf:workplaceHomepage "http://www.rackspace.com" ;
-  linkd:homepage "http://linkd.in/1DURmp2" ;
-  citeulike:author "http://www.citeulike.org/author/Williams:Jorge" .
+  foaf:workplaceHomepage <http://www.rackspace.com/> ;
+  linkd:homepage <http://linkd.in/1DURmp2> ;
+  citeulike:author <http://www.citeulike.org/author/Williams:Jorge> .
 
 
 <http://data.semanticweb.org/person/eduardo-goncalves> a foaf:Person ;
@@ -403,7 +431,7 @@
   foaf:family_name "Gonçalves" ;
   foaf:firstName "Eduardo Corrêa" ;
   foaf:name "Eduardo Corrêa Gonçalves" ;
-  foaf:workplaceHomepage <http://www.ic.uff.br> ;
+  foaf:workplaceHomepage <http://www.ic.uff.br/> ;
   citeulike:author <http://www.citeulike.org/author/Gonçalves:Eduardo> .
 
 <http://data.semanticweb.org/person/vanessa-braganholo> a foaf:Person ;
@@ -411,44 +439,49 @@
   foaf:family_name "Braganholo" ;
   foaf:firstName "Vanessa" ;
   foaf:name "Vanessa Braganholo" ;
-  foaf:workplaceHomepage <http://www.ic.uff.br> ;
+  foaf:workplaceHomepage <http://www.ic.uff.br/> ;
   citeulike:author <http://www.citeulike.org/author/Braganholo:Vanessa> .
-
 
 <http://data.semanticweb.org/person/lech-rzedzicki> a foaf:Person ;
   rdfs:label "Lech Rzedzicki" ;
   foaf:family_name "Rzedzicki" ;
   foaf:firstName "Lech" ;
   foaf:name "Lech Rzedzicki" ;
-  foaf:workplaceHomepage <http://www.kode1100.com> ;
+  foaf:workplaceHomepage <http://www.kode1100.com/> ;
   linkd:homepage <http://linkd.in/1sv59BE> ;
   citeulike:author <http://www.citeulike.org/author/Rzedzicki:Lech> .
 
 <http://data.semanticweb.org/person/adam-retter> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   foaf:member <http://www.xmlguild.org> ;
   rdfs:label "Adam Retter" ;
   foaf:family_name "Retter" ;
   foaf:firstName "Adam" ;
   foaf:name "Adam Retter" ;
-  linkd:homepage <http://www.adamretter.org.uk> .
+  linkd:homepage <http://www.adamretter.org.uk/> .
 
 <http://data.semanticweb.org/person/mohamed-zergaoui> a foaf:Person ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>, <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
-  foaf:member <http://www.xmlguild.org> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2014/programme-committee>,
+                <http://data.semanticweb.org/conference/xmllondon/2015/programme-committee> ;
   rdfs:label "Mohamed Zergaoui" ;
   foaf:family_name "Zergaoui" ;
   foaf:firstName "Mohamed" ;
   foaf:name "Mohamed Zergaoui" ;
-  linkd:homepage <http://blog.innovimax.fr> .
-
-
-
+  linkd:homepage <http://blog.innovimax.fr/> .
+  foaf:member <http://www.xmlguild.org> ;
+  linkd:weblog <http://blog.innovimax.fr/> ;
+  linkd:homepage <http://linkd.in/1y5aNel> ;
+  foaf:workplaceHomepage <http://www.innovimax.fr/> ;
+  citeulike:author <http://www.citeulike.org/author/Zergaoui:Mohamed> .
 
 # TODO
 #
 # Speakers and Authors (some Authors are not Speakers)
 #
+# Charles Foster [DONE]
 # Tatu Saloranta [DONE]
 # Nick Van Den Bleeken  [started]
 # Eric Van Der Vlist [started]
@@ -497,11 +530,11 @@
 # 
 # Programme Committee
 #
-# Adam Retter
+# Adam Retter [started]
 # Christian Grun
 # John Snelson
 # Lars Windauer
-# Mohamed Zergaoui
+# Mohamed Zergaoui [started]
 # Norman Walsh
 #
 
