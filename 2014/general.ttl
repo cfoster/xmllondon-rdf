@@ -16,9 +16,10 @@
 <http://data.semanticweb.org/conference/xmllondon/2014/chair> a swc:Chair ;
   swc:heldBy <http://data.semanticweb.org/person/charles-foster>;
   swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> ;
-  rdfs:label "Conference Chair" .
+  rdfs:label "XML London 2014 Conference Chair" .
 
 <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> a swc:Proceedings ;
+  rdfs:label "2014 Conference Proceedings" ;
   dc:identifier "ISBN:978-0-9926471-1-7" ;
   swc:editorList <http://data.semanticweb.org/conference/xmllondon/2014/proceedings/editor-list> ;
   swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2014/paper/kay> ,
@@ -38,6 +39,7 @@
               <http://data.semanticweb.org/conference/xmllondon/2014/paper/vlist> .
 
 <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> a swc:ProgrammeCommitteeMember ;
+  rdfs:label "2014 Programme Committee Member" ;
   swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> ;
   swc:heldBy <http://data.semanticweb.org/person/abel-braaksma> ,
              <http://data.semanticweb.org/person/adam-retter> ,
@@ -50,3 +52,8 @@
              <http://data.semanticweb.org/person/mohamed-zergaoui> ,
              <http://data.semanticweb.org/person/norman-walsh> ,
              <http://data.semanticweb.org/person/philip-fennell> .
+
+# someone who spoke at XML London
+<http://data.semanticweb.org/conference/xmllondon/2014/presenter> a swc:Presenter ;
+  rdfs:label "2014 Presenter" ;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> .
