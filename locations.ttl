@@ -1,0 +1,17 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+<http://www.ucl.ac.uk/buildings/roberts-engineering-building> a swc:ConferenceVenuePlace ;
+  rdfs:label "Roberts Engineering Building (UCL)" ;
+  swc:isLocationFor <http://data.semanticweb.org/conference/xmllondon/2013> ;
+  swc:isLocationFor <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  swc:isLocationFor <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  geo:lat "51.522676"^^xsd:float ;
+  geo:long "-0.132083"^^xsd:float ;
+

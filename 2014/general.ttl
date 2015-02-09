@@ -9,14 +9,19 @@
 <http://data.semanticweb.org/conference/xmllondon/2014> a swc:ConferenceEvent ;
   rdfs:label "XML London 2014" ;
   swc:hasRelatedDocument <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> ;
-  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2014/chair> ; # ,
-  ical:url <http://xmllondon.com/2014> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2014/chair> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
+  swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
+  swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> ;
   foaf:based_near <http://dbpedia.org/resource/London> .
+
+# ConferenceVenuePlace
 
 <http://data.semanticweb.org/conference/xmllondon/2014/chair> a swc:Chair ;
   swc:heldBy <http://data.semanticweb.org/person/charles-foster>;
   swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> ;
-  rdfs:label "XML London 2014 Conference Chair" .
+  rdfs:label "2014 Conference Chair" .
 
 <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> a swc:Proceedings ;
   rdfs:label "2014 Conference Proceedings" ;
