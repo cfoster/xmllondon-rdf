@@ -1,0 +1,73 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
+
+@prefix xmllondon: <http://data.semanticweb.org/conference/xmllondon/> .
+@prefix xmlprague: <http://www.xmlprague.cz/> .
+@prefix xmlss: <http://xmlsummerschool.com/> .
+@prefix xmlamsterdam.com: <http://xmlamsterdam.com/> .
+
+## 2015 ##
+
+xmlprague:2015 a swc:ConferenceEvent ;
+  xlswc:sisterEvent xmllondon:2015 ;
+  xlswc:sisterEvent xmlss:2015 ;
+  xlswc:relatedEvent xmlprague:2014 ;
+  xlswc:relatedEvent xmlprague:2013 ;
+  rdfs:label "XML Prague 2015" .
+
+xmlss:2015 a swc:AcademicEvent ;
+  xlswc:sisterEvent xmllondon:2015 ;
+  xlswc:sisterEvent xmlprague:2015 ;
+  xlswc:relatedEvent xmlss:2014 ;
+  xlswc:relatedEvent xmlss:2013 ;
+  rdfs:label "XML Summer School 2015" .
+
+## Wait until XML Amsterdam have announced dates (2014 never happened). ##
+# xmlamsterdam:2015 a swc:OrganisedEvent ;
+#  xlswc:sisterEvent xmllondon:2015 ;
+#  xlswc:sisterEvent xmlprague:2015 ;
+#  xlswc:relatedEvent xmlamsterdam:2013 ;
+#  rdfs:label "XML Amsterdam 2015" .
+
+
+## 2014 ##
+
+xmlprague:2014 a swc:ConferenceEvent ;
+  xlswc:sisterEvent xmllondon:2014;
+  xlswc:sisterEvent xmlss:2014;
+  xlswc:relatedEvent xmlprague:2015 ;
+  xlswc:relatedEvent xmlprague:2013 ;
+  rdfs:label "XML Prague 2014" .
+
+xmlss:2014 a swc:AcademicEvent ;
+  xlswc:sisterEvent xmllondon:2014 ;
+  xlswc:sisterEvent xmlprague:2014 ;
+  xlswc:relatedEvent xmlss:2015 ;
+  xlswc:relatedEvent xmlss:2013 ;
+  rdfs:label "XML Summer School 2014" .
+
+## XML Amsterdam 2014 never happened.
+
+
+## 2013 ##
+
+xmlprague:2013 a swc:ConferenceEvent ;
+  xlswc:sisterEvent xmllondon:2013 ;
+  xlswc:sisterEvent xmlss:2013 ;
+  xlswc:relatedEvent xmlprague:2014 ;
+  xlswc:relatedEvent xmlprague:2015 ;
+  rdfs:label "XML Prague 2013" .
+
+xmlss:2013 a swc:AcademicEvent ;
+  xlswc:sisterEvent xmllondon:2013 ;
+  xlswc:sisterEvent xmlprague:2013 ;
+  xlswc:relatedEvent xmlss:2015 ;
+  xlswc:relatedEvent xmlss:2014 ;
+  rdfs:label "XML Summer School 2013" .
+
+xmlamsterdam:2013 a swc:OrganisedEvent ;
+  xlswc:sisterEvent xmllondon:2013 ;
+  xlswc:sisterEvent xmlprague:2013 ;
+  rdfs:label "XML Amsterdam 2013" .
+

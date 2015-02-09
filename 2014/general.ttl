@@ -5,23 +5,30 @@
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
 
 <http://data.semanticweb.org/conference/xmllondon/2014> a swc:ConferenceEvent ;
   rdfs:label "XML London 2014" ;
   swc:hasRelatedDocument <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2014/chair> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
-  swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
-  swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
-  swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> ;
-  foaf:based_near <http://dbpedia.org/resource/London> .
-
-# ConferenceVenuePlace
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  xlswc:sisterEvent <http://www.xmlprague.cz/2014> ;
+  xlswc:sisterEvent <http://xmlsummerschool.com/2014> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/marklogic> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/3ksoftware> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/appsoft-technologies> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/syncro-soft> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/saxonica> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/antenna-house> ;
+  swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> .
 
 <http://data.semanticweb.org/conference/xmllondon/2014/chair> a swc:Chair ;
   swc:heldBy <http://data.semanticweb.org/person/charles-foster>;
   swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> ;
-  rdfs:label "2014 Conference Chair" .
+  rdfs:label "2014 Chair" .
 
 <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> a swc:Proceedings ;
   rdfs:label "2014 Conference Proceedings" ;
@@ -48,7 +55,7 @@
   swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> ;
   swc:heldBy <http://data.semanticweb.org/person/abel-braaksma> ,
              <http://data.semanticweb.org/person/adam-retter> ,
-             <http://data.semanticweb.org/person/charles-foster> , 
+             <http://data.semanticweb.org/person/charles-foster> ,
              <http://data.semanticweb.org/person/christian-gruen> ,
              <http://data.semanticweb.org/person/eric-van-der-vlist> ,
              <http://data.semanticweb.org/person/james-fuller> ,

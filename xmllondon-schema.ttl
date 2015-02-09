@@ -1,0 +1,27 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
+
+xlswc:sisterEvent a owl:ObjectProperty ;
+  rdfs:domain swc:OrganisedEvent ;
+  rdfs:range swc:OrganisedEvent ;
+  rdfs:label "Sister Event" .
+
+xlswc:relatedEvent a owl:ObjectProperty ;
+  rdfs:domain swc:OrganisedEvent ;
+  rdfs:range foaf:OrganisedEvent ;
+  rdfs:label "Related Event" .
+
+xlswc:sponsoredBy a owl:ObjectProperty ;
+  rdfs:domain swc:OrganisedEvent ;
+  rdfs:range foaf:Organization ;
+	owl:inverseOf xlswc:sponsorsEvent ;
+  rdfs:label "Sponsored By" .
+
+xlswc:sponsorsEvent a owl:ObjectProperty ;
+  rdfs:domain foaf:Organization ;
+  rdfs:range swc:OrganisedEvent ;
+	owl:inverseOf xlswc:sponsoredBy ;
+  rdfs:label "Sponsors Event" .

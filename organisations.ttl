@@ -11,6 +11,7 @@
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
 @prefix dbpedia: <http://dbpedia.org/> .
 @prefix org:        <http://www.w3.org/ns/org#> .
+@prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
 
 <http://data.semanticweb.org/organization/marklogic> a foaf:Organization ; a org:Organization ;
   owl:sameAs <http://dbpedia.org/resource/MarkLogic> ;
@@ -18,6 +19,8 @@
   foaf:name "MarkLogic Corporation" ;
   foaf:homepage	<http://www.marklogic.com/> ;
   wiki:homepage	<http://en.wikipedia.org/wiki/MarkLogic> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
   dbpedia:about	<http://dbpedia.org/page/MarkLogic> .
 
 <http://data.semanticweb.org/organization/fasterxml> a foaf:Organization ; a org:Organization ;
@@ -28,6 +31,8 @@
 <http://data.semanticweb.org/organization/saxonica> a foaf:Organization ; a org:Organization ;
   rdfs:label "Saxonica" ;
   foaf:name	"Saxonica" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
   foaf:homepage	<http://saxonica.com/> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> a foaf:Organization ; a org:Organization ;
@@ -54,13 +59,17 @@
   foaf:homepage	<http://ox.ac.uk/> .
 
 <http://data.semanticweb.org/organization/syncro-soft> a foaf:Organization ; a org:Organization ;
-  rdfs:label "SyncRO Soft" ;
+  rdfs:label "oXygen" ;
   foaf:name	"SyncRO Soft" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
   foaf:homepage	<http://www.sync.ro/> .
 
 <http://data.semanticweb.org/organization/antenna-house> a foaf:Organization ; a org:Organization ;
   rdfs:label "Antenna House" ;
   foaf:name	"Antenna House" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   foaf:homepage	<http://www.antennahouse.com/> .
 
 <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> a foaf:Organization ; a org:Organization ;
@@ -97,29 +106,26 @@
 <http://data.semanticweb.org/organization/mercator-it-solutions> a foaf:Organization ; a org:Organization ;
   rdfs:label "Mercator IT Solutions Ltd" ;
   foaf:name	"Mercator IT Solutions Ltd" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   foaf:homepage	<http://www.mercatorit.com/> .
 
 <http://data.semanticweb.org/organization/overstory-consulting> a foaf:Organization ; a org:Organization ;
   rdfs:label "OverStory Consulting Ltd" ;
   foaf:name	"OverStory Consulting Ltd" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   foaf:homepage	<http://www.overstory.co.uk/> .
 
 <http://data.semanticweb.org/organization/3ksoftware> a foaf:Organization ; a org:Organization ;
   rdfs:label "3Ksoftware" ;
   foaf:name	"3Ksoftware" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   foaf:homepage	<http://www.3ksoftware.com/> .
 
 <http://data.semanticweb.org/organization/appsoft-technologies> a foaf:Organization ; a org:Organization ;
-  rdfs:label "appsoft Technologies" ;
+  rdfs:label "Xeditor" ;
   foaf:name	"appsoft Technologies" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   foaf:homepage	<http://www.appsoft.de/> .
-
-# [todo]: http://www.ic.uff.br
-# [todo]: kode1100
-# [todo]: oppidoc
-# [todo]: abrasoft
-
-
 
 ## XML Guild
 
@@ -127,3 +133,35 @@
   rdfs:label "XML Guild" ;
   foaf:name "XML Guild" ;
   foaf:homepage <http://xmlguild.org/> .
+
+## XML Conferences / Events
+
+# <http://xmllondon.com> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "XML London" ;
+#   foaf:name "XML London" ;
+#   foaf:homepage <http://xmllondon.com/> .
+
+# <http://www.xmlprague.cz> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "XML Prague" ;
+#   foaf:name "XML Prague" ;
+#   foaf:homepage <http://www.xmlprague.cz/> .
+
+# <http://www.xmlamsterdam.com> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "XML Amsterdam" ;
+#   foaf:name "XML Amsterdam" ;
+#   foaf:homepage <http://www.xmlamsterdam.com/> .
+
+# <http://xmlsummerschool.com> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "XML Summer School" ;
+#   foaf:name "XML Summer School" ;
+#   foaf:homepage <http://xmlsummerschool.com/> .
+
+# <http://www.balisage.net> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "Balisage" ;
+#   foaf:name "Balisage" ;
+#   foaf:homepage <http://www.balisage.net/> .
+
+# <http://http://www.markupforum.de> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "<markupforum/>" ;
+#   foaf:name "<markupforum/>" ;
+#   foaf:homepage <http://www.markupforum.de/> .

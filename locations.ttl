@@ -6,12 +6,24 @@
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix twitter: <https://twitter.com/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.ucl.ac.uk/buildings/roberts-engineering-building> a swc:ConferenceVenuePlace ;
+<http://www.ucl.ac.uk/buildings/roberts-engineering-building>
+  a swc:ConferenceVenuePlace ; a vcard:Address ;
+
   rdfs:label "Roberts Engineering Building (UCL)" ;
   swc:isLocationFor <http://data.semanticweb.org/conference/xmllondon/2013> ;
   swc:isLocationFor <http://data.semanticweb.org/conference/xmllondon/2014> ;
   swc:isLocationFor <http://data.semanticweb.org/conference/xmllondon/2015> ;
   geo:lat "51.522676"^^xsd:float ;
   geo:long "-0.132083"^^xsd:float ;
+  foaf:OnlineAccount twitter:uclengineering ;
+  foaf:based_near <http://dbpedia.org/resource/London> ;
+  foaf:depiction <http://xmllondon.com/images/roberts-building.png> ;
+  vcard:postal-code "WC1E 6BT" ;
+  vcard:country-name "United Kingdom" ;
+  vcard:street-address "Engineering Front Building, Torrington Place" ;
+  vcard:locality "London" .
 
+twitter:uclengineering foaf:accountServiceHomepage <http://twitter.com/> .
