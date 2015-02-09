@@ -5,7 +5,7 @@
 @prefix xmllondon: <http://data.semanticweb.org/conference/xmllondon/> .
 @prefix xmlprague: <http://www.xmlprague.cz/> .
 @prefix xmlss: <http://xmlsummerschool.com/> .
-@prefix xmlamsterdam.com: <http://xmlamsterdam.com/> .
+@prefix xmlamsterdam: <http://xmlamsterdam.com/> .
 
 ## 2015 ##
 
@@ -55,6 +55,7 @@ xmlss:2014 a swc:AcademicEvent ;
 xmlprague:2013 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmllondon:2013 ;
   xlswc:sisterEvent xmlss:2013 ;
+  xlswc:sisterEvent xmlamsterdam:2013 ;
   xlswc:relatedEvent xmlprague:2014 ;
   xlswc:relatedEvent xmlprague:2015 ;
   rdfs:label "XML Prague 2013" .
