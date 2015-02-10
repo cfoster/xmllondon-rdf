@@ -85,9 +85,10 @@
       <xsl:apply-templates select="contributors/person_name" />
       <swc:relatedToEvent rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
 
-      <xsl:if test="paper-thumbnail">
-        <foaf:depiction rdf:resource="{paper-thumbnail/string()}"/>
-      </xsl:if>
+      <foaf:depiction rdf:resource="{
+        fn:concat('http://xmllondon.com/', $year, '/images/thumbnails/papers/', $surname-normalized, '.gif')
+      }"/>
+
     </Description>
 
     <xsl:if test="slides-url">
@@ -103,7 +104,9 @@
         </rdfs:label>
         <swc:relatedToEvent rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
         <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
-        <foaf:depiction rdf:resource="{slides-thumbnail/string()}"/>
+        <foaf:depiction rdf:resource="{
+          fn:concat('http://xmllondon.com/', $year, '/images/thumbnails/slides/', $surname-normalized, '.gif')
+        }"/>
       </Description>
     </xsl:if>
 
@@ -136,9 +139,9 @@
         <swc:hasRelatedDocument rdf:resource="{slides-url/string()}" />
       </xsl:if>
 
-      <xsl:if test="presentation-photo">
-        <foaf:depiction rdf:resource="{presentation-photo/string()}"/>
-      </xsl:if>
+      <foaf:depiction rdf:resource="{
+        fn:concat('http://xmllondon.com/', $year, '/images/', $surname-normalized, '-speaking.jpg')
+      }"/>
 
     </Description>
 

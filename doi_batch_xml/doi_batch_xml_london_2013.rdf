@@ -41,6 +41,7 @@
       <dc:identifier>doi:10.14337/XMLLondon13.Bleeken01</dc:identifier>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/nick-van-den-bleeken"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/bleeken"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/bleeken.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/nick-van-den-bleeken">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/bleeken"/>
@@ -51,6 +52,7 @@
       <rdfs:label>Nick Van den Bleeken's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/nick-van-den-bleeken"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/bleeken"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/bleeken-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/vlist">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -66,6 +68,7 @@
       <dc:identifier>doi:10.14337/XMLLondon13.Vlist01</dc:identifier>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/vlist"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/vlist.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/eric-van-der-vlist">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/vlist"/>
@@ -76,6 +79,7 @@
       <rdfs:label>Eric Van der Vlist's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/vlist"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/vlist-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/delpratt">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -91,6 +95,7 @@
       <dc:identifier>doi:10.14337/XMLLondon13.Delpratt01</dc:identifier>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/oneil-delpratt"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/delpratt"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/delpratt.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/oneil-delpratt">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/delpratt"/>
@@ -101,6 +106,7 @@
       <rdfs:label>O'Neil Delpratt's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/oneil-delpratt"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/delpratt"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/delpratt-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/hillman">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -117,6 +123,7 @@
       <dc:creator rdf:resource="http://data.semanticweb.org/person/tomos-hillman"/>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/richard-pineger"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/hillman"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/hillman.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/tomos-hillman">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/hillman"/>
@@ -127,6 +134,7 @@
       <rdfs:label>Tomos Hillman's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/tomos-hillman"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/hillman"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/hillman-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/whitaker">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -143,6 +151,7 @@
       <dc:creator rdf:resource="http://data.semanticweb.org/person/nigel-whitaker"/>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/robin-la-fontaine"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/whitaker"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/whitaker.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/nigel-whitaker">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/whitaker"/>
@@ -153,6 +162,7 @@
       <rdfs:label>Nigel Whitaker's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/nigel-whitaker"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/whitaker"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/whitaker-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/cuellar">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -170,6 +180,7 @@
       <dc:creator rdf:resource="http://data.semanticweb.org/person/paul-topping"/>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/bob-mathews"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/cuellar"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/cuellar.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/autumn-cuellar">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/cuellar"/>
@@ -180,6 +191,7 @@
       <rdfs:label>Autumn Cuellar's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/autumn-cuellar"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/cuellar"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/cuellar-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/sire">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -196,6 +208,7 @@
       <dc:creator rdf:resource="http://data.semanticweb.org/person/stephane-sire"/>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/christine-vanoirbeek"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/sire"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/sire.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/stephane-sire">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/sire"/>
@@ -206,6 +219,7 @@
       <rdfs:label>Stéphane Sire's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/stephane-sire"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/sire"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/sire-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/fennell">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -221,6 +235,7 @@
       <dc:identifier>doi:10.14337/XMLLondon13.Fennell01</dc:identifier>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/fennell"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/fennell.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/philip-fennell">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/fennell"/>
@@ -231,6 +246,7 @@
       <rdfs:label>Philip Fennell's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/fennell"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/fennell-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/walpole">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -246,6 +262,7 @@
       <dc:identifier>doi:10.14337/XMLLondon13.Walpole01</dc:identifier>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/rob-walpole"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/walpole"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/walpole.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/rob-walpole">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/walpole"/>
@@ -256,6 +273,7 @@
       <rdfs:label>Rob Walpole's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/rob-walpole"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/walpole"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/walpole-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/dolbear">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -272,6 +290,7 @@
       <dc:creator rdf:resource="http://data.semanticweb.org/person/catherine-dolbear"/>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/shaun-mcdonald"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/dolbear"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/dolbear.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/catherine-dolbear">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/dolbear"/>
@@ -282,6 +301,7 @@
       <rdfs:label>Catherine Dolbear's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/catherine-dolbear"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/dolbear"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/dolbear-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/fuller">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -297,6 +317,7 @@
       <dc:identifier>doi:10.14337/XMLLondon13.Fuller01</dc:identifier>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/fuller"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/fuller.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/james-fuller">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/fuller"/>
@@ -307,6 +328,7 @@
       <rdfs:label>James Fuller's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/fuller"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/fuller-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/braaksma">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -322,6 +344,7 @@
       <dc:identifier>doi:10.14337/XMLLondon13.Braaksma01</dc:identifier>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/braaksma"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/braaksma.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/abel-braaksma">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/braaksma"/>
@@ -332,6 +355,7 @@
       <rdfs:label>Abel Braaksma's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/braaksma"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/braaksma-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/warman">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -347,6 +371,7 @@
       <dc:identifier>doi:10.14337/XMLLondon13.Warman01</dc:identifier>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/adrian-warman"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/warman"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/warman.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/adrian-warman">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/warman"/>
@@ -357,6 +382,7 @@
       <rdfs:label>Adrian Warman's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/adrian-warman"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/warman"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/warman-speaking.jpg"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2013/paper/rahtz">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -373,6 +399,7 @@
       <dc:creator rdf:resource="http://data.semanticweb.org/person/sebastian-rahtz"/>
       <dc:creator rdf:resource="http://data.semanticweb.org/person/lou-burnard"/>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/rahtz"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/thumbnails/papers/rahtz.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/sebastian-rahtz">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presentation/rahtz"/>
@@ -383,5 +410,6 @@
       <rdfs:label>Sebastian Rahtz's 2013 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/sebastian-rahtz"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/paper/rahtz"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2013/images/rahtz-speaking.jpg"/>
    </Description>
 </RDF>

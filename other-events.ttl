@@ -7,6 +7,9 @@
 @prefix xmlss: <http://xmlsummerschool.com/> .
 @prefix xmlamsterdam: <http://xmlamsterdam.com/> .
 
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix twitter: <https://twitter.com/> .
+
 ## 2015 ##
 
 xmlprague:2015 a swc:ConferenceEvent ;
@@ -14,6 +17,10 @@ xmlprague:2015 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmlss:2015 ;
   xlswc:relatedEvent xmlprague:2014 ;
   xlswc:relatedEvent xmlprague:2013 ;
+  foaf:depiction <http://xmllondon.com/images/xml-prague-180.gif> ;
+  foaf:homepage <http://www.xmlprague.cz/> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Prague-1107047/about> ;
+  foaf:OnlineAccount twitter:xmlprague ;
   rdfs:label "XML Prague 2015" .
 
 xmlss:2015 a swc:AcademicEvent ;
@@ -21,6 +28,10 @@ xmlss:2015 a swc:AcademicEvent ;
   xlswc:sisterEvent xmlprague:2015 ;
   xlswc:relatedEvent xmlss:2014 ;
   xlswc:relatedEvent xmlss:2013 ;
+  foaf:depiction <http://xmllondon.com/images/xmlss.png> ;
+  foaf:homepage <http://xmlsummerschool.com/> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Summer-School-2043439/about> ;
+  foaf:OnlineAccount twitter:xmlsummerschool ;
   rdfs:label "XML Summer School 2015" .
 
 ## Wait until XML Amsterdam have announced dates (2014 never happened). ##
@@ -38,6 +49,10 @@ xmlprague:2014 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmlss:2014;
   xlswc:relatedEvent xmlprague:2015 ;
   xlswc:relatedEvent xmlprague:2013 ;
+  foaf:depiction <http://xmllondon.com/images/xml-prague-180.gif> ;
+  foaf:homepage <http://www.xmlprague.cz/> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Prague-1107047/about> ;
+  foaf:OnlineAccount twitter:xmlprague ;
   rdfs:label "XML Prague 2014" .
 
 xmlss:2014 a swc:AcademicEvent ;
@@ -45,6 +60,10 @@ xmlss:2014 a swc:AcademicEvent ;
   xlswc:sisterEvent xmlprague:2014 ;
   xlswc:relatedEvent xmlss:2015 ;
   xlswc:relatedEvent xmlss:2013 ;
+  foaf:depiction <http://xmllondon.com/images/xmlss.png> ;
+  foaf:homepage <http://xmlsummerschool.com/> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Summer-School-2043439/about> ;
+  foaf:OnlineAccount twitter:xmlsummerschool ;
   rdfs:label "XML Summer School 2014" .
 
 ## XML Amsterdam 2014 never happened.
@@ -58,6 +77,10 @@ xmlprague:2013 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmlamsterdam:2013 ;
   xlswc:relatedEvent xmlprague:2014 ;
   xlswc:relatedEvent xmlprague:2015 ;
+  foaf:depiction <http://xmllondon.com/images/xml-prague-180.gif> ;
+  foaf:homepage <http://www.xmlprague.cz/> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Prague-1107047/about> ;
+  foaf:OnlineAccount twitter:xmlprague ;
   rdfs:label "XML Prague 2013" .
 
 xmlss:2013 a swc:AcademicEvent ;
@@ -65,10 +88,18 @@ xmlss:2013 a swc:AcademicEvent ;
   xlswc:sisterEvent xmlprague:2013 ;
   xlswc:relatedEvent xmlss:2015 ;
   xlswc:relatedEvent xmlss:2014 ;
+  foaf:depiction <http://xmllondon.com/images/xmlss.png> ;
+  foaf:homepage <http://xmlsummerschool.com/> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Summer-School-2043439/about> ;
+  foaf:OnlineAccount twitter:xmlsummerschool ;
   rdfs:label "XML Summer School 2013" .
 
 xmlamsterdam:2013 a swc:OrganisedEvent ;
   xlswc:sisterEvent xmllondon:2013 ;
   xlswc:sisterEvent xmlprague:2013 ;
+  foaf:depiction <http://xmllondon.com/images/logo-xml-amsterdam.gif> ;
+  foaf:homepage <http://www.xmlamsterdam.com/> ;
+  foaf:OnlineAccount <https://www.linkedin.com/groups/XMLAmsterdam-4306747> ;
+  foaf:OnlineAccount twitter:xmlsummerschool ;
   rdfs:label "XML Amsterdam 2013" .
 
