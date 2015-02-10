@@ -1,0 +1,48 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
+
+<http://data.semanticweb.org/conference/xmllondon/2015> a swc:ConferenceEvent ;
+  rdfs:label "XML London 2015" ;
+#  swc:hasRelatedDocument <http://data.semanticweb.org/conference/xmllondon/2015/proceedings> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
+#  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:sisterEvent <http://www.xmlprague.cz/2015> ;
+  xlswc:sisterEvent <http://xmlsummerschool.com/2015> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/marklogic> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/syncro-soft> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/saxonica> ;
+  swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> .
+
+<http://data.semanticweb.org/conference/xmllondon/2015/chair> a swc:Chair ;
+  swc:heldBy <http://data.semanticweb.org/person/charles-foster>;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  rdfs:label "2015 Chair" .
+
+<http://data.semanticweb.org/conference/xmllondon/2015/pcmember> a swc:ProgrammeCommitteeMember ;
+  rdfs:label "2015 Programme Committee Member" ;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  swc:heldBy <http://data.semanticweb.org/person/abel-braaksma> ,
+             <http://data.semanticweb.org/person/adam-retter> ,
+             <http://data.semanticweb.org/person/charles-foster> ,
+             <http://data.semanticweb.org/person/christian-gruen> ,
+             <http://data.semanticweb.org/person/eric-van-der-vlist> ,
+             <http://data.semanticweb.org/person/james-fuller> ,
+             <http://data.semanticweb.org/person/john-snelson> ,
+             <http://data.semanticweb.org/person/lars-windauer> ,
+             <http://data.semanticweb.org/person/mohamed-zergaoui> ,
+             <http://data.semanticweb.org/person/norman-walsh> ,
+             <http://data.semanticweb.org/person/philip-fennell> .
+
+# someone who spoke at XML London
+<http://data.semanticweb.org/conference/xmllondon/2015/presenter> a swc:Presenter ;
+  rdfs:label "2015 Presenter" ;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2015> .

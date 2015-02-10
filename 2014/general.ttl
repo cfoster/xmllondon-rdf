@@ -33,7 +33,6 @@
 <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> a swc:Proceedings ;
   rdfs:label "2014 Conference Proceedings" ;
   dc:identifier "ISBN:978-0-9926471-1-7" ;
-  swc:editorList <http://data.semanticweb.org/conference/xmllondon/2014/proceedings/editor-list> ;
   swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2014/paper/kay> ,
               <http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma> ,
               <http://data.semanticweb.org/conference/xmllondon/2014/paper/kohl> ,
@@ -68,4 +67,19 @@
 # someone who spoke at XML London
 <http://data.semanticweb.org/conference/xmllondon/2014/presenter> a swc:Presenter ;
   rdfs:label "2014 Presenter" ;
-  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> .
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  swc:heldBy <http://data.semanticweb.org/person/michael-kay> ,
+             <http://data.semanticweb.org/person/abel-braaksma> ,
+             <http://data.semanticweb.org/person/matt-kohl> ,
+             <http://data.semanticweb.org/person/william-narmontas> ,
+             <http://data.semanticweb.org/person/george-bina> ,
+             <http://data.semanticweb.org/person/elias-weingaertner> ,
+             <http://data.semanticweb.org/person/celina-huang> ,
+             <http://data.semanticweb.org/person/steven-pemberton> ,
+             <http://data.semanticweb.org/person/philip-fennell> ,
+             <http://data.semanticweb.org/person/kal-ahmed> ,
+             <http://data.semanticweb.org/person/robbert-broersma> ,
+             <http://data.semanticweb.org/person/jorge-williams> ,
+             <http://data.semanticweb.org/person/eduardo-goncalves> ,
+             <http://data.semanticweb.org/person/lech-rzedzicki> ,
+             <http://data.semanticweb.org/person/eric-van-der-vlist> .
