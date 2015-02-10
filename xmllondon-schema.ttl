@@ -25,3 +25,15 @@ xlswc:sponsorsEvent a owl:ObjectProperty ;
   rdfs:range swc:OrganisedEvent ;
 	owl:inverseOf xlswc:sponsoredBy ;
   rdfs:label "Sponsors Event" .
+
+xlswc:talkGivenBy a owl:ObjectProperty ;
+  rdfs:domain swc:TalkEvent ;
+  rdfs:range foaf:Person ;
+	owl:inverseOf xlswc:gaveTalk ;
+  rdfs:label "Had Speaker" .
+
+xlswc:gaveTalk a owl:ObjectProperty ;
+  rdfs:domain foaf:Person ;
+  rdfs:range swc:TalkEvent ;
+	owl:inverseOf xlswc:talkGivenBy ;
+  rdfs:label "Gave Talk" .

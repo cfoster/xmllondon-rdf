@@ -419,6 +419,10 @@
           <doi>10.14337/XMLLondon14.Williams01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Williams01</resource>
         </doi_data>
+
+        <slides-url>http://xmllondon.com/2014/slides/UsageSchemas.pdf</slides-url>
+        <slides-thumbnail>http://xmllondon.com/2014/images/thumbnails/jorge.png</slides-thumbnail>
+
       </conference_paper>
 
       <conference_paper language="en">
