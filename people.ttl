@@ -257,8 +257,9 @@ twitter:autumnc foaf:accountServiceHomepage  <http://twitter.com/> .
   foaf:name "Philip Fennell" ;
   foaf:workplaceHomepage <http://www.marklogic.com/> ;
   foaf:OnlineAccount <http://uk.linkedin.com/in/philipfennell> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Philip-Fennell.jpg> ;
   foaf:OnlineAccount twitter:philipfennell ;
+  foaf:OnlineAccount github:philipfennell ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Philip-Fennell.jpg> ;
   org:memberOf <http://data.semanticweb.org/organization/marklogic> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
