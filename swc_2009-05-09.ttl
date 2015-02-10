@@ -414,7 +414,6 @@ swc:relatedToEvent a owl:ObjectProperty ;
 	rdfs:domain swc:ArgumentativeDocument ;
 	rdfs:range swc:AcademicEvent ;
 	owl:inverseOf swc:hasRelatedDocument ;
-	rdfs:label "related to event" ;
 	rdfs:comment """<p>
 				Relates a <a href=\"#ArgumentativeDocument\">document</a> to an <a href=\"#AcademicEvent\">event</a> such as a conference, workshop, etc.
 			</p>""" .
@@ -425,13 +424,11 @@ swc:hasRelatedDocument a owl:ObjectProperty ;
 	rdfs:domain swc:AcademicEvent ;
 	rdfs:range swc:ArgumentativeDocument ;
 	owl:inverseOf swc:relatedToEvent ;
-	rdfs:label "has related document" ;
 	rdfs:comment """<p>
 				Relates an <a href=\"#AcademicEvent\">event</a> such as a conference, workshop, etc. to a <a href=\"#ArgumentativeDocument\">document</a>.
 			</p>""" .
 
 swc:isSubEventOf a owl:TransitiveProperty ;
-	rdfs:label "is a sub-event of" ;
 	vs:term_status "testing" ;
 	rdfs:domain ical:Vevent ;
 	rdfs:range ical:Vevent ;
@@ -455,12 +452,6 @@ swc:memberOf a owl:ObjectProperty ;
 	owl:inverseOf foaf:member ;
 	rdfs:label "member of" ;
 	rdfs:comment "<p>FOAF does not define an inverse of <code>foaf:member</code>, so SWC does it.</p>" .
-
-swc:relatedToEvent a owl:ObjectProperty ;
-	vs:term_status "testing" ;
-	rdfs:domain swc:Artefact ;
-	rdfs:range swc:AcademicEvent ;
-	rdfs:label "related to event" .
 
 swc:hasLocation a owl:ObjectProperty ;
 	vs:term_status "testing" ;

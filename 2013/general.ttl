@@ -31,6 +31,7 @@
 <http://data.semanticweb.org/conference/xmllondon/2013/proceedings> a swc:Proceedings ;
   rdfs:label "2013 Conference Proceedings" ;
   dc:identifier "978-0-9926471-0-0" ;
+  swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2013/paper/bleeken> ,
               <http://data.semanticweb.org/conference/xmllondon/2013/paper/vlist> ,
               <http://data.semanticweb.org/conference/xmllondon/2013/paper/delpratt> ,

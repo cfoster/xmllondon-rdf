@@ -66,7 +66,7 @@
       <rdfs:label>
         <xsl:value-of select='
           concat(contributors/person_name[1]/given_name, " ",
-                 contributors/person_name[1]/surname, "&apos;s paper")
+                 contributors/person_name[1]/surname, "&apos;s ", $year, " paper")
         ' />
       </rdfs:label>
 
@@ -81,7 +81,6 @@
       <owl:sameAs rdf:resource="{concat('http://dx.doi.org/', f:doi(.))}" />
 
       <dc:identifier>doi:<xsl:value-of select="f:doi(.)"/></dc:identifier>
-      <bibo:doi><xsl:value-of select="f:doi(.)"/></bibo:doi>
 
       <xsl:apply-templates select="contributors/person_name" />
       <swc:relatedToEvent rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
@@ -99,7 +98,7 @@
         <rdfs:label>
           <xsl:value-of select='
             concat(contributors/person_name[1]/given_name, " ",
-                   contributors/person_name[1]/surname, "&apos;s slides")
+                   contributors/person_name[1]/surname, "&apos;s ", $year, " slides")
           ' />
         </rdfs:label>
         <swc:relatedToEvent rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
@@ -108,31 +107,28 @@
       </Description>
     </xsl:if>
 
+    <Description rdf:about="{
+      fn:concat('http://data.semanticweb.org/person/',
+      f:normalized-complete-name(contributors/person_name[1]))}">
+      <xlswc:gaveTalk rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
+    </Description>
+
     <Description rdf:about="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}">
 
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
 
+      <swc:isSubEventOf rdf:resource="{f:dog-food-uri('')}" />
+
       <rdfs:label>
         <xsl:value-of select='
           concat(contributors/person_name[1]/given_name, " ",
-                 contributors/person_name[1]/surname, "&apos;s talk")
+                 contributors/person_name[1]/surname, "&apos;s ", $year, " talk")
         ' />
       </rdfs:label>
 
       <xlswc:talkGivenBy rdf:resource="{
         fn:concat('http://data.semanticweb.org/person/',
         f:normalized-complete-name(contributors/person_name[1]))}" />
-
-      <Description rdf:about="{
-        fn:concat('http://data.semanticweb.org/person/',
-        f:normalized-complete-name(contributors/person_name[1]))}">
-        <xlswc:gaveTalk rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
-      </Description>
-      <swc:isSubEventOf rdf:resource="{f:dog-food-uri('')}" />
-
-      <Description rdf:about="{f:dog-food-uri('')}">
-        <swc:isSuperEventOf rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
-      </Description>
 
       <swc:hasRelatedDocument rdf:resource="{f:dog-food-uri(fn:concat('/paper/', $surname-normalized))}" />
 

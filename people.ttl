@@ -9,7 +9,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
-@prefix citeulike: <http://www.citeulike.org/> .
+# @prefix citeulike: <http://www.citeulike.org/> . # just not famous enough
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
 @prefix dbpedia: <http://dbpedia.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -35,8 +35,8 @@
   org:memberOf <http://xmlguild.org> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
-  citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .
+#  citeulike:author <http://www.citeulike.org/author/Foster:Charles> .
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/charles-foster> .
 <http://uk.linkedin.com/in/marklogic> foaf:accountServiceHomepage
@@ -54,8 +54,8 @@ github:cfoster foaf:accountServiceHomepage <https://github.com/> .
   foaf:OnlineAccount twitter:cowtowncoder ;
   org:memberOf <http://data.semanticweb.org/organization/fasterxml> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Tatu-Saloranta.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Saloranta:Tatu> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Tatu-Saloranta.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Saloranta:Tatu> .
 
 <http://data.semanticweb.org/organization/fasterxml> foaf:member
   <http://data.semanticweb.org/person/tatu-saloranta> .
@@ -75,8 +75,8 @@ twitter:cowtowncoder foaf:accountServiceHomepage
   foaf:workplaceHomepage <http://www.inventivegroup.com/> ;
   foaf:OnlineAccount <http://be.linkedin.com/in/nvdbleek> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Nick-Van-den-Bleeken.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Van%20den%20Bleeken:Nick> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Nick-Van-den-Bleeken.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Van%20den%20Bleeken:Nick> .
 
 <http://be.linkedin.com/in/nvdbleek> foaf:accountServiceHomepage
   <http://www.linkedin.com/> .
@@ -98,8 +98,8 @@ twitter:nvdbleek foaf:accountServiceHomepage
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Eric-Van-Der-Vlist.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Van%20Der%20Vlist:Eric> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Eric-Van-Der-Vlist.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Van%20Der%20Vlist:Eric> .
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/eric-van-der-vlist> .
 <http://fr.linkedin.com/in/evlist> foaf:accountServiceHomepage
@@ -118,8 +118,8 @@ twitter:evlist foaf:accountServiceHomepage
   org:memberOf <http://data.semanticweb.org/organization/saxonica> ;
   foaf:workplaceHomepage <http://www.saxonica.com/> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/ONeil-Delpratt.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Delpratt:O'Neil> .
+  foaf:depiction <http://xmllondon.com/images/depiction/ONeil-Delpratt.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Delpratt:O'Neil> .
 
 <http://data.semanticweb.org/organization/saxonica> foaf:member
   <http://data.semanticweb.org/person/oneil-delpratt> .
@@ -137,8 +137,8 @@ twitter:ond1 foaf:accountServiceHomepage
   foaf:OnlineAccount <http://uk.linkedin.com/pub/tomos-hillman/12/636/7> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Tomos-Hillman.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Hillman:Tomos> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Tomos-Hillman.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Hillman:Tomos> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
   <http://data.semanticweb.org/person/tomos-hillman> .
@@ -156,8 +156,8 @@ twitter:tom_yamahito foaf:accountServiceHomepage
   foaf:homepage <http://lanyrd.com/profile/rpin42> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Richard-Pineger.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Pineger:Richard> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Richard-Pineger.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Pineger:Richard> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
   <http://data.semanticweb.org/person/richard-pineger> .
@@ -172,8 +172,8 @@ twitter:tom_yamahito foaf:accountServiceHomepage
   org:memberOf <http://data.semanticweb.org/organization/deltaxml> ;
   foaf:OnlineAccount <http://uk.linkedin.com/pub/nigel-whitaker/5b/a3b/7b1> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/speakers/Nigel-Whitaker.png> ;
-  citeulike:author <http://www.citeulike.org/author/Whitaker:Nigel> .
+  foaf:depiction <http://xmllondon.com/images/speakers/Nigel-Whitaker.png> .
+#  citeulike:author <http://www.citeulike.org/author/Whitaker:Nigel> .
 
 <http://data.semanticweb.org/organization/deltaxml> foaf:member
   <http://data.semanticweb.org/person/nigel-whitaker> .
@@ -190,8 +190,8 @@ twitter:tom_yamahito foaf:accountServiceHomepage
   foaf:workplaceHomepage <http://www.deltaxml.com/> ;
   foaf:OnlineAccount <http://uk.linkedin.com/in/robinlafontaine> ;
   org:memberOf <http://data.semanticweb.org/organization/deltaxml> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Robin-La-Fontaine.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/La%20Fontaine:Robin> . # stop putting spaces in URIS
+  foaf:depiction <http://xmllondon.com/images/depiction/Robin-La-Fontaine.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/La%20Fontaine:Robin> . # stop putting spaces in URIS
 
 <http://data.semanticweb.org/organization/deltaxml> foaf:member
   <http://data.semanticweb.org/person/robin-la-fontaine> .
@@ -207,8 +207,8 @@ twitter:tom_yamahito foaf:accountServiceHomepage
   foaf:OnlineAccount <http://www.linkedin.com/pub/autumn-cuellar/5/857/b47> ;
   foaf:OnlineAccount twitter:autumnc ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Autumn-Cuellar.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Cuellar:Autumn> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Autumn-Cuellar.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Cuellar:Autumn> .
 
 <http://www.linkedin.com/pub/autumn-cuellar/5/857/b47> foaf:accountServiceHomepage
   <http://www.linkedin.com/> .
@@ -221,8 +221,8 @@ twitter:autumnc foaf:accountServiceHomepage  <http://twitter.com/> .
   foaf:name "Paul Topping" ;
   foaf:workplaceHomepage <https://www.dessci.com/en> ;
   foaf:OnlineAccount <http://www.linkedin.com/pub/paul-topping/0/17b/271> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Paul-Topping.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Topping:Paul> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Paul-Topping.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Topping:Paul> .
 
 <http://www.linkedin.com/pub/paul-topping/0/17b/271> foaf:accountServiceHomepage
   <http://www.linkedin.com/> .
@@ -235,8 +235,8 @@ twitter:autumnc foaf:accountServiceHomepage  <http://twitter.com/> .
   foaf:OnlineAccount <http://fr.linkedin.com/in/ssire> ;
   foaf:workplaceHomepage <http://www.oppidoc.fr/en/accueil> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Stephane-Sire.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Sire:Stephane> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Stephane-Sire.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Sire:Stephane> .
 
 <http://fr.linkedin.com/in/ssire> foaf:accountServiceHomepage
   <http://www.linkedin.com/> .
@@ -247,8 +247,8 @@ twitter:autumnc foaf:accountServiceHomepage  <http://twitter.com/> .
   foaf:firstName "Christine" ;
   foaf:name "Christine Vanoirbeek" ;
   foaf:workplaceHomepage <http://www.oppidoc.fr/en/accueil> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Christine-Vanoirbeek.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Vanoirbeek:Christine> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Christine-Vanoirbeek.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Vanoirbeek:Christine> .
 
 <http://data.semanticweb.org/person/philip-fennell> a foaf:Person ;
   rdfs:label "Philip Fennell" ;
@@ -265,8 +265,8 @@ twitter:autumnc foaf:accountServiceHomepage  <http://twitter.com/> .
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Fennell:Philip> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Fennell:Philip> .
 
 <http://data.semanticweb.org/organization/marklogic> foaf:member
   <http://data.semanticweb.org/person/philip-fennell> . 
@@ -284,8 +284,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:firstName "Rob" ;
   foaf:name "Rob Walpole" ;
   foaf:depiction <http://xmllondon.com/images/depiction/Rob-Walpole.jpg> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Walpole:Rob> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Walpole:Rob> .
 
 
 <http://data.semanticweb.org/person/catherine-dolbear> a foaf:Person ;
@@ -296,8 +296,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:workplaceHomepage <http://www.oup.com/> ;
   foaf:depiction <http://xmllondon.com/images/speakers/Catherine-Dolbear.png> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Dolbear:Catherine> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Dolbear:Catherine> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
   <http://data.semanticweb.org/person/catherine-dolbear> .
@@ -308,8 +308,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:firstName "Shaun" ;
   foaf:name "Shaun McDonald" ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
-  foaf:workplaceHomepage <http://www.oup.com/> ;
-  citeulike:author <http://www.citeulike.org/author/McDonald:Shaun> .
+  foaf:workplaceHomepage <http://www.oup.com/> .
+#  citeulike:author <http://www.citeulike.org/author/McDonald:Shaun> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
   <http://data.semanticweb.org/person/shaun-mcdonald> .
@@ -328,8 +328,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Fuller:James> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Fuller:James> .
 
 <http://dbpedia.org/resource/MarkLogic> foaf:member
   <http://data.semanticweb.org/person/james-fuller> . 
@@ -350,8 +350,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Abel-Braaksma.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Braaksma:Abel> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Abel-Braaksma.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Braaksma:Abel> .
 
 <http://data.semanticweb.org/person/adrian-warman> a foaf:Person ;
   rdfs:label "Adrian Warman" ;
@@ -362,8 +362,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount twitter:warmana ;
   org:memberOf <http://data.semanticweb.org/organization/ibm> ;
   foaf:depiction <http://xmllondon.com/images/depiction/Adrian-Warman.jpg> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Warman:Adrian> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Warman:Adrian> .
 
 <http://data.semanticweb.org/organization/ibm> foaf:member
   <http://data.semanticweb.org/person/adrian-warman> .
@@ -383,8 +383,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   org:memberOf <http://data.semanticweb.org/organization/university-of-oxford> ;
   foaf:depiction <http://xmllondon.com/images/depiction/Sebastian-Rahtz.jpg> ;
   foaf:homepage <http://users.ox.ac.uk/~Rahtz> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Rahtz:Sebastian> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Rahtz:Sebastian> .
 
 <http://data.semanticweb.org/organization/university-of-oxford> foaf:member
   <http://data.semanticweb.org/person/sebastian-rahtz> .
@@ -401,8 +401,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount <http://uk.linkedin.com/in/louburnard> ;
   foaf:OnlineAccount twitter:louBurnard ;
   foaf:homepage <http://users.ox.ac.uk/~lou> ;
-  foaf:weblog <http://louburnard.wordpress.com> ;
-  citeulike:author <http://www.citeulike.org/author/Burnard:Lou> .
+  foaf:weblog <http://louburnard.wordpress.com> .
+#  citeulike:author <http://www.citeulike.org/author/Burnard:Lou> .
 
 <http://data.semanticweb.org/person/michael-kay> a foaf:Person ;
   rdfs:label "Michael Kay" ;
@@ -418,8 +418,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   dbpedia:about <http://dbpedia.org/page/Michael_Howard_Kay> ;
   org:memberOf <http://xmlguild.org> ;
   org:memberOf <http://data.semanticweb.org/organization/saxonica> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Kay:Michael> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Kay:Michael> .
 
 <http://xmlguild.org> foaf:member
   <http://data.semanticweb.org/person/michael-kay> .
@@ -453,8 +453,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:workplaceHomepage <http://www.therightrhymes.com/> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
   foaf:weblog <http://blog.oxforddictionaries.com/author/matt-kohl> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Kohl:Matt> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Kohl:Matt> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> foaf:member
   <http://data.semanticweb.org/person/matt-kohl> .
@@ -467,8 +467,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:workplaceHomepage <http://www.oup.com/> ;
   foaf:workplaceHomepage <http://www.sandrocirulli.net/> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Cirulli:Sandro> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Cirulli:Sandro> .
 
 <http://data.semanticweb.org/person/phil-gooch> a foaf:Person ;
   rdfs:label "Phil Gooch" ;
@@ -478,8 +478,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount <http://uk.linkedin.com/in/philgooch> ;
   foaf:workplaceHomepage <http://www.oup.com/> ;
   foaf:depiction <http://xmllondon.com/images/depiction/Phil-Gooch.jpg> ;
-  foaf:homepage <http://student.city.ac.uk/~abdy181> ;
-  citeulike:author <http://www.citeulike.org/author/Gooch:Phil> .
+  foaf:homepage <http://student.city.ac.uk/~abdy181> .
+#  citeulike:author <http://www.citeulike.org/author/Gooch:Phil> .
 
 <http://data.semanticweb.org/person/dino-fancellu> a foaf:Person ;
   rdfs:label "Dino Fancellu" ;
@@ -490,8 +490,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount twitter:dinofancellu ;
   foaf:OnlineAccount github:fancellu ;
   foaf:homepage <http://www.dinofancellu.com/> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Dino-Fancellu.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Fancellu:Dino> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Dino-Fancellu.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Fancellu:Dino> .
 
 <http://data.semanticweb.org/person/george-bina> a foaf:Person ;
   rdfs:label "George Bina" ;
@@ -505,8 +505,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:workplaceHomepage <http://www.sync.ro/> ;
   foaf:depiction <http://xmllondon.com/images/depiction/George-Bina.jpg> ;
   org:memberOf <http://data.semanticweb.org/organization/syncro-soft> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Bina:George> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Bina:George> .
 
 <http://data.semanticweb.org/organization/syncro-soft> foaf:member
   <http://data.semanticweb.org/person/george-bina> .
@@ -521,8 +521,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount github:ScalaWilliam ;
   foaf:homepage <http://www.scalawilliam.com/> ;
   foaf:depiction <http://xmllondon.com/images/depiction/William-Narmontas.jpg> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Narmontas:William> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Narmontas:William> .
 
 <http://data.semanticweb.org/person/elias-weingartner> a foaf:Person ;
   owl:sameAs <http://data.semanticweb.org/person/elias-weingaertner> .
@@ -537,16 +537,16 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:homepage <http://www.weingaertner.org/> ;
   foaf:depiction <http://xmllondon.com/images/depiction/Elias-Weingaertner.jpg> ;
   foaf:weblog <http://www.weingaertner.org/> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Weingärtner:Elias> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Weingärtner:Elias> .
 
 <http://data.semanticweb.org/person/christoph-ludwig> a foaf:Person ;
   rdfs:label "Christoph Ludwig" ;
   foaf:family_name "Ludwig" ;
   foaf:firstName "Christoph" ;
   foaf:OnlineAccount <http://de.linkedin.com/pub/christoph-ludwig/7b/212/694> ;
-  foaf:name "Christoph Ludwig" ;
-  citeulike:author <http://www.citeulike.org/author/Ludwig:Christoph> .
+  foaf:name "Christoph Ludwig" .
+#  citeulike:author <http://www.citeulike.org/author/Ludwig:Christoph> .
 
 <http://data.semanticweb.org/person/celina-huang> a foaf:Person ;
   rdfs:label "Celina Huang" ;
@@ -557,8 +557,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:depiction <http://xmllondon.com/images/depiction/Celina-Huang.jpg> ;
   org:memberOf <http://data.semanticweb.org/organization/antenna-house> ;
   foaf:workplaceHomepage <http://www.antennahouse.com/> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Huang:Celina> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Huang:Celina> .
 
 <http://data.semanticweb.org/organization/antenna-house> foaf:member
   <http://data.semanticweb.org/person/celina-huang> .
@@ -573,8 +573,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount <http://nl.linkedin.com/in/stevenpemberton> ;
   foaf:OnlineAccount twitter:stevenpemberton ;
   org:memberOf <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author "http://www.citeulike.org/author/Pemberton:Steven" .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author "http://www.citeulike.org/author/Pemberton:Steven" .
 
 <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> foaf:member
   <http://data.semanticweb.org/person/steven-pemberton> .
@@ -591,8 +591,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount github:kal ;
   org:memberOf <http://xmlguild.org> ;
   org:memberOf <http://data.semanticweb.org/organization/networked-planet> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Ahmed:Kal> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Ahmed:Kal> .
 
 <http://xmlguild.org> foaf:member
   <http://data.semanticweb.org/person/kal-ahmed> .
@@ -611,8 +611,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount twitter:robbertbroersma ;
   foaf:OnlineAccount github:robbert ;
   org:memberOf <http://data.semanticweb.org/organization/frameless> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Broersma:Robbert> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Broersma:Robbert> .
 
 <http://data.semanticweb.org/organization/frameless> foaf:member
   <http://data.semanticweb.org/person/robbert-broersma> .
@@ -631,8 +631,8 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount <http://nl.linkedin.com/pub/yolijn-van-der-kolk/67/962/9a9/en> ;
   foaf:OnlineAccount twitter:yolijn ;
   foaf:OnlineAccount github:Yolijn ;
-  org:memberOf <http://data.semanticweb.org/organization/frameless> ;
-  citeulike:author <http://www.citeulike.org/author/van%20der%20Kolk:Yolijn> .
+  org:memberOf <http://data.semanticweb.org/organization/frameless> .
+#  citeulike:author <http://www.citeulike.org/author/van%20der%20Kolk:Yolijn> .
 
 <http://data.semanticweb.org/organization/frameless> foaf:member
   <http://data.semanticweb.org/person/yolijn-van-der-kolk> .
@@ -646,8 +646,8 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:depiction <http://xmllondon.com/images/speakers/Jorge-Williams.png> ;
   foaf:OnlineAccount <http://www.linkedin.com/pub/jorge-williams/63/6b1/a6b> ;
   org:memberOf <http://data.semanticweb.org/organization/rackspace> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Williams:Jorge> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Williams:Jorge> .
 
 <http://data.semanticweb.org/organization/rackspace> foaf:member
   <http://data.semanticweb.org/person/jorge-williams> .
@@ -661,8 +661,8 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:name "Eduardo Corrêa Gonçalves" ;
   foaf:workplaceHomepage <http://www.ic.uff.br/> ;
   foaf:depiction <http://xmllondon.com/images/speakers/Eduardo-Goncalves.png> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Gonçalves:Eduardo> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Gonçalves:Eduardo> .
 
 <http://data.semanticweb.org/person/vanessa-braganholo> a foaf:Person ;
   rdfs:label "Vanessa Braganholo" ;
@@ -672,8 +672,8 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount twitter:vanbraganholo ;
   foaf:OnlineAccount github:braganholo ;
   foaf:depiction <http://xmllondon.com/images/depiction/Vanessa-Braganholo.jpg> ;
-  foaf:workplaceHomepage <http://www.ic.uff.br/> ;
-  citeulike:author <http://www.citeulike.org/author/Braganholo:Vanessa> .
+  foaf:workplaceHomepage <http://www.ic.uff.br/> .
+#  citeulike:author <http://www.citeulike.org/author/Braganholo:Vanessa> .
 
 <http://data.semanticweb.org/person/lech-rzedzicki> a foaf:Person ;
   rdfs:label "Lech Rzedzicki" ;
@@ -685,8 +685,8 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount twitter:xchaotic ;
   foaf:OnlineAccount github:xchaotic ;
   foaf:workplaceHomepage <http://www.kode1100.com/> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
-  citeulike:author <http://www.citeulike.org/author/Rzedzicki:Lech> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+#  citeulike:author <http://www.citeulike.org/author/Rzedzicki:Lech> .
 
 <http://data.semanticweb.org/person/adam-retter> a foaf:Person ;
   rdfs:label "Adam Retter" ;
@@ -717,8 +717,8 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2013/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Mohamed-Zergaoui.jpg> ;
-  citeulike:author <http://www.citeulike.org/author/Zergaoui:Mohamed> .
+  foaf:depiction <http://xmllondon.com/images/depiction/Mohamed-Zergaoui.jpg> .
+#  citeulike:author <http://www.citeulike.org/author/Zergaoui:Mohamed> .
 
 <http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/mohamed-zergaoui> .
 

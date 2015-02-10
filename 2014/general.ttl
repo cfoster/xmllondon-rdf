@@ -32,6 +32,7 @@
 
 <http://data.semanticweb.org/conference/xmllondon/2014/proceedings> a swc:Proceedings ;
   rdfs:label "2014 Conference Proceedings" ;
+  swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   dc:identifier "ISBN:978-0-9926471-1-7" ;
   swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2014/paper/kay> ,
               <http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma> ,
