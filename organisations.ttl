@@ -11,119 +11,177 @@
 @prefix wiki: <http://www.wikipedia.org/wiki/> .
 @prefix dbpedia: <http://dbpedia.org/> .
 @prefix org:        <http://www.w3.org/ns/org#> .
+@prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
 
-<http://data.semanticweb.org/organization/marklogic> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/marklogic> a foaf:Organization ; a org:Organization ;
   owl:sameAs <http://dbpedia.org/resource/MarkLogic> ;
   rdfs:label "MarkLogic" ;
   foaf:name "MarkLogic Corporation" ;
   foaf:homepage	<http://www.marklogic.com/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-marklogic.gif> ;
   wiki:homepage	<http://en.wikipedia.org/wiki/MarkLogic> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
   dbpedia:about	<http://dbpedia.org/page/MarkLogic> .
 
-<http://data.semanticweb.org/organization/fasterxml> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/fasterxml> a foaf:Organization ; a org:Organization ;
   rdfs:label "FasterXML" ;
   foaf:name "FasterXML" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/fxml_logo.png> ;
   foaf:homepage	<http://fasterxml.com/> .
 
-<http://data.semanticweb.org/organization/saxonica> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/saxonica> a foaf:Organization ; a org:Organization ;
   rdfs:label "Saxonica" ;
   foaf:name	"Saxonica" ;
+  foaf:depiction <http://xmllondon.com/images/logo-saxonica.gif> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
   foaf:homepage	<http://saxonica.com/> .
 
-<http://data.semanticweb.org/organization/oxford-university-press> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/oxford-university-press> a foaf:Organization ; a org:Organization ;
   owl:sameAs <http://dbpedia.org/resource/Oxford_University_Press> ;
   rdfs:label "Oxford University Press" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/255px-OUP_logo.svg.png> ;
   foaf:name	"Oxford University Press" ;
   foaf:homepage	<http://www.oup.com/> .
 
-<http://data.semanticweb.org/organization/deltaxml> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/deltaxml> a foaf:Organization ; a org:Organization ;
   rdfs:label "DeltaXML" ;
   foaf:name	"DeltaXML" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/e21f4c12b7.png> ;
   foaf:homepage	<http://www.deltaxml.com/> .
 
-<http://data.semanticweb.org/organization/ibm> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/ibm> a foaf:Organization ; a org:Organization ;
   owl:sameAs <http://dbpedia.org/resource/ibm> ;
   rdfs:label "IBM" ;
   foaf:name	"IBM" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/200px-IBM_logo.svg.png> ;
   foaf:homepage	<http://www.ibm.com/> .
 
-<http://data.semanticweb.org/organization/university-of-oxford> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/university-of-oxford> a foaf:Organization ; a org:Organization ;
   owl:sameAs <http://dbpedia.org/resource/University_of_Oxford> ;
   rdfs:label "University of Oxford" ;
   foaf:name	"University of Oxford" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/university_of_oxford.gif> ;
   foaf:homepage	<http://ox.ac.uk/> .
 
-<http://data.semanticweb.org/organization/syncro-soft> a foaf:Organisation ; a org:Organization ;
-  rdfs:label "SyncRO Soft" ;
+<http://data.semanticweb.org/organization/syncro-soft> a foaf:Organization ; a org:Organization ;
+  rdfs:label "oXygen" ;
   foaf:name	"SyncRO Soft" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  foaf:depiction <http://xmllondon.com/images/logo-oxygen.png> ;
   foaf:homepage	<http://www.sync.ro/> .
 
-<http://data.semanticweb.org/organization/antenna-house> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/antenna-house> a foaf:Organization ; a org:Organization ;
   rdfs:label "Antenna House" ;
   foaf:name	"Antenna House" ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  foaf:depiction <http://xmllondon.com/images/logo-antenna-house.gif> ;
   foaf:homepage	<http://www.antennahouse.com/> .
 
-<http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> a foaf:Organization ; a org:Organization ;
   rdfs:label "Centrum Wiskunde and Informatica" ;
   foaf:name	"Centrum Wiskunde and Informatica" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/cwi.jpg> ;
   foaf:homepage	<http://www.cwi.nl/> .
 
-<http://data.semanticweb.org/organization/networked-planet> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/networked-planet> a foaf:Organization ; a org:Organization ;
   rdfs:label "Networked Planet" ;
   foaf:name	"Networked Planet" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/networked-planet.jpg> ;
   foaf:homepage	<http://www.networkedplanet.com/> .
 
-<http://data.semanticweb.org/organization/frameless> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/frameless> a foaf:Organization ; a org:Organization ;
   rdfs:label "Frameless" ;
   foaf:name	"Frameless" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/frameless.jpg> ;
   foaf:homepage	<http://www.frameless.io/> .
 
-<http://data.semanticweb.org/organization/rackspace> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/rackspace> a foaf:Organization ; a org:Organization ;
   owl:sameAs <http://dbpedia.org/resource/Rackspace> ;
   rdfs:label "Rackspace" ;
   foaf:name	"Rackspace" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/rackspace.jpg> ;
   foaf:homepage	<http://www.rackspace.com/> .
 
-<http://data.semanticweb.org/organization/basex> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/basex> a foaf:Organization ; a org:Organization ;
   rdfs:label "BaseX" ;
   foaf:name	"BaseX" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/basex.jpg> ;
   foaf:homepage	<http://basex.org/> .
 
-<http://data.semanticweb.org/organization/existdb> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/existdb> a foaf:Organization ; a org:Organization ;
   rdfs:label "eXistdb" ;
   foaf:name	"eXistdb" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/existdb.gif> ;
   foaf:homepage	<http://exist-db.org/> .
 
-<http://data.semanticweb.org/organization/mercator-it-solutions> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/mercator-it-solutions> a foaf:Organization ; a org:Organization ;
   rdfs:label "Mercator IT Solutions Ltd" ;
-  foaf:name	"Mercator IT Solutions Ltd" ;
+  foaf:name	"Mercator IT Solutions Ltd"  ;
+  foaf:depiction <http://xmllondon.com/images/logo-mercator.png> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   foaf:homepage	<http://www.mercatorit.com/> .
 
-<http://data.semanticweb.org/organization/overstory-consulting> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/overstory-consulting> a foaf:Organization ; a org:Organization ;
   rdfs:label "OverStory Consulting Ltd" ;
   foaf:name	"OverStory Consulting Ltd" ;
+  foaf:depiction <http://xmllondon.com/images/logo-overstory.png> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   foaf:homepage	<http://www.overstory.co.uk/> .
 
-<http://data.semanticweb.org/organization/3ksoftware> a foaf:Organisation ; a org:Organization ;
+<http://data.semanticweb.org/organization/3ksoftware> a foaf:Organization ; a org:Organization ;
   rdfs:label "3Ksoftware" ;
   foaf:name	"3Ksoftware" ;
+  foaf:depiction <http://xmllondon.com/images/logo-3ksoftware.gif> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   foaf:homepage	<http://www.3ksoftware.com/> .
 
-<http://data.semanticweb.org/organization/appsoft-technologies> a foaf:Organisation ; a org:Organization ;
-  rdfs:label "appsoft Technologies" ;
+<http://data.semanticweb.org/organization/appsoft-technologies> a foaf:Organization ; a org:Organization ;
+  rdfs:label "Xeditor" ;
   foaf:name	"appsoft Technologies" ;
+  foaf:depiction <http://xmllondon.com/images/logo-xeditor.gif> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   foaf:homepage	<http://www.appsoft.de/> .
-
-# [todo]: http://www.ic.uff.br
-# [todo]: kode1100
-# [todo]: oppidoc
-# [todo]: abrasoft
-
-
 
 ## XML Guild
 
-<http://xmlguild.org> a foaf:Organisation ; a org:Organization ;
+<http://xmlguild.org> a foaf:Organization ; a org:Organization ;
   rdfs:label "XML Guild" ;
   foaf:name "XML Guild" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/xml-guild-logo.jpg> ;
   foaf:homepage <http://xmlguild.org/> .
+
+## XML Conferences / Events
+
+# <http://xmllondon.com> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "XML London" ;
+#   foaf:name "XML London" ;
+#   foaf:homepage <http://xmllondon.com/> .
+
+# <http://www.xmlprague.cz> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "XML Prague" ;
+#   foaf:name "XML Prague" ;
+#   foaf:homepage <http://www.xmlprague.cz/> .
+
+# <http://www.xmlamsterdam.com> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "XML Amsterdam" ;
+#   foaf:name "XML Amsterdam" ;
+#   foaf:homepage <http://www.xmlamsterdam.com/> .
+
+# <http://xmlsummerschool.com> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "XML Summer School" ;
+#   foaf:name "XML Summer School" ;
+#   foaf:homepage <http://xmlsummerschool.com/> .
+
+# <http://www.balisage.net> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "Balisage" ;
+#   foaf:name "Balisage" ;
+#   foaf:homepage <http://www.balisage.net/> .
+
+# <http://http://www.markupforum.de> a foaf:Organization ; a org:Organization ;
+#   rdfs:label "<markupforum/>" ;
+#   foaf:name "<markupforum/>" ;
+#   foaf:homepage <http://www.markupforum.de/> .
