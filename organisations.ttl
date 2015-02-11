@@ -12,6 +12,9 @@
 @prefix dbpedia: <http://dbpedia.org/> .
 @prefix org:        <http://www.w3.org/ns/org#> .
 @prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
+@prefix twitter: <https://twitter.com/> .
+@prefix github: <https://github.com/> .
+
 
 <http://data.semanticweb.org/organization/marklogic> a foaf:Organization ; a org:Organization ;
   owl:sameAs <http://dbpedia.org/resource/MarkLogic> ;
@@ -22,12 +25,18 @@
   wiki:homepage	<http://en.wikipedia.org/wiki/MarkLogic> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/marklogic> ;
+  foaf:OnlineAccount twitter:marklogic ;
+  foaf:OnlineAccount github:marklogic ;
   dbpedia:about	<http://dbpedia.org/page/MarkLogic> .
 
 <http://data.semanticweb.org/organization/fasterxml> a foaf:Organization ; a org:Organization ;
   rdfs:label "FasterXML" ;
   foaf:name "FasterXML" ;
   foaf:depiction <http://xmllondon.com/images/depiction/fxml_logo.png> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/fasterxml-llc> ;
+  foaf:OnlineAccount twitter:fasterxml ;
+  foaf:OnlineAccount github:FasterXML ;
   foaf:homepage	<http://fasterxml.com/> .
 
 <http://data.semanticweb.org/organization/saxonica> a foaf:Organization ; a org:Organization ;
@@ -36,6 +45,9 @@
   foaf:depiction <http://xmllondon.com/images/logo-saxonica.gif> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/saxonica-ltd> ;
+  foaf:OnlineAccount twitter:saxonica ;
+  foaf:OnlineAccount github:Saxonica ;
   foaf:homepage	<http://saxonica.com/> .
 
 <http://data.semanticweb.org/organization/oxford-university-press> a foaf:Organization ; a org:Organization ;
@@ -43,18 +55,26 @@
   rdfs:label "Oxford University Press" ;
   foaf:depiction <http://xmllondon.com/images/depiction/255px-OUP_logo.svg.png> ;
   foaf:name	"Oxford University Press" ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/oxford-university-press> ;
+  foaf:OnlineAccount twitter:oupacademic ;
+  foaf:OnlineAccount github:OUP ;
   foaf:homepage	<http://www.oup.com/> .
 
 <http://data.semanticweb.org/organization/deltaxml> a foaf:Organization ; a org:Organization ;
   rdfs:label "DeltaXML" ;
   foaf:name	"DeltaXML" ;
   foaf:depiction <http://xmllondon.com/images/depiction/e21f4c12b7.png> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/deltaxml-ltd> ;
+  foaf:OnlineAccount twitter:deltaxml ;
+  foaf:OnlineAccount github:DeltaXML ;
   foaf:homepage	<http://www.deltaxml.com/> .
 
 <http://data.semanticweb.org/organization/ibm> a foaf:Organization ; a org:Organization ;
   owl:sameAs <http://dbpedia.org/resource/ibm> ;
   rdfs:label "IBM" ;
   foaf:name	"IBM" ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/ibm> ;
+  foaf:OnlineAccount twitter:ibm ;
   foaf:depiction <http://xmllondon.com/images/depiction/200px-IBM_logo.svg.png> ;
   foaf:homepage	<http://www.ibm.com/> .
 
@@ -63,6 +83,9 @@
   rdfs:label "University of Oxford" ;
   foaf:name	"University of Oxford" ;
   foaf:depiction <http://xmllondon.com/images/depiction/university_of_oxford.gif> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/university-of-oxford> ;
+  foaf:OnlineAccount twitter:uniofoxford ;
+  foaf:OnlineAccount github:ox-cs ;
   foaf:homepage	<http://ox.ac.uk/> .
 
 <http://data.semanticweb.org/organization/syncro-soft> a foaf:Organization ; a org:Organization ;
@@ -72,6 +95,9 @@
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
   foaf:depiction <http://xmllondon.com/images/logo-oxygen.png> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/syncro-soft> ;
+  foaf:OnlineAccount twitter:oxygenxml ;
+  foaf:OnlineAccount github:oxygenxml ;
   foaf:homepage	<http://www.sync.ro/> .
 
 <http://data.semanticweb.org/organization/antenna-house> a foaf:Organization ; a org:Organization ;
@@ -79,24 +105,33 @@
   foaf:name	"Antenna House" ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   foaf:depiction <http://xmllondon.com/images/logo-antenna-house.gif> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/antenna-house-inc> ;
+  foaf:OnlineAccount twitter:antennainfo ;
+  foaf:OnlineAccount github:AntennaHouse ;
   foaf:homepage	<http://www.antennahouse.com/> .
 
 <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> a foaf:Organization ; a org:Organization ;
   rdfs:label "Centrum Wiskunde and Informatica" ;
   foaf:name	"Centrum Wiskunde and Informatica" ;
   foaf:depiction <http://xmllondon.com/images/depiction/cwi.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/cwi> ;
+  foaf:OnlineAccount twitter:cwinl ;
+  foaf:OnlineAccount github:cwi-swat ;
   foaf:homepage	<http://www.cwi.nl/> .
 
 <http://data.semanticweb.org/organization/networked-planet> a foaf:Organization ; a org:Organization ;
   rdfs:label "Networked Planet" ;
   foaf:name	"Networked Planet" ;
   foaf:depiction <http://xmllondon.com/images/depiction/networked-planet.jpg> ;
+  foaf:OnlineAccount <https://www.linkedin.com/company/networked-planet> ;
   foaf:homepage	<http://www.networkedplanet.com/> .
 
 <http://data.semanticweb.org/organization/frameless> a foaf:Organization ; a org:Organization ;
   rdfs:label "Frameless" ;
   foaf:name	"Frameless" ;
   foaf:depiction <http://xmllondon.com/images/depiction/frameless.jpg> ;
+  foaf:OnlineAccount twitter:frameless_io ;
+  foaf:OnlineAccount github:frameless ;
   foaf:homepage	<http://www.frameless.io/> .
 
 <http://data.semanticweb.org/organization/rackspace> a foaf:Organization ; a org:Organization ;
@@ -104,24 +139,35 @@
   rdfs:label "Rackspace" ;
   foaf:name	"Rackspace" ;
   foaf:depiction <http://xmllondon.com/images/depiction/rackspace.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/rackspace-hosting> ;
+  foaf:OnlineAccount twitter:rackspace ;
+  foaf:OnlineAccount github:rackspace ;
   foaf:homepage	<http://www.rackspace.com/> .
 
 <http://data.semanticweb.org/organization/basex> a foaf:Organization ; a org:Organization ;
   rdfs:label "BaseX" ;
   foaf:name	"BaseX" ;
   foaf:depiction <http://xmllondon.com/images/depiction/basex.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/basex> ;
+  foaf:OnlineAccount twitter:basexdb ;
+  foaf:OnlineAccount github:BaseXdb ;
   foaf:homepage	<http://basex.org/> .
 
 <http://data.semanticweb.org/organization/existdb> a foaf:Organization ; a org:Organization ;
   rdfs:label "eXistdb" ;
   foaf:name	"eXistdb" ;
   foaf:depiction <http://xmllondon.com/images/depiction/existdb.gif> ;
+  foaf:OnlineAccount <https://www.linkedin.com/groups/eXistdb-Open-Source-Native-XML-35624/about> ;
+  foaf:OnlineAccount twitter:existdb ;
+  foaf:OnlineAccount github:eXist-db ;
   foaf:homepage	<http://exist-db.org/> .
 
 <http://data.semanticweb.org/organization/mercator-it-solutions> a foaf:Organization ; a org:Organization ;
   rdfs:label "Mercator IT Solutions Ltd" ;
   foaf:name	"Mercator IT Solutions Ltd"  ;
   foaf:depiction <http://xmllondon.com/images/logo-mercator.png> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/mercator-it-solutions-ltd> ;
+  foaf:OnlineAccount twitter:MercatorIT ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   foaf:homepage	<http://www.mercatorit.com/> .
 
@@ -130,6 +176,9 @@
   foaf:name	"OverStory Consulting Ltd" ;
   foaf:depiction <http://xmllondon.com/images/logo-overstory.png> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/overstory-consulting> ;
+  foaf:OnlineAccount twitter:overstory ;
+  foaf:OnlineAccount github:overstory ;
   foaf:homepage	<http://www.overstory.co.uk/> .
 
 <http://data.semanticweb.org/organization/3ksoftware> a foaf:Organization ; a org:Organization ;
@@ -137,6 +186,7 @@
   foaf:name	"3Ksoftware" ;
   foaf:depiction <http://xmllondon.com/images/logo-3ksoftware.gif> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/3ksoftware-llc> ;
   foaf:homepage	<http://www.3ksoftware.com/> .
 
 <http://data.semanticweb.org/organization/appsoft-technologies> a foaf:Organization ; a org:Organization ;
@@ -144,6 +194,8 @@
   foaf:name	"appsoft Technologies" ;
   foaf:depiction <http://xmllondon.com/images/logo-xeditor.gif> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/appsoft-technologies-gmbh> ;
+  foaf:OnlineAccount twitter:xeditor ;
   foaf:homepage	<http://www.appsoft.de/> .
 
 ## XML Guild
@@ -152,6 +204,8 @@
   rdfs:label "XML Guild" ;
   foaf:name "XML Guild" ;
   foaf:depiction <http://xmllondon.com/images/depiction/xml-guild-logo.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Guild-50595/about> ;
+  foaf:OnlineAccount twitter:xmlguild ;
   foaf:homepage <http://xmlguild.org/> .
 
 ## XML Conferences / Events

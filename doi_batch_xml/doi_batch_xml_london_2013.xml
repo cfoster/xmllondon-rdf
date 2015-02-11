@@ -90,6 +90,7 @@
           <doi>10.14337/XMLLondon13.Bleeken01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Bleeken01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/bleeken-xml-london-2013/</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -118,6 +119,7 @@
           <doi>10.14337/XMLLondon13.Vlist01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Vlist01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/vlist-xml-london-2013/</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -146,6 +148,7 @@
           <doi>10.14337/XMLLondon13.Delpratt01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Delpratt01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/delpratt-xml-london-2013.pptx</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -178,6 +181,7 @@
           <doi>10.14337/XMLLondon13.Hillman01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Hillman01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/hillman-xml-london-2013.pptx</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -210,6 +214,7 @@
           <doi>10.14337/XMLLondon13.Whitaker01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Whitaker01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/whitaker-xml-london-2013.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -247,6 +252,7 @@
           <doi>10.14337/XMLLondon13.Cuellar01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Cuellar01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/cuellar-xml-london-2013.pptx</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -279,6 +285,7 @@
           <doi>10.14337/XMLLondon13.Sire01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Sire01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/sire-xml-london-2013/index.xhtml</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -307,6 +314,7 @@
           <doi>10.14337/XMLLondon13.Fennell01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Fennell01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/fennell-xml-london-2013.pptx</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -336,6 +344,7 @@
           <doi>10.14337/XMLLondon13.Walpole01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Walpole01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/walpole-xml-london-2013.pps</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -368,6 +377,7 @@
           <doi>10.14337/XMLLondon13.Dolbear01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Dolbear01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/dolbear-xml-london-2013.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -396,6 +406,7 @@
           <doi>10.14337/XMLLondon13.Fuller01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Fuller01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/fuller-xml-london-2013.pptx</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -453,6 +464,7 @@
           <doi>10.14337/XMLLondon13.Warman01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Warman01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/warman-xml-london-2013.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -485,6 +497,7 @@
           <doi>10.14337/XMLLondon13.Rahtz01</doi>
           <resource>http://xmllondon.com/XMLLondon13.Rahtz01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2013/slides/burnard-rahtz-xml-london-2013.pdf</slides-url>
       </conference_paper>
 
     </conference>

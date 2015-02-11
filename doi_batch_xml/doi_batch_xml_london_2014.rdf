@@ -55,6 +55,7 @@
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/michael-kay"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/kay"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/kay-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/kay"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -82,6 +83,7 @@
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/braaksma-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/braaksma"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/kohl">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -101,6 +103,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/kohl"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/kohl.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/OUP_xml_london_presentation.pdf">
+      <rdfs:label>Matt Kohl's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/kohl"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/OUP_xml_london_presentation.pdf"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/kohl.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/matt-kohl">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/kohl"/>
    </Description>
@@ -110,7 +119,9 @@
       <rdfs:label>Matt Kohl's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/matt-kohl"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/kohl"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/OUP_xml_london_presentation.pdf"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/kohl-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/kohl"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/narmontas">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -129,6 +140,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/narmontas"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/narmontas.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/XML-Processing-in-Scala-NP.pptx">
+      <rdfs:label>William Narmontas's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/narmontas"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/XML-Processing-in-Scala-NP.pptx"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/narmontas.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/william-narmontas">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/narmontas"/>
    </Description>
@@ -138,7 +156,9 @@
       <rdfs:label>William Narmontas's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/william-narmontas"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/narmontas"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/XML-Processing-in-Scala-NP.pptx"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/narmontas-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/narmontas"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/bina">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -156,6 +176,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/bina"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/bina.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/mobileXMLAuthoring.pdf">
+      <rdfs:label>George Bina's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/bina"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/mobileXMLAuthoring.pdf"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/bina.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/george-bina">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/bina"/>
    </Description>
@@ -165,7 +192,9 @@
       <rdfs:label>George Bina's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/george-bina"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/bina"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/mobileXMLAuthoring.pdf"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/bina-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/bina"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/weingaertner">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -184,6 +213,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/weingaertner"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/weingaertner.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/Engineering-a-XML-based-Content-Hub-for-Enterprise-Publishing.pdf">
+      <rdfs:label>Elias Weingärtner's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/weingaertner"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/Engineering-a-XML-based-Content-Hub-for-Enterprise-Publishing.pdf"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/weingaertner.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/elias-weingaertner">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/weingaertner"/>
    </Description>
@@ -193,7 +229,9 @@
       <rdfs:label>Elias Weingärtner's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/elias-weingaertner"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/weingaertner"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/Engineering-a-XML-based-Content-Hub-for-Enterprise-Publishing.pdf"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/weingaertner-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/weingaertner"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/huang">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -211,6 +249,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/huang"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/huang.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/Automated-Visual-Regression-Testing.pptx">
+      <rdfs:label>Celina Huang's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/huang"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/Automated-Visual-Regression-Testing.pptx"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/huang.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/celina-huang">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/huang"/>
    </Description>
@@ -220,7 +265,9 @@
       <rdfs:label>Celina Huang's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/celina-huang"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/huang"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/Automated-Visual-Regression-Testing.pptx"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/huang-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/huang"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/pemberton">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -238,6 +285,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/pemberton"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/pemberton.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/pemberton">
+      <rdfs:label>Steven Pemberton's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/pemberton"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/pemberton"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/pemberton.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/steven-pemberton">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/pemberton"/>
    </Description>
@@ -247,7 +301,9 @@
       <rdfs:label>Steven Pemberton's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/pemberton"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/pemberton"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/pemberton-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/pemberton"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/fennell">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -265,6 +321,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/fennell"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/fennell.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/Schematron_More_Useful_Than_You'd_Thought.pptx">
+      <rdfs:label>Philip Fennell's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/fennell"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/Schematron_More_Useful_Than_You'd_Thought.pptx"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/fennell.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/philip-fennell">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/fennell"/>
    </Description>
@@ -274,7 +337,9 @@
       <rdfs:label>Philip Fennell's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/fennell"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/Schematron_More_Useful_Than_You'd_Thought.pptx"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/fennell-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/fennell"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/ahmed">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -292,6 +357,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/ahmed"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/ahmed.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/RdfInDotNet.pdf">
+      <rdfs:label>Kal Ahmed's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/ahmed"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/RdfInDotNet.pdf"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/ahmed.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/kal-ahmed">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/ahmed"/>
    </Description>
@@ -301,7 +373,9 @@
       <rdfs:label>Kal Ahmed's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/kal-ahmed"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/ahmed"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/RdfInDotNet.pdf"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/ahmed-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/ahmed"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/broersma">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -330,6 +404,7 @@
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/robbert-broersma"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/broersma"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/broersma-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/broersma"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/williams">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -351,6 +426,7 @@
       <rdfs:label>Jorge Williams's 2014 slides</rdfs:label>
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/williams"/>
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/UsageSchemas.pdf"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/williams.gif"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/person/jorge-williams">
@@ -364,6 +440,7 @@
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/williams"/>
       <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/UsageSchemas.pdf"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/williams-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/williams"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/goncalves">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -382,6 +459,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/goncalves"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/goncalves.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/Multilabel-XML-London-2014.pdf">
+      <rdfs:label>Eduardo Gonçalves's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/goncalves"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/Multilabel-XML-London-2014.pdf"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/goncalves.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/eduardo-goncalves">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/goncalves"/>
    </Description>
@@ -391,7 +475,9 @@
       <rdfs:label>Eduardo Gonçalves's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/eduardo-goncalves"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/goncalves"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/Multilabel-XML-London-2014.pdf"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/goncalves-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/goncalves"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/rzedzicki">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -419,6 +505,7 @@
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/lech-rzedzicki"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/rzedzicki"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/rzedzicki-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/rzedzicki"/>
    </Description>
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/paper/vlist">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
@@ -436,6 +523,13 @@
       <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/vlist"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/papers/vlist.gif"/>
    </Description>
+   <Description rdf:about="http://xmllondon.com/2014/slides/vlist/index.html">
+      <rdfs:label>Eric van der Vlist's 2014 slides</rdfs:label>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/vlist"/>
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/slides/vlist/index.html"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/thumbnails/slides/vlist.gif"/>
+   </Description>
    <Description rdf:about="http://data.semanticweb.org/person/eric-van-der-vlist">
       <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presentation/vlist"/>
    </Description>
@@ -445,6 +539,8 @@
       <rdfs:label>Eric van der Vlist's 2014 talk</rdfs:label>
       <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
       <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/vlist"/>
+      <swc:hasRelatedDocument rdf:resource="http://xmllondon.com/2014/slides/vlist/index.html"/>
       <foaf:depiction rdf:resource="http://xmllondon.com/2014/images/vlist-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2014/presentations/vlist"/>
    </Description>
 </RDF>

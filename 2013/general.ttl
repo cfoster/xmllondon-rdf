@@ -6,6 +6,7 @@
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
+@prefix twitter: <https://twitter.com/> .
 
 <http://data.semanticweb.org/conference/xmllondon/2013> a swc:ConferenceEvent ;
   rdfs:label "XML London 2013" ;
@@ -21,6 +22,9 @@
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/overstory-consulting> ;
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/syncro-soft> ;
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/mercator-it-solutions> ;
+  foaf:depiction <http://xmllondon.com/images/depiction/xmllondon.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-London-4651258/about> ;
+  foaf:OnlineAccount twitter:xmllondon ;
   swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> .
 
 <http://data.semanticweb.org/conference/xmllondon/2013/chair> a swc:Chair ;
@@ -31,6 +35,7 @@
 <http://data.semanticweb.org/conference/xmllondon/2013/proceedings> a swc:Proceedings ;
   rdfs:label "2013 Conference Proceedings" ;
   dc:identifier "978-0-9926471-0-0" ;
+  foaf:depiction <http://xmllondon.com/images/thumb-proceedings-2013.png> ;
   swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2013/paper/bleeken> ,
               <http://data.semanticweb.org/conference/xmllondon/2013/paper/vlist> ,

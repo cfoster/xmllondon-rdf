@@ -155,6 +155,7 @@
           <doi>10.14337/XMLLondon14.Kohl01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Kohl01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/OUP_xml_london_presentation.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -187,6 +188,7 @@
           <doi>10.14337/XMLLondon14.Narmontas01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Narmontas01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/XML-Processing-in-Scala-NP.pptx</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -215,6 +217,7 @@
           <doi>10.14337/XMLLondon14.Bina01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Bina01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/mobileXMLAuthoring.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -247,6 +250,7 @@
           <doi>10.14337/XMLLondon14.Weingaertner01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Weingaertner01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/Engineering-a-XML-based-Content-Hub-for-Enterprise-Publishing.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -275,6 +279,7 @@
           <doi>10.14337/XMLLondon14.Huang01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Huang01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/Automated-Visual-Regression-Testing.pptx</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -303,6 +308,7 @@
           <doi>10.14337/XMLLondon14.Pemberton01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Pemberton01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/pemberton</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -331,6 +337,7 @@
           <doi>10.14337/XMLLondon14.Fennell01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Fennell01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/Schematron_More_Useful_Than_You'd_Thought.pptx</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -359,6 +366,7 @@
           <doi>10.14337/XMLLondon14.Ahmed01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Ahmed01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/RdfInDotNet.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -455,6 +463,7 @@
           <doi>10.14337/XMLLondon14.Goncalves01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Goncalves01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/Multilabel-XML-London-2014.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -512,6 +521,7 @@
           <doi>10.14337/XMLLondon14.Vlist01</doi>
           <resource>http://xmllondon.com/XMLLondon14.Vlist01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2014/slides/vlist/index.html</slides-url>
       </conference_paper>
 
     </conference>

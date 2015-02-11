@@ -6,6 +6,7 @@
 @prefix swrc: <http://swrc.ontoware.org/ontology#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
+@prefix twitter: <https://twitter.com/> .
 
 <http://data.semanticweb.org/conference/xmllondon/2014> a swc:ConferenceEvent ;
   rdfs:label "XML London 2014" ;
@@ -23,6 +24,9 @@
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/syncro-soft> ;
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/saxonica> ;
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/antenna-house> ;
+  foaf:depiction <http://xmllondon.com/images/depiction/xmllondon.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-London-4651258/about> ;
+  foaf:OnlineAccount twitter:xmllondon ;
   swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> .
 
 <http://data.semanticweb.org/conference/xmllondon/2014/chair> a swc:Chair ;
@@ -34,6 +38,7 @@
   rdfs:label "2014 Conference Proceedings" ;
   swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   dc:identifier "ISBN:978-0-9926471-1-7" ;
+  foaf:depiction <http://xmllondon.com/images/thumb-proceedings-2014.png> ;
   swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2014/paper/kay> ,
               <http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma> ,
               <http://data.semanticweb.org/conference/xmllondon/2014/paper/kohl> ,

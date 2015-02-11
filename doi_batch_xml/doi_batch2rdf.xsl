@@ -104,6 +104,7 @@
         </rdfs:label>
         <swc:relatedToEvent rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
         <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#SlideSet"/>
+        <foaf:homepage rdf:resource="{slides-url}" />
         <foaf:depiction rdf:resource="{
           fn:concat('http://xmllondon.com/', $year, '/images/thumbnails/slides/', $surname-normalized, '.gif')
         }"/>
@@ -141,6 +142,10 @@
 
       <foaf:depiction rdf:resource="{
         fn:concat('http://xmllondon.com/', $year, '/images/', $surname-normalized, '-speaking.jpg')
+      }"/>
+
+      <foaf:homepage rdf:resource="{
+        fn:concat('http://xmllondon.com/', $year, '/presentations/', $surname-normalized)
       }"/>
 
     </Description>
