@@ -27,6 +27,7 @@
   foaf:depiction <http://xmllondon.com/images/depiction/xmllondon.jpg> ;
   foaf:OnlineAccount <http://www.linkedin.com/groups/XML-London-4651258/about> ;
   foaf:OnlineAccount twitter:xmllondon ;
+  foaf:homepage <http://xmllondon.com/> ;
   swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> .
 
 <http://data.semanticweb.org/conference/xmllondon/2014/chair> a swc:Chair ;
