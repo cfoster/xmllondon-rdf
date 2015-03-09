@@ -799,3 +799,13 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .
 
+<http://data.semanticweb.org/person/geert-bormans> a foaf:Person ;
+  rdfs:label "Geert Bormans" ;
+  foaf:family_name "Bormans" ;
+  foaf:firstName "Geert" ;
+  foaf:name "Geert Bormans" ;
+  foaf:OnlineAccount <http://www.linkedin.com/in/gbormans> ;
+  foaf:OnlineAccount twitter:geertidb ;
+  foaf:homepage <http://gbormans.telenet.be/> ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Geert-Bormans.jpg> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .

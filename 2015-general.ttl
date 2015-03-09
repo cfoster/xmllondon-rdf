@@ -40,6 +40,7 @@
              <http://data.semanticweb.org/person/charles-foster> ,
              <http://data.semanticweb.org/person/christian-gruen> ,
              <http://data.semanticweb.org/person/eric-van-der-vlist> ,
+             <http://data.semanticweb.org/person/geert-bormans> ,
              <http://data.semanticweb.org/person/james-fuller> ,
              <http://data.semanticweb.org/person/john-snelson> ,
              <http://data.semanticweb.org/person/lars-windauer> ,
