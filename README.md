@@ -1,6 +1,6 @@
 ## XML London - RDF Open Data
 
-This repository holds the dataset found in the XML London RDF triple store. Everything about the XML London conferences is represented and marked up according to the [Semantic Web Conference Ontology](http://data.semanticweb.org/ns/swc/swc_2009-05-09.html) (SWC).
+This repository holds the dataset found in the XML London RDF triple store. Everything about each XML London conference is represented and marked up according to the [Semantic Web Conference Ontology](http://data.semanticweb.org/ns/swc/swc_2009-05-09.html) (SWC).
 
 <img src='https://raw.githubusercontent.com/wiki/cfoster/xmllondon-rdf/bones_256.png' width='50px' style="float:right;padding:5px;">
 
