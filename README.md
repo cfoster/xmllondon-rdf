@@ -1,4 +1,4 @@
-## XML London - RDF Open Data
+# XML London - RDF Open Data
 
 This repository holds the dataset found in the XML London RDF triple store. Everything about each XML London conference is represented and marked up according to the [Semantic Web Conference Ontology](http://data.semanticweb.org/ns/swc/swc_2009-05-09.html) (SWC).
 
@@ -16,5 +16,9 @@ This repository holds the dataset found in the XML London RDF triple store. Ever
 * [other-events.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/other-events.ttl), very basic info about other events, like XML Prague etc.
 * [people.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/people.ttl), info about people which XML London knows about.
 * [xmllondon-schema.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/xmllondon-schema.ttl), custom RDFS for concepts the common vocabularies didn't quite cover.
+
+## SPARQL and Browse
+
+You can run SPARQL queries and Visually browse and navigate the XML London triple store by clicking on the fixed SPARQL icon on the bottom right hand side of the XML London website.
 
 <img src='https://raw.githubusercontent.com/wiki/cfoster/xmllondon-rdf/website-sparql-icon-shot-1.jpg' width='100%'>
