@@ -19,6 +19,10 @@ This repository holds the dataset found in the XML London RDF triple store. Ever
 
 ## SPARQL and Browse
 
-You can run SPARQL queries and Visually browse and navigate the XML London triple store by clicking on the fixed SPARQL icon on the bottom right hand side of the XML London website.
+You can run SPARQL queries and Visually browse and navigate the [XML London](http://xmllondon.com) triple store by clicking on the fixed SPARQL icon on the bottom right hand side of the [XML London](http://xmllondon.com) website.
 
 <img src='https://raw.githubusercontent.com/wiki/cfoster/xmllondon-rdf/website-sparql-icon-shot-1.jpg' width='100%'>
+
+SPARQL Endpoint: [http://xmllondon.com/sparql](http://xmllondon.com/sparql)
+
+Graph Store Protocol: [http://xmllondon.com/data](http://xmllondon.com/data)
