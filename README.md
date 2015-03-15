@@ -1,8 +1,8 @@
 ## XML London - RDF Open Data
 
-<img src='https://raw.githubusercontent.com/wiki/cfoster/xmllondon-rdf/bones_256.png' width='50px' style="float:right;padding:5px;">
-
 This repository holds the dataset found in the XML London RDF triple store. Everything about the XML London conferences is represented and marked up according to the [Semantic Web Conference Ontology](http://data.semanticweb.org/ns/swc/swc_2009-05-09.html) (SWC).
+
+<img src='https://raw.githubusercontent.com/wiki/cfoster/xmllondon-rdf/bones_256.png' width='50px' style="float:right;padding:5px;">
 
 * [common-vocabularies](https://github.com/cfoster/xmllondon-rdf/tree/master/common-vocabularies), ontologies like PURL, FOAF, SWCO, etc.
 * [specifics-generator](https://github.com/cfoster/xmllondon-rdf/tree/master/specifics-generator), XSLT code used to generate specifics from modified DOI batch files.
