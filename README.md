@@ -7,9 +7,9 @@ This repository holds the dataset found in the XML London RDF triple store. Ever
 * [common-vocabularies](https://github.com/cfoster/xmllondon-rdf/tree/master/common-vocabularies), ontologies like PURL, FOAF, SWCO, etc.
 * [specifics-generator](https://github.com/cfoster/xmllondon-rdf/tree/master/specifics-generator), XSLT code used to generate specifics from modified DOI batch files.
 * [2013-general.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/2013-general.ttl), general info about the [XML London 2013](http://xmllondon.com/2013) conference.
-* [2013-specifics.rdf](https://github.com/cfoster/xmllondon-rdf/blob/master/2013-specifics.ttl), specific info about [XML London 2013](http://xmllondon.com/2013), presentations, papers, etc.
+* [2013-specifics.rdf](https://github.com/cfoster/xmllondon-rdf/blob/master/2013-specifics.rdf), specific info about [XML London 2013](http://xmllondon.com/2013), presentations, papers, etc.
 * [2014-general.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/2014-general.ttl), general info about the [XML London 2014](http://xmllondon.com/2014) conference.
-* [2014-specifics.rdf](https://github.com/cfoster/xmllondon-rdf/blob/master/2013-specifics.ttl), specific info about [XML London 2014](http://xmllondon.com/2014), presentations, papers, etc.
+* [2014-specifics.rdf](https://github.com/cfoster/xmllondon-rdf/blob/master/2014-specifics.rdf), specific info about [XML London 2014](http://xmllondon.com/2014), presentations, papers, etc.
 * [2015-general.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/2015-general.ttl), general info about the [XML London 2015](http://xmllondon.com) conference (**not yet complete**).
 * [locations.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/locations.ttl), holds information about places, such as UCL.
 * [organisations.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/organisations.ttl), info about organisations that XML London knows about.
