@@ -849,9 +849,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount <http://se.linkedin.com/in/johanneswilm> ; 
   foaf:OnlineAccount twitter:johanneswilm ;
   foaf:OnlineAccount github:johanneswilm ;
-  org:memberOf <http://data.semanticweb.org/organization/vivliostyle> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
-
+  org:memberOf <http://data.semanticweb.org/organization/vivliostyle> .
 
 <http://data.semanticweb.org/person/fabio-labella> a foaf:Person ;
   rdfs:label "Fabio Labella" ;

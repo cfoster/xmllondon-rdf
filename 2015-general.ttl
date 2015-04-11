@@ -13,7 +13,7 @@
 #  swc:hasRelatedDocument <http://data.semanticweb.org/conference/xmllondon/2015/proceedings> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
-#  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:sisterEvent <http://www.xmlprague.cz/2015> ;
@@ -28,7 +28,7 @@
   swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> .
 
 <http://data.semanticweb.org/conference/xmllondon/2015/chair> a swc:Chair ;
-  swc:heldBy <http://data.semanticweb.org/person/charles-foster>;
+  swc:heldBy <http://data.semanticweb.org/person/charles-foster> ;
   swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2015> ;
   rdfs:label "2015 Chair" .
 
@@ -52,3 +52,45 @@
 <http://data.semanticweb.org/conference/xmllondon/2015/presenter> a swc:Presenter ;
   rdfs:label "2015 Presenter" ;
   swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2015> .
+
+# someone who spoke at XML London
+<http://data.semanticweb.org/conference/xmllondon/2015/presenter> a swc:Presenter ;
+  rdfs:label "2015 Presenter" ;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  swc:heldBy <http://data.semanticweb.org/person/abel-braaksma> ,
+             <http://data.semanticweb.org/person/adam-retter> ,
+             <http://data.semanticweb.org/person/andrew-sales> ,
+             <http://data.semanticweb.org/person/andy-seaborne> ,
+             <http://data.semanticweb.org/person/chris-de-vreeze> ,
+             <http://data.semanticweb.org/person/eric-van-der-vlist> ,
+             <http://data.semanticweb.org/person/fabio-labella> ,
+             <http://data.semanticweb.org/person/george-bina> ,
+             <http://data.semanticweb.org/person/james-fuller> ,
+             <http://data.semanticweb.org/person/john-lumley> ,
+             <http://data.semanticweb.org/person/nic-gibson> ,
+             <http://data.semanticweb.org/person/philip-fearon> ,
+             <http://data.semanticweb.org/person/sandro-cirulli> ,
+             <http://data.semanticweb.org/person/shinyu-murakami> ,
+             <http://data.semanticweb.org/person/steven-pemberton> .
+
+<http://data.semanticweb.org/conference/xmllondon/2015/proceedings> a swc:Proceedings ;
+  rdfs:label "2015 Conference Proceedings" ;
+  swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  dc:identifier "ISBN:978-0-9926471-2-4" ;
+  foaf:depiction <http://xmllondon.com/images/thumb-proceedings-2015.png> ;
+  swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2015/paper/lumley> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/braaksma> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/cirulli> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/murakami> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/bina> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/labella> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/seaborne> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/pemberton> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/fearon> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/retter> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/gibson> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/graham> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/de-vreeze> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/vlist> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/fuller> ,
+              <http://data.semanticweb.org/conference/xmllondon/2015/paper/sales> .
