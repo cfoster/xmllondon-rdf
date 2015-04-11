@@ -68,6 +68,7 @@
              <http://data.semanticweb.org/person/james-fuller> ,
              <http://data.semanticweb.org/person/john-lumley> ,
              <http://data.semanticweb.org/person/nic-gibson> ,
+             <http://data.semanticweb.org/person/norman-walsh> ,
              <http://data.semanticweb.org/person/philip-fearon> ,
              <http://data.semanticweb.org/person/sandro-cirulli> ,
              <http://data.semanticweb.org/person/shinyu-murakami> ,

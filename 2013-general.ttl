@@ -71,7 +71,8 @@
 <http://data.semanticweb.org/conference/xmllondon/2013/presenter> a swc:Presenter ;
   rdfs:label "2013 Presenter" ;
   swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2013> ;
-  swc:heldBy <http://data.semanticweb.org/person/nick-van-den-bleeken> ,
+  swc:heldBy <http://data.semanticweb.org/person/tatu-saloranta> ,
+             <http://data.semanticweb.org/person/nick-van-den-bleeken> ,
              <http://data.semanticweb.org/person/eric-van-der-vlist> ,
              <http://data.semanticweb.org/person/oneil-delpratt> ,
              <http://data.semanticweb.org/person/tomos-hillman> ,
