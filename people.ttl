@@ -741,7 +741,8 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:homepage <http://nwalsh.com/> ;
   org:memberOf <http://data.semanticweb.org/organization/marklogic> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/pcmember> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
 
 <http://data.semanticweb.org/organization/marklogic> foaf:member
   <http://data.semanticweb.org/person/norman-walsh> .
