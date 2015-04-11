@@ -828,6 +828,9 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   org:memberOf <http://data.semanticweb.org/organization/saxonica> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
 
+<http://data.semanticweb.org/organization/saxonica> foaf:member
+  <http://data.semanticweb.org/person/john-lumley> .
+
 <http://data.semanticweb.org/person/shinyu-murakami> a foaf:Person ;
   rdfs:label "Shinyu Murakami" ;
   foaf:family_name "Murakami" ;
@@ -841,6 +844,9 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   org:memberOf <http://data.semanticweb.org/organization/vivliostyle> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
 
+<http://data.semanticweb.org/organization/vivliostyle> foaf:member
+  <http://data.semanticweb.org/person/shinyu-murakami> .
+
 <http://data.semanticweb.org/person/johannes-wilm> a foaf:Person ;
   rdfs:label "Johannes Wilm" ;
   foaf:family_name "Wilm" ;
@@ -852,6 +858,9 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount github:johanneswilm ;
   org:memberOf <http://data.semanticweb.org/organization/vivliostyle> .
 
+<http://data.semanticweb.org/organization/vivliostyle> foaf:member
+  <http://data.semanticweb.org/person/johannes-wilm> .
+
 <http://data.semanticweb.org/person/fabio-labella> a foaf:Person ;
   rdfs:label "Fabio Labella" ;
   foaf:family_name "Labella" ;
@@ -861,6 +870,9 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount <http://www.linkedin.com/in/fabiolabella/en> ; 
   org:memberOf <http://data.semanticweb.org/organization/university-of-edinburgh> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
+
+<http://data.semanticweb.org/organization/university-of-edinburgh> foaf:member
+  <http://data.semanticweb.org/person/fabio-labella> .
 
 <http://data.semanticweb.org/person/henry-thompson> a foaf:Person ;
   rdfs:label "Henry S. Thompson" ;
@@ -876,6 +888,9 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   owl:sameAs 
 <http://data.semanticweb.org/person/henry-thompson> .
 
+<http://data.semanticweb.org/organization/university-of-edinburgh> foaf:member
+  <http://data.semanticweb.org/person/henry-thompson> .
+
 <http://data.semanticweb.org/person/andy-seaborne> a foaf:Person ;
   rdfs:label "Andy Seaborne" ;
   foaf:family_name "Seaborne" ;
@@ -887,6 +902,9 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount github:afs ;
   org:memberOf <http://data.semanticweb.org/organization/epimorphics> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
+
+<http://data.semanticweb.org/organization/epimorphics> foaf:member
+  <http://data.semanticweb.org/person/andy-seaborne> .
 
 <http://data.semanticweb.org/person/philip-fearon> a foaf:Person ;
   rdfs:label "Philip Fearon" ;
@@ -900,6 +918,9 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:homepage <http://sketchpath.blogspot.co.uk/> ;
   org:memberOf <http://data.semanticweb.org/organization/deltaxml> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
+
+<http://data.semanticweb.org/organization/deltaxml> foaf:member
+  <http://data.semanticweb.org/person/philip-fearon> .
 
 <http://data.semanticweb.org/person/nic-gibson> a foaf:Person ;
   rdfs:label "Nic Gibson" ;
@@ -924,6 +945,11 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   org:memberOf <http://xmlguild.org> ;
   org:memberOf <http://data.semanticweb.org/organization/antenna-house> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
+
+<http://data.semanticweb.org/organization/antenna-house> foaf:member
+  <http://data.semanticweb.org/person/tony-graham> .
+<http://xmlguild.org> foaf:member
+  <http://data.semanticweb.org/person/tony-graham> . 
 
 <http://data.semanticweb.org/person/chris-de-vreeze> a foaf:Person ;
   rdfs:label "Chris de Vreeze" ;
