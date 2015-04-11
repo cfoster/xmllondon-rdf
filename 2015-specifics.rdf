@@ -1,0 +1,419 @@
+<RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:swrc="http://swrc.ontoware.org/ontology#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:f="http://xmllondon.com/xsl/functions"
+     xmlns:xlswc="http://xmllondon.com/ns/swc/ontology#"
+     xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/proceedings">
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/lumley"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/braaksma"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/cirulli"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/murakami"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/bina"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/labella"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/seaborne"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/pemberton"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fearon"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/retter"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/gibson"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/graham"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/de-vreeze"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/vlist"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fuller"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/sales"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/lumley">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Improving Pattern Matching Performance in XSLT</dc:title>
+      <rdfs:label>John Lumley's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/john-lumley"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/michael-kay"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/lumley"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/lumley.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/john-lumley">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/lumley"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/lumley">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>John Lumley's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/john-lumley"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/lumley"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/lumley-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/lumley"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/braaksma">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>It's the little things that matter</dc:title>
+      <rdfs:label>Abel Braaksma's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/braaksma"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/braaksma.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/abel-braaksma">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/braaksma"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/braaksma">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Abel Braaksma's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/braaksma"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/braaksma-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/braaksma"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/cirulli">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Continuous Integration with XML and RDF Data</dc:title>
+      <rdfs:label>Sandro Cirulli's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/sandro-cirulli"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/cirulli"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/cirulli.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/sandro-cirulli">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/cirulli"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/cirulli">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Sandro Cirulli's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/sandro-cirulli"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/cirulli"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/cirulli-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/cirulli"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/murakami">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Vivliostyle - Open source, web browser based CSS typesetting engine</dc:title>
+      <rdfs:label>Shinyu Murakami's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/shinyu-murakami"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/johannes-wilm"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/murakami"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/murakami.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/shinyu-murakami">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/murakami"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/murakami">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Shinyu Murakami's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/shinyu-murakami"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/murakami"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/murakami-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/murakami"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/bina">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Magic URLs in an XML Universe</dc:title>
+      <rdfs:label>George Bina's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/bina"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/bina.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/george-bina">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/bina"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/bina">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>George Bina's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/bina"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/bina-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/bina"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/labella">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>A Rendering Language for RDF</dc:title>
+      <rdfs:label>Fabio Labella's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/fabio-labella"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/henry-thompson"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/labella"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/labella.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/fabio-labella">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/labella"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/labella">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Fabio Labella's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/fabio-labella"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/labella"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/labella-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/labella"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/seaborne">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Lizard - A Fault Tolerant SPARQL Store</dc:title>
+      <rdfs:label>Andy Seaborne's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/seaborne"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/seaborne.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/andy-seaborne">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/seaborne"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/seaborne">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Andy Seaborne's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/seaborne"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/seaborne-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/seaborne"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/pemberton">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>XML Interfaces to the Internet of Things with XForms</dc:title>
+      <rdfs:label>Steven Pemberton's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/pemberton"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/pemberton.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/steven-pemberton">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/pemberton"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/pemberton">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Steven Pemberton's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/pemberton"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/pemberton-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/pemberton"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/fearon">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Streamlining XML Authoring Workflows</dc:title>
+      <rdfs:label>Philip Fearon's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/philip-fearon"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fearon"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/fearon.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/philip-fearon">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fearon"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fearon">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Philip Fearon's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/philip-fearon"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fearon"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/fearon-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/fearon"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/retter">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Implementation of Portable EXPath Extension Functions</dc:title>
+      <rdfs:label>Adam Retter's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/adam-retter"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/retter"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/retter.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/adam-retter">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/retter"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/retter">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Adam Retter's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/adam-retter"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/retter"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/retter-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/retter"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/gibson">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Publishing with XProc</dc:title>
+      <rdfs:label>Nic Gibson's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/nic-gibson"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/gibson"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/gibson.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/nic-gibson">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/gibson"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/gibson">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Nic Gibson's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/nic-gibson"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/gibson"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/gibson-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/gibson"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/graham">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Validating XSL-FO with Relax NG and Schematron</dc:title>
+      <rdfs:label>Tony Graham's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/tony-graham"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/graham"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/graham.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/tony-graham">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/graham"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/graham">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Tony Graham's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/tony-graham"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/graham"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/graham-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/graham"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/de-vreeze">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>XML Processing with Scala and yaidom</dc:title>
+      <rdfs:label>Chris de Vreeze's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/chris-de-vreeze"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/de-vreeze"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/de-vreeze.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/chris-de-vreeze">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/de-vreeze"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/de-vreeze">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Chris de Vreeze's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/chris-de-vreeze"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/de-vreeze"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/de-vreeze-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/de-vreeze"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/vlist">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Data Driven Programming in XQuery</dc:title>
+      <rdfs:label>Eric van der Vlist's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/vlist"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/vlist.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/eric-van-der-vlist">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/vlist"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/vlist">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Eric van der Vlist's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/vlist"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/vlist-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/vlist"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/fuller">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>Diaries of a Desperate XProc Hacker</dc:title>
+      <rdfs:label>James Fuller's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fuller"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/fuller.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/james-fuller">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fuller"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fuller">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>James Fuller's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fuller"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/fuller-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/fuller"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/sales">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <dc:title>The application of Schematron schemas to word-processing documents</dc:title>
+      <rdfs:label>Andrew Sales's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/andrew-sales"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/sales"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/sales.gif"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/person/andrew-sales">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/sales"/>
+   </Description>
+   <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/sales">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Andrew Sales's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/andrew-sales"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/sales"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/sales-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/sales"/>
+   </Description>
+</RDF>

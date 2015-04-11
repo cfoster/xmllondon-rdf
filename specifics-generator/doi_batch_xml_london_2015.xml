@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doi_batch
+  xmlns="http://www.crossref.org/schema/4.3.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.crossref.org/schema/4.3.0
+                      http://www.crossref.org/schema/deposit/crossref4.3.0.xsd"
+  version="4.3.0">
+
+  <head>
+
+    <doi_batch_id>xml-london-2015-01</doi_batch_id>
+    <timestamp>201506071000</timestamp> <!-- 2015-06-07T10:00:00 -->
+
+    <depositor>
+      <name>XML London</name>
+      <email_address/>
+    </depositor>
+    <registrant>XML London</registrant>
+  </head>
+
+  <body>
+
+    <conference>
+
+      <contributors>
+        <person_name sequence="first" contributor_role="chair">
+          <given_name>Charles</given_name>
+          <surname>Foster</surname>
+        </person_name>
+      </contributors>
+
+      <event_metadata>
+        <conference_name>XML London 2015 Conference</conference_name>
+        <conference_acronym>XMLLondon15</conference_acronym>
+        <conference_sponsor>MarkLogic, http://www.marklogic.com</conference_sponsor>
+        <conference_sponsor>oXygen, http://www.oxygenxml.com</conference_sponsor>
+        <conference_sponsor>Saxonica, http://www.saxonica.com</conference_sponsor>
+        <conference_number>2</conference_number>
+        <conference_location>London, United Kingdom</conference_location>
+        <conference_date start_day="6" start_month="6" start_year="2015"
+                         end_day="7" end_month="6"
+                         end_year="2015">June 6-7, 2015</conference_date>
+      </event_metadata>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>John</given_name>
+            <surname>Lumley</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Michael</given_name>
+            <surname>Kay</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Improving Pattern Matching Performance in XSLT</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Abel</given_name>
+            <surname>Braaksma</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>It's the little things that matter</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Sandro</given_name>
+            <surname>Cirulli</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Continuous Integration with XML and RDF Data</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Shinyu</given_name>
+            <surname>Murakami</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Johannes</given_name>
+            <surname>Wilm</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Vivliostyle - Open source, web browser based CSS typesetting engine</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>George</given_name>
+            <surname>Bina</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Magic URLs in an XML Universe</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Fabio</given_name>
+            <surname>Labella</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Henry</given_name>
+            <surname>Thompson</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>A Rendering Language for RDF</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Andy</given_name>
+            <surname>Seaborne</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Lizard - A Fault Tolerant SPARQL Store</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Steven</given_name>
+            <surname>Pemberton</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>XML Interfaces to the Internet of Things with XForms</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Philip</given_name>
+            <surname>Fearon</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Streamlining XML Authoring Workflows</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Adam</given_name>
+            <surname>Retter</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Implementation of Portable EXPath Extension Functions</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Nic</given_name>
+            <surname>Gibson</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Publishing with XProc</title>
+          <subtitle>transforming documents through progressive refinement</subtitle>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Tony</given_name>
+            <surname>Graham</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Validating XSL-FO with Relax NG and Schematron</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Chris</given_name>
+            <surname>de Vreeze</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>XML Processing with Scala and yaidom</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Eric</given_name>
+            <surname>van der Vlist</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Data Driven Programming in XQuery</title>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>James</given_name>
+            <surname>Fuller</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Diaries of a Desperate XProc Hacker</title>
+          <subtitle>managing xproc dependencies with Depify</subtitle>
+        </titles>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Andrew</given_name>
+            <surname>Sales</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>The application of Schematron schemas to word-processing documents</title>
+        </titles>
+      </conference_paper>
+
+    </conference>
+  </body>
+
+</doi_batch>

@@ -78,9 +78,10 @@
         <xsl:value-of select="$year" />
       </swrc:year>
 
-      <owl:sameAs rdf:resource="{concat('http://dx.doi.org/', f:doi(.))}" />
-
-      <dc:identifier>doi:<xsl:value-of select="f:doi(.)"/></dc:identifier>
+      <xsl:if test="doi_data/doi">
+        <owl:sameAs rdf:resource="{concat('http://dx.doi.org/', f:doi(.))}" />
+        <dc:identifier>doi:<xsl:value-of select="f:doi(.)"/></dc:identifier>
+      </xsl:if>
 
       <xsl:apply-templates select="contributors/person_name" />
       <swc:relatedToEvent rdf:resource="{f:dog-food-uri(fn:concat('/presentation/', $surname-normalized))}" />
