@@ -201,7 +201,7 @@
 <http://data.semanticweb.org/organization/vivliostyle> a foaf:Organization ; a org:Organization ;
   rdfs:label "Vivliostyle" ;
   foaf:name "Vivliostyle Inc." ;
-  foaf:depiction <http://xmllondon.com/images/depiction/logo-vivliostyle.png> ;
+  foaf:depiction <http://xmllondon.com/images/depiction/vivliostyle-200.png> ;
   foaf:OnlineAccount twitter:vivliostyle ;
   foaf:OnlineAccount github:vivliostyle ;
   foaf:homepage <http://vivliostyle.com/> .
@@ -216,7 +216,7 @@
 <http://data.semanticweb.org/organization/epimorphics> a foaf:Organization ; a org:Organization ;
   rdfs:label "Epimorphics" ;
   foaf:name "Epimorphics Ltd" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/epimorphics.png> ;
+  foaf:depiction <http://xmllondon.com/images/depiction/epilogo-250.png> ;
   foaf:OnlineAccount twitter:epimorphics ;
   foaf:homepage <http://www.epimorphics.com/> .
 

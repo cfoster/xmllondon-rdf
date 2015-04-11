@@ -956,7 +956,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "de Vreeze" ;
   foaf:firstName "Chris" ;
   foaf:name "Chris de Vreeze" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Chris-de-Vreeze.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/speakers/Chris-de-Vreeze.jpg> ;
   foaf:OnlineAccount <http://www.linkedin.com/pub/chris-de-vreeze/2/329/647> ; 
   foaf:OnlineAccount github:dvreeze ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> .
