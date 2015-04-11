@@ -198,6 +198,28 @@
   foaf:OnlineAccount twitter:xeditor ;
   foaf:homepage	<http://www.appsoft.de/> .
 
+<http://data.semanticweb.org/organization/vivliostyle> a foaf:Organization ; a org:Organization ;
+  rdfs:label "Vivliostyle" ;
+  foaf:name "Vivliostyle Inc." ;
+  foaf:depiction <http://xmllondon.com/images/depiction/logo-vivliostyle.png> ;
+  foaf:OnlineAccount twitter:vivliostyle ;
+  foaf:OnlineAccount github:vivliostyle ;
+  foaf:homepage <http://vivliostyle.com/> .
+
+<http://data.semanticweb.org/organization/university-of-edinburgh> a foaf:Organization ; a org:Organization ;
+  rdfs:label "University of Edinburgh" ;
+  foaf:name "University of Edinburgh" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/university-of-edinburgh.png> ;
+  foaf:OnlineAccount twitter:EdinburghUni ;
+  foaf:homepage <http://www.ed.ac.uk/> .
+
+<http://data.semanticweb.org/organization/epimorphics> a foaf:Organization ; a org:Organization ;
+  rdfs:label "Epimorphics" ;
+  foaf:name "Epimorphics Ltd" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/epimorphics.png> ;
+  foaf:OnlineAccount twitter:epimorphics ;
+  foaf:homepage <http://www.epimorphics.com/> .
+
 ## XML Guild
 
 <http://xmlguild.org> a foaf:Organization ; a org:Organization ;
