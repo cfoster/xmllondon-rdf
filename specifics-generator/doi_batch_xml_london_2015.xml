@@ -86,12 +86,12 @@
       <conference_paper language="en">
         <contributors>
           <person_name sequence="first" contributor_role="author">
-            <given_name>Shinyu</given_name>
-            <surname>Murakami</surname>
-          </person_name>
-          <person_name sequence="first" contributor_role="author">
             <given_name>Johannes</given_name>
             <surname>Wilm</surname>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Shinyu</given_name>
+            <surname>Murakami</surname>
           </person_name>
         </contributors>
         <titles>

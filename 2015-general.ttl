@@ -10,7 +10,7 @@
 
 <http://data.semanticweb.org/conference/xmllondon/2015> a swc:ConferenceEvent ;
   rdfs:label "XML London 2015" ;
-#  swc:hasRelatedDocument <http://data.semanticweb.org/conference/xmllondon/2015/proceedings> ;
+  swc:hasRelatedDocument <http://data.semanticweb.org/conference/xmllondon/2015/proceedings> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/chair> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/pcmember> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> ;
