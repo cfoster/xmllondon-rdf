@@ -17,6 +17,7 @@ This repository holds the dataset found in the XML London RDF triple store. Ever
 * [other-events.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/other-events.ttl), very basic info about other events, like XML Prague etc.
 * [people.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/people.ttl), info about people which XML London knows about.
 * [xmllondon-schema.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/xmllondon-schema.ttl), custom RDFS for concepts the common vocabularies didn't quite cover.
+* [data.semanticweb.org](https://github.com/cfoster/xmllondon-rdf/tree/master/data.semanticweb.org), script to produce large RDF/XML file suitable for data.semanticweb.org
 
 ## SPARQL and Browse
 
