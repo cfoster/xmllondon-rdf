@@ -1,16 +1,17 @@
-<RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
-     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-     xmlns:swrc="http://swrc.ontoware.org/ontology#"
-     xmlns:bibo="http://purl.org/ontology/bibo/"
-     xmlns:f="http://xmllondon.com/xsl/functions"
-     xmlns:xlswc="http://xmllondon.com/ns/swc/ontology#"
+<RDF xmlns:f="http://xmllondon.com/xsl/functions"
      xmlns:fn="http://www.w3.org/2005/xpath-functions"
+     xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+     xmlns:swrc="http://swrc.ontoware.org/ontology#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:xlswc="http://xmllondon.com/ns/swc/ontology#">
    <Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2014/proceedings">
       <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/kay"/>
       <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/paper/braaksma"/>

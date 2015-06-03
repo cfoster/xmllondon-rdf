@@ -8,17 +8,16 @@
   version="4.3.0">
 
   <head>
-
+    
     <doi_batch_id>xml-london-2015-01</doi_batch_id>
-    <timestamp>201506071000</timestamp> <!-- 2015-06-07T10:00:00 -->
-
+    <timestamp>201506061000</timestamp> <!-- 2015-06-06T10:00:00 -->
+    
     <depositor>
       <name>XML London</name>
-      <email_address/>
     </depositor>
     <registrant>XML London</registrant>
   </head>
-
+  
   <body>
 
     <conference>
@@ -36,13 +35,28 @@
         <conference_sponsor>MarkLogic, http://www.marklogic.com</conference_sponsor>
         <conference_sponsor>oXygen, http://www.oxygenxml.com</conference_sponsor>
         <conference_sponsor>Saxonica, http://www.saxonica.com</conference_sponsor>
-        <conference_number>2</conference_number>
+        <conference_number>3</conference_number>
         <conference_location>London, United Kingdom</conference_location>
         <conference_date start_day="6" start_month="6" start_year="2015"
-                         end_day="7" end_month="6"
-                         end_year="2015">June 6-7, 2015</conference_date>
+          end_day="7" end_month="6"
+          end_year="2015">June 6-7, 2015</conference_date>
       </event_metadata>
-
+      
+      <proceedings_metadata language="en">
+        <proceedings_title>XML London 2015 Conference Proceedings</proceedings_title>
+        <proceedings_subject>Innovations in XML, related technologies and the Semantic Web</proceedings_subject>
+        <publisher>
+          <publisher_name>XML London</publisher_name>
+          <publisher_place>London</publisher_place>
+        </publisher>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <isbn>978-0-9926471-2-4</isbn>
+      </proceedings_metadata>
+      
       <conference_paper language="en">
         <contributors>
           <person_name sequence="first" contributor_role="author">
@@ -57,6 +71,22 @@
         <titles>
           <title>Improving Pattern Matching Performance in XSLT</title>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>9</first_page>
+          <last_page>25</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">1</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Lumley01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Lumley01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
@@ -68,7 +98,24 @@
         </contributors>
         <titles>
           <title>It's the little things that matter</title>
+          <subtitle>How certain small changes in XSLT 3.0 can improve your programming experience drastically</subtitle>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>26</first_page>
+          <last_page>51</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">2</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Braaksma01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Braaksma01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
@@ -79,8 +126,24 @@
           </person_name>
         </contributors>
         <titles>
-          <title>Continuous Integration with XML and RDF Data</title>
+          <title>Continuous Integration for XML and RDF Data</title>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>52</first_page>
+          <last_page>60</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">3</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Cirulli01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Cirulli01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
@@ -95,8 +158,25 @@
           </person_name>
         </contributors>
         <titles>
-          <title>Vivliostyle - Open source, web browser based CSS typesetting engine</title>
+          <title>Vivliostyle - Web browser based CSS typesetting engine</title>
+          <subtitle>How browser based typesetting systems can be made to work also for printed media</subtitle>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>61</first_page>
+          <last_page>62</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">4</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Wilm01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Wilm01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
@@ -109,6 +189,22 @@
         <titles>
           <title>Magic URLs in an XML Universe</title>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>63</first_page>
+          <last_page>68</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">5</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Bina01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Bina01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
@@ -123,56 +219,24 @@
           </person_name>
         </contributors>
         <titles>
-          <title>A Rendering Language for RDF</title>
+          <title>A rendering language for RDF</title>
         </titles>
-      </conference_paper>
-
-      <conference_paper language="en">
-        <contributors>
-          <person_name sequence="first" contributor_role="author">
-            <given_name>Andy</given_name>
-            <surname>Seaborne</surname>
-          </person_name>
-        </contributors>
-        <titles>
-          <title>Lizard - A Fault Tolerant SPARQL Store</title>
-        </titles>
-      </conference_paper>
-
-      <conference_paper language="en">
-        <contributors>
-          <person_name sequence="first" contributor_role="author">
-            <given_name>Steven</given_name>
-            <surname>Pemberton</surname>
-          </person_name>
-        </contributors>
-        <titles>
-          <title>XML Interfaces to the Internet of Things with XForms</title>
-        </titles>
-      </conference_paper>
-
-      <conference_paper language="en">
-        <contributors>
-          <person_name sequence="first" contributor_role="author">
-            <given_name>Philip</given_name>
-            <surname>Fearon</surname>
-          </person_name>
-        </contributors>
-        <titles>
-          <title>Streamlining XML Authoring Workflows</title>
-        </titles>
-      </conference_paper>
-
-      <conference_paper language="en">
-        <contributors>
-          <person_name sequence="first" contributor_role="author">
-            <given_name>Adam</given_name>
-            <surname>Retter</surname>
-          </person_name>
-        </contributors>
-        <titles>
-          <title>Implementation of Portable EXPath Extension Functions</title>
-        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>69</first_page>
+          <last_page>80</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">6</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Labella01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Labella01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
@@ -184,20 +248,52 @@
         </contributors>
         <titles>
           <title>Publishing with XProc</title>
-          <subtitle>transforming documents through progressive refinement</subtitle>
+          <subtitle>Transforming documents through progressive refinement</subtitle>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>81</first_page>
+          <last_page>89</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">7</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Gibson01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Gibson01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
         <contributors>
           <person_name sequence="first" contributor_role="author">
-            <given_name>Tony</given_name>
-            <surname>Graham</surname>
+            <given_name>Eric</given_name>
+            <surname>van der Vlist</surname>
           </person_name>
         </contributors>
         <titles>
-          <title>Validating XSL-FO with Relax NG and Schematron</title>
+          <title>Data-Driven Programming in XQuery</title>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>90</first_page>
+          <last_page>98</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">8</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Vlist01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Vlist01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
@@ -210,31 +306,135 @@
         <titles>
           <title>XML Processing with Scala and yaidom</title>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>99</first_page>
+          <last_page>108</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">9</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.DeVreeze01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.DeVreeze01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
         <contributors>
           <person_name sequence="first" contributor_role="author">
-            <given_name>Eric</given_name>
-            <surname>van der Vlist</surname>
+            <given_name>Andy</given_name>
+            <surname>Seaborne</surname>
           </person_name>
         </contributors>
         <titles>
-          <title>Data Driven Programming in XQuery</title>
+          <title>Lizard</title>
+          <subtitle>A Linked Data Publishing Platform</subtitle>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>109</first_page>
+          <last_page>113</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">10</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Seaborne01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Seaborne01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
         <contributors>
           <person_name sequence="first" contributor_role="author">
-            <given_name>James</given_name>
-            <surname>Fuller</surname>
+            <given_name>Phil</given_name>
+            <surname>Fearon</surname>
           </person_name>
         </contributors>
         <titles>
-          <title>Diaries of a Desperate XProc Hacker</title>
-          <subtitle>managing xproc dependencies with Depify</subtitle>
+          <title>Streamlining XML Authoring Workflows</title>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>114</first_page>
+          <last_page>124</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">11</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Fearon01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Fearon01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Adam</given_name>
+            <surname>Retter</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Implementation of Portable EXPath Extension Functions</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>125</first_page>
+          <last_page>142</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">12</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Retter01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Retter01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Tony</given_name>
+            <surname>Graham</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Validating XSL-FO with Relax NG and Schematron</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>143</first_page>
+          <last_page>152</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">13</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Graham01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Graham01</resource>
+        </doi_data>
       </conference_paper>
 
       <conference_paper language="en">
@@ -246,7 +446,81 @@
         </contributors>
         <titles>
           <title>The application of Schematron schemas to word-processing documents</title>
+          <subtitle>Document validation in a non-structured environment</subtitle>
         </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>153</first_page>
+          <last_page>162</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">14</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Sales01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Sales01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Steven</given_name>
+            <surname>Pemberton</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>XML Interfaces to the Internet of Things with XForms</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>163</first_page>
+          <last_page>168</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">15</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Pemberton01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Pemberton01</resource>
+        </doi_data>
+      </conference_paper>
+
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>James</given_name>
+            <surname>Fuller</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Diaries of a desperate XProc Hacker</title>
+          <subtitle>Managing XProc dependencies with depify</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>6</day>
+          <year>2015</year>
+        </publication_date>
+        <pages>
+          <first_page>169</first_page>
+          <last_page>176</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">16</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon15.Fuller01</doi>
+          <resource>http://xmllondon.com/XMLLondon15.Fuller01</resource>
+        </doi_data>
       </conference_paper>
 
     </conference>
