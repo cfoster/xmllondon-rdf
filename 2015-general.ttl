@@ -18,6 +18,7 @@
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:sisterEvent <http://www.xmlprague.cz/2015> ;
   xlswc:sisterEvent <http://xmlsummerschool.com/2015> ;
+  xlswc:sisterEvent <http://www.balisage.net/2015> ;
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/marklogic> ;
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/syncro-soft> ;
   xlswc:sponsoredBy <http://data.semanticweb.org/organization/saxonica> ;

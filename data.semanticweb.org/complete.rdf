@@ -1739,6 +1739,7 @@
 	<xlswc:relatedEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
 	<xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2015"/>
 	<xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2015"/>
+	<xlswc:sisterEvent rdf:resource="http://www.balisage.net/2015"/>
 	<xlswc:sponsoredBy rdf:resource="http://data.semanticweb.org/organization/marklogic"/>
 	<xlswc:sponsoredBy rdf:resource="http://data.semanticweb.org/organization/syncro-soft"/>
 	<xlswc:sponsoredBy rdf:resource="http://data.semanticweb.org/organization/saxonica"/>
@@ -2168,8 +2169,9 @@
 	<rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
 	<xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
 	<xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2015"/>
+	<xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	<xlswc:sisterEvent rdf:resource="http://www.balisage.net/2015"/>
 	<xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2014"/>
-	<xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2013"/>
 	<foaf:depiction rdf:resource="http://xmllondon.com/images/xml-prague-180.gif"/>
 	<foaf:homepage rdf:resource="http://www.xmlprague.cz/"/>
 	<foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-Prague-1107047/about"/>
@@ -2181,6 +2183,7 @@
 	<rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#AcademicEvent"/>
 	<xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
 	<xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2015"/>
+	<xlswc:sisterEvent rdf:resource="http://www.balisage.net/2015"/>
 	<xlswc:relatedEvent rdf:resource="http://xmlsummerschool.com/2014"/>
 	<xlswc:relatedEvent rdf:resource="http://xmlsummerschool.com/2013"/>
 	<foaf:depiction rdf:resource="http://xmllondon.com/images/xmlss.png"/>
@@ -2195,12 +2198,27 @@
 <!--   xlswc:sisterEvent xmlprague:2015 ; -->
 <!--   xlswc:relatedEvent xmlamsterdam:2013 ; -->
 <!--   rdfs:label "XML Amsterdam 2015" . -->
+
+<rdf:Description rdf:about="http://www.balisage.net/2015">
+	<rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	<xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	<xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2015"/>
+	<xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2015"/>
+	<xlswc:relatedEvent rdf:resource="http://www.balisage.net/2014"/>
+	<xlswc:relatedEvent rdf:resource="http://www.balisage.net/2013"/>
+	<foaf:depiction rdf:resource="http://xmllondon.com/images/balisage.png"/>
+	<foaf:homepage rdf:resource="http://www.balisage.net/"/>
+	<foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about"/>
+	<foaf:OnlineAccount rdf:resource="https://twitter.com/balisage"/>
+	<rdfs:label>Balisage 2015</rdfs:label>
+</rdf:Description>
 <!-- # 2014 ## -->
 
 <rdf:Description rdf:about="http://www.xmlprague.cz/2014">
 	<rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
 	<xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
 	<xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2014"/>
+	<xlswc:sisterEvent rdf:resource="http://www.balisage.net/2014"/>
 	<xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2015"/>
 	<xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2013"/>
 	<foaf:depiction rdf:resource="http://xmllondon.com/images/xml-prague-180.gif"/>
@@ -2223,6 +2241,18 @@
 	<rdfs:label>XML Summer School 2014</rdfs:label>
 </rdf:Description>
 <!-- # XML Amsterdam 2014 never happened. -->
+
+<rdf:Description rdf:about="http://www.balisage.net/2014">
+	<rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	<xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2014"/>
+	<xlswc:relatedEvent rdf:resource="http://www.balisage.net/2015"/>
+	<xlswc:relatedEvent rdf:resource="http://www.balisage.net/2013"/>
+	<foaf:depiction rdf:resource="http://xmllondon.com/images/balisage.png"/>
+	<foaf:homepage rdf:resource="http://www.balisage.net/"/>
+	<foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about"/>
+	<foaf:OnlineAccount rdf:resource="https://twitter.com/balisage"/>
+	<rdfs:label>Balisage 2014</rdfs:label>
+</rdf:Description>
 <!-- # 2013 ## -->
 
 <rdf:Description rdf:about="http://www.xmlprague.cz/2013">
@@ -2230,6 +2260,7 @@
 	<xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
 	<xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2013"/>
 	<xlswc:sisterEvent rdf:resource="http://xmlamsterdam.com/2013"/>
+	<xlswc:sisterEvent rdf:resource="http://www.balisage.net/2013"/>
 	<xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2014"/>
 	<xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2015"/>
 	<foaf:depiction rdf:resource="http://xmllondon.com/images/xml-prague-180.gif"/>
@@ -2261,6 +2292,18 @@
 	<foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/XMLAmsterdam-4306747"/>
 	<foaf:OnlineAccount rdf:resource="https://twitter.com/xmlsummerschool"/>
 	<rdfs:label>XML Amsterdam 2013</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.balisage.net/2013">
+	<rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	<xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2013"/>
+	<xlswc:relatedEvent rdf:resource="http://www.balisage.net/2014"/>
+	<xlswc:relatedEvent rdf:resource="http://www.balisage.net/2015"/>
+	<foaf:depiction rdf:resource="http://xmllondon.com/images/balisage.png"/>
+	<foaf:homepage rdf:resource="http://www.balisage.net/"/>
+	<foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about"/>
+	<foaf:OnlineAccount rdf:resource="https://twitter.com/balisage"/>
+	<rdfs:label>Balisage 2013</rdfs:label>
 </rdf:Description>
 
 

@@ -6,6 +6,7 @@
 @prefix xmlprague: <http://www.xmlprague.cz/> .
 @prefix xmlss: <http://xmlsummerschool.com/> .
 @prefix xmlamsterdam: <http://xmlamsterdam.com/> .
+@prefix balisage: <http://www.balisage.net/> .
 
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix twitter: <https://twitter.com/> .
@@ -15,8 +16,9 @@
 xmlprague:2015 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmllondon:2015 ;
   xlswc:sisterEvent xmlss:2015 ;
+  xlswc:sisterEvent xmllondon:2015 ;
+  xlswc:sisterEvent balisage:2015 ;
   xlswc:relatedEvent xmlprague:2014 ;
-  xlswc:relatedEvent xmlprague:2013 ;
   foaf:depiction <http://xmllondon.com/images/xml-prague-180.gif> ;
   foaf:homepage <http://www.xmlprague.cz/> ;
   foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Prague-1107047/about> ;
@@ -26,6 +28,7 @@ xmlprague:2015 a swc:ConferenceEvent ;
 xmlss:2015 a swc:AcademicEvent ;
   xlswc:sisterEvent xmllondon:2015 ;
   xlswc:sisterEvent xmlprague:2015 ;
+  xlswc:sisterEvent balisage:2015 ;
   xlswc:relatedEvent xmlss:2014 ;
   xlswc:relatedEvent xmlss:2013 ;
   foaf:depiction <http://xmllondon.com/images/xmlss.png> ;
@@ -41,12 +44,24 @@ xmlss:2015 a swc:AcademicEvent ;
 #  xlswc:relatedEvent xmlamsterdam:2013 ;
 #  rdfs:label "XML Amsterdam 2015" .
 
+balisage:2015 a swc:ConferenceEvent ;
+  xlswc:sisterEvent xmllondon:2015 ;
+  xlswc:sisterEvent xmlss:2015 ;
+  xlswc:sisterEvent xmlprague:2015 ;
+  xlswc:relatedEvent balisage:2014 ;
+  xlswc:relatedEvent balisage:2013 ;
+  foaf:depiction <http://xmllondon.com/images/balisage.png> ;
+  foaf:homepage <http://www.balisage.net/> ;
+  foaf:OnlineAccount <https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about> ;
+  foaf:OnlineAccount twitter:balisage ;
+  rdfs:label "Balisage 2015" .
 
 ## 2014 ##
 
 xmlprague:2014 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmllondon:2014;
-  xlswc:sisterEvent xmlss:2014;
+  xlswc:sisterEvent xmlss:2014 ;
+  xlswc:sisterEvent balisage:2014 ;
   xlswc:relatedEvent xmlprague:2015 ;
   xlswc:relatedEvent xmlprague:2013 ;
   foaf:depiction <http://xmllondon.com/images/xml-prague-180.gif> ;
@@ -68,6 +83,15 @@ xmlss:2014 a swc:AcademicEvent ;
 
 ## XML Amsterdam 2014 never happened.
 
+balisage:2014 a swc:ConferenceEvent ;
+  xlswc:sisterEvent xmlprague:2014 ;
+  xlswc:relatedEvent balisage:2015 ;
+  xlswc:relatedEvent balisage:2013 ;
+  foaf:depiction <http://xmllondon.com/images/balisage.png> ;
+  foaf:homepage <http://www.balisage.net/> ;
+  foaf:OnlineAccount <https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about> ;
+  foaf:OnlineAccount twitter:balisage ;
+  rdfs:label "Balisage 2014" .
 
 ## 2013 ##
 
@@ -75,6 +99,7 @@ xmlprague:2013 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmllondon:2013 ;
   xlswc:sisterEvent xmlss:2013 ;
   xlswc:sisterEvent xmlamsterdam:2013 ;
+  xlswc:sisterEvent balisage:2013 ;
   xlswc:relatedEvent xmlprague:2014 ;
   xlswc:relatedEvent xmlprague:2015 ;
   foaf:depiction <http://xmllondon.com/images/xml-prague-180.gif> ;
@@ -103,3 +128,12 @@ xmlamsterdam:2013 a swc:OrganisedEvent ;
   foaf:OnlineAccount twitter:xmlsummerschool ;
   rdfs:label "XML Amsterdam 2013" .
 
+balisage:2013 a swc:ConferenceEvent ;
+  xlswc:sisterEvent xmlprague:2013 ;
+  xlswc:relatedEvent balisage:2014 ;
+  xlswc:relatedEvent balisage:2015 ;
+  foaf:depiction <http://xmllondon.com/images/balisage.png> ;
+  foaf:homepage <http://www.balisage.net/> ;
+  foaf:OnlineAccount <https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about> ;
+  foaf:OnlineAccount twitter:balisage ;
+  rdfs:label "Balisage 2013" .
