@@ -87,6 +87,7 @@
           <doi>10.14337/XMLLondon15.Lumley01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Lumley01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/Improving-XSLT-Pattern-Matching-Slideset.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -144,6 +145,7 @@
           <doi>10.14337/XMLLondon15.Cirulli01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Cirulli01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/sandro_cirulli_continuous_integration_with_xml_and_rdf_data.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -177,6 +179,7 @@
           <doi>10.14337/XMLLondon15.Wilm01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Wilm01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/vivliostyle-xmllondon-2015.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -205,6 +208,7 @@
           <doi>10.14337/XMLLondon15.Bina01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Bina01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/slidesMagicURLs.dita.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -237,6 +241,7 @@
           <doi>10.14337/XMLLondon15.Labella01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Labella01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/fabio-labella</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -266,6 +271,7 @@
           <doi>10.14337/XMLLondon15.Gibson01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Gibson01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/nicg-presentation.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -294,6 +300,7 @@
           <doi>10.14337/XMLLondon15.Vlist01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Vlist01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/eric-van-der-vlist-xmllondon-2015.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -322,6 +329,7 @@
           <doi>10.14337/XMLLondon15.DeVreeze01</doi>
           <resource>http://xmllondon.com/XMLLondon15.DeVreeze01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/XML-Processing-with-Scala-and-yaidom.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -351,6 +359,7 @@
           <doi>10.14337/XMLLondon15.Seaborne01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Seaborne01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/2015-06-Lizard-XML-London.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -379,6 +388,7 @@
           <doi>10.14337/XMLLondon15.Fearon01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Fearon01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/phil-fearon-xmllondon.ppt</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -407,6 +417,7 @@
           <doi>10.14337/XMLLondon15.Retter01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Retter01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/Implementation-of-Portable-EXPath-Extension-Functions.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -435,6 +446,7 @@
           <doi>10.14337/XMLLondon15.Graham01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Graham01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/validating-xsl-fo.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -464,6 +476,7 @@
           <doi>10.14337/XMLLondon15.Sales01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Sales01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/Andrew-Sales-XML-London-2015.pdf</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -492,6 +505,7 @@
           <doi>10.14337/XMLLondon15.Pemberton01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Pemberton01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/steven-pemberton</slides-url>
       </conference_paper>
 
       <conference_paper language="en">
@@ -521,6 +535,7 @@
           <doi>10.14337/XMLLondon15.Fuller01</doi>
           <resource>http://xmllondon.com/XMLLondon15.Fuller01</resource>
         </doi_data>
+        <slides-url>http://xmllondon.com/2015/slides/xmllondon-JimFuller2015.pptx</slides-url>
       </conference_paper>
 
     </conference>
