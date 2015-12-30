@@ -1,0 +1,2438 @@
+<rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
+         xmlns:swrc="http://swrc.ontoware.org/ontology#"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:xlswc="http://xmllondon.com/ns/swc/ontology#"
+         xmlns:twitter="https://twitter.com/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+         xmlns:wiki="http://www.wikipedia.org/wiki/"
+         xmlns:dbpedia="http://dbpedia.org/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:org="http://www.w3.org/ns/org#"
+         xmlns:github="https://github.com/"
+         xmlns:xmllondon="http://data.semanticweb.org/conference/xmllondon/"
+         xmlns:xmlprague="http://www.xmlprague.cz/"
+         xmlns:xmlss="http://xmlsummerschool.com/"
+         xmlns:xmlamsterdam="http://xmlamsterdam.com/"
+         xmlns:balisage="http://www.balisage.net/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <rdf:Description rdf:about="http://www.ucl.ac.uk/buildings/roberts-engineering-building">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceVenuePlace"/>
+	     <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+	     <rdfs:label>Roberts Engineering Building (UCL)</rdfs:label>
+	     <swc:isLocationFor rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
+	     <swc:isLocationFor rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <swc:isLocationFor rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">51.522676</geo:lat>
+	     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.132083</geo:long>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/uclengineering"/>
+	     <foaf:based_near rdf:resource="http://dbpedia.org/resource/London"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/roberts-building.png"/>
+	     <vcard:postal-code>WC1E 6BT</vcard:postal-code>
+	     <vcard:country-name>United Kingdom</vcard:country-name>
+	     <vcard:street-address>Engineering Front Building, Torrington Place</vcard:street-address>
+	     <vcard:locality>London</vcard:locality>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/uclengineering">
+	     <foaf:accountServiceHomepage rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/marklogic">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <owl:sameAs rdf:resource="http://dbpedia.org/resource/MarkLogic"/>
+	     <rdfs:label>MarkLogic</rdfs:label>
+	     <foaf:name>MarkLogic Corporation</foaf:name>
+	     <foaf:homepage rdf:resource="http://www.marklogic.com/"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-marklogic.gif"/>
+	     <wiki:homepage rdf:resource="http://en.wikipedia.org/wiki/MarkLogic"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/marklogic"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/marklogic"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/marklogic"/>
+	     <dbpedia:about rdf:resource="http://dbpedia.org/page/MarkLogic"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/fasterxml">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>FasterXML</rdfs:label>
+	     <foaf:name>FasterXML</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/fxml_logo.png"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/fasterxml-llc"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/fasterxml"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/FasterXML"/>
+	     <foaf:homepage rdf:resource="http://fasterxml.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/saxonica">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Saxonica</rdfs:label>
+	     <foaf:name>Saxonica</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-saxonica.gif"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/saxonica-ltd"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/saxonica"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/Saxonica"/>
+	     <foaf:homepage rdf:resource="http://saxonica.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/oxford-university-press">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Oxford_University_Press"/>
+	     <rdfs:label>Oxford University Press</rdfs:label>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/255px-OUP_logo.svg.png"/>
+	     <foaf:name>Oxford University Press</foaf:name>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/oxford-university-press"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/oupacademic"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/OUP"/>
+	     <foaf:homepage rdf:resource="http://www.oup.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/deltaxml">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>DeltaXML</rdfs:label>
+	     <foaf:name>DeltaXML</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/e21f4c12b7.png"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/deltaxml-ltd"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/deltaxml"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/DeltaXML"/>
+	     <foaf:homepage rdf:resource="http://www.deltaxml.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/ibm">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <owl:sameAs rdf:resource="http://dbpedia.org/resource/ibm"/>
+	     <rdfs:label>IBM</rdfs:label>
+	     <foaf:name>IBM</foaf:name>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/ibm"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/ibm"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/200px-IBM_logo.svg.png"/>
+	     <foaf:homepage rdf:resource="http://www.ibm.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-oxford">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <owl:sameAs rdf:resource="http://dbpedia.org/resource/University_of_Oxford"/>
+	     <rdfs:label>University of Oxford</rdfs:label>
+	     <foaf:name>University of Oxford</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/university_of_oxford.gif"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/university-of-oxford"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/uniofoxford"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/ox-cs"/>
+	     <foaf:homepage rdf:resource="http://ox.ac.uk/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/syncro-soft">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>oXygen</rdfs:label>
+	     <foaf:name>SyncRO Soft</foaf:name>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-oxygen.png"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/syncro-soft"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/oxygenxml"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/oxygenxml"/>
+	     <foaf:homepage rdf:resource="http://www.sync.ro/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/antenna-house">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Antenna House</rdfs:label>
+	     <foaf:name>Antenna House</foaf:name>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-antenna-house.gif"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/antenna-house-inc"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/antennainfo"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/AntennaHouse"/>
+	     <foaf:homepage rdf:resource="http://www.antennahouse.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Centrum Wiskunde and Informatica</rdfs:label>
+	     <foaf:name>Centrum Wiskunde and Informatica</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/cwi.jpg"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/cwi"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/cwinl"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/cwi-swat"/>
+	     <foaf:homepage rdf:resource="http://www.cwi.nl/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/networked-planet">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Networked Planet</rdfs:label>
+	     <foaf:name>Networked Planet</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/networked-planet.jpg"/>
+	     <foaf:OnlineAccount rdf:resource="https://www.linkedin.com/company/networked-planet"/>
+	     <foaf:homepage rdf:resource="http://www.networkedplanet.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/frameless">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Frameless</rdfs:label>
+	     <foaf:name>Frameless</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/frameless.jpg"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/frameless_io"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/frameless"/>
+	     <foaf:homepage rdf:resource="http://www.frameless.io/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/rackspace">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <owl:sameAs rdf:resource="http://dbpedia.org/resource/Rackspace"/>
+	     <rdfs:label>Rackspace</rdfs:label>
+	     <foaf:name>Rackspace</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/rackspace.jpg"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/rackspace-hosting"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/rackspace"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/rackspace"/>
+	     <foaf:homepage rdf:resource="http://www.rackspace.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/basex">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>BaseX</rdfs:label>
+	     <foaf:name>BaseX</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/basex.jpg"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/basex"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/basexdb"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/BaseXdb"/>
+	     <foaf:homepage rdf:resource="http://basex.org/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/existdb">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>eXistdb</rdfs:label>
+	     <foaf:name>eXistdb</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/existdb.gif"/>
+	     <foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/eXistdb-Open-Source-Native-XML-35624/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/existdb"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/eXist-db"/>
+	     <foaf:homepage rdf:resource="http://exist-db.org/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/mercator-it-solutions">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Mercator IT Solutions Ltd</rdfs:label>
+	     <foaf:name>Mercator IT Solutions Ltd</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-mercator.png"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/mercator-it-solutions-ltd"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/MercatorIT"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
+	     <foaf:homepage rdf:resource="http://www.mercatorit.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/overstory-consulting">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>OverStory Consulting Ltd</rdfs:label>
+	     <foaf:name>OverStory Consulting Ltd</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-overstory.png"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/overstory-consulting"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/overstory"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/overstory"/>
+	     <foaf:homepage rdf:resource="http://www.overstory.co.uk/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/3ksoftware">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>3Ksoftware</rdfs:label>
+	     <foaf:name>3Ksoftware</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-3ksoftware.gif"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/3ksoftware-llc"/>
+	     <foaf:homepage rdf:resource="http://www.3ksoftware.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/appsoft-technologies">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Xeditor</rdfs:label>
+	     <foaf:name>appsoft Technologies</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-xeditor.gif"/>
+	     <xlswc:sponsorsEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/company/appsoft-technologies-gmbh"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xeditor"/>
+	     <foaf:homepage rdf:resource="http://www.appsoft.de/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/vivliostyle">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Vivliostyle</rdfs:label>
+	     <foaf:name>Vivliostyle Inc.</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/vivliostyle-200.png"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/vivliostyle"/>
+	     <foaf:OnlineAccount rdf:resource="https://github.com/vivliostyle"/>
+	     <foaf:homepage rdf:resource="http://vivliostyle.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-edinburgh">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>University of Edinburgh</rdfs:label>
+	     <foaf:name>University of Edinburgh</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/university-of-edinburgh.png"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/EdinburghUni"/>
+	     <foaf:homepage rdf:resource="http://www.ed.ac.uk/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/epimorphics">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>Epimorphics</rdfs:label>
+	     <foaf:name>Epimorphics Ltd</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/epilogo-250.png"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/epimorphics"/>
+	     <foaf:homepage rdf:resource="http://www.epimorphics.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlguild.org">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdf:type rdf:resource="http://www.w3.org/ns/org#Organization"/>
+	     <rdfs:label>XML Guild</rdfs:label>
+	     <foaf:name>XML Guild</foaf:name>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/xml-guild-logo.jpg"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-Guild-50595/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmlguild"/>
+	     <foaf:homepage rdf:resource="http://xmlguild.org/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.xmlprague.cz/2015">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.balisage.net/2015"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2014"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/xml-prague-180.gif"/>
+	     <foaf:homepage rdf:resource="http://www.xmlprague.cz/"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-Prague-1107047/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmlprague"/>
+	     <rdfs:label>XML Prague 2015</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlsummerschool.com/2015">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#AcademicEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.balisage.net/2015"/>
+	     <xlswc:relatedEvent rdf:resource="http://xmlsummerschool.com/2014"/>
+	     <xlswc:relatedEvent rdf:resource="http://xmlsummerschool.com/2013"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/xmlss.png"/>
+	     <foaf:homepage rdf:resource="http://xmlsummerschool.com/"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-Summer-School-2043439/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmlsummerschool"/>
+	     <rdfs:label>XML Summer School 2015</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.balisage.net/2015">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2015"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.balisage.net/2014"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.balisage.net/2013"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/balisage.png"/>
+	     <foaf:homepage rdf:resource="http://www.balisage.net/"/>
+	     <foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/balisage"/>
+	     <rdfs:label>Balisage 2015</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.xmlprague.cz/2014">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2014"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.balisage.net/2014"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2015"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2013"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/xml-prague-180.gif"/>
+	     <foaf:homepage rdf:resource="http://www.xmlprague.cz/"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-Prague-1107047/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmlprague"/>
+	     <rdfs:label>XML Prague 2014</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlsummerschool.com/2014">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#AcademicEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2014"/>
+	     <xlswc:relatedEvent rdf:resource="http://xmlsummerschool.com/2015"/>
+	     <xlswc:relatedEvent rdf:resource="http://xmlsummerschool.com/2013"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/xmlss.png"/>
+	     <foaf:homepage rdf:resource="http://xmlsummerschool.com/"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-Summer-School-2043439/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmlsummerschool"/>
+	     <rdfs:label>XML Summer School 2014</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.balisage.net/2014">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2014"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.balisage.net/2015"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.balisage.net/2013"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/balisage.png"/>
+	     <foaf:homepage rdf:resource="http://www.balisage.net/"/>
+	     <foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/balisage"/>
+	     <rdfs:label>Balisage 2014</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.xmlprague.cz/2013">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
+	     <xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2013"/>
+	     <xlswc:sisterEvent rdf:resource="http://xmlamsterdam.com/2013"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.balisage.net/2013"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2014"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.xmlprague.cz/2015"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/xml-prague-180.gif"/>
+	     <foaf:homepage rdf:resource="http://www.xmlprague.cz/"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-Prague-1107047/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmlprague"/>
+	     <rdfs:label>XML Prague 2013</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlsummerschool.com/2013">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#AcademicEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2013"/>
+	     <xlswc:relatedEvent rdf:resource="http://xmlsummerschool.com/2015"/>
+	     <xlswc:relatedEvent rdf:resource="http://xmlsummerschool.com/2014"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/xmlss.png"/>
+	     <foaf:homepage rdf:resource="http://xmlsummerschool.com/"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-Summer-School-2043439/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmlsummerschool"/>
+	     <rdfs:label>XML Summer School 2013</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlamsterdam.com/2013">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2013"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/logo-xml-amsterdam.gif"/>
+	     <foaf:homepage rdf:resource="http://www.xmlamsterdam.com/"/>
+	     <foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/XMLAmsterdam-4306747"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmlsummerschool"/>
+	     <rdfs:label>XML Amsterdam 2013</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.balisage.net/2013">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2013"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.balisage.net/2014"/>
+	     <xlswc:relatedEvent rdf:resource="http://www.balisage.net/2015"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/balisage.png"/>
+	     <foaf:homepage rdf:resource="http://www.balisage.net/"/>
+	     <foaf:OnlineAccount rdf:resource="https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/balisage"/>
+	     <rdfs:label>Balisage 2013</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/charles-foster">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/chair"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/chair"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/chair"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Charles Foster</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Foster</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Charles</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Charles Foster</name>
+	     <myersBriggs xmlns="http://xmlns.com/foaf/0.1/">ENTP</myersBriggs>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.cfoster.net/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Charles-Foster.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/marklogic"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/fostercharles"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/cfoster"/>
+	     <skypeID xmlns="http://xmlns.com/foaf/0.1/">cfoster</skypeID>
+	     <memberOf xmlns="http://www.w3.org/ns/org#" rdf:resource="http://xmlguild.org"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlguild.org">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/charles-foster"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://uk.linkedin.com/in/marklogic">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/fostercharles">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://github.com/cfoster">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://github.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/tatu-saloranta">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Tatu Saloranta</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Saloranta</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Tatu</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Tatu Saloranta</name>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://www.cowtowncoder.com/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/pub/tatu-saloranta/0/36/b2b"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/cowtowncoder"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/fasterxml"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Tatu-Saloranta.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/fasterxml">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/tatu-saloranta"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.linkedin.com/pub/tatu-saloranta/0/36/b2b">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/cowtowncoder">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/nick-van-den-bleeken">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Nick Van den Bleeken</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Van den Bleeken</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Nick</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Nick Van den Bleeken</name>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://nick.bleeken.eu/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/nvdbleek"/>
+	     <weblog xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://blog.bleeken.eu/"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.inventivegroup.com/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://be.linkedin.com/in/nvdbleek"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Nick-Van-den-Bleeken.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://be.linkedin.com/in/nvdbleek">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/nvdbleek">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/eric-van-der-vlist">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Eric Van Der Vlist</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Van Der Vlist</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Eric</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Eric Van Der Vlist</name>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.dyomedea.com/"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.xmlfr.org/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#" rdf:resource="http://xmlguild.org"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://fr.linkedin.com/in/evlist"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/evlist"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Eric-Van-Der-Vlist.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlguild.org">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://fr.linkedin.com/in/evlist">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/evlist">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/oneil-delpratt">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">O'Neil Delpratt</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Delpratt</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">O'Neil</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">O'Neil Delpratt</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://twitter.com/ond1"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/pub/o-neil-delpratt/2b/3ba/348"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/saxonica"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.saxonica.com/"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/ONeil-Delpratt.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/saxonica">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/oneil-delpratt"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://uk.linkedin.com/pub/o-neil-delpratt/2b/3ba/348">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/ond1">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/tomos-hillman">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Tomos Hillman</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Hillman</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Tomos</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Tomos Hillman</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/tom_yamahito"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/pub/tomos-hillman/12/636/7"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/oxford-university-press"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Tomos-Hillman.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/oxford-university-press">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/tomos-hillman"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://uk.linkedin.com/pub/tomos-hillman/12/636/7">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/tom_yamahito">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/richard-pineger">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Richard Pineger</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Pineger</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Richard</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Richard Pineger</name>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://dita.xml.org/user/richard-pineger-0"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://lanyrd.com/profile/rpin42"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/oxford-university-press"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Richard-Pineger.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/oxford-university-press">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/richard-pineger"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/nigel-whitaker">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Nigel Whitaker</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Whitaker</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Nigel</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Nigel Whitaker</name>
+	     <weblog xmlns="http://xmlns.com/foaf/0.1/">http://blogs.deltaxml.com/author/nigelwhitaker/</weblog>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.deltaxml.com/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/deltaxml"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/pub/nigel-whitaker/5b/a3b/7b1"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/speakers/Nigel-Whitaker.png"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/deltaxml">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/nigel-whitaker"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://uk.linkedin.com/pub/nigel-whitaker/5b/a3b/7b1">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/robin-la-fontaine">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Robin La Fontaine</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">La Fontaine</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Robin</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Robin La Fontaine</name>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://lanyrd.com/profile/robin-la-fontaine"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.deltaxml.com/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/robinlafontaine"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/deltaxml"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Robin-La-Fontaine.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/deltaxml">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/robin-la-fontaine"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://uk.linkedin.com/in/robinlafontaine">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/autumn-cuellar">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Autumn Cuellar</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Cuellar</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Autumn</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Autumn Cuellar</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://www.dessci.com/en"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/pub/autumn-cuellar/5/857/b47"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/autumnc"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Autumn-Cuellar.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.linkedin.com/pub/autumn-cuellar/5/857/b47">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/autumnc">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/paul-topping">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Paul Topping</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Topping</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Paul</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Paul Topping</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://www.dessci.com/en"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/pub/paul-topping/0/17b/271"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Paul-Topping.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://www.linkedin.com/pub/paul-topping/0/17b/271">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/stephane-sire">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Stéphane Sire</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Sire</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Stéphane</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Stéphane Sire</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://fr.linkedin.com/in/ssire"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.oppidoc.fr/en/accueil"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Stephane-Sire.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://fr.linkedin.com/in/ssire">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/christine-vanoirbeek">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Christine Vanoirbeek</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Vanoirbeek</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Christine</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Christine Vanoirbeek</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.oppidoc.fr/en/accueil"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Christine-Vanoirbeek.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/philip-fennell">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Philip Fennell</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Fennell</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Philip</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Philip Fennell</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.marklogic.com/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/philipfennell"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/philipfennell"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/philipfennell"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Philip-Fennell.jpg"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/marklogic"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/marklogic">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://dbpedia.org/resource/MarkLogic">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://uk.linkedin.com/in/philipfennell">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.linkedin.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/philipfennell">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/rob-walpole">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Rob Walpole</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Walpole</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Rob</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Rob Walpole</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Rob-Walpole.jpg"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/catherine-dolbear">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Catherine Dolbear</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Dolbear</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Catherine</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Catherine Dolbear</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.oup.com/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/speakers/Catherine-Dolbear.png"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/oxford-university-press"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/oxford-university-press">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/catherine-dolbear"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/shaun-mcdonald">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Shaun McDonald</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">McDonald</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Shaun</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Shaun McDonald</name>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/oxford-university-press"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.oup.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/oxford-university-press">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/shaun-mcdonald"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/james-fuller">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">James Fuller</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Fuller</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">James</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">James Fuller</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.marklogic.com/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://cz.linkedin.com/in/jimfuller"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/xquery"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://github.com/xquery"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/James-Fuller.jpg"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/marklogic"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://dbpedia.org/resource/MarkLogic">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/marklogic">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/abel-braaksma">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Abel Braaksma</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Braaksma</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Abel</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Abel Braaksma</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://abrasoft.net/AbraSoftDnn"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Abel-Braaksma.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://nl.linkedin.com/in/abelbraaksma"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/kandura"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Abel-Braaksma.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/adrian-warman">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Adrian Warman</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Warman</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Adrian</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Adrian Warman</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/warmana"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/warmana"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/ibm"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Adrian-Warman.jpg"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/ibm">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/adrian-warman"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://dbpedia.org/resource/ibm">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/adrian-warman"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/sebastian-rahtz">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Sebastian Rahtz</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Rahtz</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Sebastian</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Sebastian Rahtz</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.ox.ac.uk/"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://it.oucs.ox.ac.uk/"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.tei-c.org/index.xml"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/pub/sebastian-rahtz/a/937/208"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://twitter.com/rahtz"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/university-of-oxford"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Sebastian-Rahtz.jpg"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://users.ox.ac.uk/~Rahtz"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-oxford">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/sebastian-rahtz"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/lou-burnard">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Lou Burnard</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Burnard</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Lou</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Lou Burnard</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.ox.ac.uk/"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://it.oucs.ox.ac./uk"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.tei-c.org/index.xml"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Lou-Burnard.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/louburnard"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/louBurnard"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://users.ox.ac.uk/~lou"/>
+	     <weblog xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://louburnard.wordpress.com"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/michael-kay">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Michael Kay</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Kay</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Michael</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Michael Kay</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.saxonica.com"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/pub/michael-kay/10/343/a1a"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/michaelhkay"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/michaelhkay"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Michael-Kay.jpg"/>
+	     <homepage xmlns="http://www.wikipedia.org/wiki/"
+                rdf:resource="http://en.wikipedia.org/wiki/Michael_Howard_Kay"/>
+	     <about xmlns="http://dbpedia.org/"
+             rdf:resource="http://dbpedia.org/page/Michael_Howard_Kay"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#" rdf:resource="http://xmlguild.org"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/saxonica"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlguild.org">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/michael-kay"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/saxonica">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/michael-kay"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/debbie-lockett">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Debbie Lockett</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Lockett</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Debbie</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Debbie Lockett</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Debbie-Lockett.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/debbie_lockett"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/deblock"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/saxonica"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.saxonica.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/saxonica">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/debbie-lockett"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/matt-kohl">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Matt Kohl</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Kohl</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Matt</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Matt Kohl</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/pub/matt-kohl/44/363/250"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/mattkohl"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Matt-Kohl.jpg"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.oup.com/"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.therightrhymes.com/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/oxford-university-press"/>
+	     <weblog xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://blog.oxforddictionaries.com/author/matt-kohl"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/oxford-university-press">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/matt-kohl"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/sandro-cirulli">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Sandro Cirulli</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Cirulli</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Sandro</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Sandro Cirulli</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.oup.com/"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.sandrocirulli.net/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/oxford-university-press"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/phil-gooch">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Phil Gooch</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Gooch</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Phil</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Phil Gooch</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/philgooch"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.oup.com/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Phil-Gooch.jpg"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://student.city.ac.uk/~abdy181"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/dino-fancellu">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Dino Fancellu</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Fancellu</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Dino</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Dino Fancellu</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/dinofancellu"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/dinofancellu"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/fancellu"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://www.dinofancellu.com/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Dino-Fancellu.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/george-bina">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">George Bina</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Bina</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">George</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">George Bina</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://ro.linkedin.com/pub/george-bina/1/917/760"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/georgebina"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/georgebina"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.oxygenxml.com/"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.sync.ro/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/George-Bina.jpg"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/syncro-soft"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/syncro-soft">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/william-narmontas">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">William Narmontas</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Narmontas</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">William</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">William Narmontas</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/scalawilliam"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/ScalaWilliam"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/ScalaWilliam"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://www.scalawilliam.com/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/William-Narmontas.jpg"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/elias-weingartner">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <sameAs xmlns="http://www.w3.org/2002/07/owl#"
+              rdf:resource="http://data.semanticweb.org/person/elias-weingaertner"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/elias-weingaertner">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Elias Weingärtner</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Weingärtner</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Elias</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Elias Weingärtner</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://de.linkedin.com/pub/elias-weingärtner/4/669/192"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://ds.informatik.rwth-aachen.de/members/weingaertner"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://www.weingaertner.org/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Elias-Weingaertner.jpg"/>
+	     <weblog xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://www.weingaertner.org/"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/christoph-ludwig">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Christoph Ludwig</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Ludwig</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Christoph</firstName>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://de.linkedin.com/pub/christoph-ludwig/7b/212/694"/>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Christoph Ludwig</name>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/celina-huang">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Celina Huang</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Huang</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Celina</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Celina Huang</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/pub/celina-huang/22/197/869"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Celina-Huang.jpg"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/antenna-house"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.antennahouse.com/"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/antenna-house">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/celina-huang"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/steven-pemberton">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Steven Pemberton</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Pemberton</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Steven</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Steven Pemberton</name>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://homepages.cwi.nl/~steven"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Steven-Pemberton.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://nl.linkedin.com/in/stevenpemberton"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/stevenpemberton"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/kal-ahmed">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Kal Ahmed</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Ahmed</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Kal</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Kal Ahmed</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/"
+                         rdf:resource="http://www.networkedplanet.com/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Kal-Ahmed.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/kalahmed"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/kal_ahmed"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://github.com/kal"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#" rdf:resource="http://xmlguild.org"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/networked-planet"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlguild.org">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/kal-ahmed"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/networked-planet">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/kal-ahmed"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/robbert-broersma">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Robbert Broersma</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Broersma</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Robbert</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Robbert Broersma</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.frameless.io/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Robbert-Broersma.jpg"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://robbertbroersma.nl/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://nl.linkedin.com/in/robbertbroersma"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/robbertbroersma"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/robbert"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/frameless"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/frameless">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/robbert-broersma"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://twitter.com/robbertbroersma">
+	     <accountServiceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://twitter.com/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/yolijn-van-der-kolk">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Yolijn van der Kolk</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">van der Kolk</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Yolijn</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Yolijn van der Kolk</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.frameless.io/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Yolijn-van-der-Kolk.jpg"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.yolijn.com/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://nl.linkedin.com/pub/yolijn-van-der-kolk/67/962/9a9/en"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/yolijn"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://github.com/Yolijn"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/frameless"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/frameless">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/yolijn-van-der-kolk"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/jorge-williams">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Jorge Williams</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Williams</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Jorge</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Jorge Williams</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.rackspace.com/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/speakers/Jorge-Williams.png"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/pub/jorge-williams/63/6b1/a6b"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/rackspace"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/rackspace">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/jorge-williams"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://dbpedia.org/resource/Rackspace">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/jorge-williams"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/eduardo-goncalves">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Eduardo Corrêa Gonçalves</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Gonçalves</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Eduardo Corrêa</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Eduardo Corrêa Gonçalves</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.ic.uff.br/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/speakers/Eduardo-Goncalves.png"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/vanessa-braganholo">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Vanessa Braganholo</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Braganholo</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Vanessa</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Vanessa Braganholo</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/vanbraganholo"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/braganholo"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Vanessa-Braganholo.jpg"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.ic.uff.br/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/lech-rzedzicki">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Lech Rzedzicki</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Rzedzicki</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Lech</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Lech Rzedzicki</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Lech-Rzedzicki.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/lechrzedzicki"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/xchaotic"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/xchaotic"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.kode1100.com/"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/adam-retter">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Adam Retter</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Retter</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Adam</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Adam Retter</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/adamretter"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/adamretter"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/adamretter"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Adam-Retter.jpg"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#" rdf:resource="http://xmlguild.org"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlguild.org">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/adam-retter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/mohamed-zergaoui">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Mohamed Zergaoui</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Zergaoui</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Mohamed</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Mohamed Zergaoui</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://fr.linkedin.com/in/innovimax"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/innovimax"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/innovimax"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.innovimax.fr/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#" rdf:resource="http://xmlguild.org"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Mohamed-Zergaoui.jpg"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlguild.org">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/mohamed-zergaoui"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/norman-walsh">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Norman Walsh</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Walsh</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Norman</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Norman Walsh</name>
+	     <nick xmlns="http://xmlns.com/foaf/0.1/">Norm</nick>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Norman-Walsh.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/in/normanwalsh"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://twitter.com/ndw"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://github.com/ndw"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://nwalsh.com/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/marklogic"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/marklogic">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/norman-walsh"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://dbpedia.org/resource/MarkLogic">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/norman-walsh"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/christian-grun">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <sameAs xmlns="http://www.w3.org/2002/07/owl#"
+              rdf:resource="http://data.semanticweb.org/person/christian-gruen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/christian-gruen">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Christian Grün</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Grün</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Christian</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Christian Grün</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://de.linkedin.com/pub/christian-grün/0/577/172"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/christiangruen"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/ChristianGruen"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Christian-Gruen.jpg"/>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://basex.org/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/basex"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/basex">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/christian-gruen"/>
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/christian-gruen"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/john-snelson">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">John Snelson</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Snelson</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">John</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">John Snelson</name>
+	     <workplaceHomepage xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="http://www.marklogic.com/"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/johnsnelson"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://twitter.com/jpcs"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://github.com/jpcs"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/John-Snelson.jpg"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://john.snelson.org.uk/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/marklogic"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/marklogic">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/john-snelson"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://dbpedia.org/resource/MarkLogic">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/john-snelson"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/lars-windauer">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Lars Windauer</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Windauer</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Lars</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Lars Windauer</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://de.linkedin.com/in/windauer"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/windauer"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/windauer"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Lars-Windauer.jpg"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014/pcmember"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/geert-bormans">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Geert Bormans</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Bormans</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Geert</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Geert Bormans</name>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/in/gbormans"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/geertidb"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://gbormans.telenet.be/"/>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Geert-Bormans.jpg"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/john-lumley">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">John Lumley</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Lumley</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">John</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">John Lumley</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/John-Lumley.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/johnlumley"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/johnlumley"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/saxonica"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/saxonica">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/john-lumley"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/shinyu-murakami">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Shinyu Murakami</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Murakami</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Shinyu</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Shinyu Murakami</name>
+	     <name xmlns="http://xmlns.com/foaf/0.1/" xml:lang="ja">村上 真雄</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Shinyu-Murakami.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://jp.linkedin.com/pub/murakami-shinyu/41/857/7b5"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/murakamishinyu"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/MurakamiShinyu"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/vivliostyle"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/vivliostyle">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/shinyu-murakami"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/johannes-wilm">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Johannes Wilm</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Wilm</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Johannes</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Johannes Wilm</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Johannes-Wilm.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://se.linkedin.com/in/johanneswilm"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/johanneswilm"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/johanneswilm"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/vivliostyle"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/vivliostyle">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/johannes-wilm"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/fabio-labella">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Fabio Labella</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Labella</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Fabio</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Fabio Labella</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Fabio-Labella.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/in/fabiolabella/en"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/university-of-edinburgh"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-edinburgh">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/fabio-labella"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/henry-thompson">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Henry S. Thompson</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Thompson</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Henry</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Henry S. Thompson</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Henry-Thompson.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/pub/henry-thompson/0/232/446"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/university-of-edinburgh"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://www.ltg.ed.ac.uk/~ht/"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/henry-s-thompson">
+	     <sameAs xmlns="http://www.w3.org/2002/07/owl#"
+              rdf:resource="http://data.semanticweb.org/person/henry-thompson"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/university-of-edinburgh">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/henry-thompson"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/andy-seaborne">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Andy Seaborne</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Seaborne</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Andy</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Andy Seaborne</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Andy-Seaborne.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/andyseaborne"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/andyseaborne"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/" rdf:resource="https://github.com/afs"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/epimorphics"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/epimorphics">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/philip-fearon">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Philip Fearon</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Fearon</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Philip</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Philip Fearon</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Philip-Fearon.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/philipfearon"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/pgfearo"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/pgfearo"/>
+	     <homepage xmlns="http://xmlns.com/foaf/0.1/"
+                rdf:resource="http://sketchpath.blogspot.co.uk/"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/deltaxml"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/deltaxml">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/philip-fearon"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/nic-gibson">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Nic Gibson</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Gibson</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Nic</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Nic Gibson</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Nic-Gibson.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/in/nicgibson"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/nic_gibson"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/nicg-corbas"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/tony-graham">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Tony Graham</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Graham</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Tony</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Tony Graham</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Tony-Graham.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://ie.linkedin.com/in/tonygraham"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://twitter.com/tgraham_antenna"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/tgraham-antenna"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#" rdf:resource="http://xmlguild.org"/>
+	     <memberOf xmlns="http://www.w3.org/ns/org#"
+                rdf:resource="http://data.semanticweb.org/organization/antenna-house"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/organization/antenna-house">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/tony-graham"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmlguild.org">
+	     <member xmlns="http://xmlns.com/foaf/0.1/"
+              rdf:resource="http://data.semanticweb.org/person/tony-graham"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/chris-de-vreeze">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Chris de Vreeze</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">de Vreeze</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Chris</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Chris de Vreeze</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/speakers/Chris-de-Vreeze.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://www.linkedin.com/pub/chris-de-vreeze/2/329/647"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="https://github.com/dvreeze"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/person/andrew-sales">
+	     <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <label xmlns="http://www.w3.org/2000/01/rdf-schema#">Andrew Sales</label>
+	     <family_name xmlns="http://xmlns.com/foaf/0.1/">Sales</family_name>
+	     <firstName xmlns="http://xmlns.com/foaf/0.1/">Andrew</firstName>
+	     <name xmlns="http://xmlns.com/foaf/0.1/">Andrew Sales</name>
+	     <depiction xmlns="http://xmlns.com/foaf/0.1/"
+                 rdf:resource="http://xmllondon.com/images/depiction/Andrew-Sales.jpg"/>
+	     <OnlineAccount xmlns="http://xmlns.com/foaf/0.1/"
+                     rdf:resource="http://uk.linkedin.com/pub/andrew-sales/1/40/187"/>
+	     <holdsRole xmlns="http://data.semanticweb.org/ns/swc/ontology#"
+                 rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmllondon.com/ns/swc/ontology#sisterEvent">
+	     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	     <rdfs:domain rdf:resource="http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent"/>
+	     <rdfs:range rdf:resource="http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent"/>
+	     <rdfs:label>Sister Event</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmllondon.com/ns/swc/ontology#relatedEvent">
+	     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	     <rdfs:domain rdf:resource="http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent"/>
+	     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/OrganisedEvent"/>
+	     <rdfs:label>Related Event</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmllondon.com/ns/swc/ontology#sponsoredBy">
+	     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	     <rdfs:domain rdf:resource="http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent"/>
+	     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <owl:inverseOf rdf:resource="http://xmllondon.com/ns/swc/ontology#sponsorsEvent"/>
+	     <rdfs:label>Sponsored By</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmllondon.com/ns/swc/ontology#sponsorsEvent">
+	     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	     <rdfs:range rdf:resource="http://data.semanticweb.org/ns/swc/ontology#OrganisedEvent"/>
+	     <owl:inverseOf rdf:resource="http://xmllondon.com/ns/swc/ontology#sponsoredBy"/>
+	     <rdfs:label>Sponsors Event</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmllondon.com/ns/swc/ontology#talkGivenBy">
+	     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	     <rdfs:domain rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+	     <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <owl:inverseOf rdf:resource="http://xmllondon.com/ns/swc/ontology#gaveTalk"/>
+	     <rdfs:label>Has Speaker</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://xmllondon.com/ns/swc/ontology#gaveTalk">
+	     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	     <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+	     <rdfs:range rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+	     <owl:inverseOf rdf:resource="http://xmllondon.com/ns/swc/ontology#talkGivenBy"/>
+	     <rdfs:label>Speaker At</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ConferenceEvent"/>
+	     <rdfs:label>XML London 2015</rdfs:label>
+	     <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+	     <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/chair"/>
+	     <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/pcmember"/>
+	     <swc:hasRole rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presenter"/>
+	     <xlswc:relatedEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2013"/>
+	     <xlswc:relatedEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2014"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.xmlprague.cz/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://xmlsummerschool.com/2015"/>
+	     <xlswc:sisterEvent rdf:resource="http://www.balisage.net/2015"/>
+	     <xlswc:sponsoredBy rdf:resource="http://data.semanticweb.org/organization/marklogic"/>
+	     <xlswc:sponsoredBy rdf:resource="http://data.semanticweb.org/organization/syncro-soft"/>
+	     <xlswc:sponsoredBy rdf:resource="http://data.semanticweb.org/organization/saxonica"/>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/depiction/xmllondon.jpg"/>
+	     <foaf:OnlineAccount rdf:resource="http://www.linkedin.com/groups/XML-London-4651258/about"/>
+	     <foaf:OnlineAccount rdf:resource="https://twitter.com/xmllondon"/>
+	     <foaf:homepage rdf:resource="http://xmllondon.com/"/>
+	     <swc:hasLocation rdf:resource="http://www.ucl.ac.uk/buildings/roberts-engineering-building"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/chair">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Chair"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/charles-foster"/>
+	     <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <rdfs:label>2015 Chair</rdfs:label>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/pcmember">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#ProgrammeCommitteeMember"/>
+	     <rdfs:label>2015 Programme Committee Member</rdfs:label>
+	     <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/adam-retter"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/charles-foster"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/christian-gruen"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/geert-bormans"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/john-snelson"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/lars-windauer"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/mohamed-zergaoui"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/norman-walsh"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/philip-fennell"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presenter">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Presenter"/>
+	     <rdfs:label>2015 Presenter</rdfs:label>
+	     <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presenter">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Presenter"/>
+	     <rdfs:label>2015 Presenter</rdfs:label>
+	     <swc:isRoleAt rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/adam-retter"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/andrew-sales"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/chris-de-vreeze"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/fabio-labella"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/john-lumley"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/nic-gibson"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/norman-walsh"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/philip-fearon"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/sandro-cirulli"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/shinyu-murakami"/>
+	     <swc:heldBy rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/proceedings">
+	     <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Proceedings"/>
+	     <rdfs:label>2015 Conference Proceedings</rdfs:label>
+	     <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+	     <dc:identifier>ISBN:978-0-9926471-2-4</dc:identifier>
+	     <foaf:depiction rdf:resource="http://xmllondon.com/images/thumb-proceedings-2015.png"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/lumley"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/braaksma"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/cirulli"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/murakami"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/bina"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/labella"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/seaborne"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/pemberton"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fearon"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/retter"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/gibson"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/graham"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/de-vreeze"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/vlist"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fuller"/>
+	     <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/sales"/>
+   </rdf:Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/proceedings">
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/lumley"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/braaksma"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/cirulli"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/wilm"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/bina"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/labella"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/gibson"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/vlist"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/de-vreeze"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/seaborne"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fearon"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/retter"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/graham"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/sales"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/pemberton"/>
+      <swc:hasPart rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fuller"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/lumley">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>9</bibo:pageStart>
+      <bibo:pageEnd>25</bibo:pageEnd>
+      <dc:title>Improving Pattern Matching Performance in XSLT</dc:title>
+      <rdfs:label>John Lumley's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Lumley01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Lumley01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/john-lumley"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/michael-kay"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/lumley"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/lumley.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/john-lumley">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/lumley"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/lumley">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>John Lumley's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/john-lumley"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/lumley"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/lumley-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/lumley"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/braaksma">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>26</bibo:pageStart>
+      <bibo:pageEnd>51</bibo:pageEnd>
+      <dc:title>It's the little things that matter</dc:title>
+      <rdfs:label>Abel Braaksma's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Braaksma01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Braaksma01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/braaksma"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/braaksma.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/abel-braaksma">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/braaksma"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/braaksma">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Abel Braaksma's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/abel-braaksma"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/braaksma"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/braaksma-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/braaksma"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/cirulli">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>52</bibo:pageStart>
+      <bibo:pageEnd>60</bibo:pageEnd>
+      <dc:title>Continuous Integration for XML and RDF Data</dc:title>
+      <rdfs:label>Sandro Cirulli's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Cirulli01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Cirulli01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/sandro-cirulli"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/cirulli"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/cirulli.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/sandro-cirulli">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/cirulli"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/cirulli">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Sandro Cirulli's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/sandro-cirulli"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/cirulli"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/cirulli-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/cirulli"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/wilm">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>61</bibo:pageStart>
+      <bibo:pageEnd>62</bibo:pageEnd>
+      <dc:title>Vivliostyle - Web browser based CSS typesetting engine</dc:title>
+      <rdfs:label>Johannes Wilm's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Wilm01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Wilm01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/johannes-wilm"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/shinyu-murakami"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/wilm"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/wilm.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/johannes-wilm">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/wilm"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/wilm">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Johannes Wilm's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/johannes-wilm"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/wilm"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/wilm-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/wilm"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/bina">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>63</bibo:pageStart>
+      <bibo:pageEnd>68</bibo:pageEnd>
+      <dc:title>Magic URLs in an XML Universe</dc:title>
+      <rdfs:label>George Bina's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Bina01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Bina01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/bina"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/bina.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/george-bina">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/bina"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/bina">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>George Bina's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/george-bina"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/bina"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/bina-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/bina"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/labella">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>69</bibo:pageStart>
+      <bibo:pageEnd>80</bibo:pageEnd>
+      <dc:title>A rendering language for RDF</dc:title>
+      <rdfs:label>Fabio Labella's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Labella01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Labella01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/fabio-labella"/>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/henry-thompson"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/labella"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/labella.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/fabio-labella">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/labella"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/labella">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Fabio Labella's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/fabio-labella"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/labella"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/labella-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/labella"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/gibson">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>81</bibo:pageStart>
+      <bibo:pageEnd>89</bibo:pageEnd>
+      <dc:title>Publishing with XProc</dc:title>
+      <rdfs:label>Nic Gibson's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Gibson01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Gibson01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/nic-gibson"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/gibson"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/gibson.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/nic-gibson">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/gibson"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/gibson">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Nic Gibson's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/nic-gibson"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/gibson"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/gibson-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/gibson"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/vlist">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>90</bibo:pageStart>
+      <bibo:pageEnd>98</bibo:pageEnd>
+      <dc:title>Data-Driven Programming in XQuery</dc:title>
+      <rdfs:label>Eric van der Vlist's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Vlist01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Vlist01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/vlist"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/vlist.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/eric-van-der-vlist">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/vlist"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/vlist">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Eric van der Vlist's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/eric-van-der-vlist"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/vlist"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/vlist-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/vlist"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/de-vreeze">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>99</bibo:pageStart>
+      <bibo:pageEnd>108</bibo:pageEnd>
+      <dc:title>XML Processing with Scala and yaidom</dc:title>
+      <rdfs:label>Chris de Vreeze's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.DeVreeze01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.DeVreeze01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/chris-de-vreeze"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/de-vreeze"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/de-vreeze.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/chris-de-vreeze">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/de-vreeze"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/de-vreeze">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Chris de Vreeze's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/chris-de-vreeze"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/de-vreeze"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/de-vreeze-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/de-vreeze"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/seaborne">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>109</bibo:pageStart>
+      <bibo:pageEnd>113</bibo:pageEnd>
+      <dc:title>Lizard</dc:title>
+      <rdfs:label>Andy Seaborne's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Seaborne01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Seaborne01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/seaborne"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/seaborne.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/andy-seaborne">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/seaborne"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/seaborne">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Andy Seaborne's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/andy-seaborne"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/seaborne"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/seaborne-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/seaborne"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/fearon">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>114</bibo:pageStart>
+      <bibo:pageEnd>124</bibo:pageEnd>
+      <dc:title>Streamlining XML Authoring Workflows</dc:title>
+      <rdfs:label>Phil Fearon's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Fearon01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Fearon01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/phil-fearon"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fearon"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/fearon.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/phil-fearon">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fearon"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fearon">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Phil Fearon's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/phil-fearon"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fearon"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/fearon-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/fearon"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/retter">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>125</bibo:pageStart>
+      <bibo:pageEnd>142</bibo:pageEnd>
+      <dc:title>Implementation of Portable EXPath Extension Functions</dc:title>
+      <rdfs:label>Adam Retter's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Retter01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Retter01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/adam-retter"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/retter"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/retter.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/adam-retter">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/retter"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/retter">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Adam Retter's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/adam-retter"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/retter"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/retter-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/retter"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/graham">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>143</bibo:pageStart>
+      <bibo:pageEnd>152</bibo:pageEnd>
+      <dc:title>Validating XSL-FO with Relax NG and Schematron</dc:title>
+      <rdfs:label>Tony Graham's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Graham01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Graham01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/tony-graham"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/graham"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/graham.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/tony-graham">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/graham"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/graham">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Tony Graham's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/tony-graham"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/graham"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/graham-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/graham"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/sales">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>153</bibo:pageStart>
+      <bibo:pageEnd>162</bibo:pageEnd>
+      <dc:title>The application of Schematron schemas to word-processing documents</dc:title>
+      <rdfs:label>Andrew Sales's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Sales01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Sales01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/andrew-sales"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/sales"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/sales.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/andrew-sales">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/sales"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/sales">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Andrew Sales's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/andrew-sales"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/sales"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/sales-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/sales"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/pemberton">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>163</bibo:pageStart>
+      <bibo:pageEnd>168</bibo:pageEnd>
+      <dc:title>XML Interfaces to the Internet of Things with XForms</dc:title>
+      <rdfs:label>Steven Pemberton's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Pemberton01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Pemberton01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/pemberton"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/pemberton.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/steven-pemberton">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/pemberton"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/pemberton">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>Steven Pemberton's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/steven-pemberton"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/pemberton"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/pemberton-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/pemberton"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/paper/fuller">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
+      <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart>169</bibo:pageStart>
+      <bibo:pageEnd>176</bibo:pageEnd>
+      <dc:title>Diaries of a desperate XProc Hacker</dc:title>
+      <rdfs:label>James Fuller's 2015 paper</rdfs:label>
+      <swc:isPartOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/proceedings"/>
+      <swrc:month>June</swrc:month>
+      <swrc:year>2015</swrc:year>
+      <owl:sameAs rdf:resource="http://dx.doi.org/10.14337/XMLLondon15.Fuller01"/>
+      <dc:identifier>doi:10.14337/XMLLondon15.Fuller01</dc:identifier>
+      <dc:creator rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+      <swc:relatedToEvent rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fuller"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/thumbnails/papers/fuller.gif"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/person/james-fuller">
+      <xlswc:gaveTalk rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fuller"/>
+   </Description>
+   <Description xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                rdf:about="http://data.semanticweb.org/conference/xmllondon/2015/presentation/fuller">
+      <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#TalkEvent"/>
+      <swc:isSubEventOf rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015"/>
+      <rdfs:label>James Fuller's 2015 talk</rdfs:label>
+      <xlswc:talkGivenBy rdf:resource="http://data.semanticweb.org/person/james-fuller"/>
+      <swc:hasRelatedDocument rdf:resource="http://data.semanticweb.org/conference/xmllondon/2015/paper/fuller"/>
+      <foaf:depiction rdf:resource="http://xmllondon.com/2015/images/fuller-speaking.jpg"/>
+      <foaf:homepage rdf:resource="http://xmllondon.com/2015/presentations/fuller"/>
+   </Description>
+</rdf:RDF>

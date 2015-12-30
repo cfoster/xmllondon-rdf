@@ -8,18 +8,31 @@
 ### SET where your rdfconvert directory is here
 RDF_CONVERT_BIN=/crf/software/rdfconvert-0.3.2/bin/
 
+### SET where your Saxon .jar is located
+SAXON_LIB=/crf/misc/saxon/saxon-he-96/saxon9he.jar
+
 ##############################################################################
 # No need to edit below here
 ##############################################################################
 
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2)
+NORMAL=$(tput sgr0)
+
 mkdir -p temp
-COUNTER=1
+# COUNTER=1
 
 ## Convert Turtle files to RDF
-
 for i in $( ls ../*.ttl ); do
- $RDF_CONVERT_BIN/rdfconvert.sh -i 'Turtle' -o 'RDF/XML' $i temp/$COUNTER.rdf
- let COUNTER+=1
+ FILE=`echo $i | sed 's/ttl/rdf/' | sed 's/..\///'`
+ FILENAME_LENGTH=`echo $FILE | wc -m`
+ COUNT=`expr 50 - $FILENAME_LENGTH`
+ $RDF_CONVERT_BIN/rdfconvert.sh -i 'Turtle' -o 'RDF/XML' $i temp/$FILE
+ if [ -s temp/$FILE ] ; then
+   printf '%s%*s%s\n' "$FILE$GREEN" $COUNT "[OK]" "$NORMAL"
+ else
+   printf '%s%*s%s\n' "$FILE$RED" $COUNT "[FAIL]" "$NORMAL"
+ fi
 done
 
 ## Copy RDF files in
@@ -28,31 +41,22 @@ cp ../*.rdf temp
 
 ## Make complete file
 
-echo '<rdf:RDF
+function proc {
+ OUT="xmllondon-complete-$1.rdf"
+ rm -f $OUT
+ java -cp $SAXON_LIB net.sf.saxon.Transform -it:main \
+   -xsl:complete-dogfood.xsl year=$1 -o:$OUT
 
-  xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:ical="http://www.w3.org/2002/12/cal/ical#"
-  xmlns:swrc="http://swrc.ontoware.org/ontology#"
-  xmlns:bibo="http://purl.org/ontology/bibo/"
-  xmlns:xlswc="http://xmllondon.com/ns/swc/ontology#"
-  xmlns:twitter="https://twitter.com/"
-  xmlns:owl="http://www.w3.org/2002/07/owl#"
-  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
-  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
-  xmlns:wiki="http://www.wikipedia.org/wiki/"
-  xmlns:dbpedia="http://dbpedia.org/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <!-- originally from https://github.com/cfoster/xmllondon-rdf -->
-' > complete.rdf
+ if [ -s $OUT ] ; then
+   printf '%s%*s%s\n' "$OUT$GREEN" 22 "[OK]" "$NORMAL"
+ else
+   printf '%s%*s%s\n' "$OUT$RED" 22 "[FAIL]" "$NORMAL"
+ fi
+}  
 
-for i in $( ls temp/*.rdf ); do
- xmllint --xpath '/node()/node()' $i >> complete.rdf
-done
 
-echo '
-</rdf:RDF>' >> complete.rdf
+proc 2013
+proc 2014
+proc 2015
 
 rm -fr temp

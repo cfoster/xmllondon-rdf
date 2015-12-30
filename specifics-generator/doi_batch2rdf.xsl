@@ -14,6 +14,7 @@
                 xmlns:swrc="http://swrc.ontoware.org/ontology#"
                 xmlns:bibo="http://purl.org/ontology/bibo/"
                 xmlns:xlswc="http://xmllondon.com/ns/swc/ontology#"
+                exclude-result-prefixes="#all"
                 xpath-default-namespace="http://www.crossref.org/schema/4.3.0">
 
   <xsl:output indent="yes" omit-xml-declaration="yes" />
