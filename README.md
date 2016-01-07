@@ -10,8 +10,8 @@ This repository holds the dataset found in the XML London RDF triple store. Ever
 * [2013-specifics.rdf](https://github.com/cfoster/xmllondon-rdf/blob/master/2013-specifics.rdf), specific info about [XML London 2013](http://xmllondon.com/2013), presentations, papers, etc.
 * [2014-general.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/2014-general.ttl), general info about the [XML London 2014](http://xmllondon.com/2014) conference.
 * [2014-specifics.rdf](https://github.com/cfoster/xmllondon-rdf/blob/master/2014-specifics.rdf), specific info about [XML London 2014](http://xmllondon.com/2014), presentations, papers, etc.
-* [2015-general.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/2015-general.ttl), general info about the [XML London 2015](http://xmllondon.com) conference.
-* [2015-specifics.rdf](https://github.com/cfoster/xmllondon-rdf/blob/master/2015-specifics.rdf), specifics about [XML London 2015](http://xmllondon.com/), presentations, papers, etc.
+* [2015-general.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/2015-general.ttl), general info about the [XML London 2015](http://xmllondon.com/2015) conference.
+* [2015-specifics.rdf](https://github.com/cfoster/xmllondon-rdf/blob/master/2015-specifics.rdf), specifics about [XML London 2015](http://xmllondon.com/2015), presentations, papers, etc.
 * [locations.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/locations.ttl), holds information about places, such as UCL.
 * [organisations.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/organisations.ttl), info about organisations that XML London knows about.
 * [other-events.ttl](https://github.com/cfoster/xmllondon-rdf/blob/master/other-events.ttl), very basic info about other events, like XML Prague etc.
