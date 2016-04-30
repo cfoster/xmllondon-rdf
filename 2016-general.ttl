@@ -1,0 +1,92 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix swc: <http://data.semanticweb.org/ns/swc/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ical: <http://www.w3.org/2002/12/cal/ical#> .
+@prefix swrc: <http://swrc.ontoware.org/ontology#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xlswc: <http://xmllondon.com/ns/swc/ontology#> .
+@prefix twitter: <https://twitter.com/> .
+
+<http://data.semanticweb.org/conference/xmllondon/2016> a swc:ConferenceEvent ;
+  rdfs:label "XML London 2016" ;
+  swc:hasRelatedDocument <http://data.semanticweb.org/conference/xmllondon/2016/proceedings> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2016/chair> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2016/pcmember> ;
+  swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2016/presenter> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  xlswc:sisterEvent <http://www.xmlprague.cz/2016> ;
+  xlswc:sisterEvent <http://xmlsummerschool.com/2016> ;
+  xlswc:sisterEvent <http://www.balisage.net/2016> ;
+  foaf:depiction <http://xmllondon.com/images/depiction/xmllondon.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-London-4651258/about> ;
+  foaf:OnlineAccount twitter:xmllondon ;
+  foaf:homepage <http://xmllondon.com/> ;
+  swc:hasLocation <http://www.ucl.ac.uk/buildings/roberts-engineering-building> .
+
+<http://data.semanticweb.org/conference/xmllondon/2016/chair> a swc:Chair ;
+  swc:heldBy <http://data.semanticweb.org/person/charles-foster> ;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2016> ;
+  rdfs:label "2016 Chair" .
+
+<http://data.semanticweb.org/conference/xmllondon/2016/pcmember> a swc:ProgrammeCommitteeMember ;
+  rdfs:label "2016 Programme Committee Member" ;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2016> ;
+  swc:heldBy <http://data.semanticweb.org/person/abel-braaksma> ,
+             <http://data.semanticweb.org/person/adam-retter> ,
+             <http://data.semanticweb.org/person/charles-foster> ,
+             <http://data.semanticweb.org/person/christian-gruen> ,
+             <http://data.semanticweb.org/person/eric-van-der-vlist> ,
+             <http://data.semanticweb.org/person/geert-bormans> ,
+             <http://data.semanticweb.org/person/james-fuller> ,
+             <http://data.semanticweb.org/person/john-snelson> ,
+             <http://data.semanticweb.org/person/mohamed-zergaoui> ,
+             <http://data.semanticweb.org/person/norman-walsh> ,
+             <http://data.semanticweb.org/person/philip-fennell> .
+
+# someone who spoke at XML London
+<http://data.semanticweb.org/conference/xmllondon/2016/presenter> a swc:Presenter ;
+  rdfs:label "2016 Presenter" ;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2016> .
+
+# someone who spoke at XML London
+<http://data.semanticweb.org/conference/xmllondon/2016/presenter> a swc:Presenter ;
+  rdfs:label "2016 Presenter" ;
+  swc:isRoleAt <http://data.semanticweb.org/conference/xmllondon/2016> ;
+  swc:heldBy <http://data.semanticweb.org/person/abel-braaksma> ,
+             <http://data.semanticweb.org/person/lech-rzedzicki> ,
+             <http://data.semanticweb.org/person/dianne-kennedy> ,
+             <http://data.semanticweb.org/person/nigel-whitaker> ,
+             <http://data.semanticweb.org/person/malte-brunnlieb> ,
+             <http://data.semanticweb.org/person/martynas-jusevicius> ,
+             <http://data.semanticweb.org/person/john-chelsom> ,
+             <http://data.semanticweb.org/person/soroush-saadatfar> ,
+             <http://data.semanticweb.org/person/andrew-sales> ,
+             <http://data.semanticweb.org/person/john-sheridan> ,
+             <http://data.semanticweb.org/person/achim-berndzen> ,
+             <http://data.semanticweb.org/person/michael-kay> ,
+             <http://data.semanticweb.org/person/ethan-gruber> ,
+             <http://data.semanticweb.org/person/simon-dew> ,
+             <http://data.semanticweb.org/person/steven-pemberton> .
+
+<http://data.semanticweb.org/conference/xmllondon/2016/proceedings> a swc:Proceedings ;
+  rdfs:label "2016 Conference Proceedings" ;
+  swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2016> ;
+  dc:identifier "ISBN:978-0-9926471-3-1" ;
+  foaf:depiction <http://xmllondon.com/images/thumb-proceedings-2016.png> ;
+  swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2016/paper/braaksma> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/rzedzicki> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/kennedy> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/whitaker> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/brunnlieb> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/jusevicius> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/chelsom> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/saadatfar> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/sales> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/sheridan> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/berndzen> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/gruber> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/dew> ,
+              <http://data.semanticweb.org/conference/xmllondon/2016/paper/pemberton> .

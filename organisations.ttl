@@ -259,3 +259,91 @@
 #   rdfs:label "<markupforum/>" ;
 #   foaf:name "<markupforum/>" ;
 #   foaf:homepage <http://www.markupforum.de/> .
+
+<http://data.semanticweb.org/organization/idealliance> a foaf:Organization ; a org:Organization ;
+  foaf:name "Idealliance, Inc." ;
+  foaf:homepage <http://www.idealliance.org/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-idealliance.png> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/idealliance> ;
+  foaf:OnlineAccount twitter:idealliance .
+
+<http://data.semanticweb.org/organization/capgemini> a foaf:Organization ; a org:Organization ;
+  owl:sameAs <http://dbpedia.org/resource/Capgemini> ;
+  foaf:name "Capgemini" ;
+  foaf:homepage <http://www.capgemini.com/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-capgemini.png> ;
+  foaf:OnlineAccount <http://www.linkedin.com/company/capgemini> ;
+  wiki:homepage <https://en.wikipedia.org/wiki/Capgemini> ;
+  foaf:OnlineAccount twitter:capgemini ;
+  foaf:OnlineAccount github:capgemini .
+
+<http://data.semanticweb.org/organization/graphity> a foaf:Organization ; a org:Organization ;
+  foaf:name "Graphity" ;
+  foaf:homepage <http://graphityhq.com/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-graphity.png> ;
+  foaf:OnlineAccount twitter:graphityhq ;
+  foaf:OnlineAccount github:graphity .
+
+<http://data.semanticweb.org/organization/city-university-london> a foaf:Organization ; a org:Organization ;
+  owl:sameAs <http://dbpedia.org/resource/City_University_London> ;
+  foaf:name "City University, London" ;
+  foaf:homepage <http://www.city.ac.uk/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-city-university-london.png> ;
+  wiki:homepage <http://en.wikipedia.org/wiki/City_University_London> ;
+  foaf:OnlineAccount twitter:cityunilondon ;
+  foaf:OnlineAccount github:cityuniversitylondon .
+
+<http://data.semanticweb.org/organization/adapt-centre> a foaf:Organization ; a org:Organization ;
+  foaf:name "ADAPT Centre" ;
+  foaf:homepage <http://adaptcentre.ie/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-adaptcentre.png> ;
+  foaf:OnlineAccount twitter:adaptcentre .
+
+<http://data.semanticweb.org/organization/oasis> a foaf:Organization ; a org:Organization ;
+  owl:sameAs <http://dbpedia.org/resource/OASIS_(organization)> ;
+  foaf:name "Oasis" ;
+  foaf:homepage <https://www.oasis-open.org/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-oasis.png> ;
+  wiki:homepage <http://en.wikipedia.org/wiki/OASIS_(organization)> ;
+  foaf:OnlineAccount twitter:OASISopen ;
+  foaf:OnlineAccount github:oasis-open .
+
+<http://data.semanticweb.org/organization/national-archives> a foaf:Organization ; a org:Organization ;
+  owl:sameAs <http://dbpedia.org/resource/The_National_Archives_(United_Kingdom)> ;
+  foaf:name "The National Archives" ;
+  foaf:homepage <http://www.nationalarchives.gov.uk/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-national-archives.png> ;
+  wiki:homepage <http://en.wikipedia.org/wiki/The_National_Archives_(United_Kingdom)> ;
+  foaf:OnlineAccount twitter:uknatarchives ;
+  foaf:OnlineAccount github:nationalarchives .
+
+<http://data.semanticweb.org/organization/xml-project> a foaf:Organization ; a org:Organization ;
+  foaf:name "<xml-project/>" ;
+  foaf:homepage <http://www.xml-project.com/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-xml-project.png> ;
+  foaf:OnlineAccount twitter:xml_project .
+
+<http://data.semanticweb.org/organization/le-tex> a foaf:Organization ; a org:Organization ;
+  foaf:name "le-tex" ;
+  foaf:homepage <http://www.le-tex.de/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-le-tex.png> ;
+  foaf:OnlineAccount twitter:letexml ;
+  foaf:OnlineAccount github:le-tex .
+
+<http://data.semanticweb.org/organization/american-numismatic-society> a foaf:Organization ; a org:Organization ;
+  owl:sameAs <http://dbpedia.org/resource/American_Numismatic_Society> ;
+  foaf:name "American Numismatic Society" ;
+  foaf:homepage <http://numismatics.org/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-american-numismatic-society.png> ;
+  wiki:homepage <http://en.wikipedia.org/wiki/American_Numismatic_Society> ;
+  foaf:OnlineAccount twitter:ANSCoins ;
+  foaf:OnlineAccount github:AmericanNumismaticSociety .
+
+<http://data.semanticweb.org/organization/stanley-black-and-decker> a foaf:Organization ; a org:Organization ;
+  owl:sameAs <http://dbpedia.org/resource/Stanley_Black_%26_Decker> ;
+  foaf:name "Stanley Black & Decker" ;
+  foaf:homepage <http://www.stanleyblackanddecker.com/> ;
+  foaf:depiction <http://xmllondon.com/images/logo-stanley-black-and-decker.png> ;
+  wiki:homepage <http://en.wikipedia.org/wiki/Stanley_Black_%26_Decker> ;
+  foaf:OnlineAccount twitter:ANSCoins ;
+  foaf:OnlineAccount github:AmericanNumismaticSociety .
