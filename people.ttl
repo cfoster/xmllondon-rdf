@@ -1115,7 +1115,6 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:firstName "Achim" ;
   foaf:name "Achim Berndzen" ;
   foaf:depiction <http://xmllondon.com/images/depiction/Achim-Berndzen.jpg> ;
-  foaf:OnlineAccount <http://www.linkedin.com/in/johnchelsom> ; 
   foaf:OnlineAccount github:xml-project ; 
   foaf:OnlineAccount twitter:xml_project ; 
   org:memberOf <http://data.semanticweb.org/organization/xml-project> ;
@@ -1143,7 +1142,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Gruber" ;
   foaf:firstName "Ethan" ;
   foaf:name "Ethan Gruber" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Gerrit-Imsieke.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Ethan-Gruber.jpg> ;
   foaf:OnlineAccount <http://de.linkedin.com/in/gerrit-imsieke-19b79a28> ; 
   foaf:OnlineAccount github:ewg118 ; 
   foaf:OnlineAccount twitter:ewg118 ; 
@@ -1158,8 +1157,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Dew" ;
   foaf:firstName "Simon" ;
   foaf:name "Simon Dew" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Gerrit-Imsieke.jpg> ;
-  foaf:OnlineAccount <http://de.linkedin.com/in/gerrit-imsieke-19b79a28> ; 
+  foaf:depiction <http://xmllondon.com/images/depiction/Simon-Dew.jpg> ;
   foaf:OnlineAccount github:janiveer ; 
   foaf:OnlineAccount twitter:simonjabadaw ; 
   org:memberOf <http://data.semanticweb.org/organization/stanley-black-and-decker> ;
