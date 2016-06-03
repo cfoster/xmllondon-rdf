@@ -587,7 +587,8 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:OnlineAccount <http://nl.linkedin.com/in/stevenpemberton> ;
   foaf:OnlineAccount twitter:stevenpemberton ;
   org:memberOf <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> ;
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2016/presenter> .
 #  citeulike:author "http://www.citeulike.org/author/Pemberton:Steven" .
 
 <http://data.semanticweb.org/organization/centrum-wiskunde-and-informatica> foaf:member

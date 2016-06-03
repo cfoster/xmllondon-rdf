@@ -34,6 +34,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/braaksma">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">6</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">17</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Dealing with unlimited XML feeds using XSLT 3.0 streaming</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Abel Braaksma's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -73,6 +76,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/rzedzicki">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">18</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">26</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">XML, blockchain and regulatory reporting in the world of finance</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Lech Rzedzicki's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -112,6 +118,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/kennedy">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">27</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">30</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Pioneering XML-first Workflows for Magazines</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Dianne Kennedy's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -151,6 +160,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/whitaker">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">31</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">37</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">CALS table processing with XSLT and Schematron</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Nigel Whitaker's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -190,6 +202,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/brunnlieb">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">38</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">49</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Language-aware XML Aggregation</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Malte Brunnlieb's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -231,6 +246,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/jusevicius">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">50</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">56</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Linked Data Templates</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Martynas Jusevičius's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -270,6 +288,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/chelsom">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">57</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">63</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Scalability of an Open Source XML Database for Big Data</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">John Chelsom's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -309,6 +330,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/saadatfar">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">64</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">70</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Best Practice for DSDL-based Validation</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Soroush Saadatfar's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -350,6 +374,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/sales">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">71</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">77</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">A journey from document to data</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Andrew Sales's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -389,6 +416,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/sheridan">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">78</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">81</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Structure-Aware Search of UK Legislation</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">John Sheridan's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -430,6 +460,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/berndzen">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">82</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">98</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Interoperability of XProc pipelines</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Achim Berndzen's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -471,6 +504,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/gruber">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">99</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">107</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Using XForms to Create, Publish, and Manage Linked Open Data</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Ethan Gruber's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -510,6 +546,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/dew">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">108</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">119</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Dynamic Translation of Modular XML Documentation Using Linked Data</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Simon Dew's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>
@@ -549,6 +588,9 @@
                 rdf:about="http://data.semanticweb.org/conference/xmllondon/2016/paper/pemberton">
       <rdf:type rdf:resource="http://data.semanticweb.org/ns/swc/ontology#Paper"/>
       <rdf:type rdf:resource="http://swrc.ontoware.org/ontology#InProceedings"/>
+      <bibo:pageStart xmlns:bibo="http://purl.org/ontology/bibo/">120</bibo:pageStart>
+      <bibo:pageEnd xmlns:bibo="http://purl.org/ontology/bibo/">126</bibo:pageEnd>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Parse Earley, Parse Often</dc:title>
       <rdfs:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Steven Pemberton's 2016 paper</rdfs:label>
       <swc:isPartOf xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
                     rdf:resource="http://data.semanticweb.org/conference/xmllondon/2016/proceedings"/>

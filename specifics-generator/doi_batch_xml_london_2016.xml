@@ -1,359 +1,464 @@
 <doi_batch xmlns="http://www.crossref.org/schema/4.3.0"
-           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-           xsi:schemaLocation="http://www.crossref.org/schema/4.3.0       http://www.crossref.org/schema/deposit/crossref4.3.0.xsd"
-           version="4.3.0">
-   <head>
-      <doi_batch_id>xml-london-2016-01</doi_batch_id>
-      <timestamp>201606041000</timestamp>
-      <depositor>
-         <name>XML London</name>
-      </depositor>
-      <registrant>XML London</registrant>
-   </head>
-   <body>
-      <conference>
-         <contributors>
-            <person_name sequence="first" contributor_role="chair">
-               <given_name>Charles</given_name>
-               <surname>Foster</surname>
-            </person_name>
-         </contributors>
-         <event_metadata>
-            <conference_name>XML London 2016 Conference</conference_name>
-            <conference_acronym>XMLLondon16</conference_acronym>
-            <conference_number>4</conference_number>
-            <conference_location>London, United Kingdom</conference_location>
-            <conference_date start_day="4"
-                             start_month="6"
-                             start_year="2016"
-                             end_day="5"
-                             end_month="6"
-                             end_year="2016">June 4-5, 2016</conference_date>
-         </event_metadata>
-         <proceedings_metadata language="en">
-            <proceedings_title>XML London 2016 Conference Proceedings</proceedings_title>
-            <proceedings_subject>Innovations in XML, related technologies and the Semantic Web</proceedings_subject>
-            <publisher>
-               <publisher_name>XML London</publisher_name>
-               <publisher_place>London</publisher_place>
-            </publisher>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2015</year>
-            </publication_date>
-            <isbn>978-0-9926471-3-1</isbn>
-         </proceedings_metadata>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Abel</given_name>
-                  <surname>Braaksma</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">1</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Braaksma01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Braaksma01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Lech</given_name>
-                  <surname>Rzedzicki</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">2</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Rzedzicki01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Rzedzicki01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Dianne</given_name>
-                  <surname>Kennedy</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">3</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Kennedy01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Kennedy01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Nigel</given_name>
-                  <surname>Whitaker</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">4</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Whitaker01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Whitaker01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Malte</given_name>
-                  <surname>Brunnlieb</surname>
-               </person_name>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Steffen</given_name>
-                  <surname>Holzer</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">5</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Brunnlieb01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Brunnlieb01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Martynas</given_name>
-                  <surname>Jusevičius</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">6</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Jusevicius01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Jusevicius01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>John</given_name>
-                  <surname>Chelsom</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">7</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Chelsom01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Chelsom01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Soroush</given_name>
-                  <surname>Saadatfar</surname>
-               </person_name>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>David</given_name>
-                  <surname>Filip</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">8</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Saadatfar01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Saadatfar01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Andrew</given_name>
-                  <surname>Sales</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">9</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Sales01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Sales01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>John</given_name>
-                  <surname>Sheridan</surname>
-               </person_name>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Jim</given_name>
-                  <surname>Mangiafico</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">10</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Sheridan01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Sheridan01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Achim</given_name>
-                  <surname>Berndzen</surname>
-               </person_name>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Gerrit</given_name>
-                  <surname>Imsieke</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">11</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Berndzen01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Berndzen01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Ethan</given_name>
-                  <surname>Gruber</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">12</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Gruber01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Gruber01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Simon</given_name>
-                  <surname>Dew</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">13</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Dew01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Dew01</resource>
-            </doi_data>
-         </conference_paper>
-         <conference_paper language="en">
-            <contributors>
-               <person_name sequence="first" contributor_role="author">
-                  <given_name>Steven</given_name>
-                  <surname>Pemberton</surname>
-               </person_name>
-            </contributors>
-            <titles/>
-            <publication_date media_type="online">
-               <month>6</month>
-               <day>4</day>
-               <year>2016</year>
-            </publication_date>
-            <publisher_item>
-               <item_number item_number_type="article-number">14</item_number>
-            </publisher_item>
-            <doi_data>
-               <doi>10.14337/XMLLondon16.Pemberton01</doi>
-               <resource>http://xmllondon.com/XMLLondon16.Pemberton01</resource>
-            </doi_data>
-         </conference_paper>
-      </conference>
-   </body>
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.crossref.org/schema/4.3.0       http://www.crossref.org/schema/deposit/crossref4.3.0.xsd"
+  version="4.3.0">
+  <head>
+    <doi_batch_id>xml-london-2016-01</doi_batch_id>
+    <timestamp>201606041000</timestamp>
+    <depositor>
+      <name>XML London</name>
+      <email_address>charles@xmllondon.com</email_address>
+    </depositor>
+    <registrant>XML London</registrant>
+  </head>
+  <body>
+    <conference>
+      <contributors>
+        <person_name sequence="first" contributor_role="chair">
+          <given_name>Charles</given_name>
+          <surname>Foster</surname>
+        </person_name>
+      </contributors>
+      <event_metadata>
+        <conference_name>XML London 2016 Conference</conference_name>
+        <conference_acronym>XMLLondon16</conference_acronym>
+        <conference_number>4</conference_number>
+        <conference_location>London, United Kingdom</conference_location>
+        <conference_date start_day="4" start_month="6" start_year="2016"
+          end_day="5" end_month="6" end_year="2016">June 4-5, 2016</conference_date>
+      </event_metadata>
+      <proceedings_metadata language="en">
+        <proceedings_title>XML London 2016 Conference Proceedings</proceedings_title>
+        <proceedings_subject>Innovations in XML, related technologies and the Semantic Web</proceedings_subject>
+        <publisher>
+          <publisher_name>XML London</publisher_name>
+          <publisher_place>London</publisher_place>
+        </publisher>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <isbn>978-0-9926471-3-1</isbn>
+      </proceedings_metadata>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Abel</given_name>
+            <surname>Braaksma</surname>
+            <affiliation>Exselt</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Dealing with unlimited XML feeds using XSLT 3.0 streaming</title>
+          <subtitle>How to use streaming features to process uninterrupted and unlimited live feeds of XML data</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>6</first_page>
+          <last_page>17</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">1</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Braaksma01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Braaksma01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Lech</given_name>
+            <surname>Rzedzicki</surname>
+            <affiliation>Kode1100</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>XML, blockchain and regulatory reporting in the world of finance</title>
+          <subtitle>Combining the strengths and weaknesses of mature and modern technologies to drive innovation and regulatory compliance</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>18</first_page>
+          <last_page>26</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">2</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Rzedzicki01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Rzedzicki01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Dianne</given_name>
+            <surname>Kennedy</surname>
+            <affiliation>Idealliance</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Pioneering XML-first Workflows for Magazines</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>27</first_page>
+          <last_page>30</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">3</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Kennedy01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Kennedy01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Nigel</given_name>
+            <surname>Whitaker</surname>
+            <affiliation>DeltaXML</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>CALS table processing with XSLT and Schematron</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>31</first_page>
+          <last_page>37</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">4</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Whitaker01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Whitaker01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Malte</given_name>
+            <surname>Brunnlieb</surname>
+            <affiliation>Capgemini Deutschland GmbH, Germany</affiliation>
+            <affiliation>Technical University of Kaiserslautern, Germany</affiliation>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Steffen</given_name>
+            <surname>Holzer</surname>
+            <affiliation>Technical University of Kaiserslautern, Germany</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Language-aware XML Aggregation</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>38</first_page>
+          <last_page>49</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">5</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Brunnlieb01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Brunnlieb01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Martynas</given_name>
+            <surname>Jusevičius</surname>
+            <affiliation>AtomGraph</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Linked Data Templates</title>
+          <subtitle>Ontology-driven approach to read-write Linked Data</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>50</first_page>
+          <last_page>56</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">6</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Jusevicius01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Jusevicius01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>John</given_name>
+            <surname>Chelsom</surname>
+            <affiliation>City University, London</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Scalability of an Open Source XML Database for Big Data</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>57</first_page>
+          <last_page>63</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">7</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Chelsom01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Chelsom01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Soroush</given_name>
+            <surname>Saadatfar</surname>
+            <affiliation>ADAPT Centre</affiliation>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>David</given_name>
+            <surname>Filip</surname>
+            <affiliation>ADAPT Centre</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Best Practice for DSDL-based Validation</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>64</first_page>
+          <last_page>70</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">8</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Saadatfar01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Saadatfar01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Andrew</given_name>
+            <surname>Sales</surname>
+            <affiliation>Andrew Sales Digital Publishing Limited</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>A journey from document to data</title>
+          <subtitle>buy into one format, get two production-ready assets free</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>71</first_page>
+          <last_page>77</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">9</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Sales01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Sales01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>John</given_name>
+            <surname>Sheridan</surname>
+            <affiliation>The National Archives</affiliation>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Jim</given_name>
+            <surname>Mangiafico</surname>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Structure-Aware Search of UK Legislation</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>78</first_page>
+          <last_page>81</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">10</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Sheridan01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Sheridan01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Achim</given_name>
+            <surname>Berndzen</surname>
+            <affiliation>&lt;xml-project /&gt;</affiliation>
+          </person_name>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Gerrit</given_name>
+            <surname>Imsieke</surname>
+            <affiliation>le-tex publishing services GmbH</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Interoperability of XProc pipelines</title>
+          <subtitle>A real world publishing scenario</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>82</first_page>
+          <last_page>98</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">11</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Berndzen01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Berndzen01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Ethan</given_name>
+            <surname>Gruber</surname>
+            <affiliation>American Numismatic Society</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Using XForms to Create, Publish, and Manage Linked Open Data</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>99</first_page>
+          <last_page>107</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">12</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Gruber01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Gruber01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Simon</given_name>
+            <surname>Dew</surname>
+            <affiliation>STANLEY Black and Decker Innovations Limited</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Dynamic Translation of Modular XML Documentation Using Linked Data</title>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>108</first_page>
+          <last_page>119</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">13</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Dew01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Dew01</resource>
+        </doi_data>
+      </conference_paper>
+      <conference_paper language="en">
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Steven</given_name>
+            <surname>Pemberton</surname>
+            <affiliation>CWI, Amsterdam</affiliation>
+          </person_name>
+        </contributors>
+        <titles>
+          <title>Parse Earley, Parse Often</title>
+          <subtitle>How to Parse Anything to XML</subtitle>
+        </titles>
+        <publication_date media_type="online">
+          <month>6</month>
+          <day>4</day>
+          <year>2016</year>
+        </publication_date>
+        <pages>
+          <first_page>120</first_page>
+          <last_page>126</last_page>
+        </pages>
+        <publisher_item>
+          <item_number item_number_type="article-number">14</item_number>
+        </publisher_item>
+        <doi_data>
+          <doi>10.14337/XMLLondon16.Pemberton01</doi>
+          <resource>http://xmllondon.com/XMLLondon16.Pemberton01</resource>
+        </doi_data>
+      </conference_paper>
+    </conference>
+  </body>
 </doi_batch>

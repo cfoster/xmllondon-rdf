@@ -204,7 +204,9 @@
 
   <xsl:function name="f:normalized-complete-name" as="xs:string">
     <xsl:param name="name" as="element(person_name)" />
-    <xsl:value-of select="f:normalized-name-from-string($name/string())" />
+    <xsl:value-of select="f:normalized-name-from-string(
+      concat($name/given_name, ' ', $name/surname)
+    )" />
   </xsl:function>
 
   <xsl:function name="f:normalized-name-from-string" as="xs:string">
