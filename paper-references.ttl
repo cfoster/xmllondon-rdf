@@ -15,12 +15,6 @@
 @prefix p16: <http://data.semanticweb.org/conference/xmllondon/2016/paper/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<http://xmllondon.com/ext/jaxb> a swrc:Publication ;
-	owl:sameAs <https://jcp.org/en/jsr/detail?id=222> ;
-	rdfs:label "Java Architecture for XML Binding (JAXB)" ;
-	dc:creator person:martin-grebac ;
-	swrc:citedBy p14:narmontas , p14:williams .
-
 <http://xmllondon.com/ext/marklogic-server> a swrc:Publication ;
 	owl:sameAs <http://www.marklogic.com> , <http://www.marklogic.com/> ;
 	rdfs:label "MarkLogic Server" ;
@@ -32,17 +26,31 @@
 	swrc:year "2014" ;
 	swrc:citedBy p14:braaksma , p15:braaksma , p16:braaksma .
 
-<http://xmllondon.com/ext/oxygen-xml-editor> a swrc:Publication ;
-	owl:sameAs <http://www.oxygenxml.com/> ;
-	rdfs:label "Oxygen XML Editor" ;
-	swrc:publisher org:syncro-soft ;
-	swrc:citedBy p13:hillman , p14:fennell .
+<http://xmllondon.com/ext/a-streaming-xslt-processor> a swrc:Publication ;
+	owl:sameAs <http://www.balisage.net/Proceedings/vol5/html/Kay01/BalisageVol5-Kay01.html> , <http://dx.doi.org/10.4242/BalisageVol5.Kay01> ;
+	rdfs:label "A Streaming XSLT Processor" ;
+	swrc:publisher org:balisage ;
+	dc:creator person:michael-kay ;
+	swrc:year "2010" ;
+	swrc:citedBy p13:fuller , p15:braaksma .
+
+<http://xmllondon.com/ext/jaxb> a swrc:Publication ;
+	owl:sameAs <https://jcp.org/en/jsr/detail?id=222> ;
+	rdfs:label "Java Architecture for XML Binding (JAXB)" ;
+	dc:creator person:martin-grebac ;
+	swrc:citedBy p14:narmontas , p14:williams .
 
 <http://xmllondon.com/ext/foaf> a swrc:Publication ;
 	owl:sameAs <http://xmlns.com/foaf/spec/> ;
 	rdfs:label "FOAF Vocabulary Specification" ;
 	dc:creator person:dan-brickley , person:libby-miller ;
 	swrc:citedBy p13:walpole , p15:labella , p16:gruber .
+
+<http://xmllondon.com/ext/jenkins> a swrc:Publication ;
+	owl:sameAs <http://jenkins-ci.org> ;
+	rdfs:label "Jenkins" ;
+	swrc:publisher org:jenkins-ci ;
+	swrc:citedBy p14:kohl , p15:sirulli .
 
 <http://xmllondon.com/ext/functions-and-operators-3.0> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/TR/xpath-functions-30/> ;
@@ -54,19 +62,11 @@
 	swrc:year "2014" ;
 	swrc:citedBy p14:braaksma , p15:retter .
 
-<http://xmllondon.com/ext/jenkins> a swrc:Publication ;
-	owl:sameAs <http://jenkins-ci.org> ;
-	rdfs:label "Jenkins" ;
-	swrc:publisher org:jenkins-ci ;
-	swrc:citedBy p14:kohl , p15:sirulli .
-
-<http://xmllondon.com/ext/a-streaming-xslt-processor> a swrc:Publication ;
-	owl:sameAs <http://www.balisage.net/Proceedings/vol5/html/Kay01/BalisageVol5-Kay01.html> , <http://dx.doi.org/10.4242/BalisageVol5.Kay01> ;
-	rdfs:label "A Streaming XSLT Processor" ;
-	swrc:publisher org:balisage ;
-	dc:creator person:michael-kay ;
-	swrc:year "2010" ;
-	swrc:citedBy p13:fuller , p15:braaksma .
+<http://xmllondon.com/ext/oxygen-xml-editor> a swrc:Publication ;
+	owl:sameAs <http://www.oxygenxml.com/> ;
+	rdfs:label "Oxygen XML Editor" ;
+	swrc:publisher org:syncro-soft ;
+	swrc:citedBy p13:hillman , p14:fennell .
 
 <http://xmllondon.com/ext/rdf-1-1-xml-syntax> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/TR/rdf-syntax-grammar/> , <http://www.w3.org/TR/rdf-syntax-grammar> ;
@@ -350,6 +350,16 @@
 	swrc:year "2010" ;
 	swrc:citedBy p14:goncalves , p16:sheridan .
 
+<http://xmllondon.com/ext/xslt-1.0> a swrc:Publication ;
+	owl:sameAs <http://www.w3.org/TR/xslt> ;
+	rdfs:label "XSL Transformations (XSLT) Version 1.0" ;
+	swrc:publisher org:w3c ;
+	dc:creator person:james-clark ;
+	swrc:date "16" ;
+	swrc:month "November" ;
+	swrc:year "1999" ;
+	swrc:citedBy p13:delpratt , p16:dew , p14:goncalves .
+
 <http://xmllondon.com/ext/xquery-3-0> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/TR/xquery-30> ;
 	rdfs:label "XQuery 3.0: An XML Query Language" ;
@@ -369,16 +379,6 @@
 	swrc:month "December" ;
 	swrc:year "2006" ;
 	swrc:citedBy p15:graham .
-
-<http://xmllondon.com/ext/xslt-1.0> a swrc:Publication ;
-	owl:sameAs <http://www.w3.org/TR/xslt> ;
-	rdfs:label "XSL Transformations (XSLT) Version 1.0" ;
-	swrc:publisher org:w3c ;
-	dc:creator person:james-clark ;
-	swrc:date "16" ;
-	swrc:month "November" ;
-	swrc:year "1999" ;
-	swrc:citedBy p13:delpratt , p16:dew , p14:goncalves .
 
 <http://xmllondon.com/ext/xslt-1.1> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/TR/xslt11/> ;
@@ -432,24 +432,17 @@
 	dc:creator person:jeni-tennison ;
 	swrc:citedBy p14:kohl , p15:sirulli .
 
+<http://xmllondon.com/ext/10-kick-ass-technologies-modern-developers-love> a swrc:Publication ;
+	owl:sameAs <http://zeroturnaround.com/rebellabs/10-kick-ass-technologies-modern-developers-love/6> ;
+	rdfs:label "10 Kick-Ass Technologies Modern Developers Love" ;
+	swrc:publisher org:zeroturnaround ;
+	swrc:citedBy p15:sirulli .
+
 <http://xmllondon.com/ext/30-years-of-regression-testing-past-present-and-future> a swrc:Publication ;
 	owl:sameAs <http://www.uploads.pnsqc.org/2012/papers/t-67_Hartmann_paper.pdf> ;
 	rdfs:label "30 Years of Regression Testing: Past, Present and Future" ;
 	dc:creator person:jean-hartmann ;
 	swrc:citedBy p14:huang .
-
-<http://xmllondon.com/ext/a-delta-format-for-xml-identifying-changes-in-xml-files-and-representing-the-changes-in-xml> a swrc:Publication ;
-	rdfs:label "A Delta Format for XML: Identifying changes in XML files and representing the changes in XML" ;
-	swrc:publisher org:xml-europe ;
-	dc:creator person:robin-la-fontaine ;
-	swrc:citedBy p16:brunnlieb .
-
-<http://xmllondon.com/ext/a-case-study-on-the-impact-of-refactoring-on-quality-and-productivity-in-an-agile-team> a swrc:Publication ;
-	owl:sameAs <http://www.researchgate.net/profile/Giancarlo_Succi/publication/221200711_A_Case_Study_on_the_Impact_of_Refactoring_on_Quality_and_Productivity_in_an_Agile_Team/links/0046351f7fbd1e7a41000000.pdf> ;
-	rdfs:label "A case study on the impact of refactoring on quality and productivity in an agile team" ;
-	swrc:publisher org:springer ;
-	dc:creator person:alberto-sillitti , person:pekka-abrahamsson , person:giancarlo-succi , person:witold-pedrycz , person:raimund-moser ;
-	swrc:citedBy p15:fuller .
 
 <http://xmllondon.com/ext/a-conversation-with-tim-bray-searching-for-ways-to-tame-the-worlds-vast-stores-of-information> a swrc:Publication ;
 	owl:sameAs <http://queue.acm.org/detail.cfm?id=1046941> ;
@@ -458,11 +451,18 @@
 	dc:creator person:jim-gray ;
 	swrc:citedBy p14:pemberton .
 
-<http://xmllondon.com/ext/10-kick-ass-technologies-modern-developers-love> a swrc:Publication ;
-	owl:sameAs <http://zeroturnaround.com/rebellabs/10-kick-ass-technologies-modern-developers-love/6> ;
-	rdfs:label "10 Kick-Ass Technologies Modern Developers Love" ;
-	swrc:publisher org:zeroturnaround ;
-	swrc:citedBy p15:sirulli .
+<http://xmllondon.com/ext/a-case-study-on-the-impact-of-refactoring-on-quality-and-productivity-in-an-agile-team> a swrc:Publication ;
+	owl:sameAs <http://www.researchgate.net/profile/Giancarlo_Succi/publication/221200711_A_Case_Study_on_the_Impact_of_Refactoring_on_Quality_and_Productivity_in_an_Agile_Team/links/0046351f7fbd1e7a41000000.pdf> ;
+	rdfs:label "A case study on the impact of refactoring on quality and productivity in an agile team" ;
+	swrc:publisher org:springer ;
+	dc:creator person:alberto-sillitti , person:pekka-abrahamsson , person:giancarlo-succi , person:witold-pedrycz , person:raimund-moser ;
+	swrc:citedBy p15:fuller .
+
+<http://xmllondon.com/ext/a-delta-format-for-xml-identifying-changes-in-xml-files-and-representing-the-changes-in-xml> a swrc:Publication ;
+	rdfs:label "A Delta Format for XML: Identifying changes in XML files and representing the changes in XML" ;
+	swrc:publisher org:xml-europe ;
+	dc:creator person:robin-la-fontaine ;
+	swrc:citedBy p16:brunnlieb .
 
 <http://xmllondon.com/ext/a-direct-mapping-of-relational-data-to-rdf> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/TR/rdb-direct-mapping/> ;
@@ -471,6 +471,15 @@
 	swrc:month "September" ;
 	swrc:year "2012" ;
 	swrc:citedBy p14:fennell .
+
+<http://xmllondon.com/ext/a-genetic-algorithm-for-optimizing-the-label-ordering-in-multi-label-classifier-chains> a swrc:Publication ;
+	swrc:isbn "978-1-4799-2971-9" ;
+	owl:sameAs <http://dx.doi.org/10.1109/ICTAI.2013.76> ;
+	rdfs:label "A genetic algorithm for optimizing the label ordering in multi-label classifier chains" ;
+	swrc:publisher org:ictai ;
+	dc:creator person:eduardo-goncalves , person:alexandre-plastino , person:alex-freitas ;
+	swrc:year "2013" ;
+	swrc:citedBy p14:goncalves .
 
 <http://xmllondon.com/ext/a-normal-form-for-xml-documents> a swrc:Publication ;
 	owl:sameAs <http://dx.doi.org/10.1145/974750.974757> ;
@@ -481,15 +490,6 @@
 	swrc:year "2004" ;
 	dc:creator person:marcelo-arenas , person:leonid-libkin ;
 	swrc:citedBy p16:saadatfar .
-
-<http://xmllondon.com/ext/a-genetic-algorithm-for-optimizing-the-label-ordering-in-multi-label-classifier-chains> a swrc:Publication ;
-	swrc:isbn "978-1-4799-2971-9" ;
-	owl:sameAs <http://dx.doi.org/10.1109/ICTAI.2013.76> ;
-	rdfs:label "A genetic algorithm for optimizing the label ordering in multi-label classifier chains" ;
-	swrc:publisher org:ictai ;
-	dc:creator person:eduardo-goncalves , person:alexandre-plastino , person:alex-freitas ;
-	swrc:year "2013" ;
-	swrc:citedBy p14:goncalves .
 
 <http://xmllondon.com/ext/a-json-based-serialization-for-linked-data> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/TR/json-ld/> ;
@@ -743,6 +743,13 @@
 	dc:creator person:mark-barrenechea ;
 	swrc:citedBy p14:rzedzicki .
 
+<http://xmllondon.com/ext/binary-codes-capable-of-correcting-deletions-insertions-and-reversals> a swrc:Publication ;
+	rdfs:label "Binary codes capable of correcting deletions, insertions, and reversals." ;
+	swrc:publisher org:soviet-physics-doklady ;
+	dc:creator person:vladimir-i-levenshtein ;
+	swrc:year "1966" ;
+	swrc:citedBy p13:whitaker .
+
 <http://xmllondon.com/ext/bigbench-towards-an-industry-standard-benchmark-for-big-data-analytics> a swrc:Publication ;
 	owl:sameAs <http://www.msrg.org/publications/pdf_files/2013/Ghazal13-BigBench:_Towards_an_Industry_Standa.pdf> ;
 	rdfs:label "BigBench: towards an industry standard benchmark for big data analytics." ;
@@ -751,13 +758,6 @@
 	swrc:year "2013" ;
 	swrc:month "June" ;
 	swrc:citedBy p16:chelsom .
-
-<http://xmllondon.com/ext/binary-codes-capable-of-correcting-deletions-insertions-and-reversals> a swrc:Publication ;
-	rdfs:label "Binary codes capable of correcting deletions, insertions, and reversals." ;
-	swrc:publisher org:soviet-physics-doklady ;
-	dc:creator person:vladimir-i-levenshtein ;
-	swrc:year "1966" ;
-	swrc:citedBy p13:whitaker .
 
 <http://xmllondon.com/ext/build-flow-plugin> a swrc:Publication ;
 	owl:sameAs <https://wiki.jenkins-ci.org/display/JENKINS/Build+Flow+Plugin> ;
@@ -962,6 +962,16 @@
 	rdfs:label "DITA Open Toolkit" ;
 	swrc:citedBy p13:hillman .
 
+<http://xmllondon.com/ext/docbook-5.0> a swrc:Publication ;
+	owl:sameAs <http://docs.oasis-open.org/docbook/specs/docbook-5.0-spec-os.html> ;
+	rdfs:label "The DocBook Schema Version 5.0" ;
+	swrc:publisher org:oasis ;
+	dc:creator person:norman-walsh ;
+	swrc:date "1" ;
+	swrc:month "November" ;
+	swrc:year "2009" ;
+	swrc:citedBy p16:dew .
+
 <http://xmllondon.com/ext/docker> a swrc:Publication ;
 	owl:sameAs <https://www.docker.com/whatisdocker/> ;
 	rdfs:label "Docker" ;
@@ -990,12 +1000,12 @@
 	rdfs:label "International Standards Organization, (2001). ISO/IEC JTC 1/SC 34, DSDL Part 0, Overview. ISO." ;
 	swrc:citedBy p16:saadatfar .
 
-<http://xmllondon.com/ext/dsdl-part-2> a swrc:Publication ;
-	rdfs:label "International Standards Organization, (2003). ISO/IEC 19757-2:2003(E), DSDL Part 2, Regular-grammar-based validation — RELAX NG. ISO." ;
-	swrc:citedBy p16:saadatfar .
-
 <http://xmllondon.com/ext/dsdl-part-3> a swrc:Publication ;
 	rdfs:label "International Standards Organization, (2004a). ISO/IEC 19757-3, DSDL Part 3: Rule-Based Validation — Schematron. ISO." ;
+	swrc:citedBy p16:saadatfar .
+
+<http://xmllondon.com/ext/dsdl-part-2> a swrc:Publication ;
+	rdfs:label "International Standards Organization, (2003). ISO/IEC 19757-2:2003(E), DSDL Part 2, Regular-grammar-based validation — RELAX NG. ISO." ;
 	swrc:citedBy p16:saadatfar .
 
 <http://xmllondon.com/ext/dsdl-part-4> a swrc:Publication ;
@@ -1900,18 +1910,18 @@
 	dc:creator person:frank-manola , person:eric-miller ;
 	swrc:citedBy p15:labella .
 
-<http://xmllondon.com/ext/rdf-triples-in-xml> a swrc:Publication ;
-	owl:sameAs <http://dx.doi.org/10.1145/1010432.1010566> ;
-	rdfs:label "RDF triples in XML" ;
-	dc:creator person:jeremy-j-carroll , person:patrick-stickler ;
-	swrc:year "2004" ;
-	swrc:citedBy p15:labella .
-
 <http://xmllondon.com/ext/rdf-twig-accessing-rdf-graphs-in-xslt> a swrc:Publication ;
 	owl:sameAs <http://nwalsh.com/docs/articles/extreme2003/> ;
 	rdfs:label "Rdf twig: accessing rdf graphs in xslt." ;
 	dc:creator person:norman-walsh ;
 	swrc:year "2003" ;
+	swrc:citedBy p15:labella .
+
+<http://xmllondon.com/ext/rdf-triples-in-xml> a swrc:Publication ;
+	owl:sameAs <http://dx.doi.org/10.1145/1010432.1010566> ;
+	rdfs:label "RDF triples in XML" ;
+	dc:creator person:jeremy-j-carroll , person:patrick-stickler ;
+	swrc:year "2004" ;
 	swrc:citedBy p15:labella .
 
 <http://xmllondon.com/ext/rdf-vocabulary-description-language-1-0-rdf-schema> a swrc:Publication ;
@@ -2344,11 +2354,6 @@
 	swrc:year "1988" ;
 	swrc:citedBy p13:braaksma .
 
-<http://xmllondon.com/ext/swig> a swrc:Publication ;
-	owl:sameAs <http://www.swig.org/> ;
-	rdfs:label "SWIG" ;
-	swrc:citedBy p15:retter .
-
 <http://xmllondon.com/ext/svg-1.1> a swrc:Publication ;
 	owl:sameAs <https://www.w3.org/TR/SVG/> ;
 	rdfs:label "Scalable Vector Graphics (SVG) 1.1 (Second Edition)" ;
@@ -2359,11 +2364,22 @@
 	swrc:year "2011" ;
 	swrc:citedBy p16:dew .
 
+<http://xmllondon.com/ext/swig> a swrc:Publication ;
+	owl:sameAs <http://www.swig.org/> ;
+	rdfs:label "SWIG" ;
+	swrc:citedBy p15:retter .
+
 <http://xmllondon.com/ext/swrl-a-semantic-web-rule-language-combining-owl-and-ruleml> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/Submission/SWRL> ;
 	rdfs:label "SWRL: A Semantic Web Rule Language Combining OWL and RuleML" ;
 	swrc:publisher org:w3c ;
 	swrc:citedBy p14:kohl .
+
+<http://xmllondon.com/ext/tdb-transactions> a swrc:Publication ;
+	owl:sameAs <http://jena.apache.org/documentation/tdb/tdb_transactions.html> ;
+	rdfs:label "TDB Transactions" ;
+	swrc:publisher org:apache-software-foundation ;
+	swrc:citedBy p13:walpole .
 
 <http://xmllondon.com/ext/synthesis-lectures-on-the-semantic-web-theory-and-technology> a swrc:Publication ;
 	owl:sameAs <http://dx.doi.org/10.2200/s00334ed1v01y201102wbe001> ;
@@ -2371,12 +2387,6 @@
 	dc:creator person:tom-heath , person:christian-bizer ;
 	swrc:year "2011" ;
 	swrc:citedBy p15:labella .
-
-<http://xmllondon.com/ext/tdb-transactions> a swrc:Publication ;
-	owl:sameAs <http://jena.apache.org/documentation/tdb/tdb_transactions.html> ;
-	rdfs:label "TDB Transactions" ;
-	swrc:publisher org:apache-software-foundation ;
-	swrc:citedBy p13:walpole .
 
 <http://xmllondon.com/ext/techniques-used-in-rdf-data-publishing-at-nature-publishing-group> a swrc:Publication ;
 	owl:sameAs <http://www.slideshare.net/tonyh/semweb-meetupmarch2013> ;
@@ -2405,27 +2415,17 @@
 	swrc:publisher org:apache-software-foundation ;
 	swrc:citedBy p14:kohl .
 
-<http://xmllondon.com/ext/the-art-of-software-testing> a swrc:Publication ;
-	rdfs:label "The Art of Software Testing" ;
-	swrc:publisher org:wiley ;
-	dc:creator person:glenford-myers ;
-	swrc:citedBy p14:huang .
-
-<http://xmllondon.com/ext/the-docbook-schema-version-5-0> a swrc:Publication ;
-	owl:sameAs <http://docs.oasis-open.org/docbook/specs/docbook-5.0-spec-os.html> ;
-	rdfs:label "The DocBook Schema Version 5.0" ;
-	swrc:publisher org:oasis ;
-	dc:creator person:docbook-technical-committee ;
-	swrc:date "1" ;
-	swrc:month "November" ;
-	swrc:year "2009" ;
-	swrc:citedBy p16:dew .
-
 <http://xmllondon.com/ext/the-expath-packaging-system> a swrc:Publication ;
 	owl:sameAs <http://dx.doi.org/10.4242/BalisageVol5.Georges01> ;
 	rdfs:label "The EXPath Packaging System" ;
 	dc:creator person:florent-georges ;
 	swrc:citedBy p15:braaksma .
+
+<http://xmllondon.com/ext/the-art-of-software-testing> a swrc:Publication ;
+	rdfs:label "The Art of Software Testing" ;
+	swrc:publisher org:wiley ;
+	dc:creator person:glenford-myers ;
+	swrc:citedBy p14:huang .
 
 <http://xmllondon.com/ext/the-extensible-stylesheet-language-family-(xsl)> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/Style/XSL/> ;
@@ -2833,13 +2833,6 @@
 	swrc:year "2000" ;
 	swrc:citedBy p16:chelsom .
 
-<http://xmllondon.com/ext/xml-for-data-xsl-style-sheets-push-or-pull> a swrc:Publication ;
-	owl:sameAs <http://www.ibm.com/developerworks/library/x-xdpshpul.html> ;
-	rdfs:label "XML for Data: XSL style sheets: push or pull?" ;
-	dc:creator person:kevin-williams ;
-	swrc:year "2008" ;
-	swrc:citedBy p15:braaksma .
-
 <http://xmllondon.com/ext/xml-events> a swrc:Publication ;
 	owl:sameAs <http://www.w3.org/TR/2003/REC-xml-events-20031014/> ;
 	rdfs:label "XML Events" ;
@@ -2849,6 +2842,13 @@
 	swrc:month "October" ;
 	swrc:year "2003" ;
 	swrc:citedBy p15:pemberton .
+
+<http://xmllondon.com/ext/xml-for-data-xsl-style-sheets-push-or-pull> a swrc:Publication ;
+	owl:sameAs <http://www.ibm.com/developerworks/library/x-xdpshpul.html> ;
+	rdfs:label "XML for Data: XSL style sheets: push or pull?" ;
+	dc:creator person:kevin-williams ;
+	swrc:year "2008" ;
+	swrc:citedBy p15:braaksma .
 
 <http://xmllondon.com/ext/xml-in-localisation-use-xliff-to-translate-documents> a swrc:Publication ;
 	owl:sameAs <http://www.ibm.com/developerworks/library/x-localis2> ;
@@ -3037,7 +3037,7 @@
 	rdfs:label "You Pull, I’ll Push: on the Polarity of Pipelines" ;
 	swrc:citedBy p13:fuller .
 
-person:michael-kay swrc:author <http://xmllondon.com/ext/a-streaming-xslt-processor> , <http://xmllondon.com/ext/functions-and-operators-3.0> , <http://xmllondon.com/ext/saxon> , <http://xmllondon.com/ext/xpath-2.0> , <http://xmllondon.com/ext/xslt-2.0> , <http://xmllondon.com/ext/xslt-3.0-2013-12-12> , <http://xmllondon.com/ext/xslt-3.0> , <http://xmllondon.com/ext/benchmarking-xslt-performance> , <http://xmllondon.com/ext/functions-and-operators-2013-10-22> , <http://xmllondon.com/ext/re-xsl-xslt-1-1-comments> , <http://xmllondon.com/ext/saxon-anatomy-of-an-xslt-processor> , <http://xmllondon.com/ext/saxon-memo-function> , <http://xmllondon.com/ext/saxon-threads> , <http://xmllondon.com/ext/streaming-in-xslt-2-1> , <http://xmllondon.com/ext/writing-an-xslt-optimizer-in-xslt> , <http://xmllondon.com/ext/xslt-2-0-and-xpath-2-0-programmers-reference> , <http://xmllondon.com/ext/you-pull-ill-push-on-the-polarity-of-pipelines> .
+person:michael-kay swrc:author <http://xmllondon.com/ext/functions-and-operators-3.0> , <http://xmllondon.com/ext/a-streaming-xslt-processor> , <http://xmllondon.com/ext/saxon> , <http://xmllondon.com/ext/xpath-2.0> , <http://xmllondon.com/ext/xslt-2.0> , <http://xmllondon.com/ext/xslt-3.0-2013-12-12> , <http://xmllondon.com/ext/xslt-3.0> , <http://xmllondon.com/ext/benchmarking-xslt-performance> , <http://xmllondon.com/ext/functions-and-operators-2013-10-22> , <http://xmllondon.com/ext/re-xsl-xslt-1-1-comments> , <http://xmllondon.com/ext/saxon-anatomy-of-an-xslt-processor> , <http://xmllondon.com/ext/saxon-memo-function> , <http://xmllondon.com/ext/saxon-threads> , <http://xmllondon.com/ext/streaming-in-xslt-2-1> , <http://xmllondon.com/ext/writing-an-xslt-optimizer-in-xslt> , <http://xmllondon.com/ext/xslt-2-0-and-xpath-2-0-programmers-reference> , <http://xmllondon.com/ext/you-pull-ill-push-on-the-polarity-of-pipelines> .
 
 person:dan-brickley a foaf:Person ;
 	rdfs:label "Dan Brickley" ;
@@ -3090,13 +3090,6 @@ person:david-brownell a foaf:Person ;
 	foaf:family_name "Brownell" ;
 	swrc:author <http://xmllondon.com/ext/sax-project> .
 
-person:rick-jelliffe a foaf:Person ;
-	rdfs:label "Rick Jelliffe" ;
-	foaf:name "Rick Jelliffe" ;
-	foaf:firstName "Rick" ;
-	foaf:family_name "Jelliffe" ;
-	swrc:author <http://xmllondon.com/ext/schematron> .
-
 person:joel-farrell a foaf:Person ;
 	rdfs:label "Joel Farrell" ;
 	foaf:name "Joel Farrell" ;
@@ -3110,6 +3103,13 @@ person:holger-lausen a foaf:Person ;
 	foaf:firstName "Holger" ;
 	foaf:family_name "Lausen" ;
 	swrc:author <http://xmllondon.com/ext/semantic-annotations-for-wsdl-and-xml-schema> .
+
+person:rick-jelliffe a foaf:Person ;
+	rdfs:label "Rick Jelliffe" ;
+	foaf:name "Rick Jelliffe" ;
+	foaf:firstName "Rick" ;
+	foaf:family_name "Jelliffe" ;
+	swrc:author <http://xmllondon.com/ext/schematron> .
 
 person:steve-harris a foaf:Person ;
 	rdfs:label "Steve Harris" ;
@@ -3262,7 +3262,7 @@ person:anders-berglund a foaf:Person ;
 	foaf:family_name "Berglund" ;
 	swrc:author <http://xmllondon.com/ext/xdm-2.0> , <http://xmllondon.com/ext/xdm-3.0> , <http://xmllondon.com/ext/xdm-30-2013-01-08> , <http://xmllondon.com/ext/xpath-2.0> , <http://xmllondon.com/ext/xsl-1.1> .
 
-person:norman-walsh swrc:author <http://xmllondon.com/ext/xdm-2.0> , <http://xmllondon.com/ext/xdm-3.0> , <http://xmllondon.com/ext/xdm-30-2013-01-08> , <http://xmllondon.com/ext/xproc-1.0> , <http://xmllondon.com/ext/architecture-of-the-world-wide-web-volume-one> , <http://xmllondon.com/ext/rdf-twig-accessing-rdf-graphs-in-xslt> , <http://xmllondon.com/ext/wiki-editing-with-xproc> , <http://xmllondon.com/ext/xml-calabash-reference> , <http://xmllondon.com/ext/xml-calabash> .
+person:norman-walsh swrc:author <http://xmllondon.com/ext/xdm-2.0> , <http://xmllondon.com/ext/xdm-3.0> , <http://xmllondon.com/ext/xdm-30-2013-01-08> , <http://xmllondon.com/ext/xproc-1.0> , <http://xmllondon.com/ext/architecture-of-the-world-wide-web-volume-one> , <http://xmllondon.com/ext/docbook-5.0> , <http://xmllondon.com/ext/rdf-twig-accessing-rdf-graphs-in-xslt> , <http://xmllondon.com/ext/wiki-editing-with-xproc> , <http://xmllondon.com/ext/xml-calabash-reference> , <http://xmllondon.com/ext/xml-calabash> .
 
 person:micah-dubinko a foaf:Person ;
 	rdfs:label "Micah Dubinko" ;
@@ -3292,7 +3292,7 @@ person:t-v-raman a foaf:Person ;
 	foaf:family_name "V. Raman" ;
 	swrc:author <http://xmllondon.com/ext/xforms-1-0> , <http://xmllondon.com/ext/xml-events> .
 
-person:steven-pemberton swrc:author <http://xmllondon.com/ext/xforms-1-1-quick-reference> , <http://xmllondon.com/ext/xforms-2-0-(draft)> , <http://xmllondon.com/ext/xforms-2-0> , <http://xmllondon.com/ext/xforms-for-html-authors> , <http://xmllondon.com/ext/data-just-wants-to-be-(format)-neutral> , <http://xmllondon.com/ext/grammar-tools> , <http://xmllondon.com/ext/invisible-xml> , <http://xmllondon.com/ext/live-xml-(slides)> , <http://xmllondon.com/ext/the-abc-programmers-handbook> , <http://xmllondon.com/ext/xml-events> .
+person:steven-pemberton swrc:author <http://xmllondon.com/ext/xforms-1-1-quick-reference> , <http://xmllondon.com/ext/xforms-2-0> , <http://xmllondon.com/ext/xforms-2-0-(draft)> , <http://xmllondon.com/ext/xforms-for-html-authors> , <http://xmllondon.com/ext/data-just-wants-to-be-(format)-neutral> , <http://xmllondon.com/ext/grammar-tools> , <http://xmllondon.com/ext/invisible-xml> , <http://xmllondon.com/ext/live-xml-(slides)> , <http://xmllondon.com/ext/the-abc-programmers-handbook> , <http://xmllondon.com/ext/xml-events> .
 
 person:john-boyer a foaf:Person ;
 	rdfs:label "John Boyer" ;
@@ -3300,15 +3300,6 @@ person:john-boyer a foaf:Person ;
 	foaf:firstName "John" ;
 	foaf:family_name "Boyer" ;
 	swrc:author <http://xmllondon.com/ext/xforms-1-1> , <http://xmllondon.com/ext/xforms-2-0-(draft)> , <http://xmllondon.com/ext/xforms-1-1-1> .
-
-person:nick-van-den-bleeken swrc:author <http://xmllondon.com/ext/xforms-2-0-(draft)> , <http://xmllondon.com/ext/xforms-2-0> .
-
-person:erik-bruchez a foaf:Person ;
-	rdfs:label "Erik Bruchez" ;
-	foaf:name "Erik Bruchez" ;
-	foaf:firstName "Erik" ;
-	foaf:family_name "Bruchez" ;
-	swrc:author <http://xmllondon.com/ext/xforms-2-0-(draft)> , <http://xmllondon.com/ext/are-server-side-implementations-the-future-of-xforms> , <http://xmllondon.com/ext/orbeon-developer-and-administratorguide-page-flow-controller> .
 
 person:john-m-boyer a foaf:Person ;
 	rdfs:label "John M. Boyer" ;
@@ -3323,6 +3314,8 @@ person:leigh-l-klotz-jr a foaf:Person ;
 	foaf:firstName "Leigh" ;
 	foaf:family_name "L. Klotz, Jr" ;
 	swrc:author <http://xmllondon.com/ext/xforms-2-0> .
+
+person:nick-van-den-bleeken swrc:author <http://xmllondon.com/ext/xforms-2-0-(draft)> , <http://xmllondon.com/ext/xforms-2-0> .
 
 person:eve-maler a foaf:Person ;
 	rdfs:label "Eve Maler" ;
@@ -3353,6 +3346,13 @@ person:jean-paoli a foaf:Person ;
 	foaf:firstName "Jean" ;
 	foaf:family_name "Paoli" ;
 	swrc:author <http://xmllondon.com/ext/xml-1.0> .
+
+person:erik-bruchez a foaf:Person ;
+	rdfs:label "Erik Bruchez" ;
+	foaf:name "Erik Bruchez" ;
+	foaf:firstName "Erik" ;
+	foaf:family_name "Bruchez" ;
+	swrc:author <http://xmllondon.com/ext/xforms-2-0-(draft)> , <http://xmllondon.com/ext/are-server-side-implementations-the-future-of-xforms> , <http://xmllondon.com/ext/orbeon-developer-and-administratorguide-page-flow-controller> .
 
 person:paul-biron a foaf:Person ;
 	rdfs:label "Paul Biron" ;
@@ -3387,7 +3387,7 @@ person:don-chamberlin a foaf:Person ;
 	foaf:name "Don Chamberlin" ;
 	foaf:firstName "Don" ;
 	foaf:family_name "Chamberlin" ;
-	swrc:author <http://xmllondon.com/ext/xpath-2.0> , <http://xmllondon.com/ext/xpath-3.0-2013-01-08> , <http://xmllondon.com/ext/xpath-3.0> , <http://xmllondon.com/ext/xquery-1.0> , <http://xmllondon.com/ext/xquery-3-0> , <http://xmllondon.com/ext/xpath-3.1-2015-12-17> .
+	swrc:author <http://xmllondon.com/ext/xpath-3.0-2013-01-08> , <http://xmllondon.com/ext/xpath-2.0> , <http://xmllondon.com/ext/xpath-3.0> , <http://xmllondon.com/ext/xquery-1.0> , <http://xmllondon.com/ext/xquery-3-0> , <http://xmllondon.com/ext/xpath-3.1-2015-12-17> .
 
 person:jonathan-robie a foaf:Person ;
 	rdfs:label "Jonathan Robie" ;
@@ -3454,6 +3454,13 @@ person:jean-hartmann a foaf:Person ;
 	foaf:family_name "Hartmann" ;
 	swrc:author <http://xmllondon.com/ext/30-years-of-regression-testing-past-present-and-future> .
 
+person:jim-gray a foaf:Person ;
+	rdfs:label "Jim Gray" ;
+	foaf:name "Jim Gray" ;
+	foaf:firstName "Jim" ;
+	foaf:family_name "Gray" ;
+	swrc:author <http://xmllondon.com/ext/a-conversation-with-tim-bray-searching-for-ways-to-tame-the-worlds-vast-stores-of-information> .
+
 person:alberto-sillitti a foaf:Person ;
 	rdfs:label "Alberto Sillitti" ;
 	foaf:name "Alberto Sillitti" ;
@@ -3489,13 +3496,6 @@ person:raimund-moser a foaf:Person ;
 	foaf:family_name "Moser" ;
 	swrc:author <http://xmllondon.com/ext/a-case-study-on-the-impact-of-refactoring-on-quality-and-productivity-in-an-agile-team> .
 
-person:jim-gray a foaf:Person ;
-	rdfs:label "Jim Gray" ;
-	foaf:name "Jim Gray" ;
-	foaf:firstName "Jim" ;
-	foaf:family_name "Gray" ;
-	swrc:author <http://xmllondon.com/ext/a-conversation-with-tim-bray-searching-for-ways-to-tame-the-worlds-vast-stores-of-information> .
-
 person:robin-la-fontaine swrc:author <http://xmllondon.com/ext/a-delta-format-for-xml-identifying-changes-in-xml-files-and-representing-the-changes-in-xml> , <http://xmllondon.com/ext/merging-xml-files-a-new-approach-providing-intelligent-merge-of-xml-data-sets> .
 
 person:eduardo-goncalves swrc:author <http://xmllondon.com/ext/a-genetic-algorithm-for-optimizing-the-label-ordering-in-multi-label-classifier-chains> .
@@ -3514,6 +3514,13 @@ person:alex-freitas a foaf:Person ;
 	foaf:family_name "Freitas" ;
 	swrc:author <http://xmllondon.com/ext/a-genetic-algorithm-for-optimizing-the-label-ordering-in-multi-label-classifier-chains> , <http://xmllondon.com/ext/a-tutorial-on-multi-label-classification-techniques> .
 
+person:francis-cave a foaf:Person ;
+	rdfs:label "Francis Cave" ;
+	foaf:name "Francis Cave" ;
+	foaf:firstName "Francis" ;
+	foaf:family_name "Cave" ;
+	swrc:author <http://xmllondon.com/ext/a-style-schema-for-word-processing-documents> .
+
 person:marcelo-arenas a foaf:Person ;
 	rdfs:label "Marcelo Arenas" ;
 	foaf:name "Marcelo Arenas" ;
@@ -3527,13 +3534,6 @@ person:leonid-libkin a foaf:Person ;
 	foaf:firstName "Leonid" ;
 	foaf:family_name "Libkin" ;
 	swrc:author <http://xmllondon.com/ext/a-normal-form-for-xml-documents> , <http://xmllondon.com/ext/on-verifying-consistency-of-xml-specifications> , <http://xmllondon.com/ext/trial-for-rdf-adapting-graph-query-languages-for-rdf-data> .
-
-person:francis-cave a foaf:Person ;
-	rdfs:label "Francis Cave" ;
-	foaf:name "Francis Cave" ;
-	foaf:firstName "Francis" ;
-	foaf:family_name "Cave" ;
-	swrc:author <http://xmllondon.com/ext/a-style-schema-for-word-processing-documents> .
 
 person:j-m-foster a foaf:Person ;
 	rdfs:label "J M. Foster" ;
@@ -3574,13 +3574,6 @@ person:eddie-welker a foaf:Person ;
 	foaf:family_name "Welker" ;
 	swrc:author <http://xmllondon.com/ext/advantages-of-push-style-xslt-over-pull-style> .
 
-person:james-hendler a foaf:Person ;
-	rdfs:label "James Hendler" ;
-	foaf:name "James Hendler" ;
-	foaf:firstName "James" ;
-	foaf:family_name "Hendler" ;
-	swrc:author <http://xmllondon.com/ext/agents-and-the-semantic-web> , <http://xmllondon.com/ext/the-semantic-web> .
-
 person:kristin-tufte a foaf:Person ;
 	rdfs:label "Kristin Tufte" ;
 	foaf:name "Kristin Tufte" ;
@@ -3594,6 +3587,13 @@ person:david-maier a foaf:Person ;
 	foaf:firstName "David" ;
 	foaf:family_name "Maier" ;
 	swrc:author <http://xmllondon.com/ext/aggregation-and-accumulation-of-xml-data> .
+
+person:james-hendler a foaf:Person ;
+	rdfs:label "James Hendler" ;
+	foaf:name "James Hendler" ;
+	foaf:firstName "James" ;
+	foaf:family_name "Hendler" ;
+	swrc:author <http://xmllondon.com/ext/agents-and-the-semantic-web> , <http://xmllondon.com/ext/the-semantic-web> .
 
 person:jay-earley a foaf:Person ;
 	rdfs:label "Jay Earley" ;
@@ -3620,7 +3620,14 @@ person:roy-fielding a foaf:Person ;
 	foaf:family_name "Fielding" ;
 	swrc:author <http://xmllondon.com/ext/architectural-styles-and-the-design-of-network-based-software-architectures> , <http://xmllondon.com/ext/representational-state-transfer-(rest)> , <http://xmllondon.com/ext/uniform-resource-identifier-(uri)-generic-syntax> .
 
-person:stephane-sire swrc:author <http://xmllondon.com/ext/axel-forms-web-site> , <http://xmllondon.com/ext/authoring-xml-all-the-time-everywhere-and-by-everyone> , <http://xmllondon.com/ext/xtiger-xml-language-specification> .
+person:ian-jacobs a foaf:Person ;
+	rdfs:label "Ian Jacobs" ;
+	foaf:name "Ian Jacobs" ;
+	foaf:firstName "Ian" ;
+	foaf:family_name "Jacobs" ;
+	swrc:author <http://xmllondon.com/ext/architecture-of-the-world-wide-web-volume-one> .
+
+person:stephane-sire swrc:author <http://xmllondon.com/ext/authoring-xml-all-the-time-everywhere-and-by-everyone> , <http://xmllondon.com/ext/axel-forms-web-site> , <http://xmllondon.com/ext/xtiger-xml-language-specification> .
 
 person:christine-vanoirbeek swrc:author <http://xmllondon.com/ext/authoring-xml-all-the-time-everywhere-and-by-everyone> .
 
@@ -3637,13 +3644,6 @@ person:cecile-roisin a foaf:Person ;
 	foaf:firstName "Cécile" ;
 	foaf:family_name "Roisin" ;
 	swrc:author <http://xmllondon.com/ext/authoring-xml-all-the-time-everywhere-and-by-everyone> .
-
-person:ian-jacobs a foaf:Person ;
-	rdfs:label "Ian Jacobs" ;
-	foaf:name "Ian Jacobs" ;
-	foaf:firstName "Ian" ;
-	foaf:family_name "Jacobs" ;
-	swrc:author <http://xmllondon.com/ext/architecture-of-the-world-wide-web-volume-one> .
 
 person:dino-fancellu swrc:author <http://xmllondon.com/ext/benchmark-sources> , <http://xmllondon.com/ext/xml-processing-in-scala> , <http://xmllondon.com/ext/xquery-for-scala> .
 
@@ -4062,19 +4062,19 @@ person:silvia-pfeiffer a foaf:Person ;
 	foaf:family_name "Pfeiffer" ;
 	swrc:author <http://xmllondon.com/ext/html5> .
 
-person:russell-gold a foaf:Person ;
-	rdfs:label "Russell Gold" ;
-	foaf:name "Russell Gold" ;
-	foaf:firstName "Russell" ;
-	foaf:family_name "Gold" ;
-	swrc:author <http://xmllondon.com/ext/httpunit> .
-
 person:markus-lanthaler a foaf:Person ;
 	rdfs:label "Markus Lanthaler" ;
 	foaf:name "Markus Lanthaler" ;
 	foaf:firstName "Markus" ;
 	foaf:family_name "Lanthaler" ;
 	swrc:author <http://xmllondon.com/ext/hydra-core-vocabulary> , <http://xmllondon.com/ext/rdf-1-1-concepts-and-abstract-syntax> .
+
+person:russell-gold a foaf:Person ;
+	rdfs:label "Russell Gold" ;
+	foaf:name "Russell Gold" ;
+	foaf:firstName "Russell" ;
+	foaf:family_name "Gold" ;
+	swrc:author <http://xmllondon.com/ext/httpunit> .
 
 person:jesus-gonzalez a foaf:Person ;
 	rdfs:label "Jesús González" ;
@@ -4089,6 +4089,20 @@ person:juan-manuel a foaf:Person ;
 	foaf:firstName "Juan" ;
 	foaf:family_name "Manuel" ;
 	swrc:author <http://xmllondon.com/ext/implementing-a-dsl-for-social-modeling-an-embedded-approach-using-scala> .
+
+person:anette-hauswirth a foaf:Person ;
+	rdfs:label "Anette Hauswirth" ;
+	foaf:name "Anette Hauswirth" ;
+	foaf:firstName "Anette" ;
+	foaf:family_name "Hauswirth" ;
+	swrc:author <http://xmllondon.com/ext/improving-localization-process-at-tektronix-using-xml-and-xliff-a-case-study> .
+
+person:bryan-schnabel a foaf:Person ;
+	rdfs:label "Bryan Schnabel" ;
+	foaf:name "Bryan Schnabel" ;
+	foaf:firstName "Bryan" ;
+	foaf:family_name "Schnabel" ;
+	swrc:author <http://xmllondon.com/ext/improving-localization-process-at-tektronix-using-xml-and-xliff-a-case-study> .
 
 person:stelios-joannou a foaf:Person ;
 	rdfs:label "Stelios Joannou" ;
@@ -4110,20 +4124,6 @@ person:rayeev-raman a foaf:Person ;
 	foaf:firstName "Rayeev" ;
 	foaf:family_name "Raman" ;
 	swrc:author <http://xmllondon.com/ext/in-memory-representations-of-xml-documents-with-low-memory-footprint> .
-
-person:anette-hauswirth a foaf:Person ;
-	rdfs:label "Anette Hauswirth" ;
-	foaf:name "Anette Hauswirth" ;
-	foaf:firstName "Anette" ;
-	foaf:family_name "Hauswirth" ;
-	swrc:author <http://xmllondon.com/ext/improving-localization-process-at-tektronix-using-xml-and-xliff-a-case-study> .
-
-person:bryan-schnabel a foaf:Person ;
-	rdfs:label "Bryan Schnabel" ;
-	foaf:name "Bryan Schnabel" ;
-	foaf:firstName "Bryan" ;
-	foaf:family_name "Schnabel" ;
-	swrc:author <http://xmllondon.com/ext/improving-localization-process-at-tektronix-using-xml-and-xliff-a-case-study> .
 
 person:benoit-mercier a foaf:Person ;
 	rdfs:label "Benoit Mercier" ;
@@ -4563,8 +4563,6 @@ person:steve-muench a foaf:Person ;
 	foaf:family_name "Muench" ;
 	swrc:author <http://xmllondon.com/ext/re-xsl-xslt-1-1-comments-1> .
 
-person:eric-van-der-vlist swrc:author <http://xmllondon.com/ext/relax-ng-oreilly-media> .
-
 person:alexander-peshkov a foaf:Person ;
 	rdfs:label "Alexander Peshkov" ;
 	foaf:name "Alexander Peshkov" ;
@@ -4572,12 +4570,7 @@ person:alexander-peshkov a foaf:Person ;
 	foaf:family_name "Peshkov" ;
 	swrc:author <http://xmllondon.com/ext/relax-ng-schema-for-xsl-fo> .
 
-person:murata-makoto a foaf:Person ;
-	rdfs:label "Murata Makoto" ;
-	foaf:name "Murata Makoto" ;
-	foaf:firstName "Murata" ;
-	foaf:family_name "Makoto" ;
-	swrc:author <http://xmllondon.com/ext/relax-ng-specification> .
+person:eric-van-der-vlist swrc:author <http://xmllondon.com/ext/relax-ng-oreilly-media> .
 
 person:michael-nygard a foaf:Person ;
 	rdfs:label "Michael Nygard" ;
@@ -4585,6 +4578,13 @@ person:michael-nygard a foaf:Person ;
 	foaf:firstName "Michael" ;
 	foaf:family_name "Nygard" ;
 	swrc:author <http://xmllondon.com/ext/release-it-design-and-deploy-production-ready-software> .
+
+person:murata-makoto a foaf:Person ;
+	rdfs:label "Murata Makoto" ;
+	foaf:name "Murata Makoto" ;
+	foaf:firstName "Murata" ;
+	foaf:family_name "Makoto" ;
+	swrc:author <http://xmllondon.com/ext/relax-ng-specification> .
 
 person:petr-cimprich a foaf:Person ;
 	rdfs:label "Petr Cimprich" ;
@@ -4899,13 +4899,6 @@ person:glenford-myers a foaf:Person ;
 	foaf:firstName "Glenford" ;
 	foaf:family_name "Myers" ;
 	swrc:author <http://xmllondon.com/ext/the-art-of-software-testing> .
-
-person:docbook-technical-committee a foaf:Person ;
-	rdfs:label "DocBook Technical Committee" ;
-	foaf:name "DocBook Technical Committee" ;
-	foaf:firstName "DocBook" ;
-	foaf:family_name "Technical Committee" ;
-	swrc:author <http://xmllondon.com/ext/the-docbook-schema-version-5-0> .
 
 person:peter-boncz a foaf:Person ;
 	rdfs:label "Peter Boncz" ;
