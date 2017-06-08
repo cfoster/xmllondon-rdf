@@ -1159,7 +1159,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:firstName "Simon" ;
   foaf:name "Simon Dew" ;
   foaf:depiction <http://xmllondon.com/images/depiction/Simon-Dew.jpg> ;
-  foaf:OnlineAccount github:janiveer ; 
+  foaf:OnlineAccount github:janiveer ;
   foaf:OnlineAccount twitter:simonjabadaw ; 
   org:memberOf <http://data.semanticweb.org/organization/stanley-black-and-decker> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2016/presenter> .
@@ -1210,9 +1210,66 @@ twitter:robbertbroersma foaf:accountServiceHomepage
 <http://data.semanticweb.org/organization/mulberry-technologies-inc> foaf:member
   <http://data.semanticweb.org/person/deborah-lapeyre> .
 
-# Bert Willems
-# Mark Dunn
-# Robin La Fontaine
-# Shani Chachamu
-# Sharon Adler
-# Terry Blake
+<http://data.semanticweb.org/person/bert-willems> a foaf:Person ;
+  rdfs:label "Bert Willems" ;
+  foaf:family_name "Willems" ;
+  foaf:firstName "Bert" ;
+  foaf:name "Bert Willems" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Bert-Willems.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/in/trilobyte/> ;
+  foaf:OnlineAccount github:devatwork ;
+  foaf:OnlineAccount twitter:devatwork ;
+  org:memberOf <http://xmlguild.org> ;
+  org:memberOf <http://data.semanticweb.org/organization/fontoxml> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+
+<http://data.semanticweb.org/organization/fontoxml> foaf:member
+  <http://data.semanticweb.org/person/bert-willems> .
+
+<http://data.semanticweb.org/person/mark-dunn> a foaf:Person ;
+  rdfs:label "Mark Dunn" ;
+  foaf:family_name "Dunn" ;
+  foaf:firstName "Mark" ;
+  foaf:name "Mark Dunn" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Mark-Dunn.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/in/mark-dunn-8b08a839/> ;
+  foaf:OnlineAccount twitter:mdunn1 ;
+  org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+
+<http://data.semanticweb.org/organization/oxford-university-press> foaf:member
+  <http://data.semanticweb.org/person/mark-dunn> .
+
+<http://data.semanticweb.org/person/shani-chachamu> a foaf:Person ;
+  rdfs:label "Shani Chachamu" ;
+  foaf:family_name "Chachamu" ;
+  foaf:firstName "Shani" ;
+  foaf:name "Shani Chachamu" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Shani-Chachamu.jpg> ;
+  org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+
+<http://data.semanticweb.org/organization/oxford-university-press> foaf:member
+  <http://data.semanticweb.org/person/shani-chachamu> .
+
+<http://data.semanticweb.org/person/sharon-adler> a foaf:Person ;
+  rdfs:label "Sharon Adler" ;
+  foaf:family_name "Adler" ;
+  foaf:firstName "Sharon" ;
+  foaf:name "Sharon Adler" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Sharon-Adler.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/in/sharon-adler-b7470511/> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+
+<http://data.semanticweb.org/person/terry-blake> a foaf:Person ;
+  rdfs:label "Terry Blake" ;
+  foaf:family_name "Blake" ;
+  foaf:firstName "Terry" ;
+  foaf:name "Terry Blake" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Terry-Blake.jpg> ;
+  org:memberOf <http://data.semanticweb.org/organization/williams-lea-tag> ;
+  foaf:OnlineAccount <http://www.linkedin.com/in/terry-blake-233474/> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+
+<http://data.semanticweb.org/organization/williams-lea-tag> foaf:member
+  <http://data.semanticweb.org/person/terry-blake> .

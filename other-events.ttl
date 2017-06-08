@@ -11,6 +11,53 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix twitter: <https://twitter.com/> .
 
+## 2017 ##
+
+xmlprague:2017 a swc:ConferenceEvent ;
+  xlswc:sisterEvent xmllondon:2017 ;
+  xlswc:sisterEvent xmlss:2017 ;
+  xlswc:sisterEvent xmllondon:2017 ;
+  xlswc:sisterEvent balisage:2017 ;
+  xlswc:relatedEvent xmlprague:2016 ;
+  xlswc:relatedEvent xmlprague:2015 ;
+  xlswc:relatedEvent xmlprague:2014 ;
+  xlswc:relatedEvent xmlprague:2013 ;
+  foaf:depiction <http://xmllondon.com/images/xml-prague-180.gif> ;
+  foaf:homepage <http://www.xmlprague.cz/> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Prague-1107047/about> ;
+  foaf:OnlineAccount twitter:xmlprague ;
+  rdfs:label "XML Prague 2017" .
+
+xmlss:2017 a swc:AcademicEvent ;
+  xlswc:sisterEvent xmllondon:2017 ;
+  xlswc:sisterEvent xmlprague:2017 ;
+  xlswc:sisterEvent balisage:2017 ;
+  xlswc:relatedEvent xmlss:2016 ;  
+  xlswc:relatedEvent xmlss:2015 ;
+  xlswc:relatedEvent xmlss:2014 ;
+  xlswc:relatedEvent xmlss:2013 ;
+  foaf:depiction <http://xmllondon.com/images/xmlss.png> ;
+  foaf:homepage <http://xmlsummerschool.com/> ;
+  foaf:OnlineAccount <http://www.linkedin.com/groups/XML-Summer-School-2043439/about> ;
+  foaf:OnlineAccount twitter:xmlsummerschool ;
+  rdfs:label "XML Summer School 2017" .
+
+## XML Amsterdam, believe it when I see it
+
+balisage:2017 a swc:ConferenceEvent ;
+  xlswc:sisterEvent xmllondon:2017 ;
+  xlswc:sisterEvent xmlss:2017 ;
+  xlswc:sisterEvent xmlprague:2017 ;
+  xlswc:relatedEvent balisage:2016 ;  
+  xlswc:relatedEvent balisage:2015 ;
+  xlswc:relatedEvent balisage:2014 ;
+  xlswc:relatedEvent balisage:2013 ;
+  foaf:depiction <http://xmllondon.com/images/balisage.png> ;
+  foaf:homepage <http://www.balisage.net/> ;
+  foaf:OnlineAccount <https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about> ;
+  foaf:OnlineAccount twitter:balisage ;
+  rdfs:label "Balisage 2017" .
+
 ## 2016 ##
 
 xmlprague:2016 a swc:ConferenceEvent ;
@@ -18,6 +65,7 @@ xmlprague:2016 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmlss:2016 ;
   xlswc:sisterEvent xmllondon:2016 ;
   xlswc:sisterEvent balisage:2016 ;
+  xlswc:relatedEvent xmlprague:2017 ;
   xlswc:relatedEvent xmlprague:2015 ;
   xlswc:relatedEvent xmlprague:2014 ;
   xlswc:relatedEvent xmlprague:2013 ;
@@ -31,6 +79,7 @@ xmlss:2016 a swc:AcademicEvent ;
   xlswc:sisterEvent xmllondon:2016 ;
   xlswc:sisterEvent xmlprague:2016 ;
   xlswc:sisterEvent balisage:2016 ;
+  xlswc:relatedEvent xmlss:2017 ;  
   xlswc:relatedEvent xmlss:2015 ;
   xlswc:relatedEvent xmlss:2014 ;
   xlswc:relatedEvent xmlss:2013 ;
@@ -51,6 +100,7 @@ balisage:2016 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmllondon:2016 ;
   xlswc:sisterEvent xmlss:2016 ;
   xlswc:sisterEvent xmlprague:2016 ;
+  xlswc:relatedEvent balisage:2017 ;  
   xlswc:relatedEvent balisage:2015 ;
   xlswc:relatedEvent balisage:2014 ;
   xlswc:relatedEvent balisage:2013 ;
@@ -68,6 +118,7 @@ xmlprague:2015 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmllondon:2015 ;
   xlswc:sisterEvent xmlamsterdam:2015 ;
   xlswc:sisterEvent balisage:2015 ;
+  xlswc:relatedEvent xmlprague:2017 ;  
   xlswc:relatedEvent xmlprague:2016 ;
   xlswc:relatedEvent xmlprague:2014 ;
   xlswc:relatedEvent xmlprague:2013 ;
@@ -81,6 +132,7 @@ xmlss:2015 a swc:AcademicEvent ;
   xlswc:sisterEvent xmllondon:2015 ;
   xlswc:sisterEvent xmlprague:2015 ;
   xlswc:sisterEvent balisage:2015 ;
+  xlswc:relatedEvent xmlss:2017 ;  
   xlswc:relatedEvent xmlss:2016 ;
   xlswc:relatedEvent xmlss:2014 ;
   xlswc:relatedEvent xmlss:2013 ;
@@ -102,6 +154,7 @@ balisage:2015 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmllondon:2015 ;
   xlswc:sisterEvent xmlss:2015 ;
   xlswc:sisterEvent xmlprague:2015 ;
+  xlswc:relatedEvent balisage:2017 ;  
   xlswc:relatedEvent balisage:2016 ;
   xlswc:relatedEvent balisage:2014 ;
   xlswc:relatedEvent balisage:2013 ;
@@ -117,6 +170,7 @@ xmlprague:2014 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmllondon:2014;
   xlswc:sisterEvent xmlss:2014 ;
   xlswc:sisterEvent balisage:2014 ;
+  xlswc:relatedEvent xmlprague:2017 ;  
   xlswc:relatedEvent xmlprague:2016 ;
   xlswc:relatedEvent xmlprague:2015 ;
   xlswc:relatedEvent xmlprague:2013 ;
@@ -129,6 +183,7 @@ xmlprague:2014 a swc:ConferenceEvent ;
 xmlss:2014 a swc:AcademicEvent ;
   xlswc:sisterEvent xmllondon:2014 ;
   xlswc:sisterEvent xmlprague:2014 ;
+  xlswc:relatedEvent xmlss:2017 ;  
   xlswc:relatedEvent xmlss:2016 ;
   xlswc:relatedEvent xmlss:2015 ;
   xlswc:relatedEvent xmlss:2013 ;
@@ -142,6 +197,7 @@ xmlss:2014 a swc:AcademicEvent ;
 
 balisage:2014 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmlprague:2014 ;
+  xlswc:relatedEvent balisage:2017 ;  
   xlswc:relatedEvent balisage:2016 ;
   xlswc:relatedEvent balisage:2015 ;
   xlswc:relatedEvent balisage:2013 ;
@@ -158,6 +214,7 @@ xmlprague:2013 a swc:ConferenceEvent ;
   xlswc:sisterEvent xmlss:2013 ;
   xlswc:sisterEvent xmlamsterdam:2013 ;
   xlswc:sisterEvent balisage:2013 ;
+  xlswc:relatedEvent xmlprague:2017 ;  
   xlswc:relatedEvent xmlprague:2016 ;
   xlswc:relatedEvent xmlprague:2015 ;
   xlswc:relatedEvent xmlprague:2014 ;
@@ -170,6 +227,7 @@ xmlprague:2013 a swc:ConferenceEvent ;
 xmlss:2013 a swc:AcademicEvent ;
   xlswc:sisterEvent xmllondon:2013 ;
   xlswc:sisterEvent xmlprague:2013 ;
+  xlswc:relatedEvent xmlss:2017 ;  
   xlswc:relatedEvent xmlss:2016 ;
   xlswc:relatedEvent xmlss:2015 ;
   xlswc:relatedEvent xmlss:2014 ;
@@ -194,6 +252,7 @@ balisage:2013 a swc:ConferenceEvent ;
   xlswc:relatedEvent balisage:2014 ;
   xlswc:relatedEvent balisage:2015 ;
   xlswc:relatedEvent balisage:2016 ;
+  xlswc:relatedEvent balisage:2017 ;  
   foaf:depiction <http://xmllondon.com/images/balisage.png> ;
   foaf:homepage <http://www.balisage.net/> ;
   foaf:OnlineAccount <https://www.linkedin.com/groups/Balisage-Markup-Conference-104672/about> ;
