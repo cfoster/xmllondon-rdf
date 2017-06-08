@@ -43,6 +43,7 @@
   foaf:depiction <http://xmllondon.com/images/logo-saxonica.gif> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2017> ;
   foaf:OnlineAccount <http://www.linkedin.com/company/saxonica-ltd> ;
   foaf:OnlineAccount twitter:saxonica ;
   foaf:OnlineAccount github:Saxonica ;
@@ -192,6 +193,7 @@
   foaf:name	"appsoft Technologies" ;
   foaf:depiction <http://xmllondon.com/images/logo-xeditor.gif> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2017> ;
   foaf:OnlineAccount <http://www.linkedin.com/company/appsoft-technologies-gmbh> ;
   foaf:OnlineAccount twitter:xeditor ;
   foaf:homepage	<http://www.appsoft.de/> .
@@ -382,3 +384,10 @@
   foaf:homepage <http://www.mulberrytech.com/> ;
   foaf:depiction <http://xmllondon.com/images/depiction/mulberry-technologies-inc.png> ;
   foaf:OnlineAccount <http://www.linkedin.com/company-beta/556235/> .
+
+<http://data.semanticweb.org/organization/evolved-binary> a foaf:Organization ; a org:Organization ;
+  rdfs:label "Evolved Binary" ;
+  foaf:name "Evolved Binary" ;
+  foaf:homepage <http://www.evolvedbinary.com/> ;
+  xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2017> ;
+  foaf:depiction <http://xmllondon.com/images/depiction/evolvedbinary.png> .

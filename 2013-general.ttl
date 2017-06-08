@@ -17,6 +17,7 @@
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2016> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2017> ;
   xlswc:sisterEvent <http://www.xmlprague.cz/2013> ;
   xlswc:sisterEvent <http://xmlamsterdam.com/2013> ;
   xlswc:sisterEvent <http://xmlsummerschool.com/2013> ;

@@ -14,6 +14,9 @@
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2017/chair> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2017/pcmember> ;
   swc:hasRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/appsoft-technologies> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/saxonica> ;
+  xlswc:sponsoredBy <http://data.semanticweb.org/organization/evolved-binary> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2015> ;

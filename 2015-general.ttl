@@ -17,6 +17,7 @@
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2013> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2014> ;
   xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2016> ;
+  xlswc:relatedEvent <http://data.semanticweb.org/conference/xmllondon/2017> ;
   xlswc:sisterEvent <http://www.xmlprague.cz/2015> ;
   xlswc:sisterEvent <http://xmlsummerschool.com/2015> ;
   xlswc:sisterEvent <http://www.balisage.net/2015> ;
@@ -74,7 +75,8 @@
              <http://data.semanticweb.org/person/philip-fearon> ,
              <http://data.semanticweb.org/person/sandro-cirulli> ,
              <http://data.semanticweb.org/person/shinyu-murakami> ,
-             <http://data.semanticweb.org/person/steven-pemberton> .
+             <http://data.semanticweb.org/person/steven-pemberton> ,
+             <http://data.semanticweb.org/person/tony-graham> .
 
 <http://data.semanticweb.org/conference/xmllondon/2015/proceedings> a swc:Proceedings ;
   rdfs:label "2015 Conference Proceedings" ;
