@@ -1166,3 +1166,53 @@ twitter:robbertbroersma foaf:accountServiceHomepage
 
 <http://data.semanticweb.org/organization/stanley-black-and-decker> foaf:member
   <http://data.semanticweb.org/person/simon-dew> .
+
+<http://data.semanticweb.org/person/hans-juergen-rennau> a foaf:Person ;
+  rdfs:label "Hans-Jürgen Rennau" ;
+  foaf:family_name "Rennau" ;
+  foaf:firstName "Hans-Jürgen" ;
+  foaf:name "Hans-Jürgen Rennau" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Hans-Juergen-Rennau.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/in/hans-juergen-rennau-5b26a911/> ;
+  foaf:OnlineAccount github:hrennau ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+
+<http://data.semanticweb.org/person/jirka-kosek> a foaf:Person ;
+  rdfs:label "Jirka Kosek" ;
+  foaf:family_name "Kosek" ;
+  foaf:firstName "Jirka" ;
+  foaf:name "Jirka Kosek" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Jirka-Kosek.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/in/jirkakosek/> ;
+  foaf:OnlineAccount github:kosek ;
+  foaf:OnlineAccount twitter:jirkakosek ;
+  org:memberOf <http://xmlguild.org> ;
+  foaf:homepage <http://www.kosek.cz/> ;
+  foaf:homepage <http://www.xmlprague.cz/> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+
+<http://xmlguild.org> foaf:member <http://data.semanticweb.org/person/jirka-kosek> .
+
+<http://data.semanticweb.org/person/deborah-lapeyre> a foaf:Person ;
+  rdfs:label "Deborah Lapeyre" ;
+  foaf:family_name "Lapeyre" ;
+  foaf:firstName "Deborah" ;
+  foaf:name "Deborah Lapeyre" ;
+  foaf:depiction <http://xmllondon.com/images/depiction/Deborah-Lapeyre.jpg> ;
+  foaf:OnlineAccount <http://www.linkedin.com/in/deborahlapeyre/> ;
+  foaf:OnlineAccount twitter:dalapeyre ;
+  org:memberOf <http://xmlguild.org> ;
+  org:memberOf <http://data.semanticweb.org/organization/mulberry-technologies-inc> ;
+  foaf:homepage <http://www.mulberrytech.com/people/lapeyre/index.html> ;
+  foaf:homepage <http://www.balisage.net/> ;
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+
+<http://data.semanticweb.org/organization/mulberry-technologies-inc> foaf:member
+  <http://data.semanticweb.org/person/deborah-lapeyre> .
+
+# Bert Willems
+# Mark Dunn
+# Robin La Fontaine
+# Shani Chachamu
+# Sharon Adler
+# Terry Blake
