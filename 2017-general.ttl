@@ -79,12 +79,12 @@
   swc:relatedToEvent <http://data.semanticweb.org/conference/xmllondon/2017> ;
   dc:identifier "ISBN:978-0-9926471-4-8" ;
   foaf:depiction <http://xmllondon.com/images/thumb-proceedings-2017.png> ;
-  swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2017/paper/debbie-lockett> ,
-              <http://data.semanticweb.org/conference/xmllondon/2017/paper/hans-juergen-rennau> ,
-              <http://data.semanticweb.org/conference/xmllondon/2017/paper/steven-pemberton> ,
-              <http://data.semanticweb.org/conference/xmllondon/2017/paper/mark-dunn> ,
-              <http://data.semanticweb.org/conference/xmllondon/2017/paper/jirka-kosek> ,
-              <http://data.semanticweb.org/conference/xmllondon/2017/paper/sandro-cirulli> ,
-              <http://data.semanticweb.org/conference/xmllondon/2017/paper/bert-willems> ,
-              <http://data.semanticweb.org/conference/xmllondon/2017/paper/kal-ahmed> ,
-              <http://data.semanticweb.org/conference/xmllondon/2017/paper/nic-gibson> .
+  swc:hasPart <http://data.semanticweb.org/conference/xmllondon/2017/paper/lockett> ,
+              <http://data.semanticweb.org/conference/xmllondon/2017/paper/rennau> ,
+              <http://data.semanticweb.org/conference/xmllondon/2017/paper/pemberton> ,
+              <http://data.semanticweb.org/conference/xmllondon/2017/paper/dunn> ,
+              <http://data.semanticweb.org/conference/xmllondon/2017/paper/kosek> ,
+              <http://data.semanticweb.org/conference/xmllondon/2017/paper/cirulli> ,
+              <http://data.semanticweb.org/conference/xmllondon/2017/paper/willems> ,
+              <http://data.semanticweb.org/conference/xmllondon/2017/paper/ahmed> ,
+              <http://data.semanticweb.org/conference/xmllondon/2017/paper/gibson> .
