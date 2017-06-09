@@ -485,6 +485,7 @@ twitter:philipfennell foaf:accountServiceHomepage
   foaf:name "Sandro Cirulli" ;
   foaf:workplaceHomepage <http://www.oup.com/> ;
   foaf:workplaceHomepage <http://www.sandrocirulli.net/> ;
+  foaf:depiction <http://xmllondon.com/images/people/sandro-cirulli.jpg> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2014/presenter> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2015/presenter> ;
@@ -1150,6 +1151,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount <http://de.linkedin.com/in/gerrit-imsieke-19b79a28> ; 
   foaf:OnlineAccount github:gimsieke ; 
   foaf:OnlineAccount twitter:gimsieke ; 
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
   org:memberOf <http://data.semanticweb.org/organization/le-tex> .
 
 <http://data.semanticweb.org/organization/le-tex> foaf:member
