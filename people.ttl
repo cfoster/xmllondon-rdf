@@ -1151,7 +1151,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount <http://de.linkedin.com/in/gerrit-imsieke-19b79a28> ; 
   foaf:OnlineAccount github:gimsieke ; 
   foaf:OnlineAccount twitter:gimsieke ; 
-  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
+  swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> ;
   org:memberOf <http://data.semanticweb.org/organization/le-tex> .
 
 <http://data.semanticweb.org/organization/le-tex> foaf:member
