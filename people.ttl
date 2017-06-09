@@ -1236,7 +1236,6 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:OnlineAccount <http://www.linkedin.com/in/trilobyte/> ;
   foaf:OnlineAccount github:devatwork ;
   foaf:OnlineAccount twitter:devatwork ;
-  org:memberOf <http://xmlguild.org> ;
   org:memberOf <http://data.semanticweb.org/organization/fontoxml> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
 
