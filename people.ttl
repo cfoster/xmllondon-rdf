@@ -1189,7 +1189,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Rennau" ;
   foaf:firstName "Hans-Jürgen" ;
   foaf:name "Hans-Jürgen Rennau" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Hans-Juergen-Rennau.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/people/hans-juergen-rennau.jpg> ;
   foaf:OnlineAccount <http://www.linkedin.com/in/hans-juergen-rennau-5b26a911/> ;
   foaf:OnlineAccount github:hrennau ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
@@ -1199,7 +1199,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Kosek" ;
   foaf:firstName "Jirka" ;
   foaf:name "Jirka Kosek" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Jirka-Kosek.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/people/jirka-kosek.jpg> ;
   foaf:OnlineAccount <http://www.linkedin.com/in/jirkakosek/> ;
   foaf:OnlineAccount github:kosek ;
   foaf:OnlineAccount twitter:jirkakosek ;
@@ -1215,7 +1215,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Lapeyre" ;
   foaf:firstName "Deborah" ;
   foaf:name "Deborah Lapeyre" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Deborah-Lapeyre.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/people/deborah-lapeyre.jpg> ;
   foaf:OnlineAccount <http://www.linkedin.com/in/deborahlapeyre/> ;
   foaf:OnlineAccount twitter:dalapeyre ;
   org:memberOf <http://xmlguild.org> ;
@@ -1232,7 +1232,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Willems" ;
   foaf:firstName "Bert" ;
   foaf:name "Bert Willems" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Bert-Willems.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/people/bert-willems.jpg> ;
   foaf:OnlineAccount <http://www.linkedin.com/in/trilobyte/> ;
   foaf:OnlineAccount github:devatwork ;
   foaf:OnlineAccount twitter:devatwork ;
@@ -1248,7 +1248,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Dunn" ;
   foaf:firstName "Mark" ;
   foaf:name "Mark Dunn" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Mark-Dunn.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/people/mark-dunn.jpg> ;
   foaf:OnlineAccount <http://www.linkedin.com/in/mark-dunn-8b08a839/> ;
   foaf:OnlineAccount twitter:mdunn1 ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
@@ -1262,7 +1262,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Chachamu" ;
   foaf:firstName "Shani" ;
   foaf:name "Shani Chachamu" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Shani-Chachamu.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/people/shani-chachamu.jpg> ;
   org:memberOf <http://data.semanticweb.org/organization/oxford-university-press> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
 
@@ -1274,7 +1274,7 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Adler" ;
   foaf:firstName "Sharon" ;
   foaf:name "Sharon Adler" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Sharon-Adler.jpg> ;
+  foaf:depiction <http://xmllondon.com/images/people/sharon-adler.jpg> ;
   foaf:OnlineAccount <http://www.linkedin.com/in/sharon-adler-b7470511/> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .
 
@@ -1283,7 +1283,6 @@ twitter:robbertbroersma foaf:accountServiceHomepage
   foaf:family_name "Blake" ;
   foaf:firstName "Terry" ;
   foaf:name "Terry Blake" ;
-  foaf:depiction <http://xmllondon.com/images/depiction/Terry-Blake.jpg> ;
   org:memberOf <http://data.semanticweb.org/organization/williams-lea-tag> ;
   foaf:OnlineAccount <http://www.linkedin.com/in/terry-blake-233474/> ;
   swc:holdsRole <http://data.semanticweb.org/conference/xmllondon/2017/presenter> .

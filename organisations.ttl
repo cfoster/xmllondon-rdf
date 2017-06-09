@@ -365,7 +365,7 @@
   rdfs:label "FontoXML" ;
   foaf:name "FontoXML" ;
   foaf:homepage <http://fontoxml.com/> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/fontoxml.png> ;
+  foaf:depiction <http://xmllondon.com/images/fonto-logo-kleur.png> ;
   foaf:OnlineAccount twitter:fontoxml ;
   foaf:OnlineAccount github:FontoXML ;
   foaf:OnlineAccount <http://www.linkedin.com/company-beta/3497704/> .
@@ -374,7 +374,7 @@
   rdfs:label "Williams Lea Tag" ;
   foaf:name "Williams Lea Tag" ;
   foaf:homepage <http://www.wlt.com/> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/williamsleatag.png> ;
+  foaf:depiction <http://xmllondon.com/images/williams-lea-tag-logo.jpg> ;
   foaf:OnlineAccount twitter:williamsleatag ;
   foaf:OnlineAccount <http://www.linkedin.com/company-beta/166942/> .
 
@@ -382,12 +382,13 @@
   rdfs:label "Mulberry Technologies, Inc." ;
   foaf:name "Mulberry Technologies, Inc." ;
   foaf:homepage <http://www.mulberrytech.com/> ;
-  foaf:depiction <http://xmllondon.com/images/depiction/mulberry-technologies-inc.png> ;
+  foaf:depiction <http://xmllondon.com/images/mulberry-technologies-logo.png> ;
   foaf:OnlineAccount <http://www.linkedin.com/company-beta/556235/> .
 
 <http://data.semanticweb.org/organization/evolved-binary> a foaf:Organization ; a org:Organization ;
   rdfs:label "Evolved Binary" ;
   foaf:name "Evolved Binary" ;
   foaf:homepage <http://www.evolvedbinary.com/> ;
+  foaf:depiction <http://xmllondon.com/images/evolved-binary-logo.png> ;
   xlswc:sponsorsEvent <http://data.semanticweb.org/conference/xmllondon/2017> ;
   foaf:depiction <http://xmllondon.com/images/depiction/evolvedbinary.png> .
